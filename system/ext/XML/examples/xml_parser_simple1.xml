@@ -1,0 +1,9 @@
+<!-- $Id: xml_parser_simple1.xml 770 2009-03-13 12:36:35Z nwy $ -->
+<foo>
+    <bar>content of bar</bar>
+    <empty/>
+    <argh foo="bar">
+        test
+        <tomato>pizza</tomato>
+    </argh>
+</foo>

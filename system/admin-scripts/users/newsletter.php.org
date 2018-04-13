@@ -1,0 +1,126 @@
+<?php
+
+class SJB_Admin_Users_Newsletter extends SJB_Function
+{
+	public function isAccessible()
+	{
+		$this->setPermissionLabel('create_and_send_newsletter');
+		return parent::isAccessible();
+	}
+
+	public function execute()
+	{
+		set_time_limit(0);
+		ini_set('memory_limit', -1);
+		$tp 				= 	SJB_System::getTemplateProcessor();
+		$subject			=	addslashes(SJB_Request::getVar('subject'));
+		$formSubmitted 		= 	SJB_Request::getVar('save', false, 'POST');
+		$testRun	 		= 	SJB_Request::getVar('testrun', false, 'POST');
+		$isDataSubmitted 	= 	false;
+		$isTestRun		 	= 	false;
+		$errors				=	array();
+		if($formSubmitted)
+		{
+			if($subject	==	"")
+			{
+				$errors['SUBJECT_EMPTY']	=	'Subject is empty';
+			}
+			if(empty($errors))
+			{
+				$intervals			=	SJB_Request::getVar('intervals');
+				$header				=	addslashes(SJB_Request::getVar('header'));
+				$footer				=	addslashes(SJB_Request::getVar('footer'));
+				$newsletterId		=	SJB_Request::getVar('newsletter_id');
+				if($newsletterId)
+				{
+					$id					=	SJB_DB::query("update newsletter set subject='". $subject ."', header='". $header ."', footer='". $footer ."', intervals='". $intervals ."'");
+					$isDataSubmitted 	= 	true;
+				}
+				else
+				{
+					$id					=	SJB_DB::query("insert into newsletter set subject='". $subject ."', header='". $header ."', footer='". $footer ."', intervals='". $intervals ."'");
+					$isDataSubmitted 	= 	true;
+				}
+				
+			}
+		}
+		if($testRun)
+		{
+			$newsletterInfo	=	SJB_DB::query("select * from newsletter");
+			if(!empty($newsletterInfo))
+			{
+				$newsletter	=	$newsletterInfo[0];
+			}
+			
+			$msg		=	"";
+			$catsArr	=	SJB_DB::query("select sid, value from listing_field_list where field_sid='198' order by `order`");
+			$catsList	=	"";
+			$patterns 	= 	array('/\s/', '/&/', '/\$/', '/\,/', '/\*/', '/\%/', '/\|/', '/\//');
+			if(!empty($catsArr))
+			{
+				foreach($catsArr as $catId)
+				{
+					
+					$sql			=	"select * from listings where JobCategory in (". $catId['sid'] .")";
+					if($catsList!="")
+						$sql			.=	" and sid not in (". $catsList .")";
+						
+					$listingList	=	SJB_DB::query($sql);
+					if(!empty($listingList))
+					{
+						$msg			.=	'<h2>'. $catId['value'] .'</h2>';
+						foreach($listingList as $listing)
+						{
+							$date	=	date("m/d/Y", strtotime($listing['activation_date']));
+							$title	=	preg_replace($patterns, '-', $listing['Title']);
+							$msg	.=	'<a href="'.SJB_System::getSystemSettings('USER_SITE_URL').'/display-job/'. $listing['sid'] .'/'. $title .'">'.$listing['Title'].' in '. $listing['Location_City'] .' - '. $date .'</a><br>URL: <a href="'.SJB_System::getSystemSettings('USER_SITE_URL').'/display-job/'. $listing['sid'] .'/'. $title .'">'.SJB_System::getSystemSettings('USER_SITE_URL').'/display-job/'. $listing['sid'] .'/'. $title .'</a><br>';
+							if($catsList	==	"")
+								$catsList	.=	$listing['sid'];
+							else
+								$catsList	.=	",".$listing['sid'];
+						}
+						//echo $catsList;
+						//echo "<br>";
+					}
+				}
+			}
+			$isTestRun	=	true;
+			
+			//echo $msg;
+			
+			$subject	=	$newsletter['subject'];
+			$message	=	'<table><tr><td><img src="'.SJB_System::getSystemSettings('USER_SITE_URL').'/templates/'.SJB_Settings::getValue('TEMPLATE_USER_THEME', 'default').'/main/images/logo.png" /></td><td><table><tr><td><img src="'.SJB_System::getSystemSettings('USER_SITE_URL').'/templates/'.SJB_Settings::getValue('TEMPLATE_USER_THEME', 'default').'/main/images/social/fb.gif" /></td><td><img src="'.SJB_System::getSystemSettings('USER_SITE_URL').'/templates/'.SJB_Settings::getValue('TEMPLATE_USER_THEME', 'default').'/main/images/social/twitter.gif" /></td></tr></table></td></tr></table><br>If you no longer want to receive these updates, <a href="'.SJB_System::getSystemSettings('USER_SITE_URL').'/unsubscribe/" target="_blank">click here to instantly unsubscribe</a><br />-----------------------------------------------------------------<br />';
+			$message	.=	$newsletter['header'];
+			
+			$message	.=	$msg;
+			
+			$message	.=	$newsletter['footer'];
+			$message	.=	'<table><tr><td><a href="'.SJB_System::getSystemSettings('USER_SITE_URL').'"><img src="'.SJB_System::getSystemSettings('USER_SITE_URL').'/templates/'.SJB_Settings::getValue('TEMPLATE_USER_THEME', 'default').'/main/images/social/join_mailing_list.png" /></a></td></table>';
+			
+			
+			$headers  = 'MIME-Version: 1.0' . "\r\n";
+			$headers .= 'Content-type: text/html' . "\r\n";
+			$headers .= 'From: '. SJB_System::getSettingByName('FromName') .'<'. SJB_System::getSettingByName('system_email') .'>' . "\r\n";
+			
+			
+			mail(SJB_System::getSettingByName('system_email'), $subject, $message, $headers);
+		}
+		
+		
+		$newsletterInfo	=	array();
+		$info	=	SJB_DB::query("select * from newsletter limit 0,1")	;
+		if(!empty($info))
+		{
+			$newsletterInfo	=	$info[0];
+			if($newsletterInfo['lastrun'] == '0000-00-00 00:00:00')
+				$newsletterInfo['lastrun']	=	'Never run';
+			else
+				$newsletterInfo['lastrun']	=	date('m/d/Y', strtotime($newsletterInfo['lastrun']));	
+		}
+		$tp->assign('errors', $errors);
+		$tp->assign('info', $newsletterInfo);
+		$tp->assign('is_data_submitted', $isDataSubmitted);
+		$tp->assign('is_test_run', $isTestRun);
+		$tp->display("newsletter.tpl");
+	}
+}

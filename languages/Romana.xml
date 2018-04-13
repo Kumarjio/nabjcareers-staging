@@ -1,0 +1,4065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE translation2 [
+<!ELEMENT translation2 (languages,pages)>
+<!ELEMENT languages (lang*)>
+<!ELEMENT lang (name?,meta?,error_text?,encoding?)>
+<!ATTLIST lang id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT meta (#PCDATA)>
+<!ELEMENT error_text (#PCDATA)>
+<!ELEMENT encoding (#PCDATA)>
+<!ELEMENT pages (page*)>
+<!ELEMENT page (string*)>
+<!ATTLIST page key CDATA #REQUIRED>
+<!ELEMENT string (tr*)>
+<!ATTLIST string key CDATA #REQUIRED>
+<!ELEMENT tr (#PCDATA)>
+<!ATTLIST tr lang IDREF #REQUIRED>
+]>
+
+<translation2>
+  <languages>
+    <lang id="">
+      <name></name>
+      <meta></meta>
+      <error_text></error_text>
+      <encoding> iso-8859-1 </encoding>
+    </lang>
+    <lang id="Romana">
+      <name> Română </name>
+      <meta> a:8:{s:6:"active";s:1:"0";s:10:"is_default";b:0;s:5:"theme";N;s:11:"date_format";s:8:"%Y-%m-%d";s:17:"decimal_separator";s:1:".";s:19:"thousands_separator";s:1:",";s:8:"decimals";s:1:"2";s:11:"rightToLeft";s:1:"0";} </meta>
+      <error_text></error_text>
+      <encoding> utf-8 </encoding>
+    </lang>
+  </languages>
+  <pages>
+    <page key="PhrasesInTemplates">
+      <string key="Job Search">
+        <tr lang="Romana"> Cauta Job </tr>
+      </string>
+      <string key="Find">
+        <tr lang="Romana"> Cautare </tr>
+      </string>
+      <string key="Advanced search">
+        <tr lang="Romana"> Cautare avansata </tr>
+      </string>
+      <string key="Home">
+        <tr lang="Romana"> Acasa </tr>
+      </string>
+      <string key="Register">
+        <tr lang="Romana"> Inregistrare </tr>
+      </string>
+      <string key="Sign In">
+        <tr lang="Romana"> Login </tr>
+      </string>
+      <string key="My Account">
+        <tr lang="Romana"> Contul Meu </tr>
+      </string>
+      <string key="Find Jobs">
+        <tr lang="Romana"> Cauta Joburi </tr>
+      </string>
+      <string key="Post Resumes">
+        <tr lang="Romana"> Adauga CV </tr>
+      </string>
+      <string key="Search Resumes">
+        <tr lang="Romana"> Cauta CV-uri </tr>
+      </string>
+      <string key="Post Jobs">
+        <tr lang="Romana"> Adauga Job </tr>
+      </string>
+      <string key="Contact">
+        <tr lang="Romana"> Contact </tr>
+      </string>
+      <string key="Choose language">
+        <tr lang="Romana"> Alege Limba </tr>
+      </string>
+      <string key="Jobs by Category">
+        <tr lang="Romana"> Joburi dupa Categorii </tr>
+      </string>
+      <string key="Jobs by City">
+        <tr lang="Romana"> Joburi dupa Orase </tr>
+      </string>
+      <string key="Featured Jobs">
+        <tr lang="Romana"> Joburi Premium </tr>
+      </string>
+      <string key="Employers">
+        <tr lang="Romana"> Companii </tr>
+      </string>
+      <string key="Post a job">
+        <tr lang="Romana"> Adauga Job </tr>
+      </string>
+      <string key="Search resumes">
+        <tr lang="Romana"> Cauta CV-uri </tr>
+      </string>
+      <string key="Job Seekers">
+        <tr lang="Romana"> Candidati </tr>
+      </string>
+      <string key="Post resumes">
+        <tr lang="Romana"> Adauga CV </tr>
+      </string>
+      <string key="Find jobs">
+        <tr lang="Romana"> Cauta Joburi </tr>
+      </string>
+      <string key="RSS Feed">
+        <tr lang="Romana"> RSS Feed </tr>
+      </string>
+      <string key="Latest Jobs">
+        <tr lang="Romana"> Ultimele Joburi </tr>
+      </string>
+      <string key="powered by">
+        <tr lang="Romana"> relizat de </tr>
+      </string>
+      <string key="Keep me signed in">
+        <tr lang="Romana"> Pastreaza-ma logat </tr>
+      </string>
+      <string key="Login">
+        <tr lang="Romana"> Intra in cont </tr>
+      </string>
+      <string key="Forgot Your Password?">
+        <tr lang="Romana"> Ai uitat parola ? </tr>
+      </string>
+      <string key="Registration">
+        <tr lang="Romana"> Inregistrare </tr>
+      </string>
+      <string key="Salutation First and Last Name">
+        <tr lang="Romana"> Nume si Prenume </tr>
+      </string>
+      <string key="Email">
+        <tr lang="Romana"> Email </tr>
+      </string>
+      <string key="Comments">
+        <tr lang="Romana"> Comentarii </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we\&apos;ll send you a link to a page where you can change your password">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Please select the appropriate user group">
+        <tr lang="Romana"> Va rugam sa selectati  un grup de utilizatori </tr>
+      </string>
+      <string key="Confirm Password">
+        <tr lang="Romana"> Confirma parola </tr>
+      </string>
+      <string key="You have successfully registered in our site">
+        <tr lang="Romana"> Te-ai inregistrat cu succes pe siteul nostru </tr>
+      </string>
+      <string key="Add a New Listing">
+        <tr lang="Romana"> Adauga un Nou Anunt </tr>
+      </string>
+      <string key="You specified wrong username">
+        <tr lang="Romana"> Nume de utilizator gresit </tr>
+      </string>
+      <string key="The system cannot proceed as Listing ID not specified">
+        <tr lang="Romana"> Sistemul nu poate procesa deoarece ID-ul nu a fost specificat </tr>
+      </string>
+      <string key="Invalid payment ID is specified">
+        <tr lang="Romana"> ID-ul de plata este invalid </tr>
+      </string>
+      <string key="No such user">
+        <tr lang="Romana"> Nu exista un astfel de utilizator </tr>
+      </string>
+      <string key="Search">
+        <tr lang="Romana"> Cauta </tr>
+      </string>
+      <string key="No logged in user found">
+        <tr lang="Romana"> Nici un utilizator gasit </tr>
+      </string>
+      <string key="My Jobs">
+        <tr lang="Romana"> Joburile Mele </tr>
+      </string>
+      <string key="My Profile">
+        <tr lang="Romana"> Profilul Meu </tr>
+      </string>
+      <string key="Saved Searches">
+        <tr lang="Romana"> Cautari Salvate </tr>
+      </string>
+      <string key="Saved Listings">
+        <tr lang="Romana"> Joburi Salvate </tr>
+      </string>
+      <string key="Subscriptions">
+        <tr lang="Romana"> Abonamente </tr>
+      </string>
+      <string key="My Notifications">
+        <tr lang="Romana"> Notificarile Mele </tr>
+      </string>
+      <string key="Billing History">
+        <tr lang="Romana"> Istoric Plati </tr>
+      </string>
+      <string key="Logout">
+        <tr lang="Romana"> Iesire </tr>
+      </string>
+      <string key="My Listings">
+        <tr lang="Romana"> Anunturile mele </tr>
+      </string>
+      <string key="Filter">
+        <tr lang="Romana"> Filtru </tr>
+      </string>
+      <string key="Choose subscription">
+        <tr lang="Romana"> Alege Abonament </tr>
+      </string>
+      <string key="unlimited">
+        <tr lang="Romana"> nelimitat </tr>
+      </string>
+      <string key="Next">
+        <tr lang="Romana"> Urmatorul </tr>
+      </string>
+      <string key="Edit Listing">
+        <tr lang="Romana"> Editeaza Anunt </tr>
+      </string>
+      <string key="Edit Pictures">
+        <tr lang="Romana"> Editeaza poza </tr>
+      </string>
+      <string key="Upgrade to Featured">
+        <tr lang="Romana"> Upgrade la Joburi Premium </tr>
+      </string>
+      <string key="You have successfully changed your membership plan">
+        <tr lang="Romana"> Ati schimbat cu succes planul de membru </tr>
+      </string>
+      <string key="You have already subscribed">
+        <tr lang="Romana"> Sunteti deja abonat </tr>
+      </string>
+      <string key="You do not have permissions to post  listings.">
+        <tr lang="Romana"> Nu aveti permisiunea sa adaugati anunturi </tr>
+      </string>
+      <string key="No listings found.">
+        <tr lang="Romana"> Nici un anunt gasit. </tr>
+      </string>
+      <string key="Listing ID is not defined">
+        <tr lang="Romana"> Id-ul anuntului nu este definit </tr>
+      </string>
+      <string key="Save">
+        <tr lang="Romana"> Salveaza </tr>
+      </string>
+      <string key="image format is not supported">
+        <tr lang="Romana"> Formatul imaginii nu este acceptat </tr>
+      </string>
+      <string key="You have successfully changed your profile info!">
+        <tr lang="Romana"> Ai schimbat cu succes informatiile din profil ! </tr>
+      </string>
+      <string key="Delete">
+        <tr lang="Romana"> Sterge </tr>
+      </string>
+      <string key="File deleted successfully">
+        <tr lang="Romana"> Fisier sters cu succes </tr>
+      </string>
+      <string key="Back to edit profile">
+        <tr lang="Romana"> Inapoi la editare profil </tr>
+      </string>
+      <string key="You have not saved any searches yet.">
+        <tr lang="Romana"> Inca nu ati salvat nici o cautare </tr>
+      </string>
+      <string key="ID">
+        <tr lang="Romana"> ID </tr>
+      </string>
+      <string key="Period">
+        <tr lang="Romana"> Perioada </tr>
+      </string>
+      <string key="State">
+        <tr lang="Romana"> Stat </tr>
+      </string>
+      <string key="from">
+        <tr lang="Romana"> de la </tr>
+      </string>
+      <string key="to">
+        <tr lang="Romana"> pentru </tr>
+      </string>
+      <string key="Date">
+        <tr lang="Romana"> Data </tr>
+      </string>
+      <string key="Description">
+        <tr lang="Romana"> Descriere </tr>
+      </string>
+      <string key="Amount">
+        <tr lang="Romana"> Suma </tr>
+      </string>
+      <string key="Action">
+        <tr lang="Romana"> Actiune </tr>
+      </string>
+      <string key="Total Amount">
+        <tr lang="Romana"> Total Suma </tr>
+      </string>
+      <string key="There are no saved listings">
+        <tr lang="Romana"> Nu exista nici un anunt salvat </tr>
+      </string>
+      <string key="Notify on Listing Activation">
+        <tr lang="Romana"> Notificare cand anuntul este activat </tr>
+      </string>
+      <string key="Notify on Listing Expiration">
+        <tr lang="Romana"> Notificare cand anuntul expira </tr>
+      </string>
+      <string key="Notify on Contract Expiration">
+        <tr lang="Romana"> Notificare cand contractul expira </tr>
+      </string>
+      <string key="Modify search">
+        <tr lang="Romana"> Schimba cautarea </tr>
+      </string>
+      <string key="Save this search">
+        <tr lang="Romana"> Salveaza cautare </tr>
+      </string>
+      <string key="Saved jobs">
+        <tr lang="Romana"> Joburi salvate </tr>
+      </string>
+      <string key="Saved searches">
+        <tr lang="Romana"> Cautari salvate </tr>
+      </string>
+      <string key="Results: {$listings_number} Jobs">
+        <tr lang="Romana"> Rezultate: {$listings_number} Joburi </tr>
+      </string>
+      <string key="Number of jobs per page">
+        <tr lang="Romana"> Numarul joburilor pe pagina </tr>
+      </string>
+      <string key="Previous">
+        <tr lang="Romana"> Anterior </tr>
+      </string>
+      <string key="Save Your Search">
+        <tr lang="Romana"> Salveaza-ti cautarea </tr>
+      </string>
+      <string key="Search Name">
+        <tr lang="Romana"> Nume Cautare </tr>
+      </string>
+      <string key="Your search has been saved.">
+        <tr lang="Romana"> Cautarea dvs a fost salvata </tr>
+      </string>
+      <string key="You may close this window now.">
+        <tr lang="Romana"> Puteti inchide fereastra acum </tr>
+      </string>
+      <string key="Save ad">
+        <tr lang="Romana"> Salveaza anuntul </tr>
+      </string>
+      <string key="View job details">
+        <tr lang="Romana"> Vezi detalii job </tr>
+      </string>
+      <string key="Rate this job">
+        <tr lang="Romana"> Voteaza acest job </tr>
+      </string>
+      <string key="Please, Vote!">
+        <tr lang="Romana"> Va rugam,votati ! </tr>
+      </string>
+      <string key="Watch a video">
+        <tr lang="Romana"> Vezi video </tr>
+      </string>
+      <string key="Save this Job">
+        <tr lang="Romana"> Salveaza job </tr>
+      </string>
+      <string key="View Saved Jobs">
+        <tr lang="Romana"> Joburi salvate </tr>
+      </string>
+      <string key="Tell a Friend">
+        <tr lang="Romana"> Spune unui prieten </tr>
+      </string>
+      <string key="Print This Ad">
+        <tr lang="Romana"> Printeaza anunt </tr>
+      </string>
+      <string key="View Map">
+        <tr lang="Romana"> Vezi Harta </tr>
+      </string>
+      <string key="Back to Results">
+        <tr lang="Romana"> Inapoi la rezultate </tr>
+      </string>
+      <string key="Modify Search">
+        <tr lang="Romana"> Schimba Cautarea </tr>
+      </string>
+      <string key="Rate This Job">
+        <tr lang="Romana"> Voteaza Acest Job </tr>
+      </string>
+      <string key="User Info">
+        <tr lang="Romana"> Info Utilizator </tr>
+      </string>
+      <string key="All jobs by this company">
+        <tr lang="Romana"> Toate joburile acestei companii </tr>
+      </string>
+      <string key="Video">
+        <tr lang="Romana"> Video </tr>
+      </string>
+      <string key="Photos">
+        <tr lang="Romana"> Poze </tr>
+      </string>
+      <string key="Apply now">
+        <tr lang="Romana"> Aplica pentru job </tr>
+      </string>
+      <string key="Location">
+        <tr lang="Romana"> Locatie </tr>
+      </string>
+      <string key="Please, wait ...">
+        <tr lang="Romana"> Va rugam asteptati ... </tr>
+      </string>
+      <string key="Add your comment">
+        <tr lang="Romana"> Adauga comentariu </tr>
+      </string>
+      <string key="Add">
+        <tr lang="Romana"> Adauga </tr>
+      </string>
+      <string key="Listing has been saved">
+        <tr lang="Romana"> Anuntul a fost salvat </tr>
+      </string>
+      <string key="View details">
+        <tr lang="Romana"> Vezi detalii </tr>
+      </string>
+      <string key="Recommend listing with ID">
+        <tr lang="Romana"> Anunt recomandat cu ID </tr>
+      </string>
+      <string key="Your name">
+        <tr lang="Romana"> Numele dvs </tr>
+      </string>
+      <string key="Your friend\&apos;s name">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Your friend\&apos;s e-mail address">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Your comment (will be send with the recomendation)">
+        <tr lang="Romana"> Comentariul ( o sa fie trimis  cu recomandarea ) </tr>
+      </string>
+      <string key="Send">
+        <tr lang="Romana"> Trimite </tr>
+      </string>
+      <string key="Cannot send letter">
+        <tr lang="Romana"> Nu se poate trimite </tr>
+      </string>
+      <string key="Company Info">
+        <tr lang="Romana"> Informatii despre Companie </tr>
+      </string>
+      <string key="You\&apos;ve already voted">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Author">
+        <tr lang="Romana"> Autor </tr>
+      </string>
+      <string key="Your e-mail">
+        <tr lang="Romana"> E-mailul dvs </tr>
+      </string>
+      <string key="Your request">
+        <tr lang="Romana"> Cererea dvs </tr>
+      </string>
+      <string key="Attach your resume">
+        <tr lang="Romana"> Atasati CV-ul </tr>
+      </string>
+      <string key="Cannot send your message">
+        <tr lang="Romana"> Mesajul nu se poate trimite </tr>
+      </string>
+      <string key="You do not have permissions to post Resume listings.">
+        <tr lang="Romana"> Nu aveti permisiunea pentru a adauga CV </tr>
+      </string>
+      <string key="Results: {$listings_number} Resumes">
+        <tr lang="Romana"> Rezultate: {$listings_number} CV-uri </tr>
+      </string>
+      <string key="Number of resumes per page">
+        <tr lang="Romana"> Numarul de CV-uri pe pagina </tr>
+      </string>
+      <string key="Enter Your Ad Information">
+        <tr lang="Romana"> Introduceti informatii despre anuntul dvs </tr>
+      </string>
+      <string key="Add Pictures">
+        <tr lang="Romana"> Adaugati poze </tr>
+      </string>
+      <string key="is empty">
+        <tr lang="Romana"> este gol </tr>
+      </string>
+      <string key="could not convert video file">
+        <tr lang="Romana"> nu se poate face conversia fisierului video </tr>
+      </string>
+      <string key="is unknown">
+        <tr lang="Romana"> este necunoscut </tr>
+      </string>
+      <string key="Manage Listing">
+        <tr lang="Romana"> Administrare Anunturi </tr>
+      </string>
+      <string key="Preview Listing">
+        <tr lang="Romana"> Previzualizare Anunt </tr>
+      </string>
+      <string key="Manage Listing Pictures">
+        <tr lang="Romana"> Administrare poze anunt </tr>
+      </string>
+      <string key="Go to Manage Listing">
+        <tr lang="Romana"> Mergi la administrare anunt </tr>
+      </string>
+      <string key="Add Picture">
+        <tr lang="Romana"> Adauga Poza </tr>
+      </string>
+      <string key="Caption">
+        <tr lang="Romana"> Legenda </tr>
+      </string>
+      <string key="Thumbnail">
+        <tr lang="Romana"> Imagine redusa </tr>
+      </string>
+      <string key="Actions">
+        <tr lang="Romana"> Actiuni </tr>
+      </string>
+      <string key="Are you sure?">
+        <tr lang="Romana"> Sunteti sigur ? </tr>
+      </string>
+      <string key="Edit Picture">
+        <tr lang="Romana"> Editeaza poza </tr>
+      </string>
+      <string key="Picture">
+        <tr lang="Romana"> Poza </tr>
+      </string>
+      <string key="Please specify a valid email address.">
+        <tr lang="Romana"> Va rugam sa specificati o adresa de email valida. </tr>
+      </string>
+      <string key="Please provide your full name.">
+        <tr lang="Romana"> Va rugam sa introduceti numele complet </tr>
+      </string>
+      <string key="Please include your comments.">
+        <tr lang="Romana"> Va rugam sa introduceti comentariile dvs. </tr>
+      </string>
+      <string key="Thank you very much for your message. We will respond to you as soon as possible.">
+        <tr lang="Romana"> Va multumim pentru mesaj.Va vom raspunde in cel mai scurt timp posibil. </tr>
+      </string>
+      <string key="Invalid password">
+        <tr lang="Romana"> Parola invalida </tr>
+      </string>
+      <string key="Login error">
+        <tr lang="Romana"> Parola sau numele de utilizator introduse gresit </tr>
+      </string>
+      <string key="Browse by category">
+        <tr lang="Romana"> Joburi pe categorii </tr>
+      </string>
+      <string key="There are no listings with requested parameters in the system.">
+        <tr lang="Romana"> Nu exista nici un anunt dupa criteriile de cautare. </tr>
+      </string>
+      <string key="Browse by city">
+        <tr lang="Romana"> Cautare dupa oras </tr>
+      </string>
+      <string key="My Resumes">
+        <tr lang="Romana"> Anunturile Mele </tr>
+      </string>
+      <string key="Saved Jobs">
+        <tr lang="Romana"> Joburi Salvate </tr>
+      </string>
+      <string key="Job Alerts">
+        <tr lang="Romana"> Alerte Joburi </tr>
+      </string>
+      <string key="Jobs by {$companyName}">
+        <tr lang="Romana"> Joburi de catre {$companyName} </tr>
+      </string>
+      <string key="$select_box_field_distance of Zip $input_text_field_location">
+        <tr lang="Romana"> $select_box_field_distance de Cod Postal $input_text_field_location </tr>
+      </string>
+      <string key="$input_text_field_from to $input_text_field_to">
+        <tr lang="Romana"> $input_text_field_from pana la $input_text_field_to </tr>
+      </string>
+      <string key="not confirmed">
+        <tr lang="Romana"> nu s-a confirmat </tr>
+      </string>
+      <string key="this value is already used in the system">
+        <tr lang="Romana"> este folosit deja in sistem </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Check all">
+        <tr lang="Romana"> Bifeaza tot </tr>
+      </string>
+      <string key="Uncheck all">
+        <tr lang="Romana"> Debifeaza tot </tr>
+      </string>
+      <string key="Actions with Selected">
+        <tr lang="Romana"> Actiuni Selectate </tr>
+      </string>
+      <string key="Number of listings per page">
+        <tr lang="Romana"> Numarul anunturilor pe pagina </tr>
+      </string>
+      <string key="Rating">
+        <tr lang="Romana"> Voturi </tr>
+      </string>
+      <string key="Deactivate">
+        <tr lang="Romana"> Dezactiveaza </tr>
+      </string>
+      <string key="Activate">
+        <tr lang="Romana"> Activeaza </tr>
+      </string>
+      <string key="Your listing is successfully activated">
+        <tr lang="Romana"> Anuntul dvs a fost activat cu succes </tr>
+      </string>
+      <string key="Back to My Listings">
+        <tr lang="Romana"> Inapoi la Anunturile Mele </tr>
+      </string>
+      <string key="Sort by">
+        <tr lang="Romana"> Sortare dupa </tr>
+      </string>
+      <string key="Edit">
+        <tr lang="Romana"> Editeaza </tr>
+      </string>
+      <string key="View Details">
+        <tr lang="Romana"> Vezi Detalii </tr>
+      </string>
+      <string key="Enable Auto notify">
+        <tr lang="Romana"> Activeaza notificare automata </tr>
+      </string>
+      <string key="Disable Auto notify">
+        <tr lang="Romana"> Dezactiveaza notificare automata </tr>
+      </string>
+      <string key="Results: $listings_number Jobs">
+        <tr lang="Romana"> Rezultate: $listings_number Joburi </tr>
+      </string>
+      <string key="Jobs by $companyName">
+        <tr lang="Romana"> Joburi de catre $companyName </tr>
+      </string>
+      <string key="Results: $listings_number Resumes">
+        <tr lang="Romana"> Rezultate: $listings_number CV-uri </tr>
+      </string>
+      <string key="Rate this resume">
+        <tr lang="Romana"> Voteaza acest CV </tr>
+      </string>
+      <string key="View resume details">
+        <tr lang="Romana"> Vezi detalii CV </tr>
+      </string>
+      <string key="All resumes by this user">
+        <tr lang="Romana"> Toate CV-urile acestui utilizator </tr>
+      </string>
+      <string key="Rate This Resume">
+        <tr lang="Romana"> Voteaza Acest CV </tr>
+      </string>
+      <string key="View Saved Resumes">
+        <tr lang="Romana"> Vezi CV-uri salvate </tr>
+      </string>
+      <string key="Save this Resume">
+        <tr lang="Romana"> Salveaza CV </tr>
+      </string>
+      <string key="Resumes by $firstName $lastName">
+        <tr lang="Romana"> CV-uri dupa $firstName $lastName </tr>
+      </string>
+      <string key="Select a Package">
+        <tr lang="Romana"> Selecteaza Pachet </tr>
+      </string>
+      <string key="is not an integer value">
+        <tr lang="Romana"> nu este o valoare intreaga </tr>
+      </string>
+      <string key="You&apos;ve got a limit of the allowed number of picture">
+        <tr lang="Romana"> Ai o limita a numarului de imagini permise </tr>
+      </string>
+      <string key="limit exceeded">
+        <tr lang="Romana"> limita depasita </tr>
+      </string>
+      <string key="You don&apos;t have permissions to access this page.">
+        <tr lang="Romana"> Nu aveti permisiunea de a accesa aceasta pagina. </tr>
+      </string>
+      <string key="Resume search is accessible only for subscribed Employers.">
+        <tr lang="Romana"> Cautarea CV-ului este accesibila numai Angajatorilor inscrisi. </tr>
+      </string>
+      <string key="Your friend&apos;s name">
+        <tr lang="Romana"> Numele prietenului </tr>
+      </string>
+      <string key="Your friend&apos;s e-mail address">
+        <tr lang="Romana"> Adresa de e-mail a prietenului </tr>
+      </string>
+      <string key="Dear customer!">
+        <tr lang="Romana"> Stimate client </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for &lt;b&gt;$product_info_name&lt;/b&gt;.">
+        <tr lang="Romana"> Va rugam sa faceti o plata in valoare de $currency_sign $product_info_price for &lt;b&gt;$product_info_name&lt;/b&gt;. </tr>
+      </string>
+      <string key="Please choose from the following payment methods:">
+        <tr lang="Romana"> Va rugam sa alegeti una din metodele de plata: </tr>
+      </string>
+      <string key="Wire Transfer">
+        <tr lang="Romana"> Transfer Bancar </tr>
+      </string>
+      <string key="Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for $item_name&lt;br /&gt;Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you!">
+        <tr lang="Romana"> Draga $username, &lt;br /&gt;&lt;br /&gt;Va rugam sa ne trimiteti o plata in valoare de $amount pentru $item_name&lt;br /&gt;Numarul de referinta al tranzactiei dvs este $payment_id. &lt;br /&gt;&lt;br /&gt;Va multumim ! </tr>
+      </string>
+      <string key="There is no listing in the system with the specified ID">
+        <tr lang="Romana"> Nu este nici un anunt cu ID-ul specificat </tr>
+      </string>
+      <string key="Anonymous User Info">
+        <tr lang="Romana"> Informatii Utilizator Anonim </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for">
+        <tr lang="Romana"> Va rugam sa faceti o plata in valoare de $currency_sign $product_info_price pentru </tr>
+      </string>
+      <string key="Welcome">
+        <tr lang="Romana"> Bine ai venit </tr>
+      </string>
+      <string key="Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for">
+        <tr lang="Romana"> Draga $username, &lt;br /&gt;&lt;br /&gt;Va rugam sa faceti o plata in valoare de $amount pentru </tr>
+      </string>
+      <string key="Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you!">
+        <tr lang="Romana"> Numarul de referinta al tranzactiei dvs este $payment_id. &lt;br /&gt;&lt;br /&gt;Va multumim ! </tr>
+      </string>
+      <string key="Please log in to access this page. If you do not have an account, please">
+        <tr lang="Romana"> Va rugam sa va autentificati pentru a putea accesa aceasta pagina.Daca nu aveti inca un cont,va rugam sa </tr>
+      </string>
+      <string key="Featured Companies">
+        <tr lang="Romana"> Companii Recomandate </tr>
+      </string>
+      <string key="Get resumes by email">
+        <tr lang="Romana"> Primeste CV-urile in email </tr>
+      </string>
+      <string key="Get jobs by email">
+        <tr lang="Romana"> Primeste Joburile in email </tr>
+      </string>
+      <string key="Please use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="Romana"> Va rugam sa apasati tasta &quot;Ctrl&quot; pentru a alege doua sau mai multe optiuni </tr>
+      </string>
+      <string key="Confirm E-mail">
+        <tr lang="Romana"> Confirma E-mail </tr>
+      </string>
+      <string key="Reload Image">
+        <tr lang="Romana"> Reincarca Imagine </tr>
+      </string>
+      <string key="Accept terms of use">
+        <tr lang="Romana"> Accepta termenii si conditiile </tr>
+      </string>
+      <string key="Read terms of use">
+        <tr lang="Romana"> Citeste termenii si conditiile </tr>
+      </string>
+      <string key="Resume Alerts">
+        <tr lang="Romana"> Alerte CV-uri </tr>
+      </string>
+      <string key="Application Tracking">
+        <tr lang="Romana"> Cerere de urmarire </tr>
+      </string>
+      <string key="Resume Alert Name">
+        <tr lang="Romana"> Alerta Nume CV </tr>
+      </string>
+      <string key="Add new resume alert">
+        <tr lang="Romana"> Adauga alerta CV nou </tr>
+      </string>
+      <string key="Disable">
+        <tr lang="Romana"> Dezactiveaza </tr>
+      </string>
+      <string key="Preview Search Results">
+        <tr lang="Romana"> Vizualizeaza cautarile </tr>
+      </string>
+      <string key="Add resume alert">
+        <tr lang="Romana"> Adauga alerta CV </tr>
+      </string>
+      <string key="Alert Name">
+        <tr lang="Romana"> Nume Alerta </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="Romana"> Titlu Job </tr>
+      </string>
+      <string key="Date Applied">
+        <tr lang="Romana"> Data aplicarii </tr>
+      </string>
+      <string key="Status">
+        <tr lang="Romana"> Statut </tr>
+      </string>
+      <string key="Attached Resume">
+        <tr lang="Romana"> CV Atasat </tr>
+      </string>
+      <string key="Applicant’s Name">
+        <tr lang="Romana"> Numele Candidatului </tr>
+      </string>
+      <string key="User comments">
+        <tr lang="Romana"> Comentariile utilizatorului </tr>
+      </string>
+      <string key="View Attached File">
+        <tr lang="Romana"> Vezi fisier atasat </tr>
+      </string>
+      <string key="Jobs Search Results">
+        <tr lang="Romana"> Joburile rezultate </tr>
+      </string>
+      <string key="Save this Search / Job Alert">
+        <tr lang="Romana"> Salveaza cautare / Alerta Job </tr>
+      </string>
+      <string key="Company Profile">
+        <tr lang="Romana"> Profil Companie </tr>
+      </string>
+      <string key="Sign in">
+        <tr lang="Romana"> Intra in </tr>
+      </string>
+      <string key="You have no listings now. Click">
+        <tr lang="Romana"> Nu aveti nici un anunt acum.Click </tr>
+      </string>
+      <string key="here">
+        <tr lang="Romana"> aici </tr>
+      </string>
+      <string key="to add a new listing.">
+        <tr lang="Romana"> pentru a adauga un anunt nou. </tr>
+      </string>
+      <string key="Fields marked with an asterisk (">
+        <tr lang="Romana"> Campurile marcate cu steluta ( </tr>
+      </string>
+      <string key=") are mandatory">
+        <tr lang="Romana"> ) sunt obligatorii </tr>
+      </string>
+      <string key="Please log in to place a listing. If you do not have an account, please">
+        <tr lang="Romana"> Va rugam sa va autentificati pentru a adauga un anunt.Daca nu aveti inca un cont,va rugam sa va </tr>
+      </string>
+      <string key="within $radius $radius_search_unit of $location">
+        <tr lang="Romana"> in mai putin $radius $radius_search_unit de $location </tr>
+      </string>
+      <string key="kilometers">
+        <tr lang="Romana"> km </tr>
+      </string>
+      <string key="Apply to job">
+        <tr lang="Romana"> Aplica pentru Job </tr>
+      </string>
+      <string key="Cover letter (optional)">
+        <tr lang="Romana"> Scrisoare de intentie (optional) </tr>
+      </string>
+      <string key="Please">
+        <tr lang="Romana"> Va rugam </tr>
+      </string>
+      <string key="sign in ">
+        <tr lang="Romana"> sa va inregistrati </tr>
+      </string>
+      <string key="to add comments!">
+        <tr lang="Romana"> pentru a adauga comentarii ! </tr>
+      </string>
+      <string key="You applied successfully">
+        <tr lang="Romana"> Ai aplicat cu succes </tr>
+      </string>
+      <string key="Please log in to place a new posting. If you do not have an account, please">
+        <tr lang="Romana"> Va rugam sa va autentificati pentru a adauga un anunt nou.Daca nu aveti inca un cont,va rugam sa </tr>
+      </string>
+      <string key="Register.">
+        <tr lang="Romana"> Inregistrati </tr>
+      </string>
+      <string key="Search by Company">
+        <tr lang="Romana"> Cautare dupa Companie </tr>
+      </string>
+      <string key="Clone">
+        <tr lang="Romana"> Clona </tr>
+      </string>
+      <string key="My Job Preview">
+        <tr lang="Romana"> Previzualizare Jobul Meu </tr>
+      </string>
+      <string key="Click to select">
+        <tr lang="Romana"> Click pentru a selecta </tr>
+      </string>
+      <string key="Redirect to this URL">
+        <tr lang="Romana"> Redirectionare la aceasta adresa URL </tr>
+      </string>
+      <string key="Use the following format:">
+        <tr lang="Romana"> Folositi urmatorul format: </tr>
+      </string>
+      <string key="Your changes were successfully saved">
+        <tr lang="Romana"> Modificarile au fost salvate cu succes </tr>
+      </string>
+      <string key="Manage Pictures">
+        <tr lang="Romana"> Administrare Poze </tr>
+      </string>
+      <string key="Clone this job posting">
+        <tr lang="Romana"> Cloneaza acest job </tr>
+      </string>
+      <string key="Clone Job">
+        <tr lang="Romana"> Clonare Job </tr>
+      </string>
+      <string key="Company">
+        <tr lang="Romana"> Companie </tr>
+      </string>
+      <string key="My Applications">
+        <tr lang="Romana"> Aplicatiile Mele </tr>
+      </string>
+      <string key="Select your resume">
+        <tr lang="Romana"> Selecteaza CV-ul </tr>
+      </string>
+      <string key="Enter Job Information">
+        <tr lang="Romana"> Introduceti informatii job </tr>
+      </string>
+      <string key="My Postings">
+        <tr lang="Romana"> Postarile Mele </tr>
+      </string>
+      <string key="Private messages">
+        <tr lang="Romana"> Mesaje Private </tr>
+      </string>
+      <string key="Inbox">
+        <tr lang="Romana"> Inbox </tr>
+      </string>
+      <string key="Outbox">
+        <tr lang="Romana"> Outbox </tr>
+      </string>
+      <string key="Edit Saved Search">
+        <tr lang="Romana"> Editeaza Cautari Salvate </tr>
+      </string>
+      <string key="Saved Searches Name">
+        <tr lang="Romana"> Numele Cautarilor Salvate </tr>
+      </string>
+      <string key="Notify on My Jobs Expiration">
+        <tr lang="Romana"> Notificare joburi expirate </tr>
+      </string>
+      <string key="Notify on My Contract Expiration">
+        <tr lang="Romana"> Notificare expirare contract </tr>
+      </string>
+      <string key="Notify on new private message">
+        <tr lang="Romana"> Notificare cand primesc mesaj privat nou </tr>
+      </string>
+      <string key="Cover Letter">
+        <tr lang="Romana"> Scrisoare de intentie </tr>
+      </string>
+      <string key="My Billings">
+        <tr lang="Romana"> Platile mele </tr>
+      </string>
+      <string key="Compose Message">
+        <tr lang="Romana"> Compune Mesaj </tr>
+      </string>
+      <string key="From">
+        <tr lang="Romana"> De la </tr>
+      </string>
+      <string key="Subject">
+        <tr lang="Romana"> Subiect </tr>
+      </string>
+      <string key="To">
+        <tr lang="Romana"> Pentru </tr>
+      </string>
+      <string key="Message to">
+        <tr lang="Romana"> Mesaj pentru </tr>
+      </string>
+      <string key="Message">
+        <tr lang="Romana"> Mesaj </tr>
+      </string>
+      <string key="Save to outbox">
+        <tr lang="Romana"> Salveaza in outbox </tr>
+      </string>
+      <string key="Send private message">
+        <tr lang="Romana"> Trimite mesaj privat </tr>
+      </string>
+      <string key="You are logged in already">
+        <tr lang="Romana"> Esti deja autentificat </tr>
+      </string>
+      <string key="You&apos;re not allowed to open this page">
+        <tr lang="Romana"> Nu ai acces la aceasta pagina </tr>
+      </string>
+      <string key="Send Private Message">
+        <tr lang="Romana"> Trimite mesaj privat </tr>
+      </string>
+      <string key="Save this Search / Resume Alert">
+        <tr lang="Romana"> Salveaza cautare / Alerta CV </tr>
+      </string>
+      <string key="Resume has been saved">
+        <tr lang="Romana"> CV-ul a fost salvat </tr>
+      </string>
+      <string key="Contact User">
+        <tr lang="Romana"> Contacteaza utilizator </tr>
+      </string>
+      <string key="Send applications online via web site">
+        <tr lang="Romana"> Trimite aplicatiile online prin intermediul siteului web </tr>
+      </string>
+      <string key="Notify on My Resumes Approve Or Reject">
+        <tr lang="Romana"> Notificare daca CV-urile sunt Aprobate sau Respinse </tr>
+      </string>
+      <string key="Notify on My Resumes Expiration">
+        <tr lang="Romana"> Notificare daca CV-urile mele expira </tr>
+      </string>
+      <string key="Job Alert Name">
+        <tr lang="Romana"> Nume Alerta Job </tr>
+      </string>
+      <string key="Add new job alert">
+        <tr lang="Romana"> Adauga o noua alerta de job </tr>
+      </string>
+      <string key="Jobs Applied">
+        <tr lang="Romana"> Joburi Aplicate </tr>
+      </string>
+      <string key="Enter Your Resume Information">
+        <tr lang="Romana"> Introduceti informatii despre CV </tr>
+      </string>
+      <string key="Company name">
+        <tr lang="Romana"> Nume Companie </tr>
+      </string>
+      <string key="Company Search Results">
+        <tr lang="Romana"> Rezultatele cautarii Companiei </tr>
+      </string>
+      <string key="Results: $usersCount Company">
+        <tr lang="Romana"> Rezultate: $usersCount Companii </tr>
+      </string>
+      <string key="Number of company per page">
+        <tr lang="Romana"> Numarul companiilor pe pagina </tr>
+      </string>
+      <string key="Mark as Read">
+        <tr lang="Romana"> Marcheaza ca citit </tr>
+      </string>
+      <string key="Message from">
+        <tr lang="Romana"> Mesaj de la </tr>
+      </string>
+      <string key="Read Private Message">
+        <tr lang="Romana"> Citeste mesajul privat </tr>
+      </string>
+      <string key="Reply">
+        <tr lang="Romana"> Reply </tr>
+      </string>
+      <string key="Approve selected">
+        <tr lang="Romana"> Aproba selectiile </tr>
+      </string>
+      <string key="Reject selected">
+        <tr lang="Romana"> Respinge selectiile </tr>
+      </string>
+      <string key="Pending">
+        <tr lang="Romana"> In asteptare </tr>
+      </string>
+      <string key="Approved">
+        <tr lang="Romana"> Aprobat </tr>
+      </string>
+      <string key="Rejected">
+        <tr lang="Romana"> Respins </tr>
+      </string>
+      <string key="Select Job Posting">
+        <tr lang="Romana"> Selectati postarea jobului </tr>
+      </string>
+      <string key="All Jobs">
+        <tr lang="Romana"> Toate Locurile De Munca </tr>
+      </string>
+      <string key="Delete profile">
+        <tr lang="Romana"> Sterge profil </tr>
+      </string>
+      <string key="Back">
+        <tr lang="Romana"> Inapoi </tr>
+      </string>
+      <string key="Enable">
+        <tr lang="Romana"> Activeaza </tr>
+      </string>
+      <string key="E-mail frequency">
+        <tr lang="Romana"> Frecventa email </tr>
+      </string>
+      <string key="You have">
+        <tr lang="Romana"> Aveti </tr>
+      </string>
+      <string key="jobs left to post out of">
+        <tr lang="Romana"> joburi ramase pentru postare in afara de </tr>
+      </string>
+      <string key="resumes left to post out of">
+        <tr lang="Romana"> in stanga CV-urile pentru a posta in afara </tr>
+      </string>
+      <string key="originally available">
+        <tr lang="Romana"> disponibile initial </tr>
+      </string>
+      <string key="You&apos;re currently subscribed to">
+        <tr lang="Romana"> Tocmai te-ai inscris la </tr>
+      </string>
+      <string key="plan.">
+        <tr lang="Romana"> plan. </tr>
+      </string>
+      <string key="Subscription date">
+        <tr lang="Romana"> Data inscrierii </tr>
+      </string>
+      <string key="Subscription expiration date">
+        <tr lang="Romana"> Data expirarii inscrierii </tr>
+      </string>
+      <string key="s left to post out of">
+        <tr lang="Romana"> s in stanga pentru a posta in afara de </tr>
+      </string>
+      <string key="To change your current subscription please chose new plan below.">
+        <tr lang="Romana"> Pentru a obtine un alt abonament,va rugam sa alegeti unul din Pachetele de mai jos. </tr>
+      </string>
+      <string key="job">
+        <tr lang="Romana"> job </tr>
+      </string>
+      <string key="Not Available Anymore">
+        <tr lang="Romana"> Nu mai sunt disponibile </tr>
+      </string>
+      <string key="home">
+        <tr lang="Romana"> acasa </tr>
+      </string>
+      <string key="Search job title only">
+        <tr lang="Romana"> Cauta doar dupa titlu job </tr>
+      </string>
+      <string key="Edit notes">
+        <tr lang="Romana"> Editeaza caracteristica </tr>
+      </string>
+      <string key="Add notes">
+        <tr lang="Romana"> Adauga caracteristici </tr>
+      </string>
+      <string key="Close">
+        <tr lang="Romana"> Inchide </tr>
+      </string>
+      <string key="My notes">
+        <tr lang="Romana"> Caracteristicile Mele </tr>
+      </string>
+      <string key="Search resume title only">
+        <tr lang="Romana"> Cauta titul CV </tr>
+      </string>
+      <string key="Search by title">
+        <tr lang="Romana"> Cauta dupa titlu </tr>
+      </string>
+      <string key="Match exact phrase">
+        <tr lang="Romana"> Potrivire exacta </tr>
+      </string>
+      <string key="Match all words">
+        <tr lang="Romana"> Potrivire dupa toate cuvintele </tr>
+      </string>
+      <string key="Match any words">
+        <tr lang="Romana"> Potrivire dupa orice cuvant </tr>
+      </string>
+      <string key="Boolean">
+        <tr lang="Romana"> Combinat </tr>
+      </string>
+      <string key="   Boolean search description">
+        <tr lang="Romana"> Descriere combinata </tr>
+      </string>
+      <string key="Please choose new subscription plan">
+        <tr lang="Romana"> Va rugam sa alegeti un abonament nou </tr>
+      </string>
+      <string key="You&apos;ve reached the limit of number of listings allowed by your plan">
+        <tr lang="Romana"> Ati atins limita maxima de anunturi pentru abonamentul ales </tr>
+      </string>
+      <string key="Boolean search descripion">
+        <tr lang="Romana"> Descriere combinata </tr>
+      </string>
+      <string key="Search title only">
+        <tr lang="Romana"> Cauta doar titlu </tr>
+      </string>
+      <string key="Terms of use">
+        <tr lang="Romana"> Termenii de utilizare </tr>
+      </string>
+      <string key="Test URL">
+        <tr lang="Romana"> Testeaza URL </tr>
+      </string>
+      <string key="Go Search">
+        <tr lang="Romana"> Cauta </tr>
+      </string>
+      <string key="Applicant’s resume">
+        <tr lang="Romana"> CV Candidat </tr>
+      </string>
+      <string key="Total">
+        <tr lang="Romana"> Total </tr>
+      </string>
+      <string key="Boolean search description">
+        <tr lang="Romana"> Descriere combinata </tr>
+      </string>
+      <string key="Employers List">
+        <tr lang="Romana"> Lista Angajatori </tr>
+      </string>
+      <string key="Selected Emloyers">
+        <tr lang="Romana"> Companii Selectate </tr>
+      </string>
+      <string key="* Use CTRL key to select two or more employers">
+        <tr lang="Romana"> * Folositi tasta &quot;CTRL&quot; pentru a selecta doi sau mai multi angajatori </tr>
+      </string>
+      <string key="Loading">
+        <tr lang="Romana"> Incarcare </tr>
+      </string>
+      <string key="Currency">
+        <tr lang="Romana"> Moneda </tr>
+      </string>
+      <string key="Deselect all">
+        <tr lang="Romana"> Deselecteaza tot </tr>
+      </string>
+      <string key="You can not subscribe to this plan twice">
+        <tr lang="Romana"> Nu va puteti abona de doua ori pentru acelasi Pachet.Sunteti in prezent abonat la acest Pachet. </tr>
+      </string>
+      <string key="You IP address was banned by site administrator. Please contact at YourEmail@mail.box for any questions.">
+        <tr lang="Romana"> IP-ul dvs a fost banat de catre Administrator.Va rugam sa ne contactati la ip@alertjob.ro pentru intrebari. </tr>
+      </string>
+      <string key="No avaiable subscriptions">
+        <tr lang="Romana"> Nu sunt abonamente disponibile </tr>
+      </string>
+      <string key="Please choose exl or csv file">
+        <tr lang="Romana"> Va rugam sa alegeti un fisier exl sau csv </tr>
+      </string>
+      <string key="You specified wrong email">
+        <tr lang="Romana"> Ati specificat o adresa de email gresita </tr>
+      </string>
+      <string key="Your username is">
+        <tr lang="Romana"> Numele dvs de Utilizator este </tr>
+      </string>
+      <string key="Recurring">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="You are going to sign up for a recurring Subscription. Once in $product_info_subscription_period days period a charge in the amount of $product_info_price will automatically be placed on your credit card to renew your subscription.">
+        <tr lang="Romana"> Sunteti pe cale sa va inscrieti pentru un tip de abonament.Dupa o perioada de $product_info_subscription_period zile,o taxa in valoare de  $product_info_price o sa fie automat extrasa de pe cardul dvs de credit,pentru reinnoirea abonamentului. </tr>
+      </string>
+      <string key="Your recurring subscription to the &quot;$cancelMembershipPlanName&quot; plan has been canceled.">
+        <tr lang="Romana"> Abonamentul dvs &quot;$cancelMembershipPlanName&quot; a fost anulat. </tr>
+      </string>
+      <string key="Your payment was successfully completed. Recurring Subscription activation may take some time. Once subscription is activated it will appear in the table below.">
+        <tr lang="Romana"> Plata dvs a fost finalizata cu succes.Activarea abonamentului poate dura ceva timp.Odata ce abonamentul este activat,acesta va aparea in tabelul de mai jos. </tr>
+      </string>
+      <string key="Notify on My Jobs Activation">
+        <tr lang="Romana"> Notificare la Activarea Joburilor mele </tr>
+      </string>
+      <string key="Notify on My Resumes Activation">
+        <tr lang="Romana"> Notificare la Activarea CV-urilor mele </tr>
+      </string>
+      <string key="jobs">
+        <tr lang="Romana"> joburi </tr>
+      </string>
+      <string key="resumes">
+        <tr lang="Romana"> cv-uri </tr>
+      </string>
+      <string key="currently online">
+        <tr lang="Romana"> in prezent online </tr>
+      </string>
+      <string key="Post jobs">
+        <tr lang="Romana"> Posteaza joburi </tr>
+      </string>
+      <string key="Blog Posts">
+        <tr lang="Romana"> Postari Blog </tr>
+      </string>
+      <string key="You are currently logged in as">
+        <tr lang="Romana"> Sunteti autentificat ca utilizator </tr>
+      </string>
+      <string key="News">
+        <tr lang="Romana"> Noutati </tr>
+      </string>
+      <string key="Sub Accounts">
+        <tr lang="Romana"> Sub-conturi </tr>
+      </string>
+      <string key="Saved Resumes">
+        <tr lang="Romana"> CV-uri Salvate </tr>
+      </string>
+      <string key="Screening Questionnaires">
+        <tr lang="Romana"> Afisare Chestionare </tr>
+      </string>
+      <string key="Bulk job import from exl/csv file">
+        <tr lang="Romana"> Importa job din fisierul exl/csv </tr>
+      </string>
+      <string key="Your listing succesfully upgraded to featured">
+        <tr lang="Romana"> Anuntul dvs a fost trecut cu succes la Anunturi Sponsorizate </tr>
+      </string>
+      <string key="Listing is already featured">
+        <tr lang="Romana"> Anuntul este deja sponsorizat </tr>
+      </string>
+      <string key="Current Search">
+        <tr lang="Romana"> Cautare Curenta </tr>
+      </string>
+      <string key="Refine Results">
+        <tr lang="Romana"> Rafineaza Rezultate </tr>
+      </string>
+      <string key="show brief">
+        <tr lang="Romana"> arata rezumat </tr>
+      </string>
+      <string key="show detailed">
+        <tr lang="Romana"> arata detaliat </tr>
+      </string>
+      <string key="Post Job">
+        <tr lang="Romana"> Posteaza Job </tr>
+      </string>
+      <string key="Send applications to this e-mail">
+        <tr lang="Romana"> Trimite aplicatiile la aceasta adresa de e-mail </tr>
+      </string>
+      <string key="Score">
+        <tr lang="Romana"> Scor </tr>
+      </string>
+      <string key="Not passed">
+        <tr lang="Romana"> Nu a trecut </tr>
+      </string>
+      <string key="Actions With Selected">
+        <tr lang="Romana"> Actiuni Selectate </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="Romana"> Nume Chestionar </tr>
+      </string>
+      <string key="Create New Questionnaire">
+        <tr lang="Romana"> Creeaza un nou chestionar </tr>
+      </string>
+      <string key="Send Auto-Reply email to candidates whose score is">
+        <tr lang="Romana"> Trimite email automat candidatilor al caror scor este </tr>
+      </string>
+      <string key="Question">
+        <tr lang="Romana"> Intrebare </tr>
+      </string>
+      <string key="Answer Type">
+        <tr lang="Romana"> Tip Raspuns </tr>
+      </string>
+      <string key="Questions">
+        <tr lang="Romana"> Intrebari </tr>
+      </string>
+      <string key="Edit Questionnaire">
+        <tr lang="Romana"> Editeaza Chestionar </tr>
+      </string>
+      <string key="Edit Questions">
+        <tr lang="Romana"> Editeaza Intrebari </tr>
+      </string>
+      <string key="Order">
+        <tr lang="Romana"> Ordine </tr>
+      </string>
+      <string key="Name">
+        <tr lang="Romana"> Nume </tr>
+      </string>
+      <string key="Required">
+        <tr lang="Romana"> Obligatoriu </tr>
+      </string>
+      <string key="My account">
+        <tr lang="Romana"> Contul Meu </tr>
+      </string>
+      <string key="No">
+        <tr lang="Romana"> Nu </tr>
+      </string>
+      <string key="Yes">
+        <tr lang="Romana"> Da </tr>
+      </string>
+      <string key="Add Answer">
+        <tr lang="Romana"> Adauga Raspuns </tr>
+      </string>
+      <string key="Complete">
+        <tr lang="Romana"> Complet </tr>
+      </string>
+      <string key="Username">
+        <tr lang="Romana"> Utilizator </tr>
+      </string>
+      <string key="Sub-user Profile">
+        <tr lang="Romana"> Profil Sub-utilizator </tr>
+      </string>
+      <string key="Permissions">
+        <tr lang="Romana"> Permisiuni </tr>
+      </string>
+      <string key="Add new listings">
+        <tr lang="Romana"> Adauga anunturi noi </tr>
+      </string>
+      <string key="Manage listings and applications of other sub users">
+        <tr lang="Romana"> Administreaza anunturile si aplicatiile altor sub-utilizatori </tr>
+      </string>
+      <string key="View and update subscription">
+        <tr lang="Romana"> Vizualizare si actualizare abonament </tr>
+      </string>
+      <string key="years">
+        <tr lang="Romana"> ani </tr>
+      </string>
+      <string key="Save this Search">
+        <tr lang="Romana"> Salveaza aceasta Cautare </tr>
+      </string>
+      <string key="Save Resume Alert">
+        <tr lang="Romana"> Salveaza Alerta CV </tr>
+      </string>
+      <string key="Resume Search Results">
+        <tr lang="Romana"> CV rezultat </tr>
+      </string>
+      <string key="Saved resumes">
+        <tr lang="Romana"> CV-uri Salvate </tr>
+      </string>
+      <string key="Data Import">
+        <tr lang="Romana"> Import de date </tr>
+      </string>
+      <string key="Please review the file examples below and ascertain that your file is up to sample">
+        <tr lang="Romana"> Va rugam sa verificati exemplele cu fisierul de mai jos si sa va asigurati ca fisierul dvs este de proba </tr>
+      </string>
+      <string key="Job import EXL file example">
+        <tr lang="Romana"> Importa job fisier EXL </tr>
+      </string>
+      <string key="Job import CSV file example">
+        <tr lang="Romana"> Importa job fisier CSV </tr>
+      </string>
+      <string key="View All News">
+        <tr lang="Romana"> Vezi toate noutatile </tr>
+      </string>
+      <string key="read more">
+        <tr lang="Romana"> citeste mai mult </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="Romana"> Postat </tr>
+      </string>
+      <string key="Text">
+        <tr lang="Romana"> Text </tr>
+      </string>
+      <string key="Yes/No">
+        <tr lang="Romana"> Da/Nu </tr>
+      </string>
+      <string key="List of answers with multiple choice">
+        <tr lang="Romana"> Lista de raspunsuri cu variante multiple </tr>
+      </string>
+      <string key="List of answers with single choice">
+        <tr lang="Romana"> Lista de raspunsuri cu o singura varianta </tr>
+      </string>
+      <string key="Errors">
+        <tr lang="Romana"> Erori </tr>
+      </string>
+      <string key="Order Information">
+        <tr lang="Romana"> Informatie </tr>
+      </string>
+      <string key="Invoice Number">
+        <tr lang="Romana"> Numar de plata </tr>
+      </string>
+      <string key="Credit Card Information">
+        <tr lang="Romana"> Info Credit Card </tr>
+      </string>
+      <string key="Card Number">
+        <tr lang="Romana"> Numar Card </tr>
+      </string>
+      <string key="enter number without spaces or dashes">
+        <tr lang="Romana"> introduceti numarul fara spatii sau cratime </tr>
+      </string>
+      <string key="Expiration Date">
+        <tr lang="Romana"> Data Expirarii </tr>
+      </string>
+      <string key="mmyy">
+        <tr lang="Romana"> mmyy </tr>
+      </string>
+      <string key="Billing Information">
+        <tr lang="Romana"> Informatii Facturare </tr>
+      </string>
+      <string key="Reset">
+        <tr lang="Romana"> Reseteaza </tr>
+      </string>
+      <string key="Anonymous User">
+        <tr lang="Romana"> User Anonim </tr>
+      </string>
+      <string key="News Categories">
+        <tr lang="Romana"> Categorii Noi </tr>
+      </string>
+      <string key="Powered by">
+        <tr lang="Romana"> Powered by </tr>
+      </string>
+      <string key="About Us">
+        <tr lang="Romana"> Despre Noi </tr>
+      </string>
+      <string key="Sitemap">
+        <tr lang="Romana"> Sitemap </tr>
+      </string>
+      <string key="message">
+        <tr lang="Romana"> mesaj </tr>
+      </string>
+      <string key="Edit Profile">
+        <tr lang="Romana"> Editeaza Profil </tr>
+      </string>
+      <string key="Notify on My Subscriptions Expiration">
+        <tr lang="Romana"> Notificare daca Abonamentul expira </tr>
+      </string>
+      <string key="Notify on New Private Messages">
+        <tr lang="Romana"> Notificare daca primesc Mesaj privat nou </tr>
+      </string>
+      <string key="Notify on My Subscriptions Activation">
+        <tr lang="Romana"> Notificare la activarea Abonamentului </tr>
+      </string>
+      <string key="Remind about My Subscriptions expiration">
+        <tr lang="Romana"> Amintire daca Abonamentele mele expira </tr>
+      </string>
+      <string key="Remind about My Listings expiration">
+        <tr lang="Romana"> Amintire daca Anunturile mele expira </tr>
+      </string>
+      <string key="Days before">
+        <tr lang="Romana"> Zile inainte </tr>
+      </string>
+      <string key="Subscription name">
+        <tr lang="Romana"> Nume Abonament </tr>
+      </string>
+      <string key="Subscription expiration / Renewal Date">
+        <tr lang="Romana"> Expirare Abonament / Data de reinnoire </tr>
+      </string>
+      <string key="Never Expire">
+        <tr lang="Romana"> Nu expira niciodata </tr>
+      </string>
+      <string key="Free">
+        <tr lang="Romana"> Gratuit </tr>
+      </string>
+      <string key="Save Job Alert">
+        <tr lang="Romana"> Salveaza Alerta Job </tr>
+      </string>
+      <string key="Flag This Job">
+        <tr lang="Romana"> Raporteaza Job </tr>
+      </string>
+      <string key="Your comment (will be send with the recommendation)">
+        <tr lang="Romana"> Comentariul dvs ( o sa fie trimis impreuna cu recomandarea ) </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="Romana"> Tasteaza codul din imagine </tr>
+      </string>
+      <string key="1. General Information">
+        <tr lang="Romana"> 1. Inforamatii Generale </tr>
+      </string>
+      <string key="2. Education">
+        <tr lang="Romana"> 2. Educatie </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Fill in the fields below to provide Employers with a general information about yourself&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="Romana"> &lt;p&gt;&lt;em&gt;Completeaza campurile de mai jos pentru a furniza Companiilor informatii despre tine&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt; </tr>
+      </string>
+      <string key="Use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="Romana"> Foloseste tasta &quot;CTRL&quot; pentru a putea alege una sau mai multe optiuni </tr>
+      </string>
+      <string key="3. Work Experience">
+        <tr lang="Romana"> 3. Experienta de munca </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your education. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="Romana"> &lt;p&gt;&lt;em&gt;Introduceti informatii despre educatia dvs. Folositi &amp;quot;Adauga&amp;quot; pentru a adauga un alt bloc de campuri. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt; </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your work experience. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="Romana"> &lt;p&gt;&lt;em&gt;Introduceti informatii despre experienta de munca.Folositi &amp;quot;Adaugare&amp;quot; pentru a adauga un alt bloc de campuri.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt; </tr>
+      </string>
+      <string key="Listing Owner">
+        <tr lang="Romana"> Proprietarul Anuntului </tr>
+      </string>
+      <string key="Post a Job">
+        <tr lang="Romana"> Posteaza un Job </tr>
+      </string>
+      <string key="Enter Security code">
+        <tr lang="Romana"> Introduceti codul de securitate </tr>
+      </string>
+      <string key="file not specified">
+        <tr lang="Romana"> fisier nespecificat </tr>
+      </string>
+      <string key="Security code is not valid">
+        <tr lang="Romana"> Cod securitate invalid </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your Job below&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="Romana"> &lt;p&gt;&lt;em&gt;Introduceti mai jos informatii despre job&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt; </tr>
+      </string>
+      <string key="View Questionaire">
+        <tr lang="Romana"> Vezi Chestionar </tr>
+      </string>
+      <string key="View Questionnaire">
+        <tr lang="Romana"> Vezi Chestionar </tr>
+      </string>
+      <string key="Answer">
+        <tr lang="Romana"> Raspuns </tr>
+      </string>
+      <string key="Sub-users">
+        <tr lang="Romana"> Sub-utilizatori </tr>
+      </string>
+      <string key="Create New Account">
+        <tr lang="Romana"> Creeaza Cont Nou </tr>
+      </string>
+      <string key="Edit sub-user">
+        <tr lang="Romana"> Editeaza sub-utilizator </tr>
+      </string>
+      <string key="Sub-user">
+        <tr lang="Romana"> Sub-utilizator </tr>
+      </string>
+      <string key="Sub-user registration">
+        <tr lang="Romana"> Inregistrare Sub-utilizator </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="Romana"> Telefon </tr>
+      </string>
+      <string key="Fax">
+        <tr lang="Romana"> Fax </tr>
+      </string>
+      <string key="Cancel">
+        <tr lang="Romana"> Anuleaza </tr>
+      </string>
+      <string key="Answers">
+        <tr lang="Romana"> Raspunsuri </tr>
+      </string>
+      <string key="Questions of">
+        <tr lang="Romana"> Intrebari de </tr>
+      </string>
+      <string key="No of jobs">
+        <tr lang="Romana"> Numar de joburi </tr>
+      </string>
+      <string key="Please, enter your email in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="Romana"> Va rugam sa introduceti mai jos adresa dvs de email si o sa va trimitem un link catre o pagina unde puteti schimba parola </tr>
+      </string>
+      <string key="Flag This Resume">
+        <tr lang="Romana"> Raporteaza acest CV </tr>
+      </string>
+      <string key="Рowered by">
+        <tr lang="Romana"> Рowered by </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="Romana"> Candidat </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="Romana"> Angajator </tr>
+      </string>
+      <string key="There was an error while sending your application.">
+        <tr lang="Romana"> A fost o eroare in timpul trimiterii aplicatiei. </tr>
+      </string>
+      <string key="Passed">
+        <tr lang="Romana"> Trecut </tr>
+      </string>
+      <string key="This Resume is no longer available">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="This Job is no longer available">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Cash Payment">
+        <tr lang="Romana">  </tr>
+      </string>
+    </page>
+    <page key="FormFieldCaptions">
+      <string key="Keywords">
+        <tr lang="Romana"> Cuvinte cheie </tr>
+      </string>
+      <string key="State">
+        <tr lang="Romana"> Stat </tr>
+      </string>
+      <string key="Category">
+        <tr lang="Romana"> Categorie </tr>
+      </string>
+      <string key="City">
+        <tr lang="Romana"> Oras </tr>
+      </string>
+      <string key="Username">
+        <tr lang="Romana"> Utilizator </tr>
+      </string>
+      <string key="Password">
+        <tr lang="Romana"> Parola </tr>
+      </string>
+      <string key="User name">
+        <tr lang="Romana"> Nume utilizator </tr>
+      </string>
+      <string key="E-mail">
+        <tr lang="Romana"> E-mail </tr>
+      </string>
+      <string key="First Name">
+        <tr lang="Romana"> Nume </tr>
+      </string>
+      <string key="Last Name">
+        <tr lang="Romana"> Prenume </tr>
+      </string>
+      <string key="Country">
+        <tr lang="Romana"> Tara </tr>
+      </string>
+      <string key="Address">
+        <tr lang="Romana"> Adresa </tr>
+      </string>
+      <string key="Zip Code">
+        <tr lang="Romana"> Cod Postal </tr>
+      </string>
+      <string key="Phone Number">
+        <tr lang="Romana"> Numar de telefon </tr>
+      </string>
+      <string key="Company Name">
+        <tr lang="Romana"> Nume Companie </tr>
+      </string>
+      <string key="Contact Name">
+        <tr lang="Romana"> Contact Nume </tr>
+      </string>
+      <string key="Web Site">
+        <tr lang="Romana"> Website </tr>
+      </string>
+      <string key="Zip code">
+        <tr lang="Romana"> Cod postal </tr>
+      </string>
+      <string key="Logo">
+        <tr lang="Romana"> Logo </tr>
+      </string>
+      <string key="Search Within">
+        <tr lang="Romana"> Cauta la </tr>
+      </string>
+      <string key="Salary">
+        <tr lang="Romana"> Salariu </tr>
+      </string>
+      <string key="Salary Type">
+        <tr lang="Romana"> Tip de salariu </tr>
+      </string>
+      <string key="Employment Type">
+        <tr lang="Romana"> Tip Loc de munca </tr>
+      </string>
+      <string key="ID">
+        <tr lang="Romana"> ID </tr>
+      </string>
+      <string key="Activation Date">
+        <tr lang="Romana"> Data activare </tr>
+      </string>
+      <string key="Title">
+        <tr lang="Romana"> Titlu </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="Romana"> Postat </tr>
+      </string>
+      <string key="Company">
+        <tr lang="Romana"> Companie </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="Romana"> Telefon </tr>
+      </string>
+      <string key="Web">
+        <tr lang="Romana"> Web </tr>
+      </string>
+      <string key="Job Views">
+        <tr lang="Romana"> Vizualizari Job </tr>
+      </string>
+      <string key="Job ID">
+        <tr lang="Romana"> Job ID </tr>
+      </string>
+      <string key="Job Category">
+        <tr lang="Romana"> Categorie Job </tr>
+      </string>
+      <string key="Job Description">
+        <tr lang="Romana"> Descriere Job </tr>
+      </string>
+      <string key="Job Requirements">
+        <tr lang="Romana"> Cerinte Job </tr>
+      </string>
+      <string key="Job Type">
+        <tr lang="Romana"> Tipul Jobului </tr>
+      </string>
+      <string key="Desired Salary">
+        <tr lang="Romana"> Salariu dorit </tr>
+      </string>
+      <string key="Video">
+        <tr lang="Romana"> Video </tr>
+      </string>
+      <string key="Experience">
+        <tr lang="Romana"> Experienta </tr>
+      </string>
+      <string key="Name">
+        <tr lang="Romana"> Nume </tr>
+      </string>
+      <string key="Resumes ID">
+        <tr lang="Romana"> ID CV-uri </tr>
+      </string>
+      <string key="Email">
+        <tr lang="Romana"> Email </tr>
+      </string>
+      <string key="Objective">
+        <tr lang="Romana"> Obiectivul </tr>
+      </string>
+      <string key="Work Experience">
+        <tr lang="Romana"> Experienta in munca </tr>
+      </string>
+      <string key="Resumes Views">
+        <tr lang="Romana"> Vizualizari CV </tr>
+      </string>
+      <string key="Total Years Experience">
+        <tr lang="Romana"> Total ani de experienta </tr>
+      </string>
+      <string key="Education">
+        <tr lang="Romana"> Educatie </tr>
+      </string>
+      <string key="Skills">
+        <tr lang="Romana"> Abilitati </tr>
+      </string>
+      <string key="Resume">
+        <tr lang="Romana"> CV </tr>
+      </string>
+      <string key="Don&apos;t send mailings">
+        <tr lang="Romana"> Nu trimite e-mailuri </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="Romana"> Introduceti codul din imagine </tr>
+      </string>
+      <string key="Number of Views">
+        <tr lang="Romana"> Numar vizualizari </tr>
+      </string>
+      <string key="Occupations">
+        <tr lang="Romana"> Domenii </tr>
+      </string>
+      <string key="Company Description">
+        <tr lang="Romana"> Descrierea Companiei </tr>
+      </string>
+      <string key="Anonymous Resume">
+        <tr lang="Romana"> CV Anonim </tr>
+      </string>
+      <string key="Application Settings">
+        <tr lang="Romana"> Setari Aplicatie </tr>
+      </string>
+      <string key="Applications">
+        <tr lang="Romana"> Aplicatii </tr>
+      </string>
+      <string key="Resume ID">
+        <tr lang="Romana"> CV ID </tr>
+      </string>
+      <string key="Approval Status">
+        <tr lang="Romana"> In curs de aprobare </tr>
+      </string>
+      <string key="Resume Visible To">
+        <tr lang="Romana"> CV vizibil pentru </tr>
+      </string>
+      <string key="Location">
+        <tr lang="Romana"> Locatie </tr>
+      </string>
+      <string key="Screening Questionnaire">
+        <tr lang="Romana"> Afisare Chestionar </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="Romana"> Nume Chestionar </tr>
+      </string>
+      <string key="Passing Score">
+        <tr lang="Romana"> Scor de trecere </tr>
+      </string>
+      <string key="equal or more than passing score">
+        <tr lang="Romana"> egal sau mai mare decat scorul de trecere </tr>
+      </string>
+      <string key="less than passing score">
+        <tr lang="Romana"> mai mic decat scorul de trecere </tr>
+      </string>
+      <string key="Email text to candidates whose score is equal or more than passing score">
+        <tr lang="Romana"> Email text pentru candidatii care au scorul de trecere egal sau mai mare </tr>
+      </string>
+      <string key="Email text to candidates whose score is less than passing score">
+        <tr lang="Romana"> Email text pentru candidatii care au mai mic scorul de trecere </tr>
+      </string>
+      <string key="Entrance Date">
+        <tr lang="Romana"> Data de intrare </tr>
+      </string>
+      <string key="Institution Name">
+        <tr lang="Romana"> Denumire institutie </tr>
+      </string>
+      <string key="Major">
+        <tr lang="Romana"> Major </tr>
+      </string>
+      <string key="Degree Level">
+        <tr lang="Romana"> Nivel </tr>
+      </string>
+      <string key="Start Date">
+        <tr lang="Romana"> Data de incepere </tr>
+      </string>
+      <string key="End Date">
+        <tr lang="Romana"> Data de sfarsire </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="Romana"> Titlu Job </tr>
+      </string>
+      <string key="Industry">
+        <tr lang="Romana"> Intreprindere </tr>
+      </string>
+      <string key="Description">
+        <tr lang="Romana"> Descriere </tr>
+      </string>
+      <string key="Graduation Date">
+        <tr lang="Romana"> Data absolvirii </tr>
+      </string>
+    </page>
+    <page key="Miscellaneous">
+      <string key="Any">
+        <tr lang="Romana"> Orice </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="Romana"> Candidat </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="Romana"> Angajator </tr>
+      </string>
+      <string key="Select">
+        <tr lang="Romana"> Selecteaza </tr>
+      </string>
+      <string key="Any Distance">
+        <tr lang="Romana"> Orice Distanta </tr>
+      </string>
+      <string key="Within">
+        <tr lang="Romana"> Mai putin de </tr>
+      </string>
+      <string key="miles">
+        <tr lang="Romana"> km </tr>
+      </string>
+      <string key="10 days">
+        <tr lang="Romana"> 10 zile </tr>
+      </string>
+      <string key="20 days">
+        <tr lang="Romana"> 20 zile </tr>
+      </string>
+      <string key="30 days">
+        <tr lang="Romana"> 30 zile </tr>
+      </string>
+      <string key="Priority Ad">
+        <tr lang="Romana"> Anunt cu Prioritate </tr>
+      </string>
+      <string key="Your posting will be shown above the average search results and will be marked by different background color">
+        <tr lang="Romana"> Anuntul va fi afisat inaintea celorlaltor anunturi si va avea culoarea de fundal evidentiata </tr>
+      </string>
+      <string key="30 days priority resume">
+        <tr lang="Romana"> CV cu prioritate timp de 30 de zile </tr>
+      </string>
+      <string key="Your Resume will be shown above the average search results and will be marked by different background color">
+        <tr lang="Romana"> CV-ul dvs va fi afisat inaintea celorlalte CV-uri si va avea culoarea de fundal evidentiata </tr>
+      </string>
+    </page>
+    <page key="Property_Occupations">
+      <string key="Bookkeeping">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Claims Review and Adjusting">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Collections">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Corporate Accounting">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Corporate Finance">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Credit Review-Analysis">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Financial Analysis-Research-Reporting">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Financial Control">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Financial Planning-Advising">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Financial Products Sales-Brokerage">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Fund Accounting">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Accounting-Finance">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Investment Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Policy Underwriting">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Real Estate Appraisal">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Real Estate Leasing-Acquisition">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Risk Management-Compliance">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Securities Analysis-Research">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Tax Accounting">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Tax Assessment and Collections">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Administrative-Clerical">
+        <tr lang="Romana"> Administrator </tr>
+      </string>
+      <string key="Administrative Support">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Claims Processing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Data Entry-Order Processing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Executive Support">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Filing-Records Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Administrative-Clerical">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Office Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Property Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Reception-Switchboard">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Secretary-Executive Assistant">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Transcription">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Banking-Mortgage Professionals">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Bank Teller">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Credit Manager">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Escrow Officer-Manager">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Loan Officer-Originator">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Mortgage Broker">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Store-Branch Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Title Officer-Closer">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Underwriter">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Biotech-R&amp;D-Science">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Biological-Chemical Research">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Clinical Research">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Environmental-Geological Testing &amp; Analysis">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: R&amp;D-Science">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Materials-Physical Research ">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Mathematical-Statistical Research">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="New Product R&amp;D">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Pharmaceutical Research">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Building Construction">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="CAD-Drafting">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Carpentry-Framing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Concrete and Masonry">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Electrician">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Flooring-Tiling-Painting-Wallpapering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Construction-Skilled Trades">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Heavy Equipment Operation">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="HVAC">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Ironwork-Metal Fabrication">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Plumbing-Pipefitting">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Roofing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Sheetrock-Plastering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Site Superintendent">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Surveying">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Business-Strategic Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Business Analysis-Research">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Business Unit Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Franchise-Business Ownership">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Business-Strategic Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Hospital-Clinic Administration">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Hotel-Lodging Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Managerial Consulting">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Mergers and Acquisitions">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="President-Top Executive">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Public Health Administration">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Restaurant Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="School-College Administration">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Strategic Planning-Intelligence">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Town-City Planning">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Creative-Design">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Advertising Writing (Creative)">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Architecture-Interior Design">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Computer Animation &amp; Multimedia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Creative Direction-Lead">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Fashion &amp; Accessories Design">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Creative-Design">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Graphic Arts-Illustration">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Industrial Design">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Photography and Videography">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Web-UI-UX Design">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Customer Support">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Account Management (Non-Commissioned)">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Call Center">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Customer Training">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Flight Attendant">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Customer Support-Client Care">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Hair Cutting-Styling">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Reservations-Ticketing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Retail Customer Service">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Technical Customer Service">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Editorial Writing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Digital Content Development">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Documentation-Technical Writing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Editing &amp; Proofreading">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Editorial-Writing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Journalism">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Translation-Interpretation">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Education">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Classroom Teaching">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Continuing-Adult ">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Corporate Development and Training">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Early Childhood Care &amp; Development">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Elementary School">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Fitness &amp; Sports Training-Instruction">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Training-Instruction">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Junior-High School">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Software-Web Training">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Special Education">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="University ">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Aeronautic-Avionic Engineering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Bio-Engineering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Chemical Engineering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Civil &amp; Structural Engineering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Electrical-Electronics Engineering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Energy-Nuclear Engineering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Environmental and Geological Engineering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Engineering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Industrial-Manufacturing Engineering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Mechanical Engineering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Naval Architecture-Marine Engineering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="RF-Wireless Engineering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Systems-Process Engineering">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Food Services-Hospitality">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Food &amp; Beverage Serving">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Food Preparation-Cooking">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Front Desk-Reception">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Food Services">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Guest Services-Concierge">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Guide (Tour) ">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Host-Hostess">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Wine Steward (Sommelier)">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Academic Admissions and Advising">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Compensation-Benefits Policy">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Diversity Management-EEO-Compliance">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Human Resources">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="HR Systems Administration">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Payroll and Benefits Administration">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Recruiting-Sourcing ">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Installation-Maintenance-Repair">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Computer-Electronics-Telecomm Install-Maintain-Repair">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Equipment Install-Maintain-Repair">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Facilities Management-Maintenance">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Installation-Maintenance-Repair">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Janitorial &amp; Cleaning ">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Landscaping">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Locksmith">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Oil Rig &amp; Pipeline Install-Maintain-Repair">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Vehicle Repair and Maintenance">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Wire and Cable Install-Maintain-Repair">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="IT-Software Development">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Computer-Network Security">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Database Development-Administration">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Desktop Service and Support">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Enterprise Software Implementation &amp; Consulting">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: IT-Software Development">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="IT Project Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Network and Server Administration">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Software-System Architecture">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Software-Web Development">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Systems Analysis - IT">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Telecommunications Administration-Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Usability-Information Architecture">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Attorney">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Contracts Administration">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Legal">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Labor &amp; Employment Law">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Paralegal &amp; Legal Secretary">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Patent-IP Law">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Real Estate Law">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Regulatory-Compliance Law">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Tax Law">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Logistics-Transportation">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Car, Van and Bus Driving">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Cargo and Baggage Handling">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Cost Estimating">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Equipment-Forklift-Crane Operation">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Logistics-Transportation">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Hazardous Materials Handling">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Import-Export Administration">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Inventory Planning and Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Merchandise Planning and Buying">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Messenger-Courier">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Piloting: Air and Marine">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Purchasing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Shipping and Receiving-Warehousing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Supplier Management-Vendor Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Train or Rail Operator">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Truck Driving">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Vehicle Dispatch, Routing and Scheduling">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Manufacturing-Production">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Assembly-Assembly Line">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Audio-Video Broadcast &amp; Postproduction">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Equipment Operations">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Production-Operations">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Laundry and Dry-Cleaning Operations">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Layout, Prepress, Printing, &amp; Binding Operations">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Machining-CNC">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Metal Fabrication and Welding ">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Moldmaking-Casting">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Operations-Plant Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Production-Operations Planning">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Scientific-Technical Production">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Sewing and Tailoring">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Waste Pick-up and Removal">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Marketing-Product">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Brand-Product Marketing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Copy Writing-Editing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Direct Marketing (CRM)">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Events-Promotional Marketing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Marketing-Product">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Investor and Public-Media Relations">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Market Research">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Marketing Communications">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Marketing Production-Traffic">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Media Planning and Buying">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Product Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Telemarketing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Visual-Display Merchandising">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Medical-Health">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Dental Assistant-Hygienist">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Dental Practitioner">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="EMT-Paramedic">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Medical-Health">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Healthcare Aid">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Laboratory-Pathology">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Medical Imaging">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Medical Practitioner">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Medical Therapy-Rehab Services">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Mental Health">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Nursing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Nutrition and Diet">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Optical">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Pharmacy">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Physicians Assistant-Nurse Practitioner">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Social Service">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Sports Medicine">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Veterinary-Animal Care">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Other">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Career Fair">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Work at Home">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Project-Program Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Event Planning-Coordination">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Project-Program Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Program Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Project Management">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Quality Assurance-Safety">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Building-Construction Inspection">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Environmental Protection-Conservation">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Food Safety and Inspection">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Fraud Investigation">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Quality Assurance-Safety">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="ISO Certification">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Occupational Health and Safety">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Production Quality Assurance">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Six Sigma-Black Belt-TQM">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Software Quality Assurance">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Vehicle Inspection">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Real Estate Agent-Broker">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Sales-Retail">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Account Management Commissioned">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Business Development-New Accounts">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Field Sales">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Fundraising">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Sales-Business Development">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Insurance Agent-Broker">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="International Sales">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Media and Advertising Sales">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Retail-Counter Sales and Cashier">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Sales Support-Assistance">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Technical Presales Support &amp; Technical Sales">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Telesales">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Travel Agent-Ticket Sales">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Wholesale-Reselling Sales">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Security-Protective Services">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Airport Security and Screening">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Correctional Officer">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Customs-Immigration">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Firefighting and Rescue">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="General-Other: Security-Protective Services">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Military Combat">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Police-Law Enforcement">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Security Guard">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Security Intelligence &amp; Analysis">
+        <tr lang="Romana">  </tr>
+      </string>
+    </page>
+    <page key="Property_State">
+      <string key="Alberta">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Arizona">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Arkansas">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="British Columbia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="California">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Colorado">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Connecticut">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Delaware">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="District of Columbia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Florida">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Georgia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Guam">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Hawaii">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Idaho">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Illinois">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Indiana">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Iowa">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Kansas">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Kentucky">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Louisiana">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Maine">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Manitoba">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Maryland">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Massachusetts">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Michigan">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Minnesota">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Mississippi">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Missouri">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Montana">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Nebraska">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Nevada">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="New Hampshire">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="New Jersey">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="New Mexico">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="New York">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="North Carolina">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="North Dakota">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Ohio">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Oklahoma">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Ontario">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Oregon">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Pennsylvania">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Puerto Rico">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Rhode Island">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="South Carolina">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="South Dakota">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Tennessee">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Texas">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Utah">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Vermont">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Virgin Islands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Virginia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Washington">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="West Virginia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Wisconsin">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Wyoming">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Outside US">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Romania">
+        <tr lang="Romana"> Romania </tr>
+      </string>
+    </page>
+    <page key="Property_JobCategory">
+      <string key="Construction">
+        <tr lang="Romana"> Constructii </tr>
+      </string>
+      <string key="Consultant">
+        <tr lang="Romana"> Consultant </tr>
+      </string>
+      <string key="Customer Service">
+        <tr lang="Romana"> Serviciu Clienti </tr>
+      </string>
+      <string key="Design">
+        <tr lang="Romana"> Design </tr>
+      </string>
+      <string key="Distribution-Shipping">
+        <tr lang="Romana"> Distributie-Transport </tr>
+      </string>
+      <string key="Education">
+        <tr lang="Romana"> Educatie/Invatamant </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="Romana"> Inginerie </tr>
+      </string>
+      <string key="Executive">
+        <tr lang="Romana"> Executiv </tr>
+      </string>
+      <string key="Finance">
+        <tr lang="Romana"> Finante </tr>
+      </string>
+      <string key="Franchise">
+        <tr lang="Romana"> Drepturi cetatenesti </tr>
+      </string>
+      <string key="General Business">
+        <tr lang="Romana"> Afaceri Generale </tr>
+      </string>
+      <string key="Government">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Grocery">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Health Care">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Hospitality-Hotel">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Information Technology">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Installation-Maint-Repair">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Insurance">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Inventory">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Manufacturing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Marketing">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Media-Journalism">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Nonprofit-Social Services">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Nurse">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Other">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Pharmaceutical">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Professional Services">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Purchasing-Procurement">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="QA-Quality Control">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Research">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Restaurant-Food Service">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Retail">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Sales">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Science">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Skilled Labor">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Strategy-Planning">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Supply Chain">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Telecommunications">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Training">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Transportation">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Veterinary Services">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Warehouse">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Administratie">
+        <tr lang="Romana"> Administratie </tr>
+      </string>
+      <string key="Alt domeniu">
+        <tr lang="Romana"> Alt domeniu </tr>
+      </string>
+      <string key="Asigurari">
+        <tr lang="Romana"> Asigurari </tr>
+      </string>
+      <string key="Audit">
+        <tr lang="Romana"> Audit </tr>
+      </string>
+      <string key="Banci">
+        <tr lang="Romana"> Banci </tr>
+      </string>
+      <string key="Cercetare">
+        <tr lang="Romana"> Cercetare </tr>
+      </string>
+      <string key="Comert">
+        <tr lang="Romana"> Comert </tr>
+      </string>
+      <string key="Controlul Calitatii">
+        <tr lang="Romana"> Controlul Calitatii </tr>
+      </string>
+      <string key="Consultanta">
+        <tr lang="Romana"> Consultanta </tr>
+      </string>
+      <string key="Contabilitate">
+        <tr lang="Romana"> Contabilitate </tr>
+      </string>
+      <string key="Distributie">
+        <tr lang="Romana"> Distributie </tr>
+      </string>
+      <string key="Farmacii">
+        <tr lang="Romana"> Farmacii </tr>
+      </string>
+      <string key="Imobiliare">
+        <tr lang="Romana"> Imobiliare </tr>
+      </string>
+      <string key="Industria Alimentara">
+        <tr lang="Romana"> Industria Alimentara </tr>
+      </string>
+      <string key="IT">
+        <tr lang="Romana"> IT </tr>
+      </string>
+      <string key="IT Hardware">
+        <tr lang="Romana"> IT Hardware </tr>
+      </string>
+      <string key="IT Software">
+        <tr lang="Romana"> IT Software </tr>
+      </string>
+      <string key="Inginerie">
+        <tr lang="Romana"> Inginerie </tr>
+      </string>
+      <string key="Logistica">
+        <tr lang="Romana"> Logistica </tr>
+      </string>
+      <string key="Management">
+        <tr lang="Romana"> Management </tr>
+      </string>
+      <string key="Medical">
+        <tr lang="Romana"> Medical </tr>
+      </string>
+      <string key="Medicina Alternativa">
+        <tr lang="Romana"> Medicina Alternativa </tr>
+      </string>
+      <string key="Merceologie">
+        <tr lang="Romana"> Merceologie </tr>
+      </string>
+      <string key="Militar">
+        <tr lang="Romana"> Militar </tr>
+      </string>
+      <string key="Muzica">
+        <tr lang="Romana"> Muzica </tr>
+      </string>
+      <string key="Mobilier">
+        <tr lang="Romana"> Mobilier </tr>
+      </string>
+      <string key="Naval">
+        <tr lang="Romana"> Naval </tr>
+      </string>
+      <string key="Operatiuni Import-Export">
+        <tr lang="Romana"> Operatiuni Import-Export </tr>
+      </string>
+      <string key="Paza si Protectie">
+        <tr lang="Romana"> Paza si Protectie </tr>
+      </string>
+      <string key="Petrochimie">
+        <tr lang="Romana"> Petrochimie </tr>
+      </string>
+      <string key="Productie si Confectionare">
+        <tr lang="Romana"> Productie si Confectionare </tr>
+      </string>
+      <string key="Protectia Mediului">
+        <tr lang="Romana"> Protectia Mediului </tr>
+      </string>
+      <string key="Publicitate">
+        <tr lang="Romana"> Publicitate </tr>
+      </string>
+      <string key="Proiectare Industriala">
+        <tr lang="Romana"> Proiectare Industriala </tr>
+      </string>
+      <string key="Serviciu Clienti">
+        <tr lang="Romana"> Serviciu Clienti </tr>
+      </string>
+      <string key="Statistica">
+        <tr lang="Romana"> Statistica </tr>
+      </string>
+      <string key="Stiinte Politice">
+        <tr lang="Romana"> Stiinte Politice </tr>
+      </string>
+      <string key="Telecomunicatii">
+        <tr lang="Romana"> Telecomunicatii </tr>
+      </string>
+      <string key="Traduceri">
+        <tr lang="Romana"> Traduceri </tr>
+      </string>
+      <string key="Vanzari">
+        <tr lang="Romana"> Vanzari </tr>
+      </string>
+    </page>
+    <page key="Property_email_frequency">
+      <string key="Daily">
+        <tr lang="Romana"> Zilnic </tr>
+      </string>
+      <string key="Weekly">
+        <tr lang="Romana"> Saptamanal </tr>
+      </string>
+      <string key="Monthly">
+        <tr lang="Romana"> Lunar </tr>
+      </string>
+    </page>
+    <page key="Property_Country">
+      <string key="United States">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Afghanistan">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Albania">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Algeria">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="American Samoa">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Andorra">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Angola">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Anguilla">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Antarctica">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Antigua and Barbuda">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Argentina">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Armenia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Aruba">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Ascension Island">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Australia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Austria">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Azerbaijan">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Bahamas">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Bahrain">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Bangladesh">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Barbados">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Belarus">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Belgium">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Belize">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Benin">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Bermuda">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Bhutan">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Bolivia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Bosnia and Herzegovina">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Botswana">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Bouvet Island">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Brazil">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="British Indian Ocean Territory">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Brunei Darussalam">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Bulgaria">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Burkina Faso">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Burundi">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Cambodia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Cameroon">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Canada">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Cape Verde">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Cayman Islands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Central African Republic">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Chad">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Chile">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="China">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Christmas Island">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="CocoS (Keeling) Islands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Colombia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Comoros">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Democratic Republic of the Congo (Kinshasa)">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Congo, Republic of (Brazzaville)">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Cook Islands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Costa Rica">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Ivory Coast">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Croatia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Cuba">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Cyprus">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Czech Republic">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Denmark">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Djibouti">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Dominica">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Dominican Republic">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="East Timor Timor-Leste">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Ecuador">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Egypt">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="El Salvador">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Equatorial Guinea">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Eritrea">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Estonia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Ethiopia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Falkland Islands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Faroe Islands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Fiji">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Finland">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="France">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="French Guiana">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="French Metropolitan">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="French Polynesia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="French Southern Territories">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Gabon">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Gambia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Georgia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Germany">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Ghana">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Gibraltar">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Great Britain">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Greece">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Greenland">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Grenada">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Guadeloupe">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Guam">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Guatemala">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Guernsey">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Guinea">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Guinea-Bissau">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Guyana">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Haiti">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Heard and Mc Donald Islands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Holy See">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Honduras">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Hong Kong">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Hungary">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Iceland">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="India">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Indonesia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Iran (Islamic Republic of)">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Iraq">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Ireland">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Isle of Man">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Israel">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Italy">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Jamaica">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Japan">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Jersey">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Jordan">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Kazakhstan">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Kenya">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Kiribati">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Korea, Republic of (South Korea)">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Kuwait">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Kyrgyzstan">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Lao">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Latvia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Lebanon">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Lesotho">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Liberia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Libya">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Liechtenstein">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Lithuania">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Luxembourg">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Macau">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Macedonia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Madagascar">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Malawi">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Malaysia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Maldives">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Mali">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Malta">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Marshall Islands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Martinique">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Mauritania">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Mauritius">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Mayotte">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Mexico">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Micronesia, Federal States of">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Moldova, Republic of">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Monaco">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Mongolia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Montenegro">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Montserrat">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Morocco">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Mozambique">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Myanmar, Burma">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Namibia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Nauru">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Nepal">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Netherlands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Netherlands Antilles">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="New Caledonia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="New Zealand">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Nicaragua">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Niger">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Nigeria">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Niue">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Norfolk Island">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="North Korea">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Northern Mariana Islands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Norway">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Oman">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Pakistan">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Palau">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Palestinian National Authority">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Panama">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Papua New Guinea">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Paraguay">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Peru">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Philippines">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Pitcairn Island">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Poland">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Portugal">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Puerto Rico">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Qatar">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Reunion Island">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Romania">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Russian Federation">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Rwanda">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Saint Kitts and Nevis">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Saint Lucia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Saint Vincent and the Grenadines">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Samoa">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="San Marino">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Sao Tome and Prncipe">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Saudi Arabia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Senegal">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Serbia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Seychelles">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Sierra Leone">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Singapore">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Slovakia (Slovak Republic)">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Slovenia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Solomon Islands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Somalia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="South Africa">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="South Georgia and South Sandwich Islands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Spain">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Sri Lanka">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Saint Helena">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="St. Pierre and Miquelon">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Sudan">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Suriname">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Svalbard and Jan Mayen Islands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Swaziland">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Sweden">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Switzerland">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Syria, Syrian Arab Republic">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Taiwan (Republic of China)">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Tajikistan">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Tanzania">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Thailand">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Tibet">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Timor-Leste (East Timor)">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Togo">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Tokelau">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Tonga">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Trinidad and Tobago">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Tunisia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Turkey">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Turkmenistan">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Turks and Caicos Islands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Tuvalu">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Uganda">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Ukraine">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="United Arab Emirates">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="United Kingdom">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="U.S. Minor Outlying Islands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Uruguay">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Uzbekistan">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Vanuatu">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Vatican City State (Holy See)">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Venezuela">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Vietnam">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Virgin IslandS (British)">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Virgin IslandS (U.S.)">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Wallis and Futuna Islands">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Western Sahara">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Yemen">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Zaire">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Zambia">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Zimbabwe">
+        <tr lang="Romana">  </tr>
+      </string>
+      <string key="Sao Tome and Pr?ncipe">
+        <tr lang="Romana">  </tr>
+      </string>
+    </page>
+    <page key="Property_SalaryType">
+      <string key="per hour">
+        <tr lang="Romana"> pe ora </tr>
+      </string>
+      <string key="per week">
+        <tr lang="Romana"> pe saptamana </tr>
+      </string>
+      <string key="per month">
+        <tr lang="Romana"> pe luna </tr>
+      </string>
+      <string key="per year">
+        <tr lang="Romana"> pe an </tr>
+      </string>
+    </page>
+    <page key="Property_EmploymentType">
+      <string key="Full time">
+        <tr lang="Romana"> Full time </tr>
+      </string>
+      <string key="Part time">
+        <tr lang="Romana"> Part time </tr>
+      </string>
+      <string key="Contractor">
+        <tr lang="Romana"> Project-based </tr>
+      </string>
+      <string key="Intern">
+        <tr lang="Romana"> Practica/Voluntariat </tr>
+      </string>
+      <string key="Seasonal">
+        <tr lang="Romana"> Sezonier </tr>
+      </string>
+      <string key="De Acasa">
+        <tr lang="Romana"> De Acasa </tr>
+      </string>
+    </page>
+    <page key="Membership Plan">
+      <string key="Name">
+        <tr lang="Romana"> Nume </tr>
+      </string>
+      <string key="Description">
+        <tr lang="Romana"> Descriere </tr>
+      </string>
+      <string key="Price">
+        <tr lang="Romana"> Pret </tr>
+      </string>
+      <string key="Expiration Period">
+        <tr lang="Romana"> Perioada de valabilitate </tr>
+      </string>
+      <string key="Subscription Price">
+        <tr lang="Romana"> Pret Abonament </tr>
+      </string>
+    </page>
+    <page key="Property_status">
+      <string key="Pending">
+        <tr lang="Romana"> In asteptare </tr>
+      </string>
+      <string key="Failed">
+        <tr lang="Romana"> Esuat </tr>
+      </string>
+      <string key="Completed">
+        <tr lang="Romana"> Platit </tr>
+      </string>
+      <string key="Everyone">
+        <tr lang="Romana"> Toata lumea </tr>
+      </string>
+    </page>
+    <page key="Property_access_type">
+      <string key="Everyone">
+        <tr lang="Romana"> Toata lumea </tr>
+      </string>
+      <string key="No one">
+        <tr lang="Romana"> Nimeni </tr>
+      </string>
+      <string key="Only selected employers">
+        <tr lang="Romana"> Doar Angajatorii selectati </tr>
+      </string>
+      <string key="Everyone except selected employers">
+        <tr lang="Romana"> Toata lumea in afara de Angajatorii selectati </tr>
+      </string>
+    </page>
+    <page key="Property_JobType">
+      <string key="full time">
+        <tr lang="Romana"> full time </tr>
+      </string>
+      <string key="part time">
+        <tr lang="Romana"> part time </tr>
+      </string>
+      <string key="contractor">
+        <tr lang="Romana"> project-based </tr>
+      </string>
+      <string key="intern">
+        <tr lang="Romana"> practica/voluntariat </tr>
+      </string>
+      <string key="seasonal">
+        <tr lang="Romana"> sezonier </tr>
+      </string>
+      <string key="de acasa">
+        <tr lang="Romana"> de acasa </tr>
+      </string>
+    </page>
+    <page key="Property_DesiredSalaryType">
+      <string key="per month">
+        <tr lang="Romana"> pe luna </tr>
+      </string>
+      <string key="per year">
+        <tr lang="Romana"> pe an </tr>
+      </string>
+    </page>
+    <page key="Property_PostedWithin">
+      <string key="Posted Within">
+        <tr lang="Romana"> Joburi introduse </tr>
+      </string>
+      <string key="Last 30 days">
+        <tr lang="Romana"> Ultimele 30 de zile </tr>
+      </string>
+      <string key="Last 7 days">
+        <tr lang="Romana"> Ultimele 7 zile </tr>
+      </string>
+      <string key="Last 3 days">
+        <tr lang="Romana"> Ultimele 3 zile </tr>
+      </string>
+      <string key="Since Yesterday">
+        <tr lang="Romana"> De ieri </tr>
+      </string>
+    </page>
+    <page key="Property_testmultilist">
+    </page>
+    <page key="Property_test">
+    </page>
+    <page key="Property_billingCountry">
+    </page>
+    <page key="Property_billingState">
+    </page>
+    <page key="Property_ApplyNowBtnChoice">
+    </page>
+    <page key="Property_billingInformationCheckbox">
+    </page>
+    <page key="Property_1">
+    </page>
+  </pages>
+</translation2>

@@ -1,0 +1,80 @@
+{if $subject eq ''}
+    {breadcrumbs}Newsletter{/breadcrumbs}
+    {else}
+    {breadcrumbs}<a href="{$GLOBALS.site_url}/mailing/">Newsletter</a> &#187; Edit '{$subject}'{/breadcrumbs}
+{/if}
+
+<div id="massMailling">
+	<h1><img src="{image}/icons/mailstar32.png" border="0" alt="" class="titleicon"/>Newsletter</h1>
+	{if $is_data_submitted && !$errors}
+		<p class="message">[[Newsletter saved successfully]]</p>
+	{else if $is_test_run && !$errors}
+		<p class="message">[[Test Newsletter send successfully]]</p>
+	{else}
+		{foreach from=$errors key=error_code item=error_message}
+				<p class="error">
+					{if $error_code  eq 'SUBJECT_EMPTY'} [[Enter Subject]]
+					{/if}
+				</p>
+		{/foreach}
+	{/if}
+	
+	<form method="POST" enctype="multipart/form-data" action="{$GLOBALS.site_url}/newsletter/">
+	    <input type="hidden" id="submit" name="action_add" value="save" />
+		<input type="hidden" id="submit" name="newsletter_id" value="{$info.id}" />
+	    <table id="clear"  width="100%">
+	        <tr>
+	            <td>Subject:</td>
+				<td class="productInputReq">*</td>
+	            <td ><input type="text" name="subject" value="{$info.subject}" size="50"  /></td>
+	        </tr>
+			<tr>
+	            <td>Interval(In Days):</td>
+				<td></td>
+	            <td>
+					<select id="intervals" name="intervals">
+						{for $foo=0 to 30}
+							<option value="{$foo}" {if $info.intervals eq $foo} selected="selected"{/if}>{$foo}</option>
+						{/for}
+					</select>
+				</td>
+	        </tr>
+	        <tr>
+	            <td>Header:</td>
+				<td></td>
+				<td>{WYSIWYGEditor name="header" width="100%" height="200" value="{$info.header}" conf="BasicAdmin"}</td>
+	        </tr>
+			<tr>
+	            <td>Footer:</td>
+				<td></td>
+				<td>{WYSIWYGEditor name="footer" width="100%" height="200" value="{$info.footer}" conf="BasicAdmin"}</td>
+	        </tr>
+			<tr>
+	            <td>Last Mailing Date:</td>
+				<td></td>
+				<td>{$info.lastrun} (mm/dd/yyyy)</td>
+	        </tr>
+	        <tr>
+				<td></td>
+				<td></td>
+	        	<td style="float:left" >
+                    <div class="floatRight">
+                        <input type="submit" id="apply" name="save" value="Update" class="grayButton" />
+                    </div>
+                </td>
+	        </tr>
+			<tr>
+	            <td colspan="3"><br /></td>
+	        </tr>
+			<tr>
+	            <td colspan="3"><br /></td>
+	        </tr>
+			<tr>
+	            <td>Send Sample Email to Admin::</td>
+				<td></td>
+				<td><input type="submit" id="testrun" name="testrun" value="Preview Email" class="grayButton" /></td>
+	        </tr>
+	    </table>
+	</form>
+		
+</div>

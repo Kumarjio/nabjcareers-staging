@@ -1,0 +1,3975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE translation2 [
+<!ELEMENT translation2 (languages,pages)>
+<!ELEMENT languages (lang*)>
+<!ELEMENT lang (name?,meta?,error_text?,encoding?)>
+<!ATTLIST lang id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT meta (#PCDATA)>
+<!ELEMENT error_text (#PCDATA)>
+<!ELEMENT encoding (#PCDATA)>
+<!ELEMENT pages (page*)>
+<!ELEMENT page (string*)>
+<!ATTLIST page key CDATA #REQUIRED>
+<!ELEMENT string (tr*)>
+<!ATTLIST string key CDATA #REQUIRED>
+<!ELEMENT tr (#PCDATA)>
+<!ATTLIST tr lang IDREF #REQUIRED>
+]>
+
+<translation2>
+  <languages>
+    <lang id="">
+      <name></name>
+      <meta></meta>
+      <error_text></error_text>
+      <encoding> iso-8859-1 </encoding>
+    </lang>
+    <lang id="ko">
+      <name> 한국어 Korean </name>
+      <meta> a:8:{s:6:"active";s:1:"1";s:10:"is_default";b:0;s:5:"theme";N;s:11:"date_format";s:8:"%Y-%m-%d";s:17:"decimal_separator";s:0:"";s:19:"thousands_separator";s:1:",";s:8:"decimals";s:1:"0";s:11:"rightToLeft";s:1:"0";} </meta>
+      <error_text></error_text>
+      <encoding> utf-8 </encoding>
+    </lang>
+  </languages>
+  <pages>
+    <page key="PhrasesInTemplates">
+      <string key="Job Search">
+        <tr lang="ko"> 채용 정보 검색 </tr>
+      </string>
+      <string key="Find">
+        <tr lang="ko"> 찾기 </tr>
+      </string>
+      <string key="Advanced search">
+        <tr lang="ko"> 고급 검색 </tr>
+      </string>
+      <string key="Home">
+        <tr lang="ko"> 홈 </tr>
+      </string>
+      <string key="Register">
+        <tr lang="ko"> 레지스터 </tr>
+      </string>
+      <string key="Sign In">
+        <tr lang="ko"> 로그인 </tr>
+      </string>
+      <string key="My Account">
+        <tr lang="ko"> 내 계정 </tr>
+      </string>
+      <string key="Find Jobs">
+        <tr lang="ko"> 일자리를 찾으 </tr>
+      </string>
+      <string key="Post Resumes">
+        <tr lang="ko"> 게시물 이력서 </tr>
+      </string>
+      <string key="Search Resumes">
+        <tr lang="ko"> 검색 이력서 </tr>
+      </string>
+      <string key="Post Jobs">
+        <tr lang="ko"> 게시물 채용 정보 </tr>
+      </string>
+      <string key="Contact">
+        <tr lang="ko"> 연락처 </tr>
+      </string>
+      <string key="Choose language">
+        <tr lang="ko"> 언어를 선택하십시오 </tr>
+      </string>
+      <string key="Jobs by Category">
+        <tr lang="ko"> 분류별 채용 정보 </tr>
+      </string>
+      <string key="Jobs by City">
+        <tr lang="ko"> 시가 채용 정보 </tr>
+      </string>
+      <string key="Featured Jobs">
+        <tr lang="ko"> 주요 채용 정보 </tr>
+      </string>
+      <string key="Employers">
+        <tr lang="ko"> 고용주 </tr>
+      </string>
+      <string key="Post a job">
+        <tr lang="ko"> 게시물 직업 </tr>
+      </string>
+      <string key="Search resumes">
+        <tr lang="ko"> 검색 이력서 </tr>
+      </string>
+      <string key="Job Seekers">
+        <tr lang="ko"> 구직자 </tr>
+      </string>
+      <string key="Post resumes">
+        <tr lang="ko"> 포스트 이력서 </tr>
+      </string>
+      <string key="Find jobs">
+        <tr lang="ko"> 일자리를 찾으 </tr>
+      </string>
+      <string key="RSS Feed">
+        <tr lang="ko"> RSS 피드 </tr>
+      </string>
+      <string key="Latest Jobs">
+        <tr lang="ko"> 최신 채용 정보 </tr>
+      </string>
+      <string key="powered by">
+        <tr lang="ko"> 에 의해 구동 </tr>
+      </string>
+      <string key="Keep me signed in">
+        <tr lang="ko"> 계속 날 로그인 </tr>
+      </string>
+      <string key="Login">
+        <tr lang="ko"> 로그인 </tr>
+      </string>
+      <string key="Forgot Your Password?">
+        <tr lang="ko"> 암호를 잊으셨습니까? </tr>
+      </string>
+      <string key="Registration">
+        <tr lang="ko"> 등록 </tr>
+      </string>
+      <string key="Salutation First and Last Name">
+        <tr lang="ko"> 인사말 이름 및 성 </tr>
+      </string>
+      <string key="Email">
+        <tr lang="ko"> 이메일 보내기 </tr>
+      </string>
+      <string key="Comments">
+        <tr lang="ko"> 댓글 </tr>
+      </string>
+      <string key="Submit">
+        <tr lang="ko"> 제출 </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we\&apos;ll send you a link to a page where you can change your password">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Please select the appropriate user group">
+        <tr lang="ko"> 적절한 사용자 그룹을 선택하십시오 </tr>
+      </string>
+      <string key="Confirm Password">
+        <tr lang="ko"> 비밀 번호 확인 </tr>
+      </string>
+      <string key="You have successfully registered in our site">
+        <tr lang="ko"> 당신은 성공적으로 저희 사이트에 등록되어있다 </tr>
+      </string>
+      <string key="Add a New Listing">
+        <tr lang="ko"> 새 목록 추가 </tr>
+      </string>
+      <string key="You specified wrong username">
+        <tr lang="ko"> 잘못된 사용자 이름 </tr>
+      </string>
+      <string key="The system cannot proceed as Listing ID not specified">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Invalid payment ID is specified">
+        <tr lang="ko"> 잘못된 결제 확인 </tr>
+      </string>
+      <string key="No such user">
+        <tr lang="ko"> 해당 사용자 </tr>
+      </string>
+      <string key="Search">
+        <tr lang="ko"> 검색 </tr>
+      </string>
+      <string key="No logged in user found">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="My Jobs">
+        <tr lang="ko"> 나의 채용 정보 </tr>
+      </string>
+      <string key="My Profile">
+        <tr lang="ko"> 내 프로필 </tr>
+      </string>
+      <string key="Saved Searches">
+        <tr lang="ko"> 저장된 검색 </tr>
+      </string>
+      <string key="Saved Listings">
+        <tr lang="ko"> 저장된 목록 </tr>
+      </string>
+      <string key="Subscriptions">
+        <tr lang="ko"> 구독 정보 </tr>
+      </string>
+      <string key="My Notifications">
+        <tr lang="ko"> 내 알림 </tr>
+      </string>
+      <string key="Billing History">
+        <tr lang="ko"> 결제 내역 </tr>
+      </string>
+      <string key="Logout">
+        <tr lang="ko"> 로그아웃 </tr>
+      </string>
+      <string key="My Listings">
+        <tr lang="ko"> 내 목록 </tr>
+      </string>
+      <string key="Filter">
+        <tr lang="ko"> 필터 </tr>
+      </string>
+      <string key="Choose subscription">
+        <tr lang="ko"> 구독 선택 </tr>
+      </string>
+      <string key="unlimited">
+        <tr lang="ko"> 무제한 </tr>
+      </string>
+      <string key="Next">
+        <tr lang="ko"> 다음 </tr>
+      </string>
+      <string key="Edit Listing">
+        <tr lang="ko"> 목록 수정 </tr>
+      </string>
+      <string key="Edit Pictures">
+        <tr lang="ko"> 사진 편집 </tr>
+      </string>
+      <string key="Upgrade to Featured">
+        <tr lang="ko"> 로 업그레 이드 기능 </tr>
+      </string>
+      <string key="You have successfully changed your membership plan">
+        <tr lang="ko"> 당신은 성공적으로 귀하의 회원 계획을 변경 </tr>
+      </string>
+      <string key="You have already subscribed">
+        <tr lang="ko"> 넌 이미 가입한 </tr>
+      </string>
+      <string key="You do not have permissions to post  listings.">
+        <tr lang="ko"> 당신이 목록을 업로드할 수있는 권한이 없습니다. </tr>
+      </string>
+      <string key="No listings found.">
+        <tr lang="ko"> 목록을 찾을 수 없음 </tr>
+      </string>
+      <string key="Listing ID is not defined">
+        <tr lang="ko"> 목록 식별이 정의되지 않았습니다 </tr>
+      </string>
+      <string key="Save">
+        <tr lang="ko"> 저장 </tr>
+      </string>
+      <string key="image format is not supported">
+        <tr lang="ko"> 이미지 형식은 지원되지 않습니다 </tr>
+      </string>
+      <string key="You have successfully changed your profile info!">
+        <tr lang="ko"> 당신은 성공적으로 귀하의 프로필 정보를 변경! </tr>
+      </string>
+      <string key="Delete">
+        <tr lang="ko"> 삭제 </tr>
+      </string>
+      <string key="File deleted successfully">
+        <tr lang="ko"> 파일이 성공적으로 삭제되었습니다 </tr>
+      </string>
+      <string key="Back to edit profile">
+        <tr lang="ko"> 위로 프로필을 편집하려면 </tr>
+      </string>
+      <string key="You have not saved any searches yet.">
+        <tr lang="ko"> 당신은 아직 어떤 검색을 저장하지 않았습니다. </tr>
+      </string>
+      <string key="ID">
+        <tr lang="ko"> 신분증 </tr>
+      </string>
+      <string key="Period">
+        <tr lang="ko"> 기간 </tr>
+      </string>
+      <string key="State">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="from">
+        <tr lang="ko"> 부터 </tr>
+      </string>
+      <string key="to">
+        <tr lang="ko"> 에 </tr>
+      </string>
+      <string key="Date">
+        <tr lang="ko"> 날짜 </tr>
+      </string>
+      <string key="Description">
+        <tr lang="ko"> 설명 </tr>
+      </string>
+      <string key="Amount">
+        <tr lang="ko"> 양 </tr>
+      </string>
+      <string key="Action">
+        <tr lang="ko"> 액션 </tr>
+      </string>
+      <string key="Total Amount">
+        <tr lang="ko"> 총액 </tr>
+      </string>
+      <string key="There are no saved listings">
+        <tr lang="ko"> 아무 목록이 저장됩니다 </tr>
+      </string>
+      <string key="Notify on Listing Activation">
+        <tr lang="ko"> 목록 활성화에 통보 </tr>
+      </string>
+      <string key="Notify on Listing Expiration">
+        <tr lang="ko"> 목록 만료에 통보 </tr>
+      </string>
+      <string key="Notify on Contract Expiration">
+        <tr lang="ko"> 계약이 만료되면 알림 </tr>
+      </string>
+      <string key="Modify search">
+        <tr lang="ko"> 수정 검색 </tr>
+      </string>
+      <string key="Save this search">
+        <tr lang="ko"> 이 검색 결과를 저장 </tr>
+      </string>
+      <string key="Saved jobs">
+        <tr lang="ko"> 저장된 작업 </tr>
+      </string>
+      <string key="Saved searches">
+        <tr lang="ko"> 저장된 검색 </tr>
+      </string>
+      <string key="Results: {$listings_number} Jobs">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Number of jobs per page">
+        <tr lang="ko"> 페이 지당 작업의 개수 </tr>
+      </string>
+      <string key="Previous">
+        <tr lang="ko"> 이전 </tr>
+      </string>
+      <string key="Save Your Search">
+        <tr lang="ko"> 귀하의 검색 결과를 저장 </tr>
+      </string>
+      <string key="Search Name">
+        <tr lang="ko"> 검색 이름 </tr>
+      </string>
+      <string key="Your search has been saved.">
+        <tr lang="ko"> 검색이 저장되었습니다. </tr>
+      </string>
+      <string key="You may close this window now.">
+        <tr lang="ko"> 이제이 창을 닫으 할 수 있습니다 </tr>
+      </string>
+      <string key="Save ad">
+        <tr lang="ko"> 광고를 저장 </tr>
+      </string>
+      <string key="View job details">
+        <tr lang="ko"> 작업 세부 정보를 볼 </tr>
+      </string>
+      <string key="Rate this job">
+        <tr lang="ko"> 평가 일 </tr>
+      </string>
+      <string key="Please, Vote!">
+        <tr lang="ko"> 투표하세요 </tr>
+      </string>
+      <string key="Watch a video">
+        <tr lang="ko"> 동영상을 감상 </tr>
+      </string>
+      <string key="Save this Job">
+        <tr lang="ko"> 이 직업을 저장 </tr>
+      </string>
+      <string key="View Saved Jobs">
+        <tr lang="ko"> 저장된 작업을보고 </tr>
+      </string>
+      <string key="Tell a Friend">
+        <tr lang="ko"> 친구에게 알리기 </tr>
+      </string>
+      <string key="Print This Ad">
+        <tr lang="ko"> 이 광고를 인쇄 </tr>
+      </string>
+      <string key="View Map">
+        <tr lang="ko"> 지도보기 </tr>
+      </string>
+      <string key="Back to Results">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Modify Search">
+        <tr lang="ko"> 검색을 수정 </tr>
+      </string>
+      <string key="Rate This Job">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="User Info">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="All jobs by this company">
+        <tr lang="ko"> 이 회사 전체 채용 정보 </tr>
+      </string>
+      <string key="Video">
+        <tr lang="ko"> 비디오 </tr>
+      </string>
+      <string key="Photos">
+        <tr lang="ko"> 사진 </tr>
+      </string>
+      <string key="Apply now">
+        <tr lang="ko"> 지금 신청하세요 </tr>
+      </string>
+      <string key="Location">
+        <tr lang="ko"> 위치 </tr>
+      </string>
+      <string key="Please, wait ...">
+        <tr lang="ko"> 기다려주십시오 ... </tr>
+      </string>
+      <string key="Add your comment">
+        <tr lang="ko"> 댓글을 추가 </tr>
+      </string>
+      <string key="Add">
+        <tr lang="ko"> 추가하기 </tr>
+      </string>
+      <string key="Listing has been saved">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="View details">
+        <tr lang="ko"> 세부 정보보기 </tr>
+      </string>
+      <string key="Recommend listing with ID">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your name">
+        <tr lang="ko"> 귀하의 이름 </tr>
+      </string>
+      <string key="Your friend\&apos;s name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your friend\&apos;s e-mail address">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your comment (will be send with the recomendation)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Send">
+        <tr lang="ko"> 보내기 </tr>
+      </string>
+      <string key="Cannot send letter">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Company Info">
+        <tr lang="ko"> 회사 정보 </tr>
+      </string>
+      <string key="You\&apos;ve already voted">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Author">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your e-mail">
+        <tr lang="ko"> 귀하의 이메일 </tr>
+      </string>
+      <string key="Your request">
+        <tr lang="ko"> 귀하의 요청 </tr>
+      </string>
+      <string key="Attach your resume">
+        <tr lang="ko"> 당신의 이력서 첨부 </tr>
+      </string>
+      <string key="Cannot send your message">
+        <tr lang="ko"> 메시지를 보낼 수 없습니다 </tr>
+      </string>
+      <string key="You do not have permissions to post Resume listings.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Results: {$listings_number} Resumes">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Number of resumes per page">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Enter Your Ad Information">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Add Pictures">
+        <tr lang="ko"> 추가 사진 </tr>
+      </string>
+      <string key="is empty">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="could not convert video file">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="is unknown">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Manage Listing">
+        <tr lang="ko"> 목록 관리 </tr>
+      </string>
+      <string key="Preview Listing">
+        <tr lang="ko"> 미리보기 목록 </tr>
+      </string>
+      <string key="Manage Listing Pictures">
+        <tr lang="ko"> 목록 사진 관리 </tr>
+      </string>
+      <string key="Go to Manage Listing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Add Picture">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Caption">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Thumbnail">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Actions">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Are you sure?">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Edit Picture">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Picture">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Please specify a valid email address.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Please provide your full name.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Please include your comments.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Thank you very much for your message. We will respond to you as soon as possible.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Invalid password">
+        <tr lang="ko"> 잘못된 비밀 번호 </tr>
+      </string>
+      <string key="Login error">
+        <tr lang="ko"> 잘못된 사용자 이름 및 / 또는 암호 </tr>
+      </string>
+      <string key="Browse by category">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="There are no listings with requested parameters in the system.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Browse by city">
+        <tr lang="ko"> 도시 찾아보기 </tr>
+      </string>
+      <string key="My Resumes">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Saved Jobs">
+        <tr lang="ko"> 저장된 작업 </tr>
+      </string>
+      <string key="Job Alerts">
+        <tr lang="ko"> 작업 알림 </tr>
+      </string>
+      <string key="Jobs by {$companyName}">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="$select_box_field_distance of Zip $input_text_field_location">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="$input_text_field_from to $input_text_field_to">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="not confirmed">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="this value is already used in the system">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Check all">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Uncheck all">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Actions with Selected">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Number of listings per page">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Rating">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Deactivate">
+        <tr lang="ko"> 비활성화 </tr>
+      </string>
+      <string key="Activate">
+        <tr lang="ko"> 활성화 </tr>
+      </string>
+      <string key="Your listing is successfully activated">
+        <tr lang="ko"> 귀하의 목록이 성공적으로 활성화됩니다 </tr>
+      </string>
+      <string key="Back to My Listings">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sort by">
+        <tr lang="ko"> 정렬 </tr>
+      </string>
+      <string key="Edit">
+        <tr lang="ko"> 수정 </tr>
+      </string>
+      <string key="View Details">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Enable Auto notify">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Disable Auto notify">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Results: $listings_number Jobs">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Jobs by $companyName">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Results: $listings_number Resumes">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Rate this resume">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="View resume details">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="All resumes by this user">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Rate This Resume">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="View Saved Resumes">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Save this Resume">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Resumes by $firstName $lastName">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Select a Package">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="is not an integer value">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="You&apos;ve got a limit of the allowed number of picture">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="limit exceeded">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="You don&apos;t have permissions to access this page.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Resume search is accessible only for subscribed Employers.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your friend&apos;s name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your friend&apos;s e-mail address">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Dear customer!">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for &lt;b&gt;$product_info_name&lt;/b&gt;.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Please choose from the following payment methods:">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Wire Transfer">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for $item_name&lt;br /&gt;Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you!">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="There is no listing in the system with the specified ID">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Anonymous User Info">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Welcome">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you!">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Please log in to access this page. If you do not have an account, please">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Featured Companies">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Get resumes by email">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Get jobs by email">
+        <tr lang="ko"> 이메일로 작업을 해 </tr>
+      </string>
+      <string key="Please use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Confirm E-mail">
+        <tr lang="ko"> 확인 이메일 </tr>
+      </string>
+      <string key="Reload Image">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Accept terms of use">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Read terms of use">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Resume Alerts">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Application Tracking">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Resume Alert Name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Add new resume alert">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Disable">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Preview Search Results">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Add resume alert">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Alert Name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Date Applied">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Status">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Attached Resume">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Applicant’s Name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="User comments">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="View Attached File">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Jobs Search Results">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Save this Search / Job Alert">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Company Profile">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sign in">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="You have no listings now. Click">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="here">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="to add a new listing.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Fields marked with an asterisk (">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key=") are mandatory">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Please log in to place a listing. If you do not have an account, please">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="within $radius $radius_search_unit of $location">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="kilometers">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Apply to job">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Cover letter (optional)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Please">
+        <tr lang="ko"> 하시기 바랍니다 </tr>
+      </string>
+      <string key="sign in ">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="to add comments!">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="You applied successfully">
+        <tr lang="ko"> 당신이 성공적으로 적용 </tr>
+      </string>
+      <string key="Please log in to place a new posting. If you do not have an account, please">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Register.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Search by Company">
+        <tr lang="ko"> 회사로 검색 </tr>
+      </string>
+      <string key="Clone">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="My Job Preview">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Click to select">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Redirect to this URL">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Use the following format:">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your changes were successfully saved">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Manage Pictures">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Clone this job posting">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Clone Job">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Company">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="My Applications">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Select your resume">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Enter Job Information">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="My Postings">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Private messages">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Inbox">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Outbox">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Edit Saved Search">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Saved Searches Name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Notify on My Jobs Expiration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Notify on My Contract Expiration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Notify on new private message">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Cover Letter">
+        <tr lang="ko"> 자기 소개서 </tr>
+      </string>
+      <string key="My Billings">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Compose Message">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="From">
+        <tr lang="ko"> 부터 </tr>
+      </string>
+      <string key="Subject">
+        <tr lang="ko"> 제목 </tr>
+      </string>
+      <string key="To">
+        <tr lang="ko"> 에 </tr>
+      </string>
+      <string key="Message to">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Message">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Save to outbox">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Send private message">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="You are logged in already">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="You&apos;re not allowed to open this page">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Send Private Message">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Save this Search / Resume Alert">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Resume has been saved">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Contact User">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Send applications online via web site">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Notify on My Resumes Approve Or Reject">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Notify on My Resumes Expiration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Job Alert Name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Add new job alert">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Jobs Applied">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Enter Your Resume Information">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Company name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Company Search Results">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Results: $usersCount Company">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Number of company per page">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Mark as Read">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Message from">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Read Private Message">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Reply">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Approve selected">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Reject selected">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Pending">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Approved">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Rejected">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Select Job Posting">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="All Jobs">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Delete profile">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Back">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Enable">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="E-mail frequency">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="You have">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="jobs left to post out of">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="resumes left to post out of">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="originally available">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="You&apos;re currently subscribed to">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="plan.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Subscription date">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Subscription expiration date">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="s left to post out of">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="To change your current subscription please chose new plan below.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="job">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Not Available Anymore">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="home">
+        <tr lang="ko"> 홈 </tr>
+      </string>
+      <string key="Search job title only">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Edit notes">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Add notes">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Close">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="My notes">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Search resume title only">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Search by title">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Match exact phrase">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Match all words">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Match any words">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Boolean">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="   Boolean search description">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Please choose new subscription plan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="You&apos;ve reached the limit of number of listings allowed by your plan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Boolean search descripion">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Search title only">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Terms of use">
+        <tr lang="ko"> 이용 약관 </tr>
+      </string>
+      <string key="Test URL">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Go Search">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Applicant’s resume">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Total">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Boolean search description">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Employers List">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Selected Emloyers">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="* Use CTRL key to select two or more employers">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Loading">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Currency">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Deselect all">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="You can not subscribe to this plan twice">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="No avaiable subscriptions">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Please choose exl or csv file">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="You specified wrong email">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your username is">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Recurring">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="You are going to sign up for a recurring Subscription. Once in $product_info_subscription_period days period a charge in the amount of $product_info_price will automatically be placed on your credit card to renew your subscription.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your recurring subscription to the &quot;$cancelMembershipPlanName&quot; plan has been canceled.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your payment was successfully completed. Recurring Subscription activation may take some time. Once subscription is activated it will appear in the table below.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Notify on My Jobs Activation">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Notify on My Resumes Activation">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="jobs">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="resumes">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="currently online">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Post jobs">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Blog Posts">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="You are currently logged in as">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="News">
+        <tr lang="ko"> 뉴스 </tr>
+      </string>
+      <string key="Sub Accounts">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Saved Resumes">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Screening Questionnaires">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Bulk job import from exl/csv file">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your listing succesfully upgraded to featured">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Listing is already featured">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Current Search">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Refine Results">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="show brief">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="show detailed">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Post Job">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Send applications to this e-mail">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Score">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Not passed">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Actions With Selected">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Create New Questionnaire">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Send Auto-Reply email to candidates whose score is">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Question">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Answer Type">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Questions">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Edit Questionnaire">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Edit Questions">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Order">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Required">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="My account">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="No">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Yes">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Add Answer">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Complete">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Username">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sub-user Profile">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Permissions">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Add new listings">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Manage listings and applications of other sub users">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="View and update subscription">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="years">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Save this Search">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Save Resume Alert">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Resume Search Results">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Saved resumes">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Data Import">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Please review the file examples below and ascertain that your file is up to sample">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Job import EXL file example">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Job import CSV file example">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="View All News">
+        <tr lang="ko"> 모두보기 뉴스 </tr>
+      </string>
+      <string key="read more">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Text">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Yes/No">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="List of answers with multiple choice">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="List of answers with single choice">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Errors">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Order Information">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Invoice Number">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Credit Card Information">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Card Number">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="enter number without spaces or dashes">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Expiration Date">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="mmyy">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Billing Information">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Reset">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Anonymous User">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="News Categories">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Powered by">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="About Us">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sitemap">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="message">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Edit Profile">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Notify on My Subscriptions Expiration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Notify on New Private Messages">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Notify on My Subscriptions Activation">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Remind about My Subscriptions expiration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Remind about My Listings expiration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Days before">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Subscription name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Subscription expiration / Renewal Date">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Never Expire">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Free">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Save Job Alert">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Flag This Job">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your comment (will be send with the recommendation)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="1. General Information">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="2. Education">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Fill in the fields below to provide Employers with a general information about yourself&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="3. Work Experience">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your education. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your work experience. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Listing Owner">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Post a Job">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Enter Security code">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="file not specified">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Security code is not valid">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your Job below&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="View Questionaire">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="View Questionnaire">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Answer">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sub-users">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Create New Account">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Edit sub-user">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sub-user">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sub-user registration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Fax">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Cancel">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Answers">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Questions of">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="No of jobs">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Please, enter your email in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Flag This Resume">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Рowered by">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="There was an error while sending your application.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Passed">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your IP address was banned by site administrator. Please contact at $adminEmail for any questions.">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Cash Payment">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="FormFieldCaptions">
+      <string key="Keywords">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="State">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Category">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="City">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Username">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Password">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="User name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="E-mail">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="First Name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Last Name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Country">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Address">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Zip Code">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Phone Number">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Company Name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Contact Name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Web Site">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Zip code">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Logo">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Search Within">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Salary">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Salary Type">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Employment Type">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="ID">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Activation Date">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Title">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Company">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Web">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Job Views">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Job ID">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Job Category">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Job Description">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Job Requirements">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Job Type">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Desired Salary">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Video">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Experience">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Resumes ID">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Email">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Objective">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Work Experience">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Resumes Views">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Total Years Experience">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Education">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Skills">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Resume">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Don&apos;t send mailings">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Number of Views">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Occupations">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Company Description">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Anonymous Resume">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Application Settings">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Applications">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Resume ID">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Approval Status">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Resume Visible To">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Location">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Screening Questionnaire">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Passing Score">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="equal or more than passing score">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="less than passing score">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Email text to candidates whose score is equal or more than passing score">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Email text to candidates whose score is less than passing score">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Entrance Date">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Institution Name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Major">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Degree Level">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Start Date">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="End Date">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Industry">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Description">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Graduation Date">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="Miscellaneous">
+      <string key="Any">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Select">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Any Distance">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Within">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="miles">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="10 days">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="20 days">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="30 days">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Priority Ad">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your posting will be shown above the average search results and will be marked by different background color">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="30 days priority resume">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Your Resume will be shown above the average search results and will be marked by different background color">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="Property_Occupations">
+      <string key="Accounting-Finance">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Bookkeeping">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Claims Review and Adjusting">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Collections">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Corporate Accounting">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Corporate Finance">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Credit Review-Analysis">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Financial Analysis-Research-Reporting">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Financial Control">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Financial Planning-Advising">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Financial Products Sales-Brokerage">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Fund Accounting">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Accounting-Finance">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Investment Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Policy Underwriting">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Real Estate Appraisal">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Real Estate Leasing-Acquisition">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Risk Management-Compliance">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Securities Analysis-Research">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Tax Accounting">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Tax Assessment and Collections">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Administrative-Clerical">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Administrative Support">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Claims Processing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Data Entry-Order Processing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Executive Support">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Filing-Records Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Administrative-Clerical">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Office Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Property Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Reception-Switchboard">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Secretary-Executive Assistant">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Transcription">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Banking-Mortgage Professionals">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Bank Teller">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Credit Manager">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Escrow Officer-Manager">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Loan Officer-Originator">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Mortgage Broker">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Store-Branch Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Title Officer-Closer">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Underwriter">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Biotech-R&amp;D-Science">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Biological-Chemical Research">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Clinical Research">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Environmental-Geological Testing &amp; Analysis">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: R&amp;D-Science">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Materials-Physical Research ">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Mathematical-Statistical Research">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="New Product R&amp;D">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Pharmaceutical Research">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Building Construction">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="CAD-Drafting">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Carpentry-Framing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Concrete and Masonry">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Electrician">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Flooring-Tiling-Painting-Wallpapering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Construction-Skilled Trades">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Heavy Equipment Operation">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="HVAC">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Ironwork-Metal Fabrication">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Plumbing-Pipefitting">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Roofing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sheetrock-Plastering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Site Superintendent">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Surveying">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Business-Strategic Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Business Analysis-Research">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Business Unit Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Franchise-Business Ownership">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Business-Strategic Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Hospital-Clinic Administration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Hotel-Lodging Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Managerial Consulting">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Mergers and Acquisitions">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="President-Top Executive">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Public Health Administration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Restaurant Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="School-College Administration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Strategic Planning-Intelligence">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Town-City Planning">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Creative-Design">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Advertising Writing (Creative)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Architecture-Interior Design">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Computer Animation &amp; Multimedia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Creative Direction-Lead">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Fashion &amp; Accessories Design">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Creative-Design">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Graphic Arts-Illustration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Industrial Design">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Photography and Videography">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Web-UI-UX Design">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Customer Support">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Account Management (Non-Commissioned)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Call Center">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Customer Training">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Flight Attendant">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Customer Support-Client Care">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Hair Cutting-Styling">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Reservations-Ticketing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Retail Customer Service">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Technical Customer Service">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Editorial Writing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Digital Content Development">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Documentation-Technical Writing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Editing &amp; Proofreading">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Editorial-Writing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Journalism">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Translation-Interpretation">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Education">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Classroom Teaching">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Continuing-Adult ">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Corporate Development and Training">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Early Childhood Care &amp; Development">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Elementary School">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Fitness &amp; Sports Training-Instruction">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Training-Instruction">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Junior-High School">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Software-Web Training">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Special Education">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="University ">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Aeronautic-Avionic Engineering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Bio-Engineering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Chemical Engineering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Civil &amp; Structural Engineering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Electrical-Electronics Engineering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Energy-Nuclear Engineering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Environmental and Geological Engineering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Engineering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Industrial-Manufacturing Engineering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Mechanical Engineering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Naval Architecture-Marine Engineering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="RF-Wireless Engineering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Systems-Process Engineering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Food Services-Hospitality">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Food &amp; Beverage Serving">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Food Preparation-Cooking">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Front Desk-Reception">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Food Services">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Guest Services-Concierge">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Guide (Tour) ">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Host-Hostess">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Wine Steward (Sommelier)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Academic Admissions and Advising">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Compensation-Benefits Policy">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Diversity Management-EEO-Compliance">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Human Resources">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="HR Systems Administration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Payroll and Benefits Administration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Recruiting-Sourcing ">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Installation-Maintenance-Repair">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Computer-Electronics-Telecomm Install-Maintain-Repair">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Equipment Install-Maintain-Repair">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Facilities Management-Maintenance">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Installation-Maintenance-Repair">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Janitorial &amp; Cleaning ">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Landscaping">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Locksmith">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Oil Rig &amp; Pipeline Install-Maintain-Repair">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Vehicle Repair and Maintenance">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Wire and Cable Install-Maintain-Repair">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="IT-Software Development">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Computer-Network Security">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Database Development-Administration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Desktop Service and Support">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Enterprise Software Implementation &amp; Consulting">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: IT-Software Development">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="IT Project Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Network and Server Administration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Software-System Architecture">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Software-Web Development">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Systems Analysis - IT">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Telecommunications Administration-Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Usability-Information Architecture">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Attorney">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Contracts Administration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Legal">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Labor &amp; Employment Law">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Paralegal &amp; Legal Secretary">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Patent-IP Law">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Real Estate Law">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Regulatory-Compliance Law">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Tax Law">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Logistics-Transportation">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Car, Van and Bus Driving">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Cargo and Baggage Handling">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Cost Estimating">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Equipment-Forklift-Crane Operation">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Logistics-Transportation">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Hazardous Materials Handling">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Import-Export Administration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Inventory Planning and Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Merchandise Planning and Buying">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Messenger-Courier">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Piloting: Air and Marine">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Purchasing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Shipping and Receiving-Warehousing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Supplier Management-Vendor Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Train or Rail Operator">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Truck Driving">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Vehicle Dispatch, Routing and Scheduling">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Manufacturing-Production">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Assembly-Assembly Line">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Audio-Video Broadcast &amp; Postproduction">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Equipment Operations">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Production-Operations">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Laundry and Dry-Cleaning Operations">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Layout, Prepress, Printing, &amp; Binding Operations">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Machining-CNC">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Metal Fabrication and Welding ">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Moldmaking-Casting">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Operations-Plant Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Production-Operations Planning">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Scientific-Technical Production">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sewing and Tailoring">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Waste Pick-up and Removal">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Marketing-Product">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Brand-Product Marketing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Copy Writing-Editing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Direct Marketing (CRM)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Events-Promotional Marketing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Marketing-Product">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Investor and Public-Media Relations">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Market Research">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Marketing Communications">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Marketing Production-Traffic">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Media Planning and Buying">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Product Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Telemarketing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Visual-Display Merchandising">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Medical-Health">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Dental Assistant-Hygienist">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Dental Practitioner">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="EMT-Paramedic">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Medical-Health">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Healthcare Aid">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Laboratory-Pathology">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Medical Imaging">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Medical Practitioner">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Medical Therapy-Rehab Services">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Mental Health">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Nursing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Nutrition and Diet">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Optical">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Pharmacy">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Physicians Assistant-Nurse Practitioner">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Social Service">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sports Medicine">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Veterinary-Animal Care">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Other">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Career Fair">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Work at Home">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Project-Program Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Event Planning-Coordination">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Project-Program Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Program Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Project Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Quality Assurance-Safety">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Building-Construction Inspection">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Environmental Protection-Conservation">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Food Safety and Inspection">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Fraud Investigation">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Quality Assurance-Safety">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="ISO Certification">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Occupational Health and Safety">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Production Quality Assurance">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Six Sigma-Black Belt-TQM">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Software Quality Assurance">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Vehicle Inspection">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Real Estate Agent-Broker">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sales-Retail">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Account Management Commissioned">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Business Development-New Accounts">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Field Sales">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Fundraising">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Sales-Business Development">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Insurance Agent-Broker">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="International Sales">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Media and Advertising Sales">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Retail-Counter Sales and Cashier">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sales Support-Assistance">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Technical Presales Support &amp; Technical Sales">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Telesales">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Travel Agent-Ticket Sales">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Wholesale-Reselling Sales">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Security-Protective Services">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Airport Security and Screening">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Correctional Officer">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Customs-Immigration">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Firefighting and Rescue">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General-Other: Security-Protective Services">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Military Combat">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Police-Law Enforcement">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Security Guard">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Security Intelligence &amp; Analysis">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Store Security-Loss Prevention">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="Property_State">
+      <string key="Alabama">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Alaska">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Alberta">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Arizona">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Arkansas">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="British Columbia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="California">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Colorado">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Connecticut">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Delaware">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="District of Columbia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Florida">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Georgia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Guam">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Hawaii">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Idaho">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Illinois">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Indiana">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Iowa">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Kansas">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Kentucky">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Louisiana">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Maine">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Manitoba">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Maryland">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Massachusetts">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Michigan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Minnesota">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Mississippi">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Missouri">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Montana">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Nebraska">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Nevada">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="New Hampshire">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="New Jersey">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="New Mexico">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="New York">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="North Carolina">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="North Dakota">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Ohio">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Oklahoma">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Ontario">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Oregon">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Pennsylvania">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Puerto Rico">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Rhode Island">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="South Carolina">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="South Dakota">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Tennessee">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Texas">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Utah">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Vermont">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Virgin Islands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Virginia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Washington">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="West Virginia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Wisconsin">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Wyoming">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Outside US">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="Property_JobCategory">
+      <string key="Accounting">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Admin-Clerical">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Automotive">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Banking">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Biotech">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Business Development">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Construction">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Consultant">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Customer Service">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Design">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Distribution-Shipping">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Education">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Entry Level">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Executive">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Facilities">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Finance">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Franchise">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General Business">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="General Labor">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Government">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Grocery">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Health Care">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Hospitality-Hotel">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Information Technology">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Installation-Maint-Repair">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Insurance">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Inventory">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Management">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Manufacturing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Marketing">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Media-Journalism">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Nonprofit-Social Services">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Nurse">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Other">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Pharmaceutical">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Professional Services">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Purchasing-Procurement">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="QA-Quality Control">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Research">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Restaurant-Food Service">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Retail">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sales">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Science">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Skilled Labor">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Strategy-Planning">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Supply Chain">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Telecommunications">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Training">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Transportation">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Veterinary Services">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Warehouse">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="Property_email_frequency">
+      <string key="Daily">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Weekly">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Monthly">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="Property_Country">
+      <string key="United States">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Afghanistan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Albania">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Algeria">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="American Samoa">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Andorra">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Angola">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Anguilla">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Antarctica">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Antigua and Barbuda">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Argentina">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Armenia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Aruba">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Ascension Island">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Australia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Austria">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Azerbaijan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Bahamas">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Bahrain">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Bangladesh">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Barbados">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Belarus">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Belgium">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Belize">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Benin">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Bermuda">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Bhutan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Bolivia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Bosnia and Herzegovina">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Botswana">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Bouvet Island">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Brazil">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="British Indian Ocean Territory">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Brunei Darussalam">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Bulgaria">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Burkina Faso">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Burundi">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Cambodia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Cameroon">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Canada">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Cape Verde">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Cayman Islands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Central African Republic">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Chad">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Chile">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="China">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Christmas Island">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="CocoS (Keeling) Islands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Colombia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Comoros">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Democratic Republic of the Congo (Kinshasa)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Congo, Republic of (Brazzaville)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Cook Islands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Costa Rica">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Ivory Coast">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Croatia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Cuba">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Cyprus">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Czech Republic">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Denmark">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Djibouti">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Dominica">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Dominican Republic">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="East Timor Timor-Leste">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Ecuador">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Egypt">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="El Salvador">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Equatorial Guinea">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Eritrea">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Estonia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Ethiopia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Falkland Islands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Faroe Islands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Fiji">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Finland">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="France">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="French Guiana">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="French Metropolitan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="French Polynesia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="French Southern Territories">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Gabon">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Gambia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Georgia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Germany">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Ghana">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Gibraltar">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Great Britain">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Greece">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Greenland">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Grenada">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Guadeloupe">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Guam">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Guatemala">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Guernsey">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Guinea">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Guinea-Bissau">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Guyana">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Haiti">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Heard and Mc Donald Islands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Holy See">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Honduras">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Hong Kong">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Hungary">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Iceland">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="India">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Indonesia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Iran (Islamic Republic of)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Iraq">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Ireland">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Isle of Man">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Israel">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Italy">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Jamaica">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Japan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Jersey">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Jordan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Kazakhstan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Kenya">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Kiribati">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Korea, Republic of (South Korea)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Kuwait">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Kyrgyzstan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Lao">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Latvia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Lebanon">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Lesotho">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Liberia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Libya">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Liechtenstein">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Lithuania">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Luxembourg">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Macau">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Macedonia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Madagascar">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Malawi">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Malaysia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Maldives">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Mali">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Malta">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Marshall Islands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Martinique">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Mauritania">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Mauritius">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Mayotte">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Mexico">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Micronesia, Federal States of">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Moldova, Republic of">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Monaco">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Mongolia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Montenegro">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Montserrat">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Morocco">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Mozambique">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Myanmar, Burma">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Namibia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Nauru">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Nepal">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Netherlands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Netherlands Antilles">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="New Caledonia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="New Zealand">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Nicaragua">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Niger">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Nigeria">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Niue">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Norfolk Island">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="North Korea">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Northern Mariana Islands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Norway">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Oman">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Pakistan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Palau">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Palestinian National Authority">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Panama">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Papua New Guinea">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Paraguay">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Peru">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Philippines">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Pitcairn Island">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Poland">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Portugal">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Puerto Rico">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Qatar">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Reunion Island">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Romania">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Russian Federation">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Rwanda">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Saint Kitts and Nevis">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Saint Lucia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Saint Vincent and the Grenadines">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Samoa">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="San Marino">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sao Tome and Prncipe">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Saudi Arabia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Senegal">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Serbia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Seychelles">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sierra Leone">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Singapore">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Slovakia (Slovak Republic)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Slovenia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Solomon Islands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Somalia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="South Africa">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="South Georgia and South Sandwich Islands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Spain">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sri Lanka">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Saint Helena">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="St. Pierre and Miquelon">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sudan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Suriname">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Svalbard and Jan Mayen Islands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Swaziland">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sweden">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Switzerland">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Syria, Syrian Arab Republic">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Taiwan (Republic of China)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Tajikistan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Tanzania">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Thailand">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Tibet">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Timor-Leste (East Timor)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Togo">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Tokelau">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Tonga">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Trinidad and Tobago">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Tunisia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Turkey">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Turkmenistan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Turks and Caicos Islands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Tuvalu">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Uganda">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Ukraine">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="United Arab Emirates">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="United Kingdom">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="U.S. Minor Outlying Islands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Uruguay">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Uzbekistan">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Vanuatu">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Vatican City State (Holy See)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Venezuela">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Vietnam">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Virgin IslandS (British)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Virgin IslandS (U.S.)">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Wallis and Futuna Islands">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Western Sahara">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Yemen">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Zaire">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Zambia">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Zimbabwe">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Sao Tome and Pr?ncipe">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="Property_SalaryType">
+      <string key="per hour">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="per week">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="per month">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="per year">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="Property_EmploymentType">
+      <string key="Full time">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Part time">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Contractor">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Intern">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Seasonal">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="Membership Plan">
+      <string key="Name">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Description">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Price">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Expiration Period">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Subscription Price">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="Property_status">
+      <string key="Pending">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Failed">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Completed">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Everyone">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="Property_access_type">
+      <string key="Everyone">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="No one">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Only selected employers">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Everyone except selected employers">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="Property_JobType">
+      <string key="full time">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="part time">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="contractor">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="intern">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="seasonal">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="Property_DesiredSalaryType">
+      <string key="per month">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="per year">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="Property_PostedWithin">
+      <string key="Posted Within">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Last 30 days">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Last 7 days">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Last 3 days">
+        <tr lang="ko">  </tr>
+      </string>
+      <string key="Since Yesterday">
+        <tr lang="ko">  </tr>
+      </string>
+    </page>
+    <page key="Property_testmultilist">
+    </page>
+    <page key="Property_test">
+    </page>
+    <page key="Property_billingCountry">
+    </page>
+    <page key="Property_billingState">
+    </page>
+    <page key="Property_ApplyNowBtnChoice">
+    </page>
+    <page key="Property_billingInformationCheckbox">
+    </page>
+    <page key="Property_1">
+    </page>
+  </pages>
+</translation2>

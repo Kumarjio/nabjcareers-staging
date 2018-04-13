@@ -1,0 +1,245 @@
+/* 1: BASIC ELEMENTS */
+a,a:active,a:visited
+{
+	color:#ce6e19;
+	text-decoration:none;
+}
+a:hover
+{
+	color:#333;
+	text-decoration:none;
+}
+a img
+{
+	border:none;
+}
+
+body
+{
+	background-color:#ffffff;
+}
+body, td, th, input, select, textarea
+{
+	color:#333;
+	font-family:Arial,Helvetica,sans-serif;
+}
+body, td, th
+{
+	font-size:12px;
+}
+td {
+	padding:5px;
+}
+
+form
+{
+	margin:0px 0px 0px 0px;
+}
+
+p
+{
+	margin:0px 0px 15px 0px;
+}
+
+h1, h2, h3
+{
+	font-weight:bold;
+	margin:0px 0px 15px 0px;
+}
+
+h1
+{
+	font-size:18pt;
+}
+h2
+{
+	font-size:17pt;
+}
+h3
+{
+	font-size:16pt;
+}
+
+input, select, textarea
+{
+	border-width:1px;
+	font-size:100%;
+}
+
+input
+{
+	font-weight:normal;
+	margin-bottom:0px;
+	padding:2px 2px 1px 2px;
+}
+
+select
+{
+	width:100%;
+}
+
+/* 1: END */
+
+/* 2. SPECIAL PURPOSE AND TEMPLATE CLASSES */
+.DotNetPager
+{
+	font-weight:bold;
+}
+.DotNetPager a
+{
+	font-weight:normal;
+	text-decoration:underline;
+}
+.DotNetPager td
+{
+	padding-top:15px;
+}
+
+.FormTable1 td, th
+{
+	padding:5px 6px 5px 0px;
+	text-align:left;
+}
+.FormTable1 td label,
+.FormTable1 th label
+{
+	font-weight:bold;
+}
+
+.PhotoMatte
+{
+	text-align:center;
+}
+.PhotoMatte img
+{
+	border:solid 1px Black;
+}
+
+.ViewTable1 textarea
+{
+	width:100%;
+}
+
+.ViewTable1 td, th
+{
+	padding:5px 6px 5px 0px;
+	text-align:left;
+}
+
+.ViewTable1 th
+{
+	border-bottom:solid 1px Black;
+}
+
+.ViewTable1 tr.noVpad td
+{
+	padding-bottom:0px;
+	padding-top:0px
+}
+
+/* 2: END */
+
+/* 3. GENERAL CLASSES AND OVERRIDES */
+.break,
+.bigbreak,
+.minibreak
+{
+	clear:both;
+}
+.break
+{
+	height:15px;
+}
+.bigbreak
+{
+	height:23px;
+}
+.minibreak
+{
+	height:8px;
+}
+
+.deemphasize
+{
+	color:#555555;
+}
+
+.formbutton
+{
+	background-color:#990000;
+	color:White;
+	width:auto;
+}
+
+.infobox
+{
+	color:Black;
+	background:#ffffcc;
+	border:dashed 1px #FFDE00;
+	padding:10px;
+}
+
+.noborder
+{
+	border:none;
+}
+
+.nobreak
+{
+	display:inline;
+	margin:0px 0px 0px 0px;
+}
+
+.pager
+{
+	text-align:left;
+}
+
+.redalert
+{
+	color:#cc0000;
+}
+
+.white
+{
+	color:White;
+}
+/* 3: END */
+
+/* 4. COMMON DOCUMENT OBJECTS */
+#Header
+{
+	background:#f1f1f1;
+	color:#333;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#Footer
+{
+	border-bottom:solid 1px Black;
+	border-top:solid 1px Black;
+	padding:3px;
+}
+
+#FormErrors ul
+{
+	margin:5px;
+	padding-left:15px;
+}
+
+#MainArea
+{
+	padding:10px 3px 20px 3px;
+	vertical-align:top;
+}
+
+#TopNav
+{
+	border-bottom:solid 1px Black;
+	padding:3px;
+}
+/* 4: END */

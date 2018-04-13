@@ -1,0 +1,2849 @@
+body {
+	padding: 0px; margin:0px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #1e1e1e;
+}
+
+/*=======================INCLUDE FONT=======================*/
+@font-face {
+	font-family: MPro;
+	src: url("my.eot") /* EOT file for IE */
+}
+@font-face {
+	font-family: MPro;
+	src: url("my.ttf") /* TTF file for CSS3 browsers */
+}
+/*==========================================================*/
+
+input {background: url(bgselect.png) repeat-x;}
+input[type="text"] {
+	border:1px solid #C6C6C6;
+	width:313px;
+}
+select {background: url(bgselect.png) repeat-x;}
+
+.clr {clear: both;}
+fieldset {border: 0px; margin: 2px 0 2px 0; padding: 2px 0 2px 0;}
+a {color: #1e1e1e; text-decoration: underline;}
+a:hover {color: #008aff;}
+h1 {
+	border-bottom: 1px dotted black;
+	text-transform: uppercase;
+	color: #373737;
+	font-size: 16px; font-family: Myriad Pro,MPro,Tahoma; font-weight: normal;
+	height: 39px;
+	line-height: 40px;
+}
+h2 {
+	color: #373737;
+	font-size: 17px;
+	margin: 2px;
+}
+h3 {
+	color: #9F9F9F;
+	font-size: 17px;
+	margin: 0;
+}
+.MainDiv {
+	width: 980px;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+#mainRss {
+	background: url(rss.png) no-repeat left;
+	padding: 2px 0 0 20px;		margin: 0 0 2px;
+	float: right;
+	color: #e16400;
+	text-decoration: none;
+	font-weight: bold;
+}
+#separator {
+	border-top: 1px solid #e2e1e1;
+	margin: 50px 0 10px 0;
+}
+#shareThis {
+	clear: both;
+	margin: 0 0 5px 0; padding: 15px 0 5px 0;
+}
+
+/*==== HEADER PAGE ========*/
+#langSwitcherForm {
+	margin: 0;
+	clear: both;
+}
+.headerPage {
+	background-image: url(header.png); background-repeat: no-repeat; background-position: center;
+	width: 100%; height: 107px;
+}
+.userMenu {
+	float: right;
+	margin: 20px 10px 0 0;
+	display: block;
+	text-transform: lowercase; text-align: right;
+}
+.logo {
+	float:left;
+	display: block;
+	margin-top: 20px;
+}
+.Language {
+	float:left;
+	display: block;
+	margin: 5px 0 0 30px;
+}
+/*==== END HEADER PAGE ====*/
+
+
+
+/*==== TOP MENU ========*/
+.topMenu {
+	background: url(topMenu.png) repeat-x; background-position: bottom;
+	width: 100%; height: 42px;
+	display: block;
+}
+.bottomMenu {
+	width: 100%; height: 42px;
+	display: block;
+	text-align: center;
+	font-size: 11px;
+	margin: 20px 0;
+	text-transform: lowercase;
+}
+.bottomMenu a {padding: 0 5px;}
+.leftTopMenu {
+	background: url(leftMenu.png) no-repeat;
+	width: 3px; height: 38px;
+	display: block;
+	float: left;
+	margin: 4px 0 0 0;
+}
+.rightTopMenu {
+	background: url(rightMenu.png) no-repeat;
+	width: 3px; height: 38px;
+	display: block;
+	float: right;
+	margin: 4px 0 0 0;
+}
+.topMenu ul{list-style-type: none; margin: 0px; padding: 0px; line-height: 42px;}
+.topMenu li {float: left;}
+.topMenu li a {
+	color: white;
+	text-decoration: none; text-transform: uppercase;
+	font-size: 13px; font-family: Myriad Pro,MPro,Tahoma;
+	padding: 0 15px;
+	display: block;
+}
+.topMenu li a:hover {
+	background: url(hoverMenu.png) repeat-x;
+	color: white;
+	text-decoration: none; text-transform: uppercase;
+	font-size: 13px; font-family: Myriad Pro,MPro,Tahoma;
+	padding: 0 15px;
+}
+
+li.sep {
+	background: url(menuSep.png) no-repeat;
+	width: 2px; height: 38px;
+	margin: 4px 0 0 0;
+}
+/*==== END TOP MENU ====*/
+
+
+
+/*==== COLUMNS ========*/
+.leftColumn, .rightColumn, .mainColumn {
+	display: block;
+	float: left;
+	position: relative;
+	overflow: hidden;	
+}
+.mainColumn {width: 573px; margin: 0 20px 0 20px;}
+.leftColumn {width: 173px;}
+.rightColumn {width: 193px;}
+.indexDiv {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	margin: 0 0 15px 0;
+}
+/*==== END COLUMNS ====*/
+
+
+
+/*==== LOGIN FORM ========*/
+.loginFormTop {
+	background: url(loginTop.png) no-repeat;
+	color: white;
+	display: block;
+	font-family: Myriad Pro,MPro,Tahoma; font-size: 15px;
+	width: 173px; height: 30px;
+	line-height: 30px;
+	padding: 0 0 0 5px;
+	text-transform: uppercase;
+}
+.loginFormBg {
+	border-left: 1px solid #fccea1;
+	border-right: 1px solid #fccea1;
+	background: #f6f6f6;
+	width: 161px;
+	display: block;
+	color: #565342;
+	font-size: 11px;
+	padding: 0 5px;
+}
+#buttonLogin {
+	background: url(loginButton.png) no-repeat;
+	width: 34px; height: 22px;
+	display: inline-block; float: right;
+	border: 0px;
+	color: white;
+}
+.loginFormBottom {
+	background: url(loginBottom.png) no-repeat;
+	width: 173px; height: 5px;
+	display: block;
+}
+/*==== END LOGIN FORM ====*/
+
+
+/*==== BROWSE BY ========*/
+/*
+ul.browseListing {
+	margin: 0px; padding: 0px;
+	list-style-type: none;
+}
+.browseListing a {
+	background: url(arrowCicle.png) no-repeat;
+	background-position: left center;
+	margin: 0; padding: 5px 0 0 15px;
+	display: block;
+}
+.browseListing a:hover {
+	background: url(arrowCicleBlue.png) no-repeat;
+	background-position: left center;
+	margin: 0; padding: 5px 0 0 15px;
+	display: block;
+}
+*/
+/*==== END BROWSE BY ====*/
+
+
+
+/* */
+/*==== BROWSE BY ========*/
+ul.browseListing {
+	margin: 0px; padding: 0px;
+	list-style-type: none;
+}
+.browseListing a {
+	background: url(arrowCicleTest.png) no-repeat;
+	background-position: left center;
+	margin: 8px 0 0 0; padding: 0px 0 0 16px;
+	display: block;
+}
+.browseListing a:hover {
+	background: url(bgarrowTest.png) no-repeat;
+	background-position: left center;
+	margin: 8px 0 0 0; padding: 0 0 0 16px;
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+/*==== END BROWSE BY ====*/
+/* */
+
+
+
+/*==== H1 ICONS ========*/
+h1.Companies {
+	background: url(companiesIco.png) no-repeat; background-position: right center;
+	border-bottom: 1px dotted black;
+	text-transform: uppercase;
+	color: #373737;
+	font-size: 16px; font-family: Myriad Pro,MPro,Tahoma; font-weight: normal;
+	height: 39px;
+	line-height: 18px;
+	padding: 0 46px 0 0;
+}
+
+h1.Category {
+	background: url(categoryIco.png) no-repeat; background-position: right center;
+	border-bottom: 1px dotted black;
+	text-transform: uppercase;
+	color: #373737;
+	font-size: 16px; font-family: Myriad Pro,MPro,Tahoma; font-weight: normal;
+	height: 39px;
+	line-height: 18px;
+	padding: 0 46px 0 0;
+}
+
+h1.City {
+	background: url(cityIco.png) no-repeat; background-position: right center;
+	border-bottom: 1px dotted black;
+	text-transform: uppercase;
+	color: #373737;
+	font-size: 16px; font-family: Myriad Pro,MPro,Tahoma; font-weight: normal;
+	height: 39px;
+	line-height: 18px;
+	padding: 0 46px 0 0;
+}
+
+.Results {
+	background: url(searchIco.png) no-repeat; background-position: right center;
+	border-bottom: 1px dotted black;
+	text-transform: uppercase;
+	color: #373737;
+	font-size: 16px; font-family: Myriad Pro,MPro,Tahoma; font-weight: normal;
+	height: 39px;
+	line-height: 18px;
+	padding: 0 11px 0 0
+}
+/*==== END H1 ICONS ====*/
+
+
+/*==== QUICK SEARCH ========*/
+.quickSearchTop {
+	background: url(quickSearchTop.png) repeat-x;
+	width: 100%; height: 31px;
+	display: block;
+	float: left;
+	color: white;
+	font-family: Myriad Pro,MPro,Tahoma; font-size: 18px;
+	line-height: 30px;
+	padding: 0 0 0 5px;
+	text-transform: uppercase;
+}
+.quickSearch {
+	background: url(quickSearch.png) #f5f5f5 no-repeat; background-position: right bottom;
+	border-left: 1px solid #b7b7b7;
+	border-right: 1px solid #b7b7b7;
+	width: 551px;
+	clear: both;
+	padding: 5px 10px 10px;
+}
+.quickSearchBottom {
+	background: url(quickSearchDown.png) repeat-x;
+	width: 100%; height: 5px;
+	display: block;
+}
+.quickSearch select {width:135px;}
+.quickSearch input {width:130px;}
+.quickSearch h1 {
+	color: white;
+	font-size:19px; font-weight:bold;
+	margin: 13px 0 0 15px;
+}
+.quickSearch fieldset {
+	border: 0px;
+	margin: 8px 3px 0 20px; padding: 0px;
+	color: #383838;
+}
+.quickSearchInputName {
+	width: 170px;
+	display: block;
+	float: left;
+}
+.quickSearchInputField {
+	width: 170px;
+	display: block;
+	float: left;
+}
+.quickSearchInputField a {
+	color: white;
+	font-size: 11px;
+}
+/*==== END QUICK SEARCH ====*/
+
+
+/* STATISTICS */
+.InputStat {
+	display: block;
+	float: right;
+	font-style: italic;
+	text-align: right;
+	margin: 0 0 5px 0;
+}
+.InputStat strong {
+	color: #373737;
+}
+/* END STATISTICS */
+
+
+/*==== FEATURED COMPANIES ====*/
+.FeaturedCompanies {
+	display: block;
+	float: left;	
+}
+.FeaturedCompanies h1 {
+	color: #3E7B08;
+	font-size: 14pt;
+	margin: 0 0 0 5px; 
+}
+.FeaturedCompaniesLogo {
+	width: 100%;
+	display: block;	float: left;
+	text-align: center;
+	margin: 3px;	padding: 10px 0;
+	border-bottom: 1px dotted #CCCCCC;
+}
+/*==== END FEATURED COMPANIES ====*/
+
+
+/*==== FEATURED JOBS ========*/
+.featuredJobsTop {
+	background: url(featuredJobsTop.png) repeat-x;
+	width: 100%; height: 31px;
+	display: block;
+	float: left;
+	color: white;
+	font-family: Myriad Pro,MPro,Tahoma; font-size: 18px;
+	line-height: 30px;
+	padding: 0 0 0 5px;
+	text-transform: uppercase;
+}
+.featuredJobs {
+	border-left: 1px solid #b7b7b7;
+	border-right: 1px solid #b7b7b7;
+	width: 571px;
+	clear: both;
+	padding: 10px 0;
+}
+
+.featuredJobsBottom {
+	background: url(featuredJobsDown.png) repeat-x;
+	width: 100%; height: 5px;
+}
+/*==== END FEATURED JOBS ====*/
+
+
+
+/* START Blog posts
+******************************************************************/
+.blogTop {
+	background: url(blogTop.png) repeat-x;
+	width: 100%; height: 31px;
+	display: block;
+	float: left;
+	color: white;
+	font-family: Myriad Pro,MPro,Tahoma; font-size: 18px;
+	line-height: 30px;
+	padding: 0 0 0 5px;
+	text-transform: uppercase;
+}
+.blogPost {
+	overflow: hidden;
+	padding: 3px 10px;
+	line-height: 15px;
+}
+a.blogLink {
+	color: black;
+	font-weight: bold; font-size: 13px;
+	text-decoration: none;
+}
+.blogDate {
+	float: right;
+	color: #4c4c4c;
+	font-weight: bold; font-size: 11px;
+}
+#blogPosts {
+	background: url(blogPosts.png) no-repeat;
+	width: 155px; height: 37px;
+	color: white;
+	font-size: 16px; font-weight: bold;
+	padding: 8px 0 0 10px;
+}
+/* END ***********************************************************/
+
+
+/*==== LATEST JOBS ========*/
+.latestJobsTop {
+	background: url(latestJobsTop.png) repeat-x;
+	width: 100%; height: 31px;
+	float: left;
+	color: white;
+	font-family: Myriad Pro,MPro,Tahoma; font-size: 18px;
+	line-height: 30px;
+	padding: 0 0 0 5px;
+	text-transform: uppercase;
+}
+.latestJobs {
+	border-left: 1px solid #b7b7b7;
+	border-right: 1px solid #b7b7b7;
+	width: 571px;
+	clear: both;
+	padding: 10px 0;
+}
+.latestJobsBottom {
+	background: url(latestJobsDown.png) repeat-x;
+	width: 100%; height: 5px;
+	display: block;
+}
+/*==== END LATEST JOBS ====*/
+
+
+.indexResultsTable {
+	color: black;
+	text-align: left;
+	color: black;
+}
+
+.indexResultsTable tr > th {color: black;}
+.indexResultsTable a:link {
+	color: black;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.indexResultsTable td > a {
+	color: black;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.indexResultsTable a:hover {color: #008aff;}
+
+
+
+/*==== JOB SEEKER AND EMPLOYER BLOCK ========*/
+.JobSeekerBlock {
+	width: 283px;
+	display: block;
+	float: left;
+}
+.EmployerBlock {
+	width: 283px;
+	display: block;
+	float: right;
+}
+
+
+.JobSeekerBlockTop, .EmployerBlockTop {
+	display: block;
+	width: 280px; height: 28px;
+	padding: 0 0 0 3px;
+	color: white;
+	font-family: Myriad Pro,MPro,Tahoma; font-size: 18px;
+	line-height: 28px;
+	text-transform: uppercase;
+		
+}
+.JobSeekerBlockTop {
+	background: url(jsTop.png) no-repeat;
+	float: left;
+}
+.EmployerBlockTop {
+	background: url(empTop.png) no-repeat;
+	float: right;
+}
+
+
+.JobSeekerBlockBg {
+	background: url(jobseeker.png) #f5f5f5 no-repeat;
+	background-position: bottom right;
+	border-left: 1px solid #7a7466;
+	border-right: 1px solid #7a7466;
+	width: 281px;
+	clear: both;
+}
+.EmployerBlockBg {
+	background: url(employer.png) #f4f2ed no-repeat;
+	background-position: bottom right;
+	border-left: 1px solid #4d4635;
+	border-right: 1px solid #4d4635;
+	width: 281px;
+	clear: both;
+}
+.JobSeekerBlockBg p, .EmployerBlockBg p {margin: 0px; padding: 10px 0 0 10px;}
+.JobSeekerBlockBg p a, .EmployerBlockBg p a {padding: 0 0 0 10px;}
+.JobSeekerBlockBg p a:hover, .EmployerBlockBg p a:hover {
+	background: url(arrow-blue.png) no-repeat;
+	background-position: left;
+}
+
+
+.JobSeekerBlockBottom, .EmployerBlockBottom {
+	width: 283px; height: 5px;
+	display: block;
+}
+.JobSeekerBlockBottom {
+	background: url(jsBottom.png) no-repeat;
+	float: left;
+}
+.EmployerBlockBottom {
+	background: url(empBottom.png) no-repeat;
+	float: right;
+}
+/*==== END JOB SEEKER AND EMPLOYER BLOCK ====*/
+
+
+
+/*==== FOOTER BLOCK ========*/
+.Footer {
+	background: #373737;
+	width: 100%; 
+	height: 60px;
+	display: block;
+	line-height: 45px;
+	color: #9b9b9b;
+	text-align: center;
+}
+.Footer a {color: #9B9B9B;}
+
+.Footer img 
+{
+	padding-top: 5px;
+	padding-right: 10px;
+}
+.Footer a:hover {text-decoration: none;}
+
+
+
+.footertext {
+	position: relative;
+	padding-bottom: 10px;
+	
+}
+
+
+/*==== END FOOTER BLOCK ====*/
+
+
+
+/*==== FIELDS ========*/
+.logInNameInput {width: 160px!important;}
+.logInPassInput {width: 115px !important; float: left;}
+.logInPassInput2 {width: 160px !important;}
+.inputFieldLogin, .inputNameLogin, .inputName, .inputField, .inputReq, .inputNameBig, .inputFieldSmall {
+	display: block;
+	float: left;
+}
+.inputNameLogin {width: 50px;}
+.inputFieldLogin {width: 160px;}
+.inputName {width: 20%;}
+
+.inputNameApplicationForm {
+	width: 50%;
+}
+
+.applyNowBlock div { 
+	float:left;
+}
+
+
+.inputNameBig {width: 20%;}
+/*.inputField {width: 83%;}*/
+#messageBox .inputField {text-align: right;}
+.inputFieldSmall {width: 78%;}
+.inputReq {width: 2%; color: red;}
+input.captcha {
+	width: 118px;
+	margin: 5px 0 0 0;
+}
+/*==== END FIELDS ====*/
+
+
+
+/*==== BROWSE COMPANY ========*/
+.bcName, .bcField, .bcFieldSmall { 
+	display: block;
+	float: left;
+}
+.bcName {width: 12%;}
+.bcField {width: 40%;}
+.bcFieldSmall {width: 20%;}
+.SearchResultsCompany .evenrow, .SearchResultsCompany .oddrow {height:30px;}
+.compLogo {background: white;}
+.compLogo, .compLogo img {height: 40px;}
+/*==== END BROWSE COMPANY ====*/
+
+
+
+/*==== DISPLAY JOB ====*/
+.userInfo, .listingInfo {
+	display: block;
+	float: left;	
+}
+.userInfo {width: 285px; background: #eeeeee;}
+.listingInfo {
+	width: 680px;
+	margin: 0 0 0 10px;
+	color: #4F4F4F;
+	float: right;
+}
+.smallListingInfo {
+	width: 50%;
+	display: block;
+	float: left;
+	margin: 5px 0 0 0;
+}
+
+.listingManage {
+	width: 270px; 
+}
+
+
+
+.smallListingInfo strong {color: #4F4F4F;}
+
+/*==== END DISPLAY JOB ====*/
+
+
+
+/* Viewed */
+.Viewed a:link {
+color:black;
+font-size:0px;
+visibility: hidden;
+}
+.Viewed a:visited {
+color:black;
+float:left;
+font-size:12px;
+font-style:italic;
+margin-right:5px;
+text-decoration:none;
+}
+/* END Viewed */
+
+
+/*==== MY ACCOUNT ========*/
+.MyAccountHead h1 {
+	color: #373737;
+	font-size: 20pt;
+	padding: 20px 0 0 0;
+}
+.leftColumnMA {
+	width: 250px;
+	padding: 0 0 0 50px;
+	display: block; float:left;
+	margin: 10px;
+}
+.rightColumnMA {
+	width: 240px;
+	padding: 0 0 0 10px;
+	display: block; float:left;
+	margin: 10px;
+}
+.leftColumnMA ul, .rightColumnMA ul {
+	list-style-type: none;
+	margin: 0px; padding: 0px;
+}
+.leftColumnMA li, .rightColumnMA li {margin: 10px 0; padding: 0px;}
+.PMMenu {
+	font-size:12px;
+	margin: 3px 0 0 87px;
+}
+/*==== END MY ACCOUNT ====*/
+
+
+p.SearchResultsMenu {
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	float: left;
+	margin-right:25px;
+}
+
+p.SearchResultsMenu a {
+	color:green;
+}
+
+
+.searchResultsHeaderLineNew {	
+	background-image:url(upmenu.png);
+	background-repeat:no-repeat;
+	height:35px;
+	padding-top:5px;
+	width:980px;
+}
+
+.searchResultsHeaderLineMenu a:link
+{	
+	color:#0a4c79;
+	font-weight:bold;
+	padding-right:15px;
+}
+
+.searchResultsHeaderLineMenu a:visited
+{
+	color:#0a4c79;
+	font-weight:bold;
+	padding-right:15px;
+}
+
+.searchResultsHeaderLineMenu
+{
+	padding-left: 10px;
+	padding-top: 5px;	
+}
+
+.jobAlert
+{
+	font-weight: bold;
+	font-size:13px;	
+}
+
+form
+{
+	margin:0px;
+	padding:0px;
+}
+a img
+{
+	border:none;
+}
+.clear_both
+{
+	position:relative;
+	clear:both;
+	height:1px;
+	margin:0px;
+	padding:0px;
+	font-size:1px;
+}
+
+.comment {
+	font-size:12px;
+	font-weight:bold;
+	color: #373737;
+	padding: 0px; margin: 0 0 5px 0;
+}
+
+/* ######################################################################### */	
+
+.MainSearchTable {
+	background-image: url("main-search-left-bg.png");
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:250px;
+	}
+
+
+.FooterTable {
+	font-size:13px;
+	font-family:Arial;
+	color:white;
+	background-image: url("down-bg.png");
+	}
+
+.JobsPanelHeader {
+	color:#03406a;
+	font-size:17px;
+	font-weight:bold;
+	font-family:Arial;
+	padding-left:10px;
+	}
+
+table.formdisplay {}
+table.form 
+{
+	border: #cccccc 1px solid;
+}
+td.mainleft 
+{
+	border-right: steelblue 1px solid; 
+	padding-right: 4px;
+}
+
+td.caption 
+{
+	font-weight: bold;
+}
+table.top 
+{
+	font-weight: bold; font-size: 50px; color: steelblue; border-bottom: steelblue 1px inset; text-align: center;
+}
+table.topmembermenu {}
+a.topmembermenuitem 
+{
+	font-weight: bold; color: navy; text-decoration: underline;
+}
+a.topmembermenuitem:hover 
+{
+	color: red; text-decoration: none;
+}
+.newsblock a.title, .newsblock a.title:link
+{
+	font-weight: bold; color: black; text-decoration: underline
+}
+.newsblock a.title:hover 
+{
+	font-weight: bold; color: black; text-decoration: none
+}
+.newsblock .short 
+{
+	font-size: 10px;
+}
+
+tr.unactive 
+{
+	background-color: #ffaadd;
+}
+td.title 
+{
+	font-weight: bold; width: 100%; color: ghostwhite; background-color: steelblue;
+}
+td.head 
+{
+	font-weight: bold; font-size: 130%; color: white; background-color: #c7c4e2; text-align: left;
+}
+td.menu_items 
+{
+	font-weight: normal;
+}
+td.menu_sub_items 
+{
+	font-weight: normal;
+}
+.formgroupcaption 
+{
+	font-weight: bold; color: #c00; text-decoration: underline;
+}
+input.button, input[type="submit"], input[type="reset"], input[type="button"] {
+	background: url(button.png) no-repeat;
+	width: 115px; height: 26px;
+	text-decoration: none; text-transform: uppercase;
+	font-size: 13px; font-family: Myriad Pro,MPro,Tahoma; font-weight: normal;
+	color: white;
+	border: 0;
+	cursor:hand;
+}
+input.paymentButton {
+	background: url(long-button.png) no-repeat;
+	width: 150px; height: 26px;
+	text-decoration: none; text-transform: uppercase;
+	font-size: 13px; font-family: Myriad Pro,MPro,Tahoma; font-weight: normal;
+	color: white;
+	border: 0;
+	cursor:hand;
+}
+input.buttonApply {
+	background: url(buttonApply.png) no-repeat;
+	width: 115px; height: 26px;
+	text-decoration: none; text-transform: uppercase;
+	font-size: 13px; font-family: Myriad Pro,MPro,Tahoma; font-weight: normal;
+	color: white;
+	border: 0;
+	cursor:hand;
+}
+
+.delete-button
+{
+	background: url("button.png");
+	width: 106px;
+	height: 20px;
+	color: white;
+	border-style: none;
+	font-weight: bold;
+	cursor:hand;
+	font-size:12px;
+	font-family:Arial;	
+}
+
+input.text, input.digit, textarea.text, select.list 
+{
+	font-size: 12px; font-family: tahoma; 
+	background-color: white;
+	border:1px solid #B3B3B3;
+}
+input.text 
+{
+	width: 150px; 
+}
+input.digit 
+{
+	width: 50px;
+}
+textarea.text 
+{
+	width: 400px;
+	height:200px;
+}
+select.list
+{
+	width: 150px;
+}
+input.treechangebutton 
+{
+	font-size: 10px; border:1px solid #b95454; font-family: verdana;
+}
+
+table.formrequest, table.forminput
+{
+	width: 100%;
+}
+table.featured 
+{
+	font-size: 10px;
+}
+table.featured_block 
+{
+	width: 100%; 
+} 
+
+.carreviews a.title, .carreviews a.title:link
+{
+	font-weight: bold; color: black; text-decoration: underline
+}
+.carreviews a.title:hover 
+{
+	font-weight: bold; color: black; text-decoration: none
+}
+.carreviews .short , .userprofile
+{
+	font-size: 10px;
+}
+.userprofile 
+{
+	font-size: 10px; border: #cccccc 1px solid;
+}
+.userprofile table 
+{
+	font-size: 10px; border-collapse: collapse;
+}
+.userprofile table td 
+{
+	padding:4px;
+}
+td.form_input_item, td.form_request_item
+{
+	width:50px;
+}
+.inputformitem 
+{
+	font-weight: bold;
+}
+
+/* ######################################################################### */	
+a.linkHome, a.linkContact
+{
+	color:white;	
+	font-size:11px;
+	font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+div.content
+{
+	margin:0px;
+	padding: 0px;
+	position:relative;
+	background:#f2f2f2;
+	width:885px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+}
+
+.headerMenu
+{
+	background-image:url("header2.png");
+	color:#FEFEFE;
+	float:left;
+	font-family:Arial;
+	font-size:11px;
+	height:101px;
+	text-align:left;
+	width:433px;
+}
+*html .headerMenu
+{
+	height:101px;
+}
+
+.photoCard
+{
+	background-image:url("photocard.png");
+	height:100px;
+	margin-left:70px;
+	margin-top:10px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	width:100px;
+}
+*html .photoCard
+{
+	height:90px;
+	width:100px;
+	padding-left:5px;
+	padding-top: 2px;
+}
+
+html div.content2
+{
+	position:relative;
+	width:100%;
+	overflow:hidden;
+	padding-top:0px; 
+}
+*html div.content2
+{
+	
+	padding-left:20px;
+	width: 915px;
+}
+
+.JsEmpBlock
+{
+	float: left; 
+	width: 302px; 
+	height: 109px; 
+	margin-left:10px; 
+	padding-left: 10px;
+	margin-bottom:10px;
+}
+
+*html .JsEmpBlock
+{
+	width: 307px; 
+	margin-left:5px; 
+	padding-left: 5px;
+	margin-bottom:10px;
+}
+
+.infoBlock
+{
+	float: left; 
+	width: 340px; 
+	margin-left: 10px; 
+	margin-bottom:30px;
+	border-right-style: solid; 
+	height:170px; 
+	border-width:1px;	
+	margin-bottom:30px;
+}
+
+*html .infoBlock
+{
+	width: 250px;
+	float: left;
+	margin:5px;
+	padding:0px;
+}
+
+
+div.leftBlock, div.rightBlock, div.centerBlock
+{
+	float:left;
+	background:white;
+}
+div.leftBlock
+{
+	width:174px;
+}
+
+div.centerBlock
+{
+	padding-left:10px
+}
+
+*html div.centerBlock
+{
+	padding-left:5px
+}
+
+div.rightBlock
+{
+	width:875px;
+	margin-left:0px;
+	padding-bottom:5px;
+}
+
+div.leftMenuBlock
+{
+	position:relative;
+}
+.LoginBlock
+{
+	margin-top:20px;
+	margin-bottom:5px;
+	margin-left:40px;
+	font-size:13px;
+	text-decoration:none;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+div.LoginBlock span a:link, div.LoginBlock span a:visited
+{
+	color:#4e7391;
+	text-decoration:none;
+}
+div.LoginBlock span a:hover, div.LoginBlock span a:active
+{
+	color:#4e7391;
+	text-decoration:underline;
+}
+ul.leftMenu
+{
+	position:relative;
+	margin:0px;
+	padding:0px;
+}
+ul.leftMenu li
+{
+	margin:0px;
+	list-style:none;
+	padding:0px;
+	margin-bottom:5px;
+	text-align:center;
+	font-size:13px;
+	text-decoration:none;
+	font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	height:33px;
+	line-height:33px;
+	font-weight:bold;
+}
+.leftMenuNoActive
+{
+	background-image:url('lm_blue.gif');
+	background-repeat:no-repeat;
+}
+.leftMenuActive
+{
+	background-image:url('lm_orange.gif');
+	background-repeat:no-repeat;
+}	
+
+ul.leftMenu li  a:hover, ul.leftMenu li  a:active, ul.leftMenu li  a:link, ul.leftMenu li  a:visited
+{
+	color:#FFF;
+	text-decoration:underline;
+}
+
+div.amountPhotosBlock
+{
+	
+}
+
+.iconPhotos
+{
+	position:relative;
+	top:2px;
+	left:0px;
+}
+
+
+
+table.searchResultsHeaderLine 
+{	
+	padding-left: 10px;
+	padding-right: 20px;	
+	background:#E5E5E5; 
+	width:867px;
+	height:50px;
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: #c9c9c9;
+	border-top-style: none;
+	border-bottom-style: none;
+	background-image: url("detailpanel_bg.png");
+}
+
+.searchResultsHeaderLine a:link, .searchResultsHeaderLine a:visited,  .searchResultsHeaderLine a:hover
+{
+	color:#555555;
+	
+}
+
+.TitJob {
+	color:#0a4c79;
+	font-size:15px;
+	font-weight:bold;
+
+}
+
+table.tableSearchResult 
+{
+	border-width: 0px;
+	color: #787878;
+}
+
+table.tableSearchResult a 
+{
+	color:#0a4c79;
+}
+
+.tableSearchResultNav
+{
+	border-width: 0px;
+	color: #787878;
+}
+
+.tableSearchResultNav a
+{
+	color:#0a4c79;
+}
+
+
+tr.sortby 
+{
+	font-weight:bold;
+	font-size:105%;
+	background: #4d4634;
+	height:31px;
+	color:white;
+}
+
+.sortby td a:link, .sortby td a:visited, .sortby td a:hover
+{color:white;text-decoration:none; font-size:12px;}
+
+.TableSR-L {
+	background-image: url('TableSR-left.png');
+	width:8px;
+	height:35px;
+}
+
+.TableSR-R {
+	background-image: url('TableSR-right.png');
+	width:8px;
+	height:35px;
+}
+
+.TableSR-LA {
+	background-image: url('TableSR-left.png');
+	width:8px;
+	height:31px;
+}
+
+.TableSR-RA {
+	background-image: url('TableSR-right.png');
+	width:8px;
+	height:31px;
+}
+
+tr.sortbynav 
+{
+	font-weight:normal;
+	font-size:105%;
+	background-image: url('NavBg.png');;
+	height:35px;
+	color:#0a4c79;
+}
+
+.sortby td a:link, .sortby td a:visited, .sortby td a:hover
+{
+	color:white;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.TableSRNav-L {
+	background-image: url('NavLeft.png');
+	width:8px;
+	height:35px;
+}
+
+.TableSRNav-R {
+	background-image: url('NavRight.png');
+	width:8px;
+	height:35px;
+}
+
+
+table.tableSaveListing a 
+{
+	color: #0a4c79;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+.pointedInListingInfo
+{
+	border-bottom: 1px dotted #B2B2B2;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.pointedInListingInfo2
+{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.ApplicationPointedInListingInfo
+{
+	border-bottom: 1px solid #B2B2B2;
+	border-right: 1px solid #B2B2B2;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.ApplicationPointedInListingInfo2
+{
+	border-bottom: 1px solid #B2B2B2;
+	border-right: 1px solid #B2B2B2;
+	border-left: 1px solid #B2B2B2;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.automobileClassifieds
+{position:absolute;bottom:40px;left:15px;font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-size:13px;color:white;font-weight:bold;text-transform:capitalize;}
+
+.listInfoPrice
+{font-weight:bold;color:#FF5600;font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+.DisplayListingInfo
+{
+	font-weight:bold;
+	color:#0a4c79;
+	font-family:verdana, sans-serif;
+}
+
+.DisplayListingInfo a:link, .DisplayListingInfo a:visited, .DisplayListingInfo a:hover
+{color:black;text-decoration:none}
+
+.DisplayListing strong {
+	color:#4aa11b;	
+}
+
+.footerBlock
+{
+	position:relative;
+	height:36px;
+	background-color: #910500;
+	background-image:url('pagebottom_bg.png');
+	text-align: center;
+	color: white;
+	vertical-align: center;
+ }
+
+.copyright
+{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:100%;}
+
+.copyright a:link, .copyright a:visited, .copyright a:hover, .copyright a:active
+{color:white;text-decoration:underline;font-weight:bold;}
+
+
+
+a.black_underline:visited
+{
+	color:#666666;
+	font-weight:bold;
+	padding-right:15px;
+}
+a.black_underline:link
+{
+	color:#666666;
+	font-weight:bold;
+	padding-right:15px;	
+}
+a.black_underline:hover
+{
+	color:#666666;
+	font-weight:bold;
+	padding-right:15px;	
+}
+
+.top_menu
+{
+	color: white;
+	text-align:center;
+	font-size:12px;
+}
+
+*html .top_menu
+{
+	height: 15px;
+	margin-top: 0px;
+}
+
+.top_menu a:link
+{color:white}
+
+.top_menu a:visited
+{color:white}
+
+.top_menu a:hover
+{color:white;text-decoration:none}
+
+div.featuredAdsBlock
+{float:right;width:160px}
+
+.headerText
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+	font-weight:bold;
+	font-size:14pt;
+	color: #296289;
+	font-family:Arial;
+}
+
+.headerTextFC
+{
+    margin-left:8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	font-weight:bold;
+	font-size:14pt;
+	color: #296289;
+	font-family:Arial;
+}
+
+.featuredLinks a:link, .featuredLinks a:visited
+{
+	color:black;
+	font-family: verdana;
+	font-size: 9pt;
+	text-decoration:none;
+}
+
+select.list
+{width:67px;}
+
+
+table.sellerComents .inputText
+{
+	margin-top:5px;
+	width:520px;
+	height:80px;
+}	
+
+.headrow td a:link, .headrow td a:visited, .headrow td a:link, .headrow td a:visited 
+{
+	font-size:12px;
+	color:#4e7391;
+}
+.headrow td
+{
+	border-bottom:2px solid #4e7391;
+	font-weight:bold;
+	padding-bottom:3px;
+	font-size:12px;
+	color:#4e7391;
+}
+
+.stateForm
+{
+	margin-left:0px;
+	margin-top:15px;
+}
+
+*html .stateForm
+{
+	margin-top:15px; 
+	margin-left:5px;
+}
+
+
+
+.searchDetails
+{
+	float: left; 
+	width: 60px; 
+	height: 60px; 
+	font-size:10pt; 
+	font-family: verdana; 
+	text-align: right;
+	margin-left: 20px;
+}
+*html .searchDetails 
+{	width: 20px;
+	margin-left: 15px;
+}
+
+.JobSearch_Form
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	width:640px;
+	height:147px;	
+	background-image: url("jobsearch_from_bg.png");
+	background-repeat: repeat-x;
+	color: white;
+}
+
+.rightPanel
+{
+	width: 210px; 
+	float: right;
+	color: white;
+}
+
+*html .rightPanel
+{
+	width: 200px; 
+}
+
+.rightPanelTitle
+{ 
+	width:200px; 
+	padding-top: 0px;
+	font-size: 13pt;
+	color: white;
+	font-weight:bold;
+	margin-top:15px;
+	margin-bottom:5px;
+}
+
+*html .rightPanelTitle
+{
+	width:195px; 
+}
+
+#browse_by_make_model
+{
+	font-family:tahoma;
+	font-size:90%
+}
+#browse_by_make_model a
+{
+	color:#646464;
+	text-decoration:none;
+	font-size: 10pt;
+	font-family: tahoma;
+	list-style: none;
+}
+#browse_by_make_model a:visited{}
+#browse_by_make_model a:hover{text-decoration:underline}
+
+#browse_by_body_style{font-family:verdana}
+#browse_by_body_style a{color:#578298;}
+#browse_by_body_style a:visited{}
+#browse_by_body_style a:hover{}
+
+
+.acount_mainform
+{
+	width: 550px;
+	height: 250px;
+	border-width:1px; 
+	border-color: black;
+	border-style:solid;
+	border-left-style: none; 
+	float: left; 
+	border-color: #9a9a9a; 
+	background-image:url("account/form_bg.png");
+	padding:0; 
+	margin:0;
+}
+.acount_rightmargin
+{
+	width: 39px; 
+	height: 150px; 
+	float: left; 
+	border-right-style:solid; 
+	border-width:1px;
+	margin-top: 102px; 
+	border-color:#9a9a9a	
+}
+
+*html .acount_rightmargin
+{
+	height: 285px; 
+}
+
+
+
+.acount_downbg
+{
+	margin-left:39px; 
+	float: left;
+	width:552px; 
+	height:42px; 
+	background-image:url("account/down_bg.png");
+}
+
+*html .acount_downbg
+{
+	margin-left:20px; 
+
+}
+
+
+#menu, #menu ul, #menu li { margin: 0; padding: 0; border: 0 none; }
+
+#menu       { position:relative; z-index: 1000;}
+#menu li    { float:left;  position:relative; list-style: none; display: inline;}
+#menu li a  { display:block; white-space: nowrap;}
+#menu li li { /*width: 100%;*/ clear: both;  /*FF 1.0.7 needs this */}
+#menu li ul { visibility: hidden; position:absolute; }
+
+#menu li li ul {  top: 0; left: 0; }
+
+#menu li.hover ul               {  visibility: visible;}
+#menu li.hover ul li ul 		  {  visibility: hidden;}
+#menu li.hover li.hover ul      {  visibility: visible;  left: 100%;}
+
+#menu {}
+#menu li li { border: 0;}
+#menu ul    { background: #4D4D4D  repeat-y left;}
+#menu a, #menu div 
+{
+	padding: 0.35em 1em 0.35em;
+	margin: 0 1px 0 1px;
+	line-height: 1.6em; vertical-align: middle;
+	font-size: 11px; font-weight: bold; text-decoration: none;
+	width: 60px;
+}
+
+#menu ul a {
+	font-size: 11px;
+	font-weight: normal;
+	padding-left: 25px;
+	padding-right: 20px;
+	line-height: 1.2em;
+}
+
+#menu li.hover a {  background-color: #4D4D4D; background: #4D4D4D  repeat-y left; border-left: 1px solid #4D4D4D;  border-right:1px solid #4D4D4D; margin: 0; }
+
+/* Field Type Style */
+
+.error {color: red;}
+
+.BreadCrumbs {
+	color: #373737;
+	font-weight: bold; font-size: 11px; font-family: Tahoma;
+	margin-top: 10px;
+}
+.BreadCrumbs p {margin: 0 0 10px 0;}
+.LoginFormField
+{
+	width:80px;
+}
+.paymentTable
+{
+	padding-top:10px;
+}
+.brByCiryTable
+{
+	width:100%;
+	padding-left: 20px;
+}
+.compProfileTitle {
+	background: url(company-info-up.png) #eeeeee no-repeat;
+	color: #363636;
+	width: 258px; height:25px;
+	font-size:14px; font-weight:bold;
+	padding: 5px 0 0 12px;
+}
+
+.middled {
+  margin-top: expression((parentNode.offsetHeight - this.offsetHeight)<0 ? "0" : (parentNode.offsetHeight - this.offsetHeight)/2 + "px");
+}
+
+.compProfileInfo {
+	width:255px;
+	color: black;
+	padding-left:15px;
+}
+
+.compProfileInfo strong {
+	color: #383838;	
+}
+
+.compProfileInfo a:link, .compProfileInfo a:visited {color: #383838;}
+.compProfileInfo a:hover, .compProfileInfo a:hover {color: #008aff;}
+
+.compProfileBottom {
+	width:270px;
+	height:54px;
+	background-image:url('compProfileBottom.png');
+}
+
+
+/* Browse By ... Jobs */
+.browse {
+	margin-top: 7px;
+}
+
+
+.featuredJobsTR
+{
+	width:150px;
+	border-left:1px dotted black;
+	padding-left:5px;	
+}
+.featuredJobsTRsmall
+{
+	width:110px;
+	border-left:1px dotted black;
+	padding-left:5px;	
+}
+.latestListindTR
+{
+	width:150px;
+	border-left:1px dotted black;
+	padding-left:5px;	
+}
+
+/* End Browse By ... Jobs */
+
+/* FEATURED LISTINGS */
+.green {
+	text-decoration:underline;
+	color:green;
+	font-weight:bold;
+	font-size:11px;
+}
+.green_small {
+	text-decoration:underline;
+	color:white;
+	font-weight:bold;
+	font-size:11px;
+}
+/* END FEATURED LISTINGS */
+
+/* PAGE NAVIGATOR STYLE */
+
+li.page_navigator
+{
+	font-weight:bold;
+	color:#1969a0;
+	padding:0px;
+	margin-bottom:8px;
+	margin-right:10px;
+	font-size:12px;
+	font-family:Arial;
+}
+
+li.page_navigator a
+{
+	color:#1969a0;
+	font-size:12px;
+	font-family:Arial;
+	text-decoration:underline;	
+}
+
+.page_navigator_toppanel
+{
+	font-weight:bold;
+	color:gray;
+	padding:0px;
+	margin:0px;
+	width:150px;
+}
+
+.page_navigator a:link, .page_navigator a:visited, .page_navigator a:hover {color: #373737;}
+
+/* END PAGE NAVIGATOR STYLE */
+
+.tableSRNavResults {
+	float: left;
+	margin-top:10px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+
+}
+
+.tableSRNavPerPage {
+	float: left;
+	padding-top:8px;
+	margin-left:30px;
+	margin-right:0px;
+	margin-bottom:0px;
+}
+
+.tableSRNavPageNav {
+	margin-top:0px;
+	margin-bottom:0px;
+	float: right;
+}
+
+.JobTittleSR {
+	font-size:15px;
+}
+
+.browseCompanyAB
+{
+	float: left;
+	padding: 5px;
+}
+.clear
+{
+	clear: both;
+}
+
+
+.GreenForm {
+	background-image: url('JobSearchForm.png');
+	width:401px;
+	height:175px;
+}
+
+.Girl {
+	float:right;
+	background-image: url('man-girl.png');
+	background-position: right;
+	width:267px;
+	height:166px;
+}
+
+.SearchForm {
+	margin-left:17px;
+}
+
+.FeaturedJobsHeader {
+	color:white;
+	font-size:18px;
+	font-weight:bold;
+	margin-left:20px;
+	font-family:Arial;
+}
+
+.FeaturedJobsBlock {
+	margin:15px;
+}
+
+.banner {
+	margin:0px;
+	text-align:center;
+}
+
+.FC {
+	margin-top: 0px;
+}
+#access_div 
+{
+	padding-top:5px;
+}
+
+.RSS {
+	background:url('rss.png');
+	background-repeat:no-repeat;
+	width:60px;
+	height:16px;
+	float:right;
+	font-size: 12px;
+}
+
+.RightLink {float:right;}
+.RightLink a {font-size: 12px; font-weight: normal;}
+
+.RSS a {
+	color:#ee8d06;
+	font-weight:bold;
+	margin-left:20px;
+}
+
+#info h1 {
+	
+}
+
+/* classes to highlight templates in TemplateSupplier */
+.templateHighlight {
+
+}
+
+.inner_div {
+    display: block;
+    position: relative;
+    width: 24px;
+    margin-top: -24px;
+    margin-left: 5px;
+    z-index: 11;
+}
+
+/**********************refine search***********************/
+.refine_button {
+	background: #EFEFEF;
+	cursor: pointer;
+	margin: 5px 0 0 0;
+}
+.refine_icon{
+	padding: 0 5px;
+	display: block; float: left;
+	width: 15px;
+}
+.refineItem {
+	padding: 3px 0 0 5px;
+	display: block;
+	font-size: 11px;
+}
+.refineItem a {font-size: 11px;}
+.refine_res {font-size: 11px;}
+.refine_res a {
+	color: blue;
+	padding: 5px 0 0 0;
+}
+.refine_res a:hover {
+	text-decoration: none;
+}
+.block_values_button {
+	background: #EFEFEF;
+	cursor: pointer;
+	padding: 2px 0; margin: 5px 0;
+}
+/***********************************************************/
+
+
+/*==== TABLE RESULTS ========*/
+table {
+	width: 100%;
+	border: 0;
+	margin: 0px; padding: 0px;
+	border-collapse: separate;
+	border-spacing: 0px;
+}
+table thead {
+	background: url(tbg.png) repeat-x;
+	/*background: #4d4634;*/
+	height: 31px;
+	margin: 0px; padding: 0px;
+	color: white;
+	text-align: left;
+}
+table thead th {
+	margin: 0; padding: 0;
+	text-align: left !important;
+}
+tbody > tr {color: #787878;}
+.priorityListing > td, .evenrow > td, .oddrow > td {padding: 5px 0 2px 5px;}
+table thead th a {
+	color: white;
+	text-decoration: none;
+	font-size: 11px;
+	padding: 0 0 0 4px;
+}
+table thead th a:hover {color: white;}
+
+.tableLeft {
+	background: url(TableSR-left.png) no-repeat;
+	width: 8px; height: 31px;
+}
+.tableRight {
+	background: url(TableSR-right.png) no-repeat;
+	width: 8px; height: 31px;
+}
+.topResultsLinks {
+	width: 100%;
+	overflow: hidden;
+	padding: 5px 0;
+}
+.topResultsLinks ul {list-style-type: none; margin: 0px; padding: 0px;}
+.topResultsLinks ul li {float: left; margin: 0 15px 0 0;}
+.topResultsLinks ul li a {color: black;}
+.topResultsLinks ul li a:hover {color: #008aff;}
+
+.searchResultsHeaderLineNew ul {list-style-type: none; margin: 0; padding: 5px 0 0 20px;}
+.searchResultsHeaderLineNew ul li {float: left; margin: 0 15px 0 0;}
+
+ul.listingLinksBottom {list-style-type: none; margin: 0; padding: 5px 0 0 8px; float: right; font-size:11px;}
+
+.priorityListing ul, .evenrow ul, .oddrow ul {list-style-type: none; margin: 0px; padding: 0px;}
+.priorityListing ul li, .evenrow ul li, .oddrow ul li {float: left; margin: 0 5px 0 0;}
+.priorityListing ul li a, .evenrow ul li a, .oddrow ul li a {text-decoration: underline;}
+.priorityListing ul li a:hover, .evenrow ul li a:hover, .oddrow ul li a:hover {color: #008aff;}
+
+.priorityListing a, .evenrow a, .oddrow a {
+	color: black;
+	text-decoration: none;
+}
+
+.priorityListing a strong, .evenrow a strong, .oddrow a strong {
+	color: black;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+.priorityListing strong, .evenrow strong, .oddrow strong {color: #373737;}
+
+.priorityListing a:hover strong, .evenrow a:hover strong, .oddrow a:hover strong {color: #008aff;}
+
+.separateListing {
+	margin: 0px; padding: 0px;
+	border-bottom: 1px dotted #727272;
+}
+
+.evenrow {margin: 0px; padding: 0px;  background: #F0F0F0;}
+.oddrow {margin: 0px; padding: 0px; background: white;}
+.priorityListing {background: #D2D2D2; color: black;}
+/*==== END TABLE RESULTS ====*/
+
+
+
+/*=======================TABLE RESULTS TOP NAV BAR=======================*/
+.topNavBar {
+	background: #e0e0e0;
+	width: 964px; height: 35px;
+	display: block;
+	float: left;
+	color: #363636;
+}
+.topNavBarLeft {
+	background: url(NavLeft.png) no-repeat;
+	width: 8px; height: 35px;
+	display: block;
+	float: left;
+}
+.topNavBarRight {
+	background: url(NavRight.png) no-repeat;
+	width: 8px; height: 35px;
+	display: block;
+	float: left;
+}
+.numberResults {
+	background: #CCCCCC;
+	font-weight: bold;
+	display: block;
+	float: left;
+	height: 25px;
+	margin: 0 20px 0 0; padding:10px 22px 0 15px;
+}
+.numberPerPage {
+	display: block;
+	float: left;
+	margin: 0 20px 0 0;	
+}
+.pageNavigation {
+ 	display: block;
+	float: right;
+	margin: 10px 10px 0 0;
+	text-align: right;
+}
+/*=======================================================================*/
+
+
+
+/*=======================COMPLEX FIELDS=======================*/
+.complex {
+	border-bottom: 1px dotted #727272;
+	padding: 10px 0;
+	display: block;
+	width: 750px;
+}
+.remove {
+	background: url(delete.png) no-repeat left center;
+	padding: 2px 0 0 20px; margin: 2px 0 5px 0;
+	display: inline-block;
+}
+.add {
+	background: url(add.png) no-repeat left center;
+	padding: 2px 0 0 20px; margin: 2px 0 5px 0;
+	display: inline-block;
+}
+/*============================================================*/
+
+
+
+/*=======================ICONS=======================*/
+li.modifySearchIco, li.saveSearchIco, li.savedIco, li.saved2Ico, li.viewDetails, li.viewVideo, li.panelSavedIco, li.panelViewDitailsIco, li.printListingIco, li.viewMapIco {
+	font-size: 11px;
+}
+li.modifySearchIco {
+	background: url(modifysearch_ico.png) no-repeat left center;
+	padding: 0 0 0 17px;
+}
+li.saveSearchIco {
+	background: url(savedthissearch_ico.png) no-repeat left center;
+	padding: 0 0 0 17px;
+}
+li.savedIco {
+	background: url(saved.png) no-repeat left center;
+	padding: 0 0 0 17px;
+}
+li.saved2Ico {
+	background: url(saved2.png) no-repeat left center;
+	padding: 0 0 0 0px;
+}
+li.viewDetails {
+	background: url(view_ditail.png) no-repeat left center;
+	padding: 0 0 0 22px;
+}
+li.viewVideo {
+	background: url(camera.gif) no-repeat left center;
+	padding: 0 0 0 9px;
+}
+li.panelSavedIco {
+	background: url(panel/saved.png) no-repeat left center;
+	padding: 0 0 0 15px;
+}
+li.panelViewDitailsIco {
+	background: url(panel/vewdetails.png) no-repeat left center;
+	padding: 0 0 0 15px;
+}
+li.printListingIco {
+	background: url(panel/print.png) no-repeat left center;
+	padding: 0 0 0 15px;
+}
+li.viewMapIco {
+	background: url(panel/viewmap.png) no-repeat left center;
+	padding: 0 0 0 15px;
+}
+li.comments {
+	background: url(comments.png) no-repeat left center;
+}
+li.arrow {
+	background: url(arrow.gif) no-repeat left center;
+	padding: 0 0 0 18px;
+}
+li.ratingPanel {color: #787878;}
+li.pagging {
+	padding: 0 0 0 15px;
+	color: #787878;
+}
+li.paggingBottom {
+	padding: 0 23px 0 0;
+	color: #787878;
+}
+/*====================================================*/
+
+
+/* NEW RES */
+.ModResults {
+	display: block; float: left;
+	width: 355px;
+}
+.Rating {
+	display: block; float: left;
+	width: 285px;
+}
+.Comments {
+	display: block; float: left;
+	width: 150px;
+}
+.Pagging {
+	display: block; float: left;
+	width: 190px;
+}
+/* END NEW RES */
+
+
+.ModResults ul, .Rating ul, .Comments ul, .Pagging ul {
+	list-style-type: none; margin: 0; padding: 5px 0 0 8px; font-size:11px;
+}
+.ModResults ul li, .Rating ul li, .Comments ul li, .Pagging ul li {
+	float: left; margin: 0 10px 0 0;
+}
+
+
+/*==== MISCELLANEOUS ========*/
+td.noTdPad {padding: 0 !important;}
+p.error {
+	background: url(cancel.png) #fcffd3 no-repeat 1% 50%;
+	color: #CE0000;
+	border: 1px solid #CE0000;
+	margin: 5px; padding: 5px 5px 5px 35px;
+}
+p.message {
+	background: url(apply.png) #e0ffdf no-repeat 1% 50%;
+	color: #006a25;
+	border: 1px solid #006a25;
+	margin: 5px; padding: 5px 5px 5px 35px;
+}
+#paymentPage .searchString {width: 150px;}
+#paymentPage .hasDatepicker {width: 100px;}
+#paymentPage thead {
+	background: none;
+	color: black;
+	border-bottom: 1px solid black;
+}
+/*==== MISCELLANEOUS ========*/
+
+
+/*==== NOTIFICATIONS PAGE ========*/
+.notCheck, .notDesc {
+	display: block;
+	float: left;
+}
+.notCheck {width: 4%;}
+.notDesc {
+	width: 32%;
+	line-height: 20px;
+}
+/*==== END NOTIFICATIONS PAGE ====*/
+.aMessage{
+    color:red;
+    font-weight:bold;
+    margin-left:10px;
+}
+.instruction{
+    position:relative;
+    margin-left:10px;
+    float: left;
+}
+.instruction .instr_icon{
+	background:url("./instruction_16x16.png") repeat scroll left top transparent;
+	float:left;
+	height:16px;
+	width:16px;
+}
+
+.instruction .instr_block{
+	/*background:none repeat scroll 0 0 #EEEEEE;*/
+	display:none;
+	font-size:11px;
+left:18px;
+opacity:0.9;
+position:absolute;
+top:0;
+width:275px;
+z-index:1000;
+}
+.instruction .instr_arrow{
+	background:url("./orangeArrow.png") no-repeat scroll 0 4px transparent;
+	float:left;
+	height:16px;
+	width:9px;
+}
+.instruction .instr_cont{
+	padding:0px 7px;
+	background:none repeat scroll 0 0 #EEEEEE;
+	float:left;
+	width:250px;
+}
+/* begin styles for accordeon */
+.page_button{
+	background-color: #EFEFEF;
+	border: 1px solid black;
+	cursor: pointer;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.page_icon{
+	padding-left: 5px;
+	padding-right: 5px;
+	float: left;
+	display: block;
+}
+ /* end styles for accordeon */
+
+
+/*=======================PRINT PAGE=======================*/
+.printPage {
+	width: 800px;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.printLeft {
+	width: 200px;
+	float: left;
+}
+.printRight {
+	width: 580px;
+	float: right;
+}
+/*========================================================*/
+
+
+/*================PRIVATE MESSAGES=======================*/
+#pmDetails strong {
+	display: block;		float: left;
+	width: 200px;
+}
+#pmDetails span {display: block;		float: left;}
+#pmDetails fieldset {
+	border-bottom: 1px dotted gray;
+	padding: 5px 0;
+}
+#pmDetails fieldset.reply {border: 0px;}
+
+.pmQuote {
+	border-left: 1px solid #aeaeae;
+	margin: 5px 5px 5px 10px;		padding: 0 2px 2px;
+	color: #333;
+	font-style:italic;	font-size:13px;
+	background: #fcfcfc;
+}
+/*========================================================*/
+
+
+/*================FOR AD SPACE=======================*/
+#adMargin {
+	float: left;
+	width: 580px;
+}
+#adSpace {
+	float: right;
+	width: 370px;
+}
+#adSpaceAccount {
+	float: right;
+	width: 370px;	
+}
+/*====================================================*/
+
+
+
+/* For Search Results 
+*******************************************************/
+#topResults {
+	float: right;
+	width: 980px;
+	margin: 0 0 10px 0;
+}
+#refineResults {
+	float: left;
+	width: 200px;	 
+}
+#listingsResults {
+	float: right;
+	width: 775px;
+}
+#endResults {
+	width: 980px;
+	float: left;
+	margin: 10px 0 0 0;
+}
+
+.noRefine #listingsResults {width: 100%;}
+#displayListing #refineResults {width: 280px;}
+#displayListing #listingsResults {width: 695px;}
+
+
+.managelistingsResults {
+	width: 680px;
+	float: right;
+}
+
+
+	/* START Previous and Nex buttons
+	******************************************************************/
+	.prevBtn a, .nextBtn a {text-decoration: none;}
+	/* END Previous and Nex buttons
+	******************************************************************/
+
+/* END For Search Results 
+*******************************************************/
+
+
+
+/* START News
+*******************************************************/
+#news {padding: 0 2px;}
+#news p {
+	margin: 5px 0;
+	font-size: 11px;
+}
+.smallLink {
+	font-size:10px;
+	float: right;
+}
+#news ul {
+	list-style-type: none;
+	margin: 0;		padding: 0;
+}
+#news ul li {
+	margin: 3px 0;	padding: 3px 0;
+	border-bottom: 1px dotted #CCCCCC;
+}
+a.newsLink {
+	text-decoration: none;
+ 	font-weight: bold;
+}
+
+#newsCategory {
+	display: block;
+	float: right;
+	border: 1px solid #C9C9C9;
+	padding: 5px;		margin: 0 0 0 10px;
+	width: 200px;
+}
+#newsCategory a, #newsCategory strong {
+	padding: 3px 0;
+	display: block;
+}
+#newsCategory h3 {
+	font-size: 13px;
+	margin: 0 0 5px 0;		padding: 0 0 5px 0;
+	border-bottom: 1px solid #C9C9C9;
+}
+#newsCategory a:hover, #newsCategory strong:hover {background: #f2f2f2; color: black;}
+.newsItems {
+	padding: 10px 0;
+	border-bottom: 1px dotted #C9C9C9;
+}
+.newsItems h2 a {text-decoration: none;}
+/* END News 
+*******************************************************/
+
+
+/* START Site Map 
+*******************************************************/
+#siteMap table {border: 0;}
+#siteMap td {
+	width: 20%;
+	vertical-align: top;
+}
+#siteMap td strong, #siteMap td b {color: black;}
+#siteMap table td p {
+	margin: 5px 0;		paddding: 1px 0;
+}
+#siteMap table td a {
+	background: url(grayArrow.png) no-repeat left;
+	margin: 0 0 0 10px;
+	padding: 0 0 0 13px;
+}
+/* END Site Map 
+*******************************************************/
+
+
+/* START Tell a friend 
+*******************************************************/
+#tellFriendForm input[type="text"], #tellFriendForm input[type="password"], #tellFriendForm select {
+	border: 1px solid #C3C3C3;
+	width: 150px;
+}
+/* END Tell a friend 
+*******************************************************/
+/* START Social Plugin4
+******************************************************************/
+.apiCode span {display: inline;}
+
+.social_login_a{
+	display: block;
+    float: right;
+    height: 16px;
+    margin: 0 0 0 15px;
+    width: 16px;
+}
+.linkedinLogin{background: url(social/linkedin_16x16.png) no-repeat;}
+.linkedinLink{
+	display: block;
+    height: 16px;
+    line-height: 16px;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+.in_share{
+	float: left;
+    margin-right: 6px;
+	border:0px;
+}
+#social_autoFill{
+	font-weight: bold;
+    margin: 10px 0;
+    padding-left: 21px;
+	line-height: 16px;
+}
+
+.linkedin_16{background: url(social/linkedin_16x16.png) no-repeat;}
+.facebook_16{background: url(social/facebook_16x16.png) no-repeat;}
+
+.in_CompanyInsiderWidget,
+.in_ProfileInsiderWidget{
+	margin: 15px 0px;
+}
+a.social_login_button{
+	width: 16px;
+	height: 16px;
+	display: block;
+	float:left;
+	margin-left: 5px;
+	padding: 0px !important;
+}
+.login_buttons_txt{float:left;}
+#slb_linkedin{background: url(social/linkedin_16x16.png) no-repeat;}
+#slb_facebook{background: url(social/facebook_16x16.png) no-repeat;}
+.social_plugins_div{
+	font-weight: normal;
+    margin: 11px 0 0;
+	float: right;
+	clear: both;
+}
+.soc_reg_form .social_plugins_div{float: none;}
+#registr-form {margin: 15px 0 0 0;}
+/* END Social Plugin
+******************************************************************/
+
+
+
+
+
+/*************************  ELDAR 20_11_2011 ******************/
+.abutton {
+	display:block;
+	background: url("button_manage_listing.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    height: 30px;
+    text-transform: uppercase;
+    width: 130px;
+	padding: 3px;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 90px;
+	float: left;
+}
+
+.twoabuttons {
+		display:block;
+	background: url("button_manage_listing.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    height: 30px;
+    text-transform: uppercase;
+    width: 130px;
+	padding: 3px;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 170px;
+	float: left;
+	
+}
+.resbutton {
+	display:block;
+	background: url("button_manage_listing.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+    height: 30px;
+    text-transform: uppercase;
+    width: 130px;
+	padding: 3px;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 90px;
+	float: left;
+}
+
+#job_actions_btn a {
+	float: left;
+	margin-left: 150px;
+	text-decoration: none;
+}
+
+#job_actions_btn a:hover {
+	color: white;
+}
+
+#inactiveSubmitListingButton {
+    background: url("inactiveButton.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    height: 26px;
+    width: 115px;
+    text-align:center;
+}
+
+#inactiveSubmitListingButton a.button {  
+	color: white;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+	line-height: 24px;
+	vertical-align:middle;
+    background: none;
+}
+
+#larger_font {
+	font-size: 14px;
+}
+
+
+#listing_length_status {
+	margin-left: 15px;
+}
+
+#confirm_activat_btn {
+	height: 30px;
+    width: 220px;
+    background: url(" button_confir_activ.png") no-repeat scroll 0 0 transparent;
+}
+
+.gatewayLabel {
+	font-size: 10px;
+}
+
+
+/************************* end ELDAR 20_11_2011 ******************/
+
+a.button {
+	background: url(button.png) no-repeat;
+	
+	text-decoration: none; text-transform: uppercase;
+	font-size: 13px; font-family: Myriad Pro,MPro,Tahoma; font-weight: normal;
+	color: white;
+	border: 0;
+	cursor:hand;
+	padding: 6px 28px;
+}
+
+
+.buttonsinvoice {
+	background: url(button.png) no-repeat;
+	display: block;
+	border: 0;
+	cursor:hand;
+ 	text-align: center;
+	display: block;
+	float: left;
+	width: 115px;
+	height: 26px;
+	padding-top: 5px;
+	margin-right: 20px;
+}
+.abuttonsinvoice {
+	display: block;
+	height: 26px;
+	cursor:hand;
+	text-decoration: none; 
+	text-transform: uppercase;
+	font-size: 13px; 
+	font-family: Myriad Pro,MPro,Tahoma; 
+	font-weight: normal;
+	color: white;
+}
+
+
+.usernameResume {
+	font-size: 16px; 
+}
+
+.downloadResume_right {
+	position: absolute;
+	left: 800px;
+	width: 200px;
+	float: right;
+}
+
+.orange {
+	color: #FF6600 !important;
+}
+
+/***** Job Fairs fields style ****/
+
+.jobfairs_container {
+	background-color: #EFEFEF;
+	padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.jobfairs_container_search {
+	background-color: #EFEFEF;
+	padding-left: 5px;
+    margin-bottom: 3px;
+}
+
+
+.jobfairs_container div, .jobfairs_container_search div{
+	float: left;
+}
+
+.jobfairs_container div.inputField {
+	padding: 3px 0;
+}
+
+
+.jobfairsBlockTitle {
+	background-color: #EFEFEF;
+	padding: 5px 5px 3px 15px;
+	width: 60%;
+	margin-top: 5px;
+
+}
+
+.inputFieldjobfairsListBlock {
+	background-color: white !important;
+	padding-left: 5px;
+	width: 340px;
+}
+
+.inputFieldjobfairsSearch {
+		padding-left: 5px;
+}
+
+.inputNameJobFair {
+	width: 250px !important;
+}
+
+#complexFields_JobFairs fieldset .inputName {
+	width: 260px;
+}
+
+.greySubText {
+	position: relative;
+	top: -2px;
+	left: -5x;
+	color: grey !important;
+	text-size: 8px;
+}
+
+.jobFairComplex {
+
+	padding: 10px 0;
+	display: block;
+	width: 340px;
+}
+
+#jobfairsItemsContainer {
+	width: 608px;
+}
+
+.billingAddressBlock {
+	padding: 5px;
+	background: none repeat scroll 0% 0% rgb(232, 232, 232); 
+	border: medium none rgb(0, 0, 0);
+    text-align: center;
+	font-weight: bold;
+	color: #808080;
+	height: 19px;
+	text-transform: uppercase;
+}
+
+.billingPartCaption {
+	width: 540px;
+	text-align: left;
+}
+
+.billingPartCaption span{
+	margin-left: 70px;
+}
+
+.billingPartMiddleText {
+	font-weight: bold;
+	color: blue;
+}
+
+div.billingPartSubText {
+	color: gray;
+	font-size: 14;
+}
+
+#ApplicationSettingsWarning {
+	color: red;
+
+}
+
+
+
+#billingFillingBlock {
+	height: 30px;
+	width: 220px;
+}
+
+#billingFillBlockAdmin {
+	height: 30px;	
+	width: 150px;
+}
+
+
+#billingFillingBlock input {
+	vertical-align: super;	
+}
+
+#billingFillingBlock span {
+	font-weight: normal;
+	color: black;
+}
+
+#newsRss {
+	background: url(rss.png) no-repeat left;
+	padding: 2px 0 0 20px;		
+	margin: 0 0 2px;
+
+	color: #e16400;
+	text-decoration: none;
+	font-weight: bold;
+}

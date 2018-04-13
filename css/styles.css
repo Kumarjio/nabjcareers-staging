@@ -1,0 +1,26 @@
+/* 0. Import reset & custom styles
+-------------------------------------------------- */
+
+@import url("reset.css");
+
+/* 1. Main Blocks
+-------------------------------------------------- */
+body { background:url(../img/bg.jpg) top left repeat-x #182128; font-family:Arial, Helvetica, sans-serif; }
+.wrapper { width:690px; margin:0 auto;}
+.head {background:url(../img/bgHead.jpg) top left no-repeat; height:538px; width:690px;}
+.logo { margin:0 auto; padding:23px 0 68px 0; width:274px;}
+.headingText {background:url(../img/something.png) top left no-repeat; width:594px; height:26px; margin:0 auto; text-indent:-9999px;}
+.wts {background:url(../img/watch.png) top left no-repeat; width:190px; height:14px; margin:0 auto; text-indent:-9999px; margin-top:274px;}
+.footer {background:url(../img/bgFooter.jpg) top left no-repeat; height:329px; font-size:12px; color:#fff;}
+.nav { width:100%; height:36px; padding:37px 0 28px 0 ;}
+.nav li { float:left;}
+.nav li {background:url(../img/polosa_foot.jpg) top right no-repeat; height:36px; padding:10px 20px 0 20px;}
+.nav li.gs { background:none; padding:10px 0 0 18px;}
+.nav li.cpl { padding:10px 18px 0 13px;}
+.nav li a { display:block;}
+.cpl a {background:url(../img/cpl.png) top left no-repeat; width:163px; height:12px; text-indent:-9999px; display:block;}
+.bil a {background:url(../img/bl.png) top left no-repeat; width:166px; height:12px; text-indent:-9999px;}
+.kb a {background:url(../img/knowledge.png) top left no-repeat; width:123px; height:12px; text-indent:-9999px;}
+.gs a {background:url(../img/gs.png) top left no-repeat; width:98px; height:12px; text-indent:-9999px;}
+.footText { width:635px; margin:0 auto; text-align:center; line-height:14px;}
+.footText span { color:#00adf0;}

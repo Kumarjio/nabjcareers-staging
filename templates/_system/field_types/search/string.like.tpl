@@ -1,0 +1,1 @@
+<input type="text" name="{$id}[like]"  id="{$id}" class="searchStringLike" value="{if $value.like}{$value.like}{else}{$value.equal}{/if}" {$parameters} />

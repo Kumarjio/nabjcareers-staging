@@ -1,0 +1,445 @@
+<?php
+
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * Permission class for subadmins
+ *
+ * @author Стас
+ */
+class SJB_SubAdminAcl extends SJB_Acl
+{
+	protected static $instance;
+	protected static $subAdmin = null;
+
+	public static function getInstance( $reload = false )
+	{
+		if (null === self::$instance || $reload) {
+			self::$instance = new self();
+		}
+
+		return self::$instance;
+	}
+
+	public function getResources()
+	{
+		$resources = array(
+			'manage_common_listing_fields' => array(
+				'title' => 'Manage Common Listing Fields',
+				'group' => 'listings',
+				'type' => 'subadmin'
+			),
+			'manage_listing_types_and_specific_listing_fields' => array(
+				'title' => 'Manage Listing Types and Specific Listing Fields',
+				'group' => 'listings',
+				'type' => 'subadmin'
+			),
+				'set_posting_pages' => array(
+					'title' => 'Set Posting Pages',
+					'group' => 'listings',
+					'type' => 'subadmin'
+				),
+			'manage_listings' => array(
+				'title' => 'Manage Listings',
+				'group' => 'listings',
+				'type' => 'subadmin',
+			),
+				'get_notifications_on_listing_added' => array(
+					'title' => 'Get Notifications on Listing Added',
+					'group' => 'listings',
+					'type' => 'subadmin',
+					'parent' => 'manage_listings',
+					'notification' => true,
+				),
+				'get_notifications_on_listing_expiration' => array(
+					'title' => 'Get Notifications on Listing Expiration',
+					'group' => 'listings',
+					'type' => 'subadmin',
+					'parent' => 'manage_listings',
+					'notification' => true,
+				),
+			'import_listings' => array(
+				'title' => 'Import Listings',
+				'group' => 'listings',
+				'type' => 'subadmin'
+			),
+			'export_listings' => array(
+				'title' => 'Export Listings',
+				'group' => 'listings',
+				'type' => 'subadmin'
+			),
+			'set_xml_feeds' => array(
+				'title' => 'Set XML Feeds',
+				'group' => 'listings',
+				'type' => 'subadmin'
+			),
+			'set_xml_import' => array(
+				'title' => 'Set XML Import',
+				'group' => 'listings',
+				'type' => 'subadmin'
+			),
+			'manage_flagged_listings' => array(
+				'title' => 'Manage Flagged Listings',
+				'group' => 'listings',
+				'type' => 'subadmin'
+			),
+//				'edit_flagged_listings' => array(
+//					'title' => 'Edit Flagged Listings',
+//					'group' => 'listings',
+//					'type' => 'subadmin',
+//					'parent' => 'manage_flagged_listings',
+//				),
+				'get_notifications_on_listing_flagged' => array(
+					'title' => 'Get Notifications on Listing Flagged',
+					'group' => 'listings',
+					'type' => 'subadmin',
+					'parent' => 'manage_flagged_listings',
+					'notification' => true,
+				),
+
+			// USERS
+			'manage_user_groups' => array(
+				'title' => 'Manage User Groups',
+				'group' => 'users',
+				'type' => 'subadmin'
+			),
+				'manage_user_groups_permissions' => array(
+					'title' => 'Manage User Groups Permissions',
+					'group' => 'users',
+					'type' => 'subadmin',
+					'parent' => 'manage_user_groups',
+
+				),
+				'edit_user_groups_profile_fields' => array(
+					'title' => 'Edit User Groups Profile Fields',
+					'group' => 'users',
+					'type'	=> 'subadmin',
+					'parent' => 'manage_user_groups',
+				),
+			'manage_users' => array(
+				'title' => 'Manage Users',
+				'group' => 'users',
+				'type' => 'subadmin'
+			),
+				'get_notifications_on_user_registration' => array(
+					'title' => 'Get Notifications on User Registration',
+					'group' => 'users',
+					'type' => 'subadmin',
+					'parent' => 'manage_users',
+					'notification' => true,
+				),
+				'get_notifications_on_user_subscription_expiration' => array(
+					'title' => 'Get Notifications on User Subscription Expiration',
+					'group' => 'users',
+					'type' => 'subadmin',
+					'parent' => 'manage_users',
+					'notification' => true,
+				),
+				'get_notifications_on_deleting_user_profile' => array(
+					'title' => 'Get Notifications on User Profile Deletion',
+					'group' => 'users',
+					'type' => 'subadmin',
+					'parent' => 'manage_users',
+					'notification' => true,
+				),
+			'import_users' => array(
+				'title' => 'Import Users',
+				'group' => 'users',
+				'type' => 'subadmin'
+			),
+			'create_and_send_mass_mailings' => array(
+				'title' => 'Create and Send Mass Mailings',
+				'group' => 'users',
+				'type' => 'subadmin'
+			),
+			'create_and_send_newsletter' => array(
+				'title' => 'Create and Send Newsletter',
+				'group' => 'users',
+				'type' => 'subadmin'
+			),
+			'manage_membership_plans' => array(
+				'title' => 'Manage Membership Plans',
+				'group' => 'users',
+				'type' => 'subadmin'
+			),
+			'manage_banned_ips' => array(
+				'title' => 'Manage Banned IPs',
+				'group' => 'users',
+				'type' => 'subadmin'
+			),
+
+			//  	Edit Templates and Themes
+			'edit_templates_and_themes' => array(
+				'title' => 'Edit Templates and Themes',
+				'group' => 'layout and content',
+				'type' => 'subadmin'
+			),
+			'manage_banners' => array(
+				'title' => 'Manage Banners',
+				'group' => 'layout and content',
+				'type' => 'subadmin'
+			),
+			'manage_site_pages' => array(
+				'title' => 'Manage Site Pages',
+				'group' => 'layout and content',
+				'type' => 'subadmin'
+			),
+			'manage_static_content' => array(
+				'title' => 'Manage Static Content',
+				'group' => 'layout and content',
+				'type' => 'subadmin'
+			),
+			'manage_news' => array(
+				'title' => 'Manage News',
+				'group' => 'layout and content',
+				'type' => 'subadmin'
+			),
+			//  SYSTEM CONFIGURATION
+			'configure_system_settings' => array(
+				'title' => 'Configure System Settings',
+				'group' => 'system configuration',
+				'type' => 'subadmin'
+			),
+			'edit_zipcode_database' => array(
+				'title' => 'Edit ZipCode Database',
+				'group' => 'system configuration',
+				'type' => 'subadmin'
+			),
+			'configure_breadcrumbs' => array(
+				'title' => 'Configure Breadcrumbs',
+				'group' => 'system configuration',
+				'type' => 'subadmin'
+			),
+			'set_html_filters' => array(
+				'title' => 'Set HTML filters',
+				'group' => 'system configuration',
+				'type' => 'subadmin'
+			),
+			'manage_currencies' => array(
+				'title' => 'Manage Currencies',
+				'group' => 'system configuration',
+				'type' => 'subadmin'
+			),
+			'set_task_scheduler' => array(
+				'title' => 'Set Task Scheduler',
+				'group' => 'system configuration',
+				'type' => 'subadmin'
+			),
+			'manage_plug-ins' => array(
+				'title' => 'Manage Plug-ins',
+				'group' => 'system configuration',
+				'type' => 'subadmin'
+			),
+				'set_phpbb_plug-in' => array(
+					'title' => 'Set PhpBB Plug-in',
+					'group' => 'system configuration',
+					'type' => 'subadmin',
+					'parent'	=> 'manage_plug-ins',
+				),
+				'set_wordpress_plug-in' => array(
+					'title' => 'Set WordPress Plug-in',
+					'group' => 'system configuration',
+					'type' => 'subadmin',
+					'parent'	=> 'manage_plug-ins',
+				),
+				'set_twitter_plug-in' => array(
+					'title' => 'Set Twitter Plug-in',
+					'group' => 'system configuration',
+					'type' => 'subadmin',
+					'parent'	=> 'manage_plug-ins',
+				),
+			'set_refine_search_parameters' => array(
+				'title' => 'Set Refine Search Parameters',
+				'group' => 'system configuration',
+				'type' => 'subadmin'
+			),
+			'create_and_restore_backups' => array(
+				'title' => 'Create and Restore Backups',
+				'group' => 'system configuration',
+				'type' => 'subadmin'
+			),
+			'edit_flag_listing_settings' => array(
+				'title' => 'Edit Flag Listing Settings',
+				'group' => 'system configuration',
+				'type' => 'subadmin'
+			),
+			//  	Payments
+			'set_up_payment_gateways' => array(
+				'title' => 'Set up Payment Gateways',
+				'group' => 'payments',
+				'type' => 'subadmin'
+			),
+			'manage_payments' => array(
+				'title' => 'Manage Payments',
+				'group' => 'payments',
+				'type' => 'subadmin'
+			),
+
+			// LANGUAGES
+			'manage_languages' => array(
+				'title' => 'Manage Languages',
+				'group' => 'languages',
+				'type' => 'subadmin'
+			),
+			'translate_phrases' => array(
+				'title' => 'Translate Phrases',
+				'group' => 'languages',
+				'type' => 'subadmin'
+			),
+			'import_languages' => array(
+				'title' => 'Import Languages',
+				'group' => 'languages',
+				'type' => 'subadmin'
+			),
+			'export_languages' => array(
+				'title' => 'Export Languages',
+				'group' => 'languages',
+				'type' => 'subadmin'
+			),
+
+		);
+
+		return $resources;
+	}
+
+	public static function getPermissionGroups($aResources)
+	{
+		return array(
+			'listings',
+			'users',
+			'layout and content',
+			'payments',
+			'system configuration',
+			'languages',
+		);
+	}
+
+	public static function mergePermissionsWithResources(&$aResources, $aPermissions = array())
+	{
+		foreach ($aResources as $key => $resource) {
+			$aResources[$key]['value'] = 'deny';
+			$aResources[$key]['name'] = $key;
+
+			foreach ($aPermissions as $perm) {
+				if ($key == $perm['name']) {
+					$aResources[$key]['value'] = $perm['value'];
+					$aResources[$key]['params'] = $perm['params'];
+					break;
+				}
+			}
+		}
+	}
+
+	
+	/**
+	 * get notifications from permissions list
+	 * 
+	 * @param array $aResources
+	 * @param array $aPermissions
+	 * @return array
+	 */
+	public static function getSubAdminNotifications(array $aResources, array $aPermissions)
+	{
+		$aNotifications = array();
+
+		foreach ($aPermissions as $permission) {
+			$permissionKey = $permission['name'];
+
+			if ( key_exists($permissionKey, $aResources) && isset($aResources[$permissionKey]['notification']) && 'allow' == $aResources[$permissionKey]['value']) {
+				$aNotifications[$permissionKey] = $aResources[$permissionKey];
+			}
+		}
+
+		return $aNotifications;
+		
+	}	// 	public static function getSubAdminNotifications(array $aResources, array $aPermissions)
+
+
+	/**
+	 * move subpermissions to parents
+	 * @param array $aResources
+	 */
+	public static function prepareSubPermissions(&$aResources)
+	{
+		foreach ($aResources as $key => $resource) {
+			if (isset($resource['parent']) && !empty($resource['parent'])) {
+				$parentKey = $resource['parent'];
+				$aResources[$parentKey]['subpermissions'][$key] = $resource;
+				unset($aResources[$key]);
+			}
+		}
+	}
+
+	public static function getAllPermissions($type, $role)
+	{
+		return SJB_DB::query('SELECT * FROM `permissions` WHERE `type` = ?s AND `role` = ?s', $type, $role);
+	}
+
+	/**
+	 *
+	 * @param string $name
+	 * @return string
+	 */
+	public static function definePermission( $name )
+	{
+		$value = SJB_Request::getVar($name, '');
+		return empty( $value ) ? 'deny' : 'allow';
+	}
+
+	/**
+     * Можно ли?
+	 * @param $returnByParams  - применяется при проверке нотификэйшинов для сабадминов, не отключил ли он их для себя.
+     * @param $resource
+     * @param $roleId
+     */
+    public function isAllowed($resource, $roleId = null, $returnByParams = false)
+    {
+        $resource = strtolower($resource);
+		
+		if (!isset($this->permissions[$roleId])) {
+			$this->permissions = $this->getPermissions('subadmin', $roleId);
+		}
+
+        if (!$returnByParams) {
+			return isset($this->permissions[$resource]['value']) && $this->permissions[$resource]['value'] == 'allow';
+		}
+
+		return isset($this->permissions[$resource]['value']) && $this->permissions[$resource]['value'] == 'allow' && $this->permissions[$resource]['params'] != 'deny';
+
+    }
+
+
+	public static function checkAllowModulePermissions()
+	{
+	}
+
+	public static function ifAllowedModule( $moduleName, $functionName, $allowedModules)
+	{
+		if ( isset($allowedModules[$moduleName])) {
+			if (( is_array($allowedModules[$moduleName]) && in_array($functionName, $allowedModules[$moduleName]))
+					|| $functionName == $allowedModules[$moduleName]) {
+				return true;
+			}
+		}
+		
+		return false;
+	}
+
+	public static function mergePermissionsWithRequest(array &$aResources)
+	{
+		foreach ($aResources as $name => &$resource) {
+			$resource['value'] = self::definePermission($name);
+		}
+		// Nwy: если захочется менять массив ещё, то переменную resource нужно unset-нуть.. см manual
+	}
+
+	public static function setSubAdminNotificationByPermName($role, $permName, $value)
+	{
+		return SJB_DB::query('UPDATE `permissions` SET `params` = ?s WHERE `name` = ?s AND `type` = \'subadmin\' AND `role` = ?n',
+				$value, $permName, $role);
+	}
+
+}	// class SJB_SubAdminAcl extends SJB_Acl

@@ -1,0 +1,7 @@
+<?php  /* Smarty version 2.6.14, created on 2018-02-08 11:50:14
+         compiled from ../field_types/display/monetary.tpl */ ?>
+<?php  require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('block', 'tr', '../field_types/display/monetary.tpl', 1, false),)), $this); ?>
+<?php  if (is_numeric ( $this->_tpl_vars['value']['value'] )):   $_from = $this->_tpl_vars['list_currency']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['list_currency_key'] => $this->_tpl_vars['list_currency_item']):
+  if ($this->_tpl_vars['list_currency_item']['sid'] == $this->_tpl_vars['value']['currency']):   echo $this->_tpl_vars['list_currency_item']['currency_sign'];   endif;   endforeach; endif; unset($_from);   $this->_tag_stack[] = array('tr', array('type' => 'float')); $_block_repeat=true;$this->_plugins['block']['tr'][0][0]->translate($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start();   echo $this->_tpl_vars['value']['value'];   $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo $this->_plugins['block']['tr'][0][0]->translate($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack);   else:   echo $this->_tpl_vars['value']['value'];   endif; ?>

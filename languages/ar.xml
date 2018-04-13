@@ -1,0 +1,3988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE translation2 [
+<!ELEMENT translation2 (languages,pages)>
+<!ELEMENT languages (lang*)>
+<!ELEMENT lang (name?,meta?,error_text?,encoding?)>
+<!ATTLIST lang id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT meta (#PCDATA)>
+<!ELEMENT error_text (#PCDATA)>
+<!ELEMENT encoding (#PCDATA)>
+<!ELEMENT pages (page*)>
+<!ELEMENT page (string*)>
+<!ATTLIST page key CDATA #REQUIRED>
+<!ELEMENT string (tr*)>
+<!ATTLIST string key CDATA #REQUIRED>
+<!ELEMENT tr (#PCDATA)>
+<!ATTLIST tr lang IDREF #REQUIRED>
+]>
+
+<translation2>
+  <languages>
+    <lang id="ar">
+      <name> العربية </name>
+      <meta> a:8:{s:6:"active";s:1:"0";s:10:"is_default";b:0;s:5:"theme";s:0:"";s:11:"date_format";s:8:"%m.%d.%Y";s:17:"decimal_separator";s:1:".";s:19:"thousands_separator";s:1:",";s:8:"decimals";s:1:"2";s:11:"rightToLeft";s:1:"1";} </meta>
+      <error_text></error_text>
+      <encoding> utf-8 </encoding>
+    </lang>
+  </languages>
+  <pages>
+    <page key="PhrasesInTemplates">
+      <string key="Job Search">
+        <tr lang="ar"> البحث عن وظيفة </tr>
+      </string>
+      <string key="Find">
+        <tr lang="ar"> ابحث </tr>
+      </string>
+      <string key="Advanced search">
+        <tr lang="ar"> بحث متقدم </tr>
+      </string>
+      <string key="Home">
+        <tr lang="ar"> الصفحة الرئيسية </tr>
+      </string>
+      <string key="Register">
+        <tr lang="ar"> تسجيل </tr>
+      </string>
+      <string key="Sign In">
+        <tr lang="ar"> دخول </tr>
+      </string>
+      <string key="My Account">
+        <tr lang="ar"> حسابي </tr>
+      </string>
+      <string key="Find Jobs">
+        <tr lang="ar"> بحث عن وظائف </tr>
+      </string>
+      <string key="Post Resumes">
+        <tr lang="ar"> إنشئ سيرتك الذاتية </tr>
+      </string>
+      <string key="Search Resumes">
+        <tr lang="ar"> ابحث عن سير ذاتية </tr>
+      </string>
+      <string key="Post Jobs">
+        <tr lang="ar"> اعلن عن وظيفة </tr>
+      </string>
+      <string key="Contact">
+        <tr lang="ar"> اتصل بنا </tr>
+      </string>
+      <string key="Choose language">
+        <tr lang="ar"> اختر اللغة </tr>
+      </string>
+      <string key="Jobs by Category">
+        <tr lang="ar"> الوظائف حسب القطاع المهني </tr>
+      </string>
+      <string key="Jobs by City">
+        <tr lang="ar"> الوظائف حسب المدينة </tr>
+      </string>
+      <string key="Featured Jobs">
+        <tr lang="ar"> الوظائف المميزة </tr>
+      </string>
+      <string key="Employers">
+        <tr lang="ar"> الشركات </tr>
+      </string>
+      <string key="Post a job">
+        <tr lang="ar"> أعلن عن وظيفة </tr>
+      </string>
+      <string key="Search resumes">
+        <tr lang="ar"> ابحث عن سير ذاتية </tr>
+      </string>
+      <string key="comp link">
+        <tr lang="ar"> الشركات </tr>
+      </string>
+      <string key="Job Seekers">
+        <tr lang="ar"> باحث عن عمل </tr>
+      </string>
+      <string key="Post resumes">
+        <tr lang="ar"> انشئ سيرتك الذاتية </tr>
+      </string>
+      <string key="Find jobs">
+        <tr lang="ar"> إبحث عن وظائف </tr>
+      </string>
+      <string key="RSS Feed">
+        <tr lang="ar"> آر اس اس </tr>
+      </string>
+      <string key="Latest Jobs">
+        <tr lang="ar"> آخر الوظائف </tr>
+      </string>
+      <string key="powered by">
+        <tr lang="ar"> بدعم من </tr>
+      </string>
+      <string key="Keep me signed in">
+        <tr lang="ar"> تذكرني </tr>
+      </string>
+      <string key="Login">
+        <tr lang="ar"> دخول </tr>
+      </string>
+      <string key="Forgot Your Password?">
+        <tr lang="ar"> هل نسيت كلمة السر؟ </tr>
+      </string>
+      <string key="Registration">
+        <tr lang="ar"> التسجيل </tr>
+      </string>
+      <string key="Salutation First and Last Name">
+        <tr lang="ar"> الأسم </tr>
+      </string>
+      <string key="Email">
+        <tr lang="ar"> البريد الإلكتروني </tr>
+      </string>
+      <string key="Comments">
+        <tr lang="ar"> تعليقات </tr>
+      </string>
+      <string key="Submit">
+        <tr lang="ar"> إرسال </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we\&apos;ll send you a link to a page where you can change your password">
+        <tr lang="ar"> من فضلك ، أدخل اسم المستخدم الخاص بك في الحقل التالي ،سيرسل لك وصلة لصفحة حيث يمكنك تغيير كلمة السر الخاصة بك </tr>
+      </string>
+      <string key="Please select the appropriate user group">
+        <tr lang="ar"> &quot;الرجاء اختيار المجموعة المناسبة للمستخدم&quot; </tr>
+      </string>
+      <string key="Confirm Password">
+        <tr lang="ar"> تأكيد كلمة السر </tr>
+      </string>
+      <string key="You have successfully registered in our site">
+        <tr lang="ar"> تم تسجيلك بنجاح </tr>
+      </string>
+      <string key="Add a New Listing">
+        <tr lang="ar"> إضافة قائمة جديدة </tr>
+      </string>
+      <string key="You specified wrong username">
+        <tr lang="ar"> اسم مستخدم غير صحيح </tr>
+      </string>
+      <string key="The system cannot proceed as Listing ID not specified">
+        <tr lang="ar"> لم يتم تحديد رقم القائمة </tr>
+      </string>
+      <string key="Invalid payment ID is specified">
+        <tr lang="ar"> اسم مستخدم غير صالح لدفع </tr>
+      </string>
+      <string key="No such user">
+        <tr lang="ar"> اسم مستخم غير صحيح </tr>
+      </string>
+      <string key="Search">
+        <tr lang="ar"> بحث </tr>
+      </string>
+      <string key="No logged in user found">
+        <tr lang="ar"> لا يوجد اسم مستخدم مسجل </tr>
+      </string>
+      <string key="My Jobs">
+        <tr lang="ar"> وظائفي </tr>
+      </string>
+      <string key="My Profile">
+        <tr lang="ar"> حسابي </tr>
+      </string>
+      <string key="Saved Searches">
+        <tr lang="ar"> البحث المحفوظ </tr>
+      </string>
+      <string key="Saved Listings">
+        <tr lang="ar"> قوائم محفوظه </tr>
+      </string>
+      <string key="Subscriptions">
+        <tr lang="ar"> الاشتراكات </tr>
+      </string>
+      <string key="My Notifications">
+        <tr lang="ar"> اشعاراتي </tr>
+      </string>
+      <string key="Billing History">
+        <tr lang="ar"> تاريخ الفواتير </tr>
+      </string>
+      <string key="Logout">
+        <tr lang="ar"> الخروج </tr>
+      </string>
+      <string key="My Listings">
+        <tr lang="ar"> قوائمي </tr>
+      </string>
+      <string key="Filter">
+        <tr lang="ar"> بحث متخصص </tr>
+      </string>
+      <string key="Choose subscription">
+        <tr lang="ar"> اختار اشتراك </tr>
+      </string>
+      <string key="unlimited">
+        <tr lang="ar"> غير محدد </tr>
+      </string>
+      <string key="Next">
+        <tr lang="ar"> التالي </tr>
+      </string>
+      <string key="Edit Listing">
+        <tr lang="ar"> تعديل القائمة </tr>
+      </string>
+      <string key="Edit Pictures">
+        <tr lang="ar"> تعديل الصورة </tr>
+      </string>
+      <string key="Upgrade to Featured">
+        <tr lang="ar"> الترقية للوظائف المميزة </tr>
+      </string>
+      <string key="You have successfully changed your membership plan">
+        <tr lang="ar"> تم تغير اشتراكك بنجاح </tr>
+      </string>
+      <string key="You have already subscribed">
+        <tr lang="ar"> لديك اشتراك سابق </tr>
+      </string>
+      <string key="You do not have permissions to post  listings.">
+        <tr lang="ar"> ليست لديك الصلاحيه لللإعلان عن وظيفة </tr>
+      </string>
+      <string key="No listings found.">
+        <tr lang="ar"> لا توجد قائمة </tr>
+      </string>
+      <string key="Listing ID is not defined">
+        <tr lang="ar"> لم يتم التعرف على رقم الاعلان </tr>
+      </string>
+      <string key="Save">
+        <tr lang="ar"> حفظ </tr>
+      </string>
+      <string key="image format is not supported">
+        <tr lang="ar"> نوع ملف الصورة غير مدعوم </tr>
+      </string>
+      <string key="You have successfully changed your profile info!">
+        <tr lang="ar"> تم تغيير معلومات حسابك بنجاح </tr>
+      </string>
+      <string key="Delete">
+        <tr lang="ar"> حذف </tr>
+      </string>
+      <string key="File deleted successfully">
+        <tr lang="ar"> تم حذف الملف بنجاح </tr>
+      </string>
+      <string key="Back to edit profile">
+        <tr lang="ar"> الرجوع لتعديل حسابي </tr>
+      </string>
+      <string key="You have not saved any searches yet.">
+        <tr lang="ar"> لم يتم حفظ اي بحث الا الأن. </tr>
+      </string>
+      <string key="ID">
+        <tr lang="ar"> رقم الهوية </tr>
+      </string>
+      <string key="Period">
+        <tr lang="ar"> الفترة الزمنية </tr>
+      </string>
+      <string key="State">
+        <tr lang="ar"> الولاية </tr>
+      </string>
+      <string key="from">
+        <tr lang="ar"> من </tr>
+      </string>
+      <string key="to">
+        <tr lang="ar"> إلى </tr>
+      </string>
+      <string key="Date">
+        <tr lang="ar"> التاريخ </tr>
+      </string>
+      <string key="Description">
+        <tr lang="ar"> التفاصيل </tr>
+      </string>
+      <string key="Amount">
+        <tr lang="ar"> المبلغ </tr>
+      </string>
+      <string key="Action">
+        <tr lang="ar"> تفعيل </tr>
+      </string>
+      <string key="Total Amount">
+        <tr lang="ar"> المبلغ الأجمالي </tr>
+      </string>
+      <string key="There are no saved listings">
+        <tr lang="ar"> لا توجد اي وظائف محفوظه </tr>
+      </string>
+      <string key="Notify on Listing Activation">
+        <tr lang="ar"> اشعاري عند تفعيل اعلان الوظيفة </tr>
+      </string>
+      <string key="Notify on Listing Expiration">
+        <tr lang="ar"> اشعرني عند اقتراب انتهاء صلاحية الاعلان </tr>
+      </string>
+      <string key="Notify on Contract Expiration">
+        <tr lang="ar"> اشعاري عن اقتراب انتهاء العقد </tr>
+      </string>
+      <string key="Modify search">
+        <tr lang="ar"> تعديل البحث </tr>
+      </string>
+      <string key="Save this search">
+        <tr lang="ar"> حفظ هذا البحث </tr>
+      </string>
+      <string key="Saved jobs">
+        <tr lang="ar"> الوظائف المحفوظة </tr>
+      </string>
+      <string key="Saved searches">
+        <tr lang="ar"> عمليات البحث المحفوظة </tr>
+      </string>
+      <string key="Results: {$listings_number} Jobs">
+        <tr lang="ar"> وظيفة {$listings_number} نتائج </tr>
+      </string>
+      <string key="Number of jobs per page">
+        <tr lang="ar"> عدد الوظائف في الصفحة </tr>
+      </string>
+      <string key="Previous">
+        <tr lang="ar"> التالي </tr>
+      </string>
+      <string key="Save Your Search">
+        <tr lang="ar"> حفظ البحث </tr>
+      </string>
+      <string key="Search Name">
+        <tr lang="ar"> البحث بالإسم </tr>
+      </string>
+      <string key="Your search has been saved.">
+        <tr lang="ar"> تم حفظ بحثك. </tr>
+      </string>
+      <string key="You may close this window now.">
+        <tr lang="ar"> بإمكانك اغلاق هذه الصفة الان </tr>
+      </string>
+      <string key="Save ad">
+        <tr lang="ar"> حفظ الاعلان </tr>
+      </string>
+      <string key="View job details">
+        <tr lang="ar"> تفاصيل الوظيفة </tr>
+      </string>
+      <string key="Rate this job">
+        <tr lang="ar"> تقييم هذه الوظيفة </tr>
+      </string>
+      <string key="Please, Vote!">
+        <tr lang="ar"> الرجاء التصويت! </tr>
+      </string>
+      <string key="Watch a video">
+        <tr lang="ar"> شاهد الفديو </tr>
+      </string>
+      <string key="Save this Job">
+        <tr lang="ar"> حفظ هذة الوظيفة </tr>
+      </string>
+      <string key="View Saved Jobs">
+        <tr lang="ar"> عرض الوظائف المحفوظة </tr>
+      </string>
+      <string key="Tell a Friend">
+        <tr lang="ar"> اخبر صديق </tr>
+      </string>
+      <string key="Print This Ad">
+        <tr lang="ar"> طباعة هذا الاعلان </tr>
+      </string>
+      <string key="View Map">
+        <tr lang="ar"> عرض الخريطة </tr>
+      </string>
+      <string key="Back to Results">
+        <tr lang="ar"> الرجوع الى النتائج </tr>
+      </string>
+      <string key="Modify Search">
+        <tr lang="ar"> تعديل البحث </tr>
+      </string>
+      <string key="Rate This Job">
+        <tr lang="ar"> تقييم هذة الوظيفة </tr>
+      </string>
+      <string key="User Info">
+        <tr lang="ar"> معلومات المستخدم </tr>
+      </string>
+      <string key="All jobs by this company">
+        <tr lang="ar"> جميع الوظائف لهذه الشركة </tr>
+      </string>
+      <string key="Video">
+        <tr lang="ar"> فديو </tr>
+      </string>
+      <string key="Photos">
+        <tr lang="ar"> صور </tr>
+      </string>
+      <string key="Apply now">
+        <tr lang="ar"> سجل الان </tr>
+      </string>
+      <string key="Location">
+        <tr lang="ar"> المكان </tr>
+      </string>
+      <string key="Please, wait ...">
+        <tr lang="ar"> الرجاء الأنتظار... </tr>
+      </string>
+      <string key="Add your comment">
+        <tr lang="ar"> إضافة تعليق </tr>
+      </string>
+      <string key="Add">
+        <tr lang="ar"> إضافة </tr>
+      </string>
+      <string key="Listing has been saved">
+        <tr lang="ar"> تم حفظ الأعلان </tr>
+      </string>
+      <string key="View details">
+        <tr lang="ar"> عرض التفاصيل </tr>
+      </string>
+      <string key="Recommend listing with ID">
+        <tr lang="ar"> توصية الوظيفة </tr>
+      </string>
+      <string key="Your name">
+        <tr lang="ar"> اسمك </tr>
+      </string>
+      <string key="Your friend\&apos;s name">
+        <tr lang="ar"> اسم صديقك </tr>
+      </string>
+      <string key="Your friend\&apos;s e-mail address">
+        <tr lang="ar"> البريد الالكتروني لصديقك </tr>
+      </string>
+      <string key="Your comment (will be send with the recomendation)">
+        <tr lang="ar"> سيتم ارسال تعليقك مع التوصية </tr>
+      </string>
+      <string key="Send">
+        <tr lang="ar"> إرسال </tr>
+      </string>
+      <string key="Cannot send letter">
+        <tr lang="ar"> لا يمكت إرسال الرسالة </tr>
+      </string>
+      <string key="Company Info">
+        <tr lang="ar"> معلومات الشركة </tr>
+      </string>
+      <string key="You\&apos;ve already voted">
+        <tr lang="ar"> تم التصويت مسبقا </tr>
+      </string>
+      <string key="Author">
+        <tr lang="ar"> الكاتب </tr>
+      </string>
+      <string key="Your e-mail">
+        <tr lang="ar"> بريدك الألكتروني </tr>
+      </string>
+      <string key="Your request">
+        <tr lang="ar"> طلبك </tr>
+      </string>
+      <string key="Attach your resume">
+        <tr lang="ar"> إرفاق السيرة الذاتية </tr>
+      </string>
+      <string key="Cannot send your message">
+        <tr lang="ar"> لا يمكنك إرسال الرسالة </tr>
+      </string>
+      <string key="You do not have permissions to post Resume listings.">
+        <tr lang="ar"> ليس لديك الصلاحية لإضافة قائمة سير ذاتية </tr>
+      </string>
+      <string key="Results: {$listings_number} Resumes">
+        <tr lang="ar"> نتائج البحث: {$listings_number} سيرة ذاتية </tr>
+      </string>
+      <string key="Number of resumes per page">
+        <tr lang="ar"> عدد السير الذاتية في كل صفحة </tr>
+      </string>
+      <string key="Enter Your Ad Information">
+        <tr lang="ar"> ادخل معلومات الإعلان </tr>
+      </string>
+      <string key="Add Pictures">
+        <tr lang="ar"> إضافة صورة </tr>
+      </string>
+      <string key="is empty">
+        <tr lang="ar"> خالية </tr>
+      </string>
+      <string key="could not convert video file">
+        <tr lang="ar"> لا يمكنك التحويل الى ملف فديو </tr>
+      </string>
+      <string key="is unknown">
+        <tr lang="ar"> غير معروف </tr>
+      </string>
+      <string key="Manage Listing">
+        <tr lang="ar"> التحكم في الأعلانات </tr>
+      </string>
+      <string key="Preview Listing">
+        <tr lang="ar"> عرض الإعلانات </tr>
+      </string>
+      <string key="Manage Listing Pictures">
+        <tr lang="ar"> التحكم في صور الإعلانات </tr>
+      </string>
+      <string key="Go to Manage Listing">
+        <tr lang="ar"> االذهاب الى قائمة التحكم </tr>
+      </string>
+      <string key="Add Picture">
+        <tr lang="ar"> إضافة صورة </tr>
+      </string>
+      <string key="Caption">
+        <tr lang="ar"> الشرح </tr>
+      </string>
+      <string key="Thumbnail">
+        <tr lang="ar"> مصغرة </tr>
+      </string>
+      <string key="Actions">
+        <tr lang="ar"> الإجراءات </tr>
+      </string>
+      <string key="Are you sure?">
+        <tr lang="ar"> هل أنت متأكد؟ </tr>
+      </string>
+      <string key="Edit Picture">
+        <tr lang="ar"> تعديل الصورة </tr>
+      </string>
+      <string key="Picture">
+        <tr lang="ar"> الصورة </tr>
+      </string>
+      <string key="Please specify a valid email address.">
+        <tr lang="ar"> يرجى تحديد عنوان بريد إلكتروني صحيح. </tr>
+      </string>
+      <string key="Please provide your full name.">
+        <tr lang="ar"> يرجى كتابة اسمك الكامل </tr>
+      </string>
+      <string key="Please include your comments.">
+        <tr lang="ar"> الرجاء إرفاق تعليقك </tr>
+      </string>
+      <string key="Thank you very much for your message. We will respond to you as soon as possible.">
+        <tr lang="ar"> شكرا جزيلا لرسالتك. سيتم الرد عليك في أقرب فرصة ممكنة </tr>
+      </string>
+      <string key="Invalid password">
+        <tr lang="ar"> كلمة السر غير صحيحة </tr>
+      </string>
+      <string key="Login error">
+        <tr lang="ar"> اسم مسخدم غير صحيح أو كلمة المرور </tr>
+      </string>
+      <string key="Browse by category">
+        <tr lang="ar"> تصفح حسب المجال المهني </tr>
+      </string>
+      <string key="There are no listings with requested parameters in the system.">
+        <tr lang="ar"> لا توجد قوائم مع المعلمات المطلوبة في النظام </tr>
+      </string>
+      <string key="Browse by city">
+        <tr lang="ar"> تصفح حسب المدينة </tr>
+      </string>
+      <string key="My Resumes">
+        <tr lang="ar"> سيرتي الذاتية </tr>
+      </string>
+      <string key="Saved Jobs">
+        <tr lang="ar"> وظائف محفوظة </tr>
+      </string>
+      <string key="Job Alerts">
+        <tr lang="ar"> تنبيعات الوظائف </tr>
+      </string>
+      <string key="Jobs by {$companyName}">
+        <tr lang="ar"> وظائف من {$companyName} </tr>
+      </string>
+      <string key="$select_box_field_distance of Zip $input_text_field_location">
+        <tr lang="ar"> $select_box_field_distance الرمز البريدي $input_text_field_location </tr>
+      </string>
+      <string key="$input_text_field_from to $input_text_field_to">
+        <tr lang="ar"> $input_text_field_from إلى $input_text_field_to </tr>
+      </string>
+      <string key="not confirmed">
+        <tr lang="ar"> لم تأكد </tr>
+      </string>
+      <string key="this value is already used in the system">
+        <tr lang="ar"> تم استخدام هذه القيمة في النظام </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="ar"> من فضلك ، أدخل اسم المستخدم الخاص بك في الحقل التالي ،سيرسل لك وصلة لصفحة حيث يمكنك تغيير كلمة السر الخاصة بك </tr>
+      </string>
+      <string key="Check all">
+        <tr lang="ar"> تحديد الكل </tr>
+      </string>
+      <string key="Uncheck all">
+        <tr lang="ar"> عدم التحديد للجميع </tr>
+      </string>
+      <string key="Actions with Selected">
+        <tr lang="ar"> التنفيذ لما تم تحديده </tr>
+      </string>
+      <string key="Number of listings per page">
+        <tr lang="ar"> عدد النتائج في كل صفحة </tr>
+      </string>
+      <string key="Rating">
+        <tr lang="ar"> التقييم </tr>
+      </string>
+      <string key="Deactivate">
+        <tr lang="ar"> تراجع عن التنفيذ </tr>
+      </string>
+      <string key="Activate">
+        <tr lang="ar"> فعال </tr>
+      </string>
+      <string key="Your listing is successfully activated">
+        <tr lang="ar"> تم تفعيل إعلانك بنجاح </tr>
+      </string>
+      <string key="Back to My Listings">
+        <tr lang="ar"> الرجوع إلى الإعلانات </tr>
+      </string>
+      <string key="Sort by">
+        <tr lang="ar"> ترتيب النتائج من خلال </tr>
+      </string>
+      <string key="Edit">
+        <tr lang="ar"> تعديل </tr>
+      </string>
+      <string key="View Details">
+        <tr lang="ar"> عرض التفاصيل </tr>
+      </string>
+      <string key="Enable Auto notify">
+        <tr lang="ar"> تفعيل الاشعار التلقائي </tr>
+      </string>
+      <string key="Disable Auto notify">
+        <tr lang="ar"> عدم تفيل الإشعار التلقائي </tr>
+      </string>
+      <string key="Results: $listings_number Jobs">
+        <tr lang="ar"> نتائج البحث: $listings_number وظائف </tr>
+      </string>
+      <string key="Jobs by $companyName">
+        <tr lang="ar"> الوظائف $companyName </tr>
+      </string>
+      <string key="Results: $listings_number Resumes">
+        <tr lang="ar"> نتائج البحث: $listings_number سيرة ذاتية </tr>
+      </string>
+      <string key="Rate this resume">
+        <tr lang="ar"> تقييم هذه الوظيفة </tr>
+      </string>
+      <string key="View resume details">
+        <tr lang="ar"> عرض تفاصيل السيرة الذاتية </tr>
+      </string>
+      <string key="All resumes by this user">
+        <tr lang="ar"> جميع السير الذاتية باسم هذا المستخدم </tr>
+      </string>
+      <string key="Rate This Resume">
+        <tr lang="ar"> تقييم هذة السيرة </tr>
+      </string>
+      <string key="View Saved Resumes">
+        <tr lang="ar"> عرض السير الذاتية المحفوظة </tr>
+      </string>
+      <string key="Save this Resume">
+        <tr lang="ar"> حفظ هذه السيرة الذاتية </tr>
+      </string>
+      <string key="Resumes by $firstName $lastName">
+        <tr lang="ar"> سير ذاتية من  $firstName $lastName </tr>
+      </string>
+      <string key="Select a Package">
+        <tr lang="ar"> اختار عرض </tr>
+      </string>
+      <string key="is not an integer value">
+        <tr lang="ar"> لا قيمة عددية </tr>
+      </string>
+      <string key="You&apos;ve got a limit of the allowed number of picture">
+        <tr lang="ar"> وصلت إلا الحد الأعلى لتحميل الصور </tr>
+      </string>
+      <string key="limit exceeded">
+        <tr lang="ar"> تجاوزت الحد </tr>
+      </string>
+      <string key="You don&apos;t have permissions to access this page.">
+        <tr lang="ar"> ليست لديك الصلاحية للوصول إلا هذه الصفحة </tr>
+      </string>
+      <string key="Resume search is accessible only for subscribed Employers.">
+        <tr lang="ar"> ليس لديك الصلاحية للبحث خلال السير الذاتية فقط لشركات </tr>
+      </string>
+      <string key="Your friend&apos;s name">
+        <tr lang="ar"> اسم صديقك </tr>
+      </string>
+      <string key="Your friend&apos;s e-mail address">
+        <tr lang="ar"> البريد الألكتروني لصديقك </tr>
+      </string>
+      <string key="Dear customer!">
+        <tr lang="ar"> عزيزي العميل </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for &lt;b&gt;$product_info_name&lt;/b&gt;.">
+        <tr lang="ar"> الرجاء دفع مبلغ وقدرة $currency_sign $product_info_price for &lt;b&gt;$product_info_name&lt;/b&gt;. </tr>
+      </string>
+      <string key="Please choose from the following payment methods:">
+        <tr lang="ar"> الرجاء اختيار احد طرق الدفع التالية: </tr>
+      </string>
+      <string key="Wire Transfer">
+        <tr lang="ar"> حوالة مصرفية </tr>
+      </string>
+      <string key="Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for $item_name&lt;br /&gt;Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you!">
+        <tr lang="ar"> عزيزي $username, &lt;br /&gt;&lt;br /&gt; الرجاء دفع مبلغ وقدرة  $amount for $item_name&lt;br /&gt; فاتورة رقم  $payment_id. &lt;br /&gt;&lt;br /&gt; وشكرا جزيلا </tr>
+      </string>
+      <string key="There is no listing in the system with the specified ID">
+        <tr lang="ar"> لايوجد اعلان في النظام بهذا الرقم </tr>
+      </string>
+      <string key="Anonymous User Info">
+        <tr lang="ar"> معلومات المستخدم مجهولة </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for">
+        <tr lang="ar"> الرجاء دفع مبلغ وقدره $currency_sign $product_info_price for </tr>
+      </string>
+      <string key="Welcome">
+        <tr lang="ar"> مرحبا </tr>
+      </string>
+      <string key="Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for">
+        <tr lang="ar"> عزيزي$username, &lt;br /&gt;&lt;br /&gt; الرجاء دفع مبلغ وقدرة $amount for </tr>
+      </string>
+      <string key="Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you!">
+        <tr lang="ar"> رقم عملية التحويل $payment_id. &lt;br /&gt;&lt;br /&gt;شكرا جزيلا </tr>
+      </string>
+      <string key="Please log in to access this page. If you do not have an account, please">
+        <tr lang="ar"> الرجاء تسجيل الدخول لدخول هذه الصفحة. إذا لم يكن لديك حساب ، الرجاء </tr>
+      </string>
+      <string key="Featured Companies">
+        <tr lang="ar"> الشركات المميزة </tr>
+      </string>
+      <string key="Get resumes by email">
+        <tr lang="ar"> الحصول على السيرة الذاتية من خلال البريد الالكتروني </tr>
+      </string>
+      <string key="Get jobs by email">
+        <tr lang="ar"> الحصول على وظائف عن طريق البريد الإلكتروني </tr>
+      </string>
+      <string key="Please use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="ar"> الرجاء استخدام مفتاح &quot;Control&quot; للاخنيار اكثر من خيار </tr>
+      </string>
+      <string key="Confirm E-mail">
+        <tr lang="ar"> تاكيد البريد الاكتروني </tr>
+      </string>
+      <string key="Reload Image">
+        <tr lang="ar"> إعادة تحميل الصورةe </tr>
+      </string>
+      <string key="Accept terms of use">
+        <tr lang="ar"> الموافقة على شروط الاستخدام </tr>
+      </string>
+      <string key="Read terms of use">
+        <tr lang="ar"> قراءة شروط الاستخدام </tr>
+      </string>
+      <string key="Resume Alerts">
+        <tr lang="ar"> تبية السير الذاتية </tr>
+      </string>
+      <string key="Application Tracking">
+        <tr lang="ar"> برنامج التعقيب </tr>
+      </string>
+      <string key="Resume Alert Name">
+        <tr lang="ar"> تبية باسماء السير الذاتية </tr>
+      </string>
+      <string key="Add new resume alert">
+        <tr lang="ar"> إضافة سيرة ذاتية جديدةt </tr>
+      </string>
+      <string key="Disable">
+        <tr lang="ar"> عدم التفعيل </tr>
+      </string>
+      <string key="Preview Search Results">
+        <tr lang="ar"> عرض نتائح البحث </tr>
+      </string>
+      <string key="Add resume alert">
+        <tr lang="ar"> إضافة تنبية سيرة ذاتية </tr>
+      </string>
+      <string key="Alert Name">
+        <tr lang="ar"> اسم التنبية </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="ar"> المسمى الوظيفي </tr>
+      </string>
+      <string key="Date Applied">
+        <tr lang="ar"> تاريخ التقديم </tr>
+      </string>
+      <string key="Status">
+        <tr lang="ar"> الحالة </tr>
+      </string>
+      <string key="Attached Resume">
+        <tr lang="ar"> إرفاق سيرة ذاتية </tr>
+      </string>
+      <string key="Applicant’s Name">
+        <tr lang="ar"> إسم المرشح </tr>
+      </string>
+      <string key="User comments">
+        <tr lang="ar"> تعليق اسم المستخدم </tr>
+      </string>
+      <string key="View Attached File">
+        <tr lang="ar"> عرض الملف المرفق </tr>
+      </string>
+      <string key="Jobs Search Results">
+        <tr lang="ar"> نتائج البحث للوظائف </tr>
+      </string>
+      <string key="Save this Search / Job Alert">
+        <tr lang="ar"> حفظ هذا البحث / منبه الوظائف </tr>
+      </string>
+      <string key="Company Profile">
+        <tr lang="ar"> نبذه عن الشركة </tr>
+      </string>
+      <string key="Sign in">
+        <tr lang="ar"> دخول </tr>
+      </string>
+      <string key="You have no listings now. Click">
+        <tr lang="ar"> لا يوجد لديك أي اعلان. الرجاء الضغط </tr>
+      </string>
+      <string key="here">
+        <tr lang="ar"> هنا </tr>
+      </string>
+      <string key="to add a new listing.">
+        <tr lang="ar"> إضافة قائمة جديدة . </tr>
+      </string>
+      <string key="Fields marked with an asterisk (">
+        <tr lang="ar"> فشل في تحديد الحقول التي عليها نجمة ( </tr>
+      </string>
+      <string key=") are mandatory">
+        <tr lang="ar"> ) إلزامية </tr>
+      </string>
+      <string key="Please log in to place a listing. If you do not have an account, please">
+        <tr lang="ar"> الرجاء تسجيل الدخول لوضع قائمة. إذا لم يكن لديك حساب ، الرجاء </tr>
+      </string>
+      <string key="within $radius $radius_search_unit of $location">
+        <tr lang="ar"> من خلال $radius $radius_search_unit of $location </tr>
+      </string>
+      <string key="kilometers">
+        <tr lang="ar"> كيلو متر </tr>
+      </string>
+      <string key="Apply to job">
+        <tr lang="ar"> التقديم على وظيفة </tr>
+      </string>
+      <string key="Cover letter (optional)">
+        <tr lang="ar"> نبذة عنك (اختياري) </tr>
+      </string>
+      <string key="Please">
+        <tr lang="ar"> الرجاء </tr>
+      </string>
+      <string key="sign in ">
+        <tr lang="ar"> الدخول </tr>
+      </string>
+      <string key="to add comments!">
+        <tr lang="ar"> إضافة تعليق </tr>
+      </string>
+      <string key="You applied successfully">
+        <tr lang="ar"> تم التقديم بنجاح </tr>
+      </string>
+      <string key="Please log in to place a new posting. If you do not have an account, please">
+        <tr lang="ar"> يرجى الدخول إلى مكان نشر جديدة. إذا لم يكن لديك حساب ، الرجاء </tr>
+      </string>
+      <string key="Register.">
+        <tr lang="ar"> التسجيل </tr>
+      </string>
+      <string key="Search by Company">
+        <tr lang="ar"> البحث باسم الشركات </tr>
+      </string>
+      <string key="Clone">
+        <tr lang="ar"> نسخ </tr>
+      </string>
+      <string key="My Job Preview">
+        <tr lang="ar"> عرض وظيفتي </tr>
+      </string>
+      <string key="Click to select">
+        <tr lang="ar"> اضغط لتحديد </tr>
+      </string>
+      <string key="Redirect to this URL">
+        <tr lang="ar"> إعادة توجيه إلى هذا الرابط </tr>
+      </string>
+      <string key="Use the following format:">
+        <tr lang="ar"> استخدم التنسيق التالي: </tr>
+      </string>
+      <string key="Your changes were successfully saved">
+        <tr lang="ar"> تم حفظ التغييرات بنجاح </tr>
+      </string>
+      <string key="Manage Pictures">
+        <tr lang="ar"> التحكم بالصور </tr>
+      </string>
+      <string key="Clone this job posting">
+        <tr lang="ar"> نسخ الوظيفة المنشورة </tr>
+      </string>
+      <string key="Clone Job">
+        <tr lang="ar"> نسخ وظيفة </tr>
+      </string>
+      <string key="Company">
+        <tr lang="ar"> الشركة </tr>
+      </string>
+      <string key="My Applications">
+        <tr lang="ar"> تقديماتي </tr>
+      </string>
+      <string key="Select your resume">
+        <tr lang="ar"> اختار السيرة الذاتية </tr>
+      </string>
+      <string key="Enter Job Information">
+        <tr lang="ar"> ادخل معلومات الوظيفة </tr>
+      </string>
+      <string key="My Postings">
+        <tr lang="ar"> اعلانتي </tr>
+      </string>
+      <string key="Private messages">
+        <tr lang="ar"> رسالة خاصة </tr>
+      </string>
+      <string key="Inbox">
+        <tr lang="ar"> صندوق البريد </tr>
+      </string>
+      <string key="Outbox">
+        <tr lang="ar"> الرسائل المرسلة </tr>
+      </string>
+      <string key="Edit Saved Search">
+        <tr lang="ar"> تعديل البحث المحفوظ </tr>
+      </string>
+      <string key="Saved Searches Name">
+        <tr lang="ar"> اسم البحث المحفوظ </tr>
+      </string>
+      <string key="Notify on My Jobs Expiration">
+        <tr lang="ar"> إشعاري عندانتهاء صلاحية الإعلان </tr>
+      </string>
+      <string key="Notify on My Contract Expiration">
+        <tr lang="ar"> إشعاري عن انتهاء العقد </tr>
+      </string>
+      <string key="Notify on new private message">
+        <tr lang="ar"> إشعاري بالرسائل الخاصة </tr>
+      </string>
+      <string key="Cover Letter">
+        <tr lang="ar"> نبذه عني </tr>
+      </string>
+      <string key="My Billings">
+        <tr lang="ar"> فواتيري </tr>
+      </string>
+      <string key="Compose Message">
+        <tr lang="ar"> إرسال رسالة </tr>
+      </string>
+      <string key="From">
+        <tr lang="ar"> من </tr>
+      </string>
+      <string key="Subject">
+        <tr lang="ar"> الموضوع </tr>
+      </string>
+      <string key="To">
+        <tr lang="ar"> إلى </tr>
+      </string>
+      <string key="Message to">
+        <tr lang="ar"> مرسلة إلى </tr>
+      </string>
+      <string key="Message">
+        <tr lang="ar"> الرسالة </tr>
+      </string>
+      <string key="Save to outbox">
+        <tr lang="ar"> حفظ في  صندوق الرسائب الغير مرسلة </tr>
+      </string>
+      <string key="Send private message">
+        <tr lang="ar"> إرسال رسالة خاصة </tr>
+      </string>
+      <string key="You are logged in already">
+        <tr lang="ar"> لقد تم تسجيل دخولك </tr>
+      </string>
+      <string key="You&apos;re not allowed to open this page">
+        <tr lang="ar"> ليست لديك الصلاحية لفتح هذه الصفحة </tr>
+      </string>
+      <string key="Send Private Message">
+        <tr lang="ar"> إرسال رسالة خاصة </tr>
+      </string>
+      <string key="Save this Search / Resume Alert">
+        <tr lang="ar"> حفظ هذا البحث / منبه السير الذاتية </tr>
+      </string>
+      <string key="Resume has been saved">
+        <tr lang="ar"> تم حفظ السيرة الذاتية </tr>
+      </string>
+      <string key="Contact User">
+        <tr lang="ar"> التواصل مع المستخدم </tr>
+      </string>
+      <string key="Send applications online via web site">
+        <tr lang="ar"> إرسال السير الذاتية من خلال موقع الشركة </tr>
+      </string>
+      <string key="Notify on My Resumes Approve Or Reject">
+        <tr lang="ar"> إشعاري عن قبول الطلب او رفضه </tr>
+      </string>
+      <string key="Notify on My Resumes Expiration">
+        <tr lang="ar"> اشعرني عن اقتراب انتهاء صلاحية السيرة الذاتية </tr>
+      </string>
+      <string key="Job Alert Name">
+        <tr lang="ar"> مسمى تنبية الوظيفة </tr>
+      </string>
+      <string key="Add new job alert">
+        <tr lang="ar"> إضافة تنبيه وظيفة جديد </tr>
+      </string>
+      <string key="Jobs Applied">
+        <tr lang="ar"> الوظائف التي تم التقديم عليها </tr>
+      </string>
+      <string key="Enter Your Resume Information">
+        <tr lang="ar"> ادخل معلومات السيرة الذاتية </tr>
+      </string>
+      <string key="Company name">
+        <tr lang="ar"> اسم الشركة </tr>
+      </string>
+      <string key="Company Search Results">
+        <tr lang="ar"> نتائج بحث الشركات </tr>
+      </string>
+      <string key="Results: $usersCount Company">
+        <tr lang="ar"> نتائج البحث: $usersCount شركة </tr>
+      </string>
+      <string key="Number of company per page">
+        <tr lang="ar"> عدد أسماء الشركات في كل صفحة </tr>
+      </string>
+      <string key="Mark as Read">
+        <tr lang="ar"> تحديد الرسالة كمقروءة </tr>
+      </string>
+      <string key="Message from">
+        <tr lang="ar"> رسالة من </tr>
+      </string>
+      <string key="Read Private Message">
+        <tr lang="ar"> قراءة الرسالة الخاصة </tr>
+      </string>
+      <string key="Reply">
+        <tr lang="ar"> رد </tr>
+      </string>
+      <string key="Approve selected">
+        <tr lang="ar"> الموافقة على المحدد </tr>
+      </string>
+      <string key="Reject selected">
+        <tr lang="ar"> ارفض المحدد </tr>
+      </string>
+      <string key="Pending">
+        <tr lang="ar"> معلق </tr>
+      </string>
+      <string key="Approved">
+        <tr lang="ar"> موافقة </tr>
+      </string>
+      <string key="Rejected">
+        <tr lang="ar"> رفض </tr>
+      </string>
+      <string key="Select Job Posting">
+        <tr lang="ar"> اختيار الاعلان عن وظيفة </tr>
+      </string>
+      <string key="All Jobs">
+        <tr lang="ar"> جميع الوظائف </tr>
+      </string>
+      <string key="Delete profile">
+        <tr lang="ar"> حذف الملف التعريفي </tr>
+      </string>
+      <string key="Back">
+        <tr lang="ar"> الرجوع </tr>
+      </string>
+      <string key="Enable">
+        <tr lang="ar"> تفعيل </tr>
+      </string>
+      <string key="E-mail frequency">
+        <tr lang="ar"> إرسال بريد إلتروني باستمرار </tr>
+      </string>
+      <string key="You have">
+        <tr lang="ar"> لديك </tr>
+      </string>
+      <string key="jobs left to post out of">
+        <tr lang="ar"> عدد الإعلانات الوظيفية المتبقية </tr>
+      </string>
+      <string key="resumes left to post out of">
+        <tr lang="ar"> عدد السير الذاتية  التي تستطيع إضافتها </tr>
+      </string>
+      <string key="originally available">
+        <tr lang="ar"> الأصول متاحة </tr>
+      </string>
+      <string key="You&apos;re currently subscribed to">
+        <tr lang="ar"> حاليا انت مشترك بـ </tr>
+      </string>
+      <string key="plan.">
+        <tr lang="ar"> الخطة. </tr>
+      </string>
+      <string key="Subscription date">
+        <tr lang="ar"> تاريخ الإشتراك </tr>
+      </string>
+      <string key="Subscription expiration date">
+        <tr lang="ar"> تاريخ إنتهاء الإشتراك </tr>
+      </string>
+      <string key="s left to post out of">
+        <tr lang="ar"> متبقية لإضافتها </tr>
+      </string>
+      <string key="To change your current subscription please chose new plan below.">
+        <tr lang="ar"> للحصول على إشتراك آخر الرجاء اختيار احد الخيارات التالية </tr>
+      </string>
+      <string key="job">
+        <tr lang="ar"> وظيفة </tr>
+      </string>
+      <string key="Not Available Anymore">
+        <tr lang="ar"> غير متوفرة حاليا </tr>
+      </string>
+      <string key="home">
+        <tr lang="ar"> الصفحة الرئيسية </tr>
+      </string>
+      <string key="Search job title only">
+        <tr lang="ar"> البحث عن طريق المسمى الوظيفي </tr>
+      </string>
+      <string key="Edit notes">
+        <tr lang="ar"> تعديل ملاحظات </tr>
+      </string>
+      <string key="Add notes">
+        <tr lang="ar"> إضافة ملاحظات </tr>
+      </string>
+      <string key="Close">
+        <tr lang="ar"> إغلاق </tr>
+      </string>
+      <string key="My notes">
+        <tr lang="ar"> ملاحظاتي </tr>
+      </string>
+      <string key="Search resume title only">
+        <tr lang="ar"> بحث عن مسمى السيرة الذاتية فقط </tr>
+      </string>
+      <string key="Search by title">
+        <tr lang="ar"> البحث بالمسمى الوظيفي </tr>
+      </string>
+      <string key="Match exact phrase">
+        <tr lang="ar"> طابق جميع االعبارات </tr>
+      </string>
+      <string key="Match all words">
+        <tr lang="ar"> طابق جميع الكلمات </tr>
+      </string>
+      <string key="Match any words">
+        <tr lang="ar"> طابق اي كلمة </tr>
+      </string>
+      <string key="Boolean">
+        <tr lang="ar"> منطقية </tr>
+      </string>
+      <string key="   Boolean search description">
+        <tr lang="ar"> وصف البحث المنطقي </tr>
+      </string>
+      <string key="Please choose new subscription plan">
+        <tr lang="ar"> الرجاء اختيار اشتراك جديد </tr>
+      </string>
+      <string key="You&apos;ve reached the limit of number of listings allowed by your plan">
+        <tr lang="ar"> لقد استخدمت الحد الإعلى في اشتراكك </tr>
+      </string>
+      <string key="Boolean search descripion">
+        <tr lang="ar"> وصف البحث المنطقي </tr>
+      </string>
+      <string key="Search title only">
+        <tr lang="ar"> البحث بالعنوان فقط </tr>
+      </string>
+      <string key="Terms of use">
+        <tr lang="ar"> شروط الاستخدام </tr>
+      </string>
+      <string key="Test URL">
+        <tr lang="ar"> اختبار الرابطL </tr>
+      </string>
+      <string key="Go Search">
+        <tr lang="ar"> اذهب للبحث </tr>
+      </string>
+      <string key="Applicant’s resume">
+        <tr lang="ar"> سير طالبي العمل </tr>
+      </string>
+      <string key="Total">
+        <tr lang="ar"> الإجمالي </tr>
+      </string>
+      <string key="Boolean search description">
+        <tr lang="ar"> وصف البحث المنطقي </tr>
+      </string>
+      <string key="Employers List">
+        <tr lang="ar"> قائمة الشركات </tr>
+      </string>
+      <string key="Selected Emloyers">
+        <tr lang="ar"> الشركات المحددة </tr>
+      </string>
+      <string key="* Use CTRL key to select two or more employers">
+        <tr lang="ar"> * الرجاء استخدام CTRL لتحديد اكثر من شركة </tr>
+      </string>
+      <string key="Loading">
+        <tr lang="ar"> تحميل </tr>
+      </string>
+      <string key="Currency">
+        <tr lang="ar"> العملة </tr>
+      </string>
+      <string key="Deselect all">
+        <tr lang="ar"> تراجع عن تحديد الكل </tr>
+      </string>
+      <string key="You can not subscribe to this plan twice">
+        <tr lang="ar"> لايمكنك الاشتراك في نفس برنامج الاشتراك اكثر من مره </tr>
+      </string>
+      <string key="No avaiable subscriptions">
+        <tr lang="ar"> الاشتراكات غير متوفرة </tr>
+      </string>
+      <string key="Please choose exl or csv file">
+        <tr lang="ar"> الرجاء اختيار ملف EXL او CSV </tr>
+      </string>
+      <string key="Your recurring subscription to the &quot;$cancelMembershipPlanName&quot; plan has been canceled.">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Your payment was successfully completed. Recurring Subscription activation may take some time. Once subscription is activated it will appear in the table below.">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Notify on My Jobs Activation">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Notify on My Resumes Activation">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="jobs">
+        <tr lang="ar"> وظيفة </tr>
+      </string>
+      <string key="resumes">
+        <tr lang="ar"> السيرة الذاتية </tr>
+      </string>
+      <string key="currently online">
+        <tr lang="ar"> الشاغرة حاليا </tr>
+      </string>
+      <string key="Post jobs">
+        <tr lang="ar"> أعلن عن وظيفة </tr>
+      </string>
+      <string key="Blog Posts">
+        <tr lang="ar"> مشاركات المدونة </tr>
+      </string>
+      <string key="You are currently logged in as">
+        <tr lang="ar"> تم تسجيل دخولك باسم </tr>
+      </string>
+      <string key="News">
+        <tr lang="ar"> الاخبار </tr>
+      </string>
+      <string key="Sub Accounts">
+        <tr lang="ar"> حساب فرعي </tr>
+      </string>
+      <string key="Saved Resumes">
+        <tr lang="ar"> السير المحفوظفة </tr>
+      </string>
+      <string key="Screening Questionnaires">
+        <tr lang="ar"> اسئلة لفرز المتقدمين </tr>
+      </string>
+      <string key="Bulk job import from exl/csv file">
+        <tr lang="ar"> تحميل مجموعة من الوظائف من ملف بصيغة  exl  أو csv </tr>
+      </string>
+      <string key="Your listing succesfully upgraded to featured">
+        <tr lang="ar"> Your listing succesfully upgraded to featured </tr>
+      </string>
+      <string key="Listing is already featured">
+        <tr lang="ar"> Listing is already featured </tr>
+      </string>
+      <string key="Current Search">
+        <tr lang="ar"> البحث الحالي </tr>
+      </string>
+      <string key="Refine Results">
+        <tr lang="ar"> تخصيص النتائج </tr>
+      </string>
+      <string key="show brief">
+        <tr lang="ar"> عرص ملخص </tr>
+      </string>
+      <string key="show detailed">
+        <tr lang="ar"> عرض تفصيلي </tr>
+      </string>
+      <string key="Post Job">
+        <tr lang="ar"> أعلن عن وظيفة </tr>
+      </string>
+      <string key="Send applications to this e-mail">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Score">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Not passed">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Actions With Selected">
+        <tr lang="ar"> التنفيذ لما تم تحديده </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="ar"> اسم الاستبيان </tr>
+      </string>
+      <string key="Create New Questionnaire">
+        <tr lang="ar"> إنشاء اسئلة  استبيان جديد لفرز المتقدمين </tr>
+      </string>
+      <string key="Send Auto-Reply email to candidates whose score is">
+        <tr lang="ar"> إرسال رد تلقائي  للمرشحين الذين نتيجتهم </tr>
+      </string>
+      <string key="Question">
+        <tr lang="ar"> سؤال </tr>
+      </string>
+      <string key="Answer Type">
+        <tr lang="ar"> نوع الاسئله </tr>
+      </string>
+      <string key="Questions">
+        <tr lang="ar"> سؤال </tr>
+      </string>
+      <string key="Edit Questionnaire">
+        <tr lang="ar"> تعديل الاستبيان </tr>
+      </string>
+      <string key="Edit Questions">
+        <tr lang="ar"> تعديل الإسئله </tr>
+      </string>
+      <string key="Order">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Name">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Required">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="My account">
+        <tr lang="ar"> حسابي </tr>
+      </string>
+      <string key="No">
+        <tr lang="ar"> لا </tr>
+      </string>
+      <string key="Yes">
+        <tr lang="ar"> نعم </tr>
+      </string>
+      <string key="Add Answer">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Complete">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Username">
+        <tr lang="ar"> المستخدم </tr>
+      </string>
+      <string key="Sub-user Profile">
+        <tr lang="ar"> نبذه التعريفيه عن الحساب الفرعي </tr>
+      </string>
+      <string key="Permissions">
+        <tr lang="ar"> الصلاحيات </tr>
+      </string>
+      <string key="Add new listings">
+        <tr lang="ar"> اضافة قائمه جديدة </tr>
+      </string>
+      <string key="Manage listings and applications of other sub users">
+        <tr lang="ar"> لوحة تجكم القوائم والوظائف المتقدم لها للساب الثاوني </tr>
+      </string>
+      <string key="View and update subscription">
+        <tr lang="ar"> عرض وتحديث الاشتراك </tr>
+      </string>
+      <string key="years">
+        <tr lang="ar"> سنة </tr>
+      </string>
+      <string key="Save this Search">
+        <tr lang="ar"> حفظ هذا البحث </tr>
+      </string>
+      <string key="Save Resume Alert">
+        <tr lang="ar"> حفظ منبه السير </tr>
+      </string>
+      <string key="Resume Search Results">
+        <tr lang="ar"> نتائج البحث في السير </tr>
+      </string>
+      <string key="Saved resumes">
+        <tr lang="ar"> السير المحفوظفة </tr>
+      </string>
+      <string key="Data Import">
+        <tr lang="ar"> تحميل معلومات </tr>
+      </string>
+      <string key="Please review the file examples below and ascertain that your file is up to sample">
+        <tr lang="ar"> يرجى مراجعة مثال  الملف التالي والتأكد من أن الملف مطابق للمثال المعروض </tr>
+      </string>
+      <string key="Job import EXL file example">
+        <tr lang="ar"> مثال تحميل ملف بصيغة أكسل ( EXL ) </tr>
+      </string>
+      <string key="Job import CSV file example">
+        <tr lang="ar"> مثال تحميل ملف بصيغة ( CSV ) </tr>
+      </string>
+      <string key="View All News">
+        <tr lang="ar"> عرض جميع الاخبار </tr>
+      </string>
+      <string key="read more">
+        <tr lang="ar"> أفرأ ني </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="ar"> نشرت </tr>
+      </string>
+      <string key="Text">
+        <tr lang="ar"> نص </tr>
+      </string>
+      <string key="Yes/No">
+        <tr lang="ar"> نعم/لا </tr>
+      </string>
+      <string key="List of answers with multiple choice">
+        <tr lang="ar"> قائمة من الاجوبه  مع اختيارات متعددة </tr>
+      </string>
+      <string key="List of answers with single choice">
+        <tr lang="ar"> قائمة من الاجوبه  مع اختيار مفرد </tr>
+      </string>
+      <string key="Errors">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Order Information">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Invoice Number">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Credit Card Information">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Card Number">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="enter number without spaces or dashes">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Expiration Date">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="mmyy">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Billing Information">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Reset">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Anonymous User">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="News Categories">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Powered by">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="About Us">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Sitemap">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="message">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Edit Profile">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Notify on My Subscriptions Expiration">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Notify on New Private Messages">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Notify on My Subscriptions Activation">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Remind about My Subscriptions expiration">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Remind about My Listings expiration">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Days before">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Subscription name">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Subscription expiration / Renewal Date">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Never Expire">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Free">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Save Job Alert">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Flag This Job">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Your comment (will be send with the recommendation)">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="1. General Information">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="2. Education">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Fill in the fields below to provide Employers with a general information about yourself&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="3. Work Experience">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your education. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your work experience. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Listing Owner">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Post a Job">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Enter Security code">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="file not specified">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Security code is not valid">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your Job below&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="View Questionaire">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="View Questionnaire">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Answer">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Sub-users">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Create New Account">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Edit sub-user">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Sub-user">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Sub-user registration">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Fax">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Cancel">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Answers">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Questions of">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="No of jobs">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Please, enter your email in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Flag This Resume">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Рowered by">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="There was an error while sending your application.">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Passed">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Your IP address was banned by site administrator. Please contact at $adminEmail for any questions.">
+        <tr lang="ar"> تم حذرك من الادارة الرجاء الاتصال </tr>
+      </string>
+      <string key="Please select a Package">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="You are going to sign up for a recurring Subscription. Once in $product_info_subscription_period days period a charge in the amount of $currency_sign $product_info_price will automatically be placed on your credit card to renew your subscription.">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="This Resume is no longer available">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="This Job is no longer available">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Cash Payment">
+        <tr lang="ar">  </tr>
+      </string>
+    </page>
+    <page key="FormFieldCaptions">
+      <string key="Keywords">
+        <tr lang="ar"> الكلمات المحددة </tr>
+      </string>
+      <string key="State">
+        <tr lang="ar"> الدولة </tr>
+      </string>
+      <string key="Category">
+        <tr lang="ar"> حسب المجال </tr>
+      </string>
+      <string key="City">
+        <tr lang="ar"> المدينة </tr>
+      </string>
+      <string key="Username">
+        <tr lang="ar"> اسم المستخدم </tr>
+      </string>
+      <string key="Password">
+        <tr lang="ar"> كلمة السر </tr>
+      </string>
+      <string key="User name">
+        <tr lang="ar"> اسم المستخدم </tr>
+      </string>
+      <string key="E-mail">
+        <tr lang="ar"> البريد الإلكتروني </tr>
+      </string>
+      <string key="First Name">
+        <tr lang="ar"> الاسم الاول </tr>
+      </string>
+      <string key="Last Name">
+        <tr lang="ar"> اسم العائلة </tr>
+      </string>
+      <string key="Country">
+        <tr lang="ar"> المدينة </tr>
+      </string>
+      <string key="Address">
+        <tr lang="ar"> العنوان </tr>
+      </string>
+      <string key="Zip Code">
+        <tr lang="ar"> الرمز البريدي </tr>
+      </string>
+      <string key="Phone Number">
+        <tr lang="ar"> رقم الهاتف </tr>
+      </string>
+      <string key="Company Name">
+        <tr lang="ar"> اسم الشركة </tr>
+      </string>
+      <string key="Contact Name">
+        <tr lang="ar"> اسم الشخص </tr>
+      </string>
+      <string key="Web Site">
+        <tr lang="ar"> رابط الموفع </tr>
+      </string>
+      <string key="Zip code">
+        <tr lang="ar"> الرمز البريدي </tr>
+      </string>
+      <string key="Logo">
+        <tr lang="ar"> الشعار </tr>
+      </string>
+      <string key="Search Within">
+        <tr lang="ar"> بحث خلال </tr>
+      </string>
+      <string key="Salary">
+        <tr lang="ar"> الراتب </tr>
+      </string>
+      <string key="Salary Type">
+        <tr lang="ar"> نوع الراتب </tr>
+      </string>
+      <string key="Employment Type">
+        <tr lang="ar"> نوع العمل </tr>
+      </string>
+      <string key="ID">
+        <tr lang="ar"> الهوية </tr>
+      </string>
+      <string key="Activation Date">
+        <tr lang="ar"> تاريخ التفعيل </tr>
+      </string>
+      <string key="Title">
+        <tr lang="ar"> العنوان </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="ar"> أضيفت </tr>
+      </string>
+      <string key="Company">
+        <tr lang="ar"> الشركة </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="ar"> الهاتف </tr>
+      </string>
+      <string key="Web">
+        <tr lang="ar"> صفحة الانترنت </tr>
+      </string>
+      <string key="Job Views">
+        <tr lang="ar"> عرض الوظيفة </tr>
+      </string>
+      <string key="Job ID">
+        <tr lang="ar"> رقم الوظيفة </tr>
+      </string>
+      <string key="Job Category">
+        <tr lang="ar"> تصنيف الوظيفة </tr>
+      </string>
+      <string key="Job Description">
+        <tr lang="ar"> الوصف الوظيفي </tr>
+      </string>
+      <string key="Job Requirements">
+        <tr lang="ar"> متطلبات الوظيفة </tr>
+      </string>
+      <string key="Job Type">
+        <tr lang="ar"> نوع الوظيفة </tr>
+      </string>
+      <string key="Desired Salary">
+        <tr lang="ar"> الراتب المطلوب </tr>
+      </string>
+      <string key="Video">
+        <tr lang="ar"> فديو </tr>
+      </string>
+      <string key="Experience">
+        <tr lang="ar"> الخبرة </tr>
+      </string>
+      <string key="Name">
+        <tr lang="ar"> الإسم </tr>
+      </string>
+      <string key="Resumes ID">
+        <tr lang="ar"> رقم السيرة الذاتية </tr>
+      </string>
+      <string key="Email">
+        <tr lang="ar"> البريد الإلكتروني </tr>
+      </string>
+      <string key="Objective">
+        <tr lang="ar"> الهدف </tr>
+      </string>
+      <string key="Work Experience">
+        <tr lang="ar"> الخبرة العملية </tr>
+      </string>
+      <string key="Resumes Views">
+        <tr lang="ar"> عرض السير الذاتية </tr>
+      </string>
+      <string key="Total Years Experience">
+        <tr lang="ar"> العدد الاجمالي لسنوات الخبرة </tr>
+      </string>
+      <string key="Education">
+        <tr lang="ar"> التعليم </tr>
+      </string>
+      <string key="Skills">
+        <tr lang="ar"> المهارات </tr>
+      </string>
+      <string key="Resume">
+        <tr lang="ar"> السيرة الذاتية </tr>
+      </string>
+      <string key="Don&apos;t send mailings">
+        <tr lang="ar"> عدم إرسال رسائل للبريد الإلكتروني </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="ar"> ادخل الرمز الظاهر بالصورة </tr>
+      </string>
+      <string key="Number of Views">
+        <tr lang="ar"> عدد المشاهدات </tr>
+      </string>
+      <string key="Occupations">
+        <tr lang="ar"> الوظيفة </tr>
+      </string>
+      <string key="Company Description">
+        <tr lang="ar"> نبذه عن الشركة </tr>
+      </string>
+      <string key="Anonymous Resume">
+        <tr lang="ar"> سيرة ذاتية مجهولة </tr>
+      </string>
+      <string key="Application Settings">
+        <tr lang="ar"> إعدادت الطلب </tr>
+      </string>
+      <string key="Applications">
+        <tr lang="ar"> المتقدمين </tr>
+      </string>
+      <string key="Resume ID">
+        <tr lang="ar"> رقم السيرة الذاتية </tr>
+      </string>
+      <string key="Approval Status">
+        <tr lang="ar"> حالة الموافقة </tr>
+      </string>
+      <string key="Resume Visible To">
+        <tr lang="ar"> السيرة الذاتية تظهر لـ </tr>
+      </string>
+      <string key="Location">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Screening Questionnaire">
+        <tr lang="ar"> اسئلة لفرز المتقدمين </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="ar"> اسم الاستبيان </tr>
+      </string>
+      <string key="Passing Score">
+        <tr lang="ar"> درجة النجاح </tr>
+      </string>
+      <string key="equal or more than passing score">
+        <tr lang="ar"> مساويه او اعلى من درجة النجاح </tr>
+      </string>
+      <string key="less than passing score">
+        <tr lang="ar"> أقل من درجة النجاح </tr>
+      </string>
+      <string key="Email text to candidates whose score is equal or more than passing score">
+        <tr lang="ar"> أرسال رسالة إلكترونية للمرشحين الذين نتيجتهم تساوي أو أكثر من درجة النجاح </tr>
+      </string>
+      <string key="Email text to candidates whose score is less than passing score">
+        <tr lang="ar"> أرسال رسالة إلكترونية للمرشحين الذين نتيجتهم أقل درجة النجاح </tr>
+      </string>
+      <string key="Entrance Date">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Institution Name">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Major">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Degree Level">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Start Date">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="End Date">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Industry">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Description">
+        <tr lang="ar">  </tr>
+      </string>
+      <string key="Graduation Date">
+        <tr lang="ar">  </tr>
+      </string>
+    </page>
+    <page key="Miscellaneous">
+      <string key="Any">
+        <tr lang="ar"> - </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="ar"> باحث عن وظيفة </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="ar"> الشركة </tr>
+      </string>
+      <string key="Select">
+        <tr lang="ar"> تحديد </tr>
+      </string>
+      <string key="Any Distance">
+        <tr lang="ar"> أي مسافة </tr>
+      </string>
+      <string key="Within">
+        <tr lang="ar"> خلال </tr>
+      </string>
+      <string key="miles">
+        <tr lang="ar"> ميل </tr>
+      </string>
+      <string key="10 days">
+        <tr lang="ar"> عشرة ايام </tr>
+      </string>
+      <string key="20 days">
+        <tr lang="ar"> عشرون يوما </tr>
+      </string>
+      <string key="30 days">
+        <tr lang="ar"> ثلاثون يوما </tr>
+      </string>
+      <string key="Priority Ad">
+        <tr lang="ar"> افضلية الاعلان </tr>
+      </string>
+      <string key="Your posting will be shown above the average search results and will be marked by different background color">
+        <tr lang="ar"> سيظهر اعلانك متوسط نتائج البحث كما هو اعلاه وسيتم وضع علامة من لون مختلف </tr>
+      </string>
+      <string key="30 days priority resume">
+        <tr lang="ar"> تفضيل السيرة الذاتية لمدة ثلاثين يوما </tr>
+      </string>
+      <string key="Your Resume will be shown above the average search results and will be marked by different background color">
+        <tr lang="ar"> ستظهر سيرتك الذاتية بلون مختلف و ستظهر اعلاه متوسط نتائج البحث </tr>
+      </string>
+    </page>
+    <page key="Property_Occupations">
+      <string key="Accounting-Finance">
+        <tr lang="ar"> المحاسبة المالية </tr>
+      </string>
+      <string key="Bookkeeping">
+        <tr lang="ar"> إدارة الحسابات </tr>
+      </string>
+      <string key="Claims Review and Adjusting">
+        <tr lang="ar"> مراجعةوتعديل المطالبات </tr>
+      </string>
+      <string key="Collections">
+        <tr lang="ar"> المجموعات </tr>
+      </string>
+      <string key="Corporate Accounting">
+        <tr lang="ar"> المحاسبة المركزية </tr>
+      </string>
+      <string key="Corporate Finance">
+        <tr lang="ar"> الادارة المالية الرئيسية </tr>
+      </string>
+      <string key="Credit Review-Analysis">
+        <tr lang="ar"> مراجعة تحليل الائتمان </tr>
+      </string>
+      <string key="Financial Analysis-Research-Reporting">
+        <tr lang="ar"> محلل وباحث مالي </tr>
+      </string>
+      <string key="Financial Control">
+        <tr lang="ar"> الرقابة المالية </tr>
+      </string>
+      <string key="Financial Planning-Advising">
+        <tr lang="ar"> مستشار التخطيط المالي </tr>
+      </string>
+      <string key="Financial Products Sales-Brokerage">
+        <tr lang="ar"> الوساطة المالية </tr>
+      </string>
+      <string key="Fund Accounting">
+        <tr lang="ar"> صندوق المحاسبة </tr>
+      </string>
+      <string key="General-Other: Accounting-Finance">
+        <tr lang="ar"> أخرى : المحاسبة ، المالية </tr>
+      </string>
+      <string key="Investment Management">
+        <tr lang="ar"> إدارة الاستثمار </tr>
+      </string>
+      <string key="Policy Underwriting">
+        <tr lang="ar"> سياسة الاكتتاب </tr>
+      </string>
+      <string key="Real Estate Appraisal">
+        <tr lang="ar"> تقييم العقارات </tr>
+      </string>
+      <string key="Real Estate Leasing-Acquisition">
+        <tr lang="ar"> عقارات للتأجير ، شراء </tr>
+      </string>
+      <string key="Risk Management-Compliance">
+        <tr lang="ar"> دارة المخاطر </tr>
+      </string>
+      <string key="Securities Analysis-Research">
+        <tr lang="ar"> تحرير الإوراق المالية والأبحاث </tr>
+      </string>
+      <string key="Tax Accounting">
+        <tr lang="ar"> المحاسبة الضريبية </tr>
+      </string>
+      <string key="Tax Assessment and Collections">
+        <tr lang="ar"> الضرائب وتقييم المجموعات </tr>
+      </string>
+      <string key="Administrative-Clerical">
+        <tr lang="ar"> رجال الدين </tr>
+      </string>
+      <string key="Administrative Support">
+        <tr lang="ar"> الدعم الإداري </tr>
+      </string>
+      <string key="Claims Processing">
+        <tr lang="ar"> تجهيز المطالبات </tr>
+      </string>
+      <string key="Data Entry-Order Processing">
+        <tr lang="ar"> إدخال ومعالجة البيانات </tr>
+      </string>
+      <string key="Executive Support">
+        <tr lang="ar"> الدعم التنفيذي </tr>
+      </string>
+      <string key="Filing-Records Management">
+        <tr lang="ar"> الايداع ، إدارة السجلات </tr>
+      </string>
+      <string key="General-Other: Administrative-Clerical">
+        <tr lang="ar"> أخرى : الإدارة الكتابية </tr>
+      </string>
+      <string key="Office Management">
+        <tr lang="ar"> إدارة مكتبية </tr>
+      </string>
+      <string key="Property Management">
+        <tr lang="ar"> أدارة الأملاك </tr>
+      </string>
+      <string key="Reception-Switchboard">
+        <tr lang="ar"> الاستقبال </tr>
+      </string>
+      <string key="Secretary-Executive Assistant">
+        <tr lang="ar"> مساعد سكرتير تنفيذي </tr>
+      </string>
+      <string key="Transcription">
+        <tr lang="ar"> كاتب </tr>
+      </string>
+      <string key="Banking-Mortgage Professionals">
+        <tr lang="ar"> خبير تقييم بنكي </tr>
+      </string>
+      <string key="Bank Teller">
+        <tr lang="ar"> محاسب بنكي </tr>
+      </string>
+      <string key="Credit Manager">
+        <tr lang="ar"> إدارة الائتمان </tr>
+      </string>
+      <string key="Escrow Officer-Manager">
+        <tr lang="ar"> مدير الضمانات </tr>
+      </string>
+      <string key="Loan Officer-Originator">
+        <tr lang="ar"> منظم قروض الموظفين </tr>
+      </string>
+      <string key="Mortgage Broker">
+        <tr lang="ar"> سمسار الرهن العقاري </tr>
+      </string>
+      <string key="Store-Branch Management">
+        <tr lang="ar"> مدير فرع </tr>
+      </string>
+      <string key="Title Officer-Closer">
+        <tr lang="ar"> توثيق لقب الموظف </tr>
+      </string>
+      <string key="Underwriter">
+        <tr lang="ar"> ضمان السندات </tr>
+      </string>
+      <string key="Biotech-R&amp;D-Science">
+        <tr lang="ar"> التكنولوجيا الحيوية ، البحث والتطوير العلمي ، </tr>
+      </string>
+      <string key="Biological-Chemical Research">
+        <tr lang="ar"> أبحاث الأسلحة البيولوجية والكيميائية </tr>
+      </string>
+      <string key="Clinical Research">
+        <tr lang="ar"> البحوث السريرية </tr>
+      </string>
+      <string key="Environmental-Geological Testing &amp; Analysis">
+        <tr lang="ar"> اختبار وتحليل البيئية والجيولوجية </tr>
+      </string>
+      <string key="General-Other: R&amp;D-Science">
+        <tr lang="ar"> مجال آخر في العلوم </tr>
+      </string>
+      <string key="Materials-Physical Research ">
+        <tr lang="ar"> مواد - البحوث الفيزيائية </tr>
+      </string>
+      <string key="Mathematical-Statistical Research">
+        <tr lang="ar"> بحوث الإحصائية الرياضية </tr>
+      </string>
+      <string key="New Product R&amp;D">
+        <tr lang="ar"> النتجات  الجديده وتطويرها </tr>
+      </string>
+      <string key="Pharmaceutical Research">
+        <tr lang="ar"> بحوث الصيدلانية </tr>
+      </string>
+      <string key="Building Construction">
+        <tr lang="ar"> البناء </tr>
+      </string>
+      <string key="CAD-Drafting">
+        <tr lang="ar"> الصياغة </tr>
+      </string>
+      <string key="Carpentry-Framing">
+        <tr lang="ar"> النجارة </tr>
+      </string>
+      <string key="Concrete and Masonry">
+        <tr lang="ar"> مساح </tr>
+      </string>
+      <string key="Electrician">
+        <tr lang="ar"> كهربائي </tr>
+      </string>
+      <string key="Flooring-Tiling-Painting-Wallpapering">
+        <tr lang="ar"> الأرضيات ، التبليط ، الرسم ، بورق الجدران </tr>
+      </string>
+      <string key="General-Other: Construction-Skilled Trades">
+        <tr lang="ar"> مجال اخر في البناء </tr>
+      </string>
+      <string key="Heavy Equipment Operation">
+        <tr lang="ar"> تشغيل المعدات الثقيلة </tr>
+      </string>
+      <string key="HVAC">
+        <tr lang="ar"> معدات التكييف والتهوية </tr>
+      </string>
+      <string key="Ironwork-Metal Fabrication">
+        <tr lang="ar"> صناعة الحديد </tr>
+      </string>
+      <string key="Plumbing-Pipefitting">
+        <tr lang="ar"> السباكة </tr>
+      </string>
+      <string key="Roofing">
+        <tr lang="ar"> تسقيف </tr>
+      </string>
+      <string key="Sheetrock-Plastering">
+        <tr lang="ar"> التجبيس </tr>
+      </string>
+      <string key="Site Superintendent">
+        <tr lang="ar"> مراقب موقع </tr>
+      </string>
+      <string key="Surveying">
+        <tr lang="ar"> المسح </tr>
+      </string>
+      <string key="Business-Strategic Management">
+        <tr lang="ar"> الإدارة الاستراتيجية للأعمال التجارية </tr>
+      </string>
+      <string key="Business Analysis-Research">
+        <tr lang="ar"> ابحاث التحليل التجاري </tr>
+      </string>
+      <string key="Business Unit Management">
+        <tr lang="ar"> وحدة الادارة التجارية </tr>
+      </string>
+      <string key="Franchise-Business Ownership">
+        <tr lang="ar"> امتياز للأعمال الملكية </tr>
+      </string>
+      <string key="General-Other: Business-Strategic Management">
+        <tr lang="ar"> مجال اخر  الادارة </tr>
+      </string>
+      <string key="Hospital-Clinic Administration">
+        <tr lang="ar"> ادارة المستشفى </tr>
+      </string>
+      <string key="Hotel-Lodging Management">
+        <tr lang="ar"> ادارة سكن الفندق </tr>
+      </string>
+      <string key="Managerial Consulting">
+        <tr lang="ar"> مستشار اداري </tr>
+      </string>
+      <string key="Mergers and Acquisitions">
+        <tr lang="ar"> عمليات الدمج والتملك </tr>
+      </string>
+      <string key="President-Top Executive">
+        <tr lang="ar"> الرئيس التنفيذي </tr>
+      </string>
+      <string key="Public Health Administration">
+        <tr lang="ar"> اداري شؤون صحية </tr>
+      </string>
+      <string key="Restaurant Management">
+        <tr lang="ar"> إدارة مطعم </tr>
+      </string>
+      <string key="School-College Administration">
+        <tr lang="ar"> إدارة المدرسة أو الكلية </tr>
+      </string>
+      <string key="Strategic Planning-Intelligence">
+        <tr lang="ar"> لتخطيط الاستراتيجي </tr>
+      </string>
+      <string key="Town-City Planning">
+        <tr lang="ar"> تخطيط المدينة </tr>
+      </string>
+      <string key="Creative-Design">
+        <tr lang="ar"> مصمم احترافي </tr>
+      </string>
+      <string key="Advertising Writing (Creative)">
+        <tr lang="ar"> كاتب اعلانات احترافي </tr>
+      </string>
+      <string key="Architecture-Interior Design">
+        <tr lang="ar"> مصمم ديكور </tr>
+      </string>
+      <string key="Computer Animation &amp; Multimedia">
+        <tr lang="ar"> مصمم الفلاشات ومتعددة الوسائط </tr>
+      </string>
+      <string key="Creative Direction-Lead">
+        <tr lang="ar"> القائد المبدع </tr>
+      </string>
+      <string key="Fashion &amp; Accessories Design">
+        <tr lang="ar"> تصميم الأزياء والزينة </tr>
+      </string>
+      <string key="General-Other: Creative-Design">
+        <tr lang="ar"> مجال اخر في التصميم </tr>
+      </string>
+      <string key="Graphic Arts-Illustration">
+        <tr lang="ar"> الرسم التوضيحي الفنون </tr>
+      </string>
+      <string key="Industrial Design">
+        <tr lang="ar"> التصميم الصناعي </tr>
+      </string>
+      <string key="Photography and Videography">
+        <tr lang="ar"> التصوير الفوتوغرافي وبالفيديو </tr>
+      </string>
+      <string key="Web-UI-UX Design">
+        <tr lang="ar"> تصميم صفحات الانترنت </tr>
+      </string>
+      <string key="Customer Support">
+        <tr lang="ar"> خدمة العملاء </tr>
+      </string>
+      <string key="Account Management (Non-Commissioned)">
+        <tr lang="ar"> حساب الادارة </tr>
+      </string>
+      <string key="Call Center">
+        <tr lang="ar"> مركز الاتصال </tr>
+      </string>
+      <string key="Customer Training">
+        <tr lang="ar"> تدريب خدمة العملاء </tr>
+      </string>
+      <string key="Flight Attendant">
+        <tr lang="ar"> مضيف </tr>
+      </string>
+      <string key="General-Other: Customer Support-Client Care">
+        <tr lang="ar"> مجال اخر في خدمة العملاء ورعايتهم </tr>
+      </string>
+      <string key="Hair Cutting-Styling">
+        <tr lang="ar"> مصفف شعر </tr>
+      </string>
+      <string key="Reservations-Ticketing">
+        <tr lang="ar"> الحجوزات والتذاكر </tr>
+      </string>
+      <string key="Retail Customer Service">
+        <tr lang="ar"> خدمة العملاء قطع التجزئة </tr>
+      </string>
+      <string key="Technical Customer Service">
+        <tr lang="ar"> خدمة العملاء القسم التقني </tr>
+      </string>
+      <string key="Editorial Writing">
+        <tr lang="ar"> الكتابة التحريرية </tr>
+      </string>
+      <string key="Digital Content Development">
+        <tr lang="ar"> تطوير المحتوى الرقمي </tr>
+      </string>
+      <string key="Documentation-Technical Writing">
+        <tr lang="ar"> توشيق التقنية الكتبية </tr>
+      </string>
+      <string key="Editing &amp; Proofreading">
+        <tr lang="ar"> تحرير وتصحيح </tr>
+      </string>
+      <string key="General-Other: Editorial-Writing">
+        <tr lang="ar"> مجال اخر في التحرير </tr>
+      </string>
+      <string key="Journalism">
+        <tr lang="ar"> صحفي </tr>
+      </string>
+      <string key="Translation-Interpretation">
+        <tr lang="ar"> الترجمة </tr>
+      </string>
+      <string key="Education">
+        <tr lang="ar"> التعليم </tr>
+      </string>
+      <string key="Classroom Teaching">
+        <tr lang="ar"> التدريس </tr>
+      </string>
+      <string key="Continuing-Adult ">
+        <tr lang="ar"> استمرار والكبار </tr>
+      </string>
+      <string key="Corporate Development and Training">
+        <tr lang="ar"> شركات التطوير والتدريب </tr>
+      </string>
+      <string key="Early Childhood Care &amp; Development">
+        <tr lang="ar"> رعاية الطفولة المبكرة والتنمية </tr>
+      </string>
+      <string key="Elementary School">
+        <tr lang="ar"> المدرسة الابتدائية </tr>
+      </string>
+      <string key="Fitness &amp; Sports Training-Instruction">
+        <tr lang="ar"> اللياقة البدنية والتدريب الرياضي </tr>
+      </string>
+      <string key="General-Other: Training-Instruction">
+        <tr lang="ar"> مجال  اخر في التدريب </tr>
+      </string>
+      <string key="Junior-High School">
+        <tr lang="ar"> المبتدئين في مدرسة ثانوية </tr>
+      </string>
+      <string key="Software-Web Training">
+        <tr lang="ar"> البرمجيات ويب التدريب </tr>
+      </string>
+      <string key="Special Education">
+        <tr lang="ar"> التعليم الخاص </tr>
+      </string>
+      <string key="University ">
+        <tr lang="ar"> الجامعة </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="ar"> الهندسة </tr>
+      </string>
+      <string key="Aeronautic-Avionic Engineering">
+        <tr lang="ar"> هندسة الطيران </tr>
+      </string>
+      <string key="Bio-Engineering">
+        <tr lang="ar"> الهندسة الحيوية </tr>
+      </string>
+      <string key="Chemical Engineering">
+        <tr lang="ar"> الهندسة الكيميائية </tr>
+      </string>
+      <string key="Civil &amp; Structural Engineering">
+        <tr lang="ar"> الهندسة الإنشائية و المدنية </tr>
+      </string>
+      <string key="Electrical-Electronics Engineering">
+        <tr lang="ar"> الهندسة الكهربائية والالكترونيات </tr>
+      </string>
+      <string key="Energy-Nuclear Engineering">
+        <tr lang="ar"> الطاقة والهندسة النووية </tr>
+      </string>
+      <string key="Environmental and Geological Engineering">
+        <tr lang="ar"> الهندسة البيئية والجيولوجية </tr>
+      </string>
+      <string key="General-Other: Engineering">
+        <tr lang="ar"> مجال اخر في الهندسة </tr>
+      </string>
+      <string key="Industrial-Manufacturing Engineering">
+        <tr lang="ar"> هندسة التصنيع </tr>
+      </string>
+      <string key="Mechanical Engineering">
+        <tr lang="ar"> الهندسة الميكانيكية </tr>
+      </string>
+      <string key="Naval Architecture-Marine Engineering">
+        <tr lang="ar"> الهندسة المعمارية البحرية </tr>
+      </string>
+      <string key="RF-Wireless Engineering">
+        <tr lang="ar"> هندسة الترددات اللاسلكية </tr>
+      </string>
+      <string key="Systems-Process Engineering">
+        <tr lang="ar"> هندسة نظم المعلومات </tr>
+      </string>
+      <string key="Food Services-Hospitality">
+        <tr lang="ar"> الخدمات الغذائية ، الضيافة </tr>
+      </string>
+      <string key="Food &amp; Beverage Serving">
+        <tr lang="ar"> تقديم المشروبات والاطعمة </tr>
+      </string>
+      <string key="Food Preparation-Cooking">
+        <tr lang="ar"> طبخ واعداد الطعام </tr>
+      </string>
+      <string key="Front Desk-Reception">
+        <tr lang="ar"> الاستقبال </tr>
+      </string>
+      <string key="General-Other: Food Services">
+        <tr lang="ar"> مجال اخر في الضيافة </tr>
+      </string>
+      <string key="Guest Services-Concierge">
+        <tr lang="ar"> ضيف خدمات الكونسيرج </tr>
+      </string>
+      <string key="Guide (Tour) ">
+        <tr lang="ar"> مرشد سياحي </tr>
+      </string>
+      <string key="Host-Hostess">
+        <tr lang="ar"> المضيف المضيفة </tr>
+      </string>
+      <string key="Wine Steward (Sommelier)">
+        <tr lang="ar"> الساقي </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="ar"> الموارد البشرية </tr>
+      </string>
+      <string key="Academic Admissions and Advising">
+        <tr lang="ar"> القبول والإرشاد الأكاديمي </tr>
+      </string>
+      <string key="Compensation-Benefits Policy">
+        <tr lang="ar"> سياسة التعويضات والفوائد </tr>
+      </string>
+      <string key="Diversity Management-EEO-Compliance">
+        <tr lang="ar"> إدارة التنوع ، تكافؤ فرص العمل </tr>
+      </string>
+      <string key="General-Other: Human Resources">
+        <tr lang="ar"> مجال اخر في المزارد البشرية </tr>
+      </string>
+      <string key="HR Systems Administration">
+        <tr lang="ar"> ادارة نظم المعلومات </tr>
+      </string>
+      <string key="Payroll and Benefits Administration">
+        <tr lang="ar"> إدارة الاستحقاقات والموارد </tr>
+      </string>
+      <string key="Recruiting-Sourcing ">
+        <tr lang="ar"> التوظيف </tr>
+      </string>
+      <string key="Installation-Maintenance-Repair">
+        <tr lang="ar"> تركيب ، صيانة ، إصلاح </tr>
+      </string>
+      <string key="Computer-Electronics-Telecomm Install-Maintain-Repair">
+        <tr lang="ar"> تنظيم الاتصالات والحاسوب والالكترونيات  ،وصيانة الاجهزة </tr>
+      </string>
+      <string key="Equipment Install-Maintain-Repair">
+        <tr lang="ar"> تثبيت المعدات وصيانتها </tr>
+      </string>
+      <string key="Facilities Management-Maintenance">
+        <tr lang="ar"> إدارة مرافق الصيانة ، </tr>
+      </string>
+      <string key="General-Other: Installation-Maintenance-Repair">
+        <tr lang="ar"> مجال اخر في الصيانة والاصلاح </tr>
+      </string>
+      <string key="Janitorial &amp; Cleaning ">
+        <tr lang="ar"> الحراسة والتنظيف </tr>
+      </string>
+      <string key="Landscaping">
+        <tr lang="ar"> المناظر الطبيعية </tr>
+      </string>
+      <string key="Locksmith">
+        <tr lang="ar"> قفال </tr>
+      </string>
+      <string key="Oil Rig &amp; Pipeline Install-Maintain-Repair">
+        <tr lang="ar"> خطوط انابيب النفط وصيانتها </tr>
+      </string>
+      <string key="Vehicle Repair and Maintenance">
+        <tr lang="ar"> اصلاح المركبات وصيانتها </tr>
+      </string>
+      <string key="Wire and Cable Install-Maintain-Repair">
+        <tr lang="ar"> تركيب وصيانة الكابلات والخطوط اللاسلكية </tr>
+      </string>
+      <string key="IT-Software Development">
+        <tr lang="ar"> تطوير البرمجيات </tr>
+      </string>
+      <string key="Computer-Network Security">
+        <tr lang="ar"> أمن الشبكة </tr>
+      </string>
+      <string key="Database Development-Administration">
+        <tr lang="ar"> ادارة تطوير قاعدة البيانات </tr>
+      </string>
+      <string key="Desktop Service and Support">
+        <tr lang="ar"> خدمات الدعم الاداري </tr>
+      </string>
+      <string key="Enterprise Software Implementation &amp; Consulting">
+        <tr lang="ar"> مشروع تنفيذ البرامج والاستشارات </tr>
+      </string>
+      <string key="General-Other: IT-Software Development">
+        <tr lang="ar"> مجال اخر في تطوير البرمجيات </tr>
+      </string>
+      <string key="IT Project Management">
+        <tr lang="ar"> ادارة مشاريع الحاسب </tr>
+      </string>
+      <string key="Network and Server Administration">
+        <tr lang="ar"> ادارة الشبكات </tr>
+      </string>
+      <string key="Software-System Architecture">
+        <tr lang="ar"> برمجيات نظم الهندسة المعمارية </tr>
+      </string>
+      <string key="Software-Web Development">
+        <tr lang="ar"> تطوير برمجة المواقع الاكترونية </tr>
+      </string>
+      <string key="Systems Analysis - IT">
+        <tr lang="ar"> تحليل النظم </tr>
+      </string>
+      <string key="Telecommunications Administration-Management">
+        <tr lang="ar"> إدارة الاتصالات السلكية واللاسلكية </tr>
+      </string>
+      <string key="Usability-Information Architecture">
+        <tr lang="ar"> هندسة تتدفق المعلومات </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="ar"> القانون </tr>
+      </string>
+      <string key="Attorney">
+        <tr lang="ar"> محام </tr>
+      </string>
+      <string key="Contracts Administration">
+        <tr lang="ar"> عقود الإدارة </tr>
+      </string>
+      <string key="General-Other: Legal">
+        <tr lang="ar"> مجال اخر في القانون </tr>
+      </string>
+      <string key="Labor &amp; Employment Law">
+        <tr lang="ar"> قانون العمل </tr>
+      </string>
+      <string key="Paralegal &amp; Legal Secretary">
+        <tr lang="ar"> وزير لقانوني </tr>
+      </string>
+      <string key="Patent-IP Law">
+        <tr lang="ar"> نظام الفكرية القانوية </tr>
+      </string>
+      <string key="Real Estate Law">
+        <tr lang="ar"> القانون العقاري </tr>
+      </string>
+      <string key="Regulatory-Compliance Law">
+        <tr lang="ar"> الامتثال التنظيمي القانون </tr>
+      </string>
+      <string key="Tax Law">
+        <tr lang="ar"> قانون الضرائب </tr>
+      </string>
+      <string key="Logistics-Transportation">
+        <tr lang="ar"> المواصلات والامداد </tr>
+      </string>
+      <string key="Car, Van and Bus Driving">
+        <tr lang="ar"> سائق باص وسائق سياره </tr>
+      </string>
+      <string key="Cargo and Baggage Handling">
+        <tr lang="ar"> الشحن ومناولة الأمتعة </tr>
+      </string>
+      <string key="Cost Estimating">
+        <tr lang="ar"> تقدير التكاليف </tr>
+      </string>
+      <string key="Equipment-Forklift-Crane Operation">
+        <tr lang="ar"> سائق رافعه شوكية </tr>
+      </string>
+      <string key="General-Other: Logistics-Transportation">
+        <tr lang="ar"> مجال آخر في النقل والامداد </tr>
+      </string>
+      <string key="Hazardous Materials Handling">
+        <tr lang="ar"> معالجة المواد الخطرة </tr>
+      </string>
+      <string key="Import-Export Administration">
+        <tr lang="ar"> إدارة الاستيراد والتصدير </tr>
+      </string>
+      <string key="Inventory Planning and Management">
+        <tr lang="ar"> ادارة وتخطيط الجرد </tr>
+      </string>
+      <string key="Merchandise Planning and Buying">
+        <tr lang="ar"> التخطيط وشراء البضائع </tr>
+      </string>
+      <string key="Messenger-Courier">
+        <tr lang="ar"> ساعي البريد </tr>
+      </string>
+      <string key="Piloting: Air and Marine">
+        <tr lang="ar"> تجريب : الجوية والبحرية </tr>
+      </string>
+      <string key="Purchasing">
+        <tr lang="ar"> المشتريات </tr>
+      </string>
+      <string key="Shipping and Receiving-Warehousing">
+        <tr lang="ar"> شحن واستلام المخزون </tr>
+      </string>
+      <string key="Supplier Management-Vendor Management">
+        <tr lang="ar"> إدارة الموردين </tr>
+      </string>
+      <string key="Train or Rail Operator">
+        <tr lang="ar"> مشغل قطار </tr>
+      </string>
+      <string key="Truck Driving">
+        <tr lang="ar"> سائق شاحنة </tr>
+      </string>
+      <string key="Vehicle Dispatch, Routing and Scheduling">
+        <tr lang="ar"> سيارة الإرسال ، التوجيه وجدولة </tr>
+      </string>
+      <string key="Manufacturing-Production">
+        <tr lang="ar"> الانتاج الصناعي </tr>
+      </string>
+      <string key="Assembly-Assembly Line">
+        <tr lang="ar"> التجميع جمعية الخط </tr>
+      </string>
+      <string key="Audio-Video Broadcast &amp; Postproduction">
+        <tr lang="ar"> السمعية والبصرية والبث و بعد الإنتاج </tr>
+      </string>
+      <string key="Equipment Operations">
+        <tr lang="ar"> معدات العمليات </tr>
+      </string>
+      <string key="General-Other: Production-Operations">
+        <tr lang="ar"> مجال آحر في عمليات الانتاج </tr>
+      </string>
+      <string key="Laundry and Dry-Cleaning Operations">
+        <tr lang="ar"> عملية الغسيل والتنظيف الجاف </tr>
+      </string>
+      <string key="Layout, Prepress, Printing, &amp; Binding Operations">
+        <tr lang="ar"> تخطيط ، ما قبل الطباعة والطباعة, و  عمليات ملزم </tr>
+      </string>
+      <string key="Machining-CNC">
+        <tr lang="ar"> التصنيع والقطح باستخدام الحاسب الالي </tr>
+      </string>
+      <string key="Metal Fabrication and Welding ">
+        <tr lang="ar"> تشكيل المعادن واللحام </tr>
+      </string>
+      <string key="Moldmaking-Casting">
+        <tr lang="ar"> السباكة </tr>
+      </string>
+      <string key="Operations-Plant Management">
+        <tr lang="ar"> عمليات إدارة المصنع </tr>
+      </string>
+      <string key="Production-Operations Planning">
+        <tr lang="ar"> تخطيط عمليات الإنتاج </tr>
+      </string>
+      <string key="Scientific-Technical Production">
+        <tr lang="ar"> الانتاج العلمي التقني </tr>
+      </string>
+      <string key="Sewing and Tailoring">
+        <tr lang="ar"> الحياكة والخياطة </tr>
+      </string>
+      <string key="Waste Pick-up and Removal">
+        <tr lang="ar"> استلام وإزالة النفايات </tr>
+      </string>
+      <string key="Marketing-Product">
+        <tr lang="ar"> تسويق المنتج </tr>
+      </string>
+      <string key="Brand-Product Marketing">
+        <tr lang="ar"> تسويق العلامة التجارية </tr>
+      </string>
+      <string key="Copy Writing-Editing">
+        <tr lang="ar"> النسخ والتعديل </tr>
+      </string>
+      <string key="Direct Marketing (CRM)">
+        <tr lang="ar"> التسويق المباشر (إدارة علاقات العملاء) </tr>
+      </string>
+      <string key="Events-Promotional Marketing">
+        <tr lang="ar"> الفعاليات الترويجية والتسويق </tr>
+      </string>
+      <string key="General-Other: Marketing-Product">
+        <tr lang="ar"> مجال اخر في التسوق </tr>
+      </string>
+      <string key="Investor and Public-Media Relations">
+        <tr lang="ar"> الاسثمار والعلاقات العامة </tr>
+      </string>
+      <string key="Market Research">
+        <tr lang="ar"> البحث التسويقي </tr>
+      </string>
+      <string key="Marketing Communications">
+        <tr lang="ar"> الاتصالات التسويقية </tr>
+      </string>
+      <string key="Marketing Production-Traffic">
+        <tr lang="ar"> حركة تسويق الانتاجc </tr>
+      </string>
+      <string key="Media Planning and Buying">
+        <tr lang="ar"> التخطيط الاعلامي </tr>
+      </string>
+      <string key="Product Management">
+        <tr lang="ar"> ادارة الانتاج </tr>
+      </string>
+      <string key="Telemarketing">
+        <tr lang="ar"> التوسق عبر الهاتف </tr>
+      </string>
+      <string key="Visual-Display Merchandising">
+        <tr lang="ar"> تنيسق البظائع </tr>
+      </string>
+      <string key="Medical-Health">
+        <tr lang="ar"> الرعاية الصحية </tr>
+      </string>
+      <string key="Dental Assistant-Hygienist">
+        <tr lang="ar"> مساعد طبيب أسنان </tr>
+      </string>
+      <string key="Dental Practitioner">
+        <tr lang="ar"> طب الاسنان </tr>
+      </string>
+      <string key="EMT-Paramedic">
+        <tr lang="ar"> الاسعاف </tr>
+      </string>
+      <string key="General-Other: Medical-Health">
+        <tr lang="ar"> مجال اخر في الرعاية الصحية </tr>
+      </string>
+      <string key="Healthcare Aid">
+        <tr lang="ar"> الاسعافات الاولية </tr>
+      </string>
+      <string key="Laboratory-Pathology">
+        <tr lang="ar"> مختبر علم الأمراض </tr>
+      </string>
+      <string key="Medical Imaging">
+        <tr lang="ar"> التصوير الطبي </tr>
+      </string>
+      <string key="Medical Practitioner">
+        <tr lang="ar"> ممارس الطبيr </tr>
+      </string>
+      <string key="Medical Therapy-Rehab Services">
+        <tr lang="ar"> العلاج الطبي </tr>
+      </string>
+      <string key="Mental Health">
+        <tr lang="ar"> الصحة النفسية </tr>
+      </string>
+      <string key="Nursing">
+        <tr lang="ar"> التمريض </tr>
+      </string>
+      <string key="Nutrition and Diet">
+        <tr lang="ar"> التغذية والحمية </tr>
+      </string>
+      <string key="Optical">
+        <tr lang="ar"> البصر </tr>
+      </string>
+      <string key="Pharmacy">
+        <tr lang="ar"> الصيدلة </tr>
+      </string>
+      <string key="Physicians Assistant-Nurse Practitioner">
+        <tr lang="ar"> مساعد طبيب - ممرض ممارس </tr>
+      </string>
+      <string key="Social Service">
+        <tr lang="ar"> الخدمات الاجتماعية </tr>
+      </string>
+      <string key="Sports Medicine">
+        <tr lang="ar"> الطب الرياضي </tr>
+      </string>
+      <string key="Veterinary-Animal Care">
+        <tr lang="ar"> الطب البطري ورعاية الحيوان </tr>
+      </string>
+      <string key="Other">
+        <tr lang="ar"> اخرى </tr>
+      </string>
+      <string key="Career Fair">
+        <tr lang="ar"> معارض التوظيف </tr>
+      </string>
+      <string key="Work at Home">
+        <tr lang="ar"> العمل من المنزل </tr>
+      </string>
+      <string key="Project-Program Management">
+        <tr lang="ar"> برمجة و ادارة المشاريع </tr>
+      </string>
+      <string key="Event Planning-Coordination">
+        <tr lang="ar"> تنسيق وتخطيط المؤتمرات </tr>
+      </string>
+      <string key="General-Other: Project-Program Management">
+        <tr lang="ar"> اخرى في مجال ادارة المشارع والبرمجة </tr>
+      </string>
+      <string key="Program Management">
+        <tr lang="ar"> ادارة البرمجه </tr>
+      </string>
+      <string key="Project Management">
+        <tr lang="ar"> إدارة المشاريع </tr>
+      </string>
+      <string key="Quality Assurance-Safety">
+        <tr lang="ar"> ضمان الجودة السلامة </tr>
+      </string>
+      <string key="Building-Construction Inspection">
+        <tr lang="ar"> تفتيش معايرر ومقاييس البناء </tr>
+      </string>
+      <string key="Environmental Protection-Conservation">
+        <tr lang="ar"> الحفاض على البيئة وحميتها </tr>
+      </string>
+      <string key="Food Safety and Inspection">
+        <tr lang="ar"> سلامة الأغذية والتفتيش </tr>
+      </string>
+      <string key="Fraud Investigation">
+        <tr lang="ar"> التحقيق في الاختيالات </tr>
+      </string>
+      <string key="General-Other: Quality Assurance-Safety">
+        <tr lang="ar"> مجال اخر في الجودة والسلامة </tr>
+      </string>
+      <string key="ISO Certification">
+        <tr lang="ar"> شهادة الأيزو </tr>
+      </string>
+      <string key="Occupational Health and Safety">
+        <tr lang="ar"> الصحة والسلامة المهنية </tr>
+      </string>
+      <string key="Production Quality Assurance">
+        <tr lang="ar"> ضمان جودة الانتاج </tr>
+      </string>
+      <string key="Six Sigma-Black Belt-TQM">
+        <tr lang="ar"> ستة سيغما الحزام الأسود للجودة الشاملة </tr>
+      </string>
+      <string key="Software Quality Assurance">
+        <tr lang="ar"> برامج ضمان الجودة </tr>
+      </string>
+      <string key="Vehicle Inspection">
+        <tr lang="ar"> فحص المركبات </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="ar"> العقارات </tr>
+      </string>
+      <string key="Real Estate Agent-Broker">
+        <tr lang="ar"> وكيل العقارات </tr>
+      </string>
+      <string key="Sales-Retail">
+        <tr lang="ar"> مبيعات التجزئة </tr>
+      </string>
+      <string key="Account Management Commissioned">
+        <tr lang="ar"> كلفت إدارة الحساب </tr>
+      </string>
+      <string key="Business Development-New Accounts">
+        <tr lang="ar"> حسابات تطوير الأعمال الجديدة ، </tr>
+      </string>
+      <string key="Field Sales">
+        <tr lang="ar"> المبيعات الميدانية </tr>
+      </string>
+      <string key="Fundraising">
+        <tr lang="ar"> جمع التبرعات </tr>
+      </string>
+      <string key="General-Other: Sales-Business Development">
+        <tr lang="ar"> مجال آخر في نشاط المبيعات </tr>
+      </string>
+      <string key="Insurance Agent-Broker">
+        <tr lang="ar"> وكيل التأمين والوسيط </tr>
+      </string>
+      <string key="International Sales">
+        <tr lang="ar"> المبيعات الدولية </tr>
+      </string>
+      <string key="Media and Advertising Sales">
+        <tr lang="ar"> وسائل الإعلام والدعاية والإعلان المبيعات </tr>
+      </string>
+      <string key="Retail-Counter Sales and Cashier">
+        <tr lang="ar"> امين الصندوق والمبيعات بقطاع التجزئة </tr>
+      </string>
+      <string key="Sales Support-Assistance">
+        <tr lang="ar"> قسم دعم المبيعات </tr>
+      </string>
+      <string key="Technical Presales Support &amp; Technical Sales">
+        <tr lang="ar"> الدعم التقني والفني تخصص و  كابلات المبيعات </tr>
+      </string>
+      <string key="Telesales">
+        <tr lang="ar"> البيع بواسطة الهاتف </tr>
+      </string>
+      <string key="Travel Agent-Ticket Sales">
+        <tr lang="ar"> مبيعات التذاكر </tr>
+      </string>
+      <string key="Wholesale-Reselling Sales">
+        <tr lang="ar"> مبيعات الجملة </tr>
+      </string>
+      <string key="Security-Protective Services">
+        <tr lang="ar"> خدمات الأمن الوقائي </tr>
+      </string>
+      <string key="Airport Security and Screening">
+        <tr lang="ar"> أمن المطارات </tr>
+      </string>
+      <string key="Correctional Officer">
+        <tr lang="ar"> موظف الإصلاحية </tr>
+      </string>
+      <string key="Customs-Immigration">
+        <tr lang="ar"> الجمارك </tr>
+      </string>
+      <string key="Firefighting and Rescue">
+        <tr lang="ar"> مكافحة الحرائق والانقاذ </tr>
+      </string>
+      <string key="General-Other: Security-Protective Services">
+        <tr lang="ar"> مجال آخر في الأمن </tr>
+      </string>
+      <string key="Military Combat">
+        <tr lang="ar"> العسكرية </tr>
+      </string>
+      <string key="Police-Law Enforcement">
+        <tr lang="ar"> الشرطة وتنفيذ القوانين </tr>
+      </string>
+      <string key="Security Guard">
+        <tr lang="ar"> حارس أمن </tr>
+      </string>
+      <string key="Security Intelligence &amp; Analysis">
+        <tr lang="ar"> الاستخبارات </tr>
+      </string>
+      <string key="Store Security-Loss Prevention">
+        <tr lang="ar"> أمن المخازن </tr>
+      </string>
+    </page>
+    <page key="Property_State">
+      <string key="Alabama">
+        <tr lang="ar"> ألاباما </tr>
+      </string>
+      <string key="Alaska">
+        <tr lang="ar"> ألاسكا </tr>
+      </string>
+      <string key="Alberta">
+        <tr lang="ar"> ألبرتا </tr>
+      </string>
+      <string key="Arizona">
+        <tr lang="ar"> أريزونا </tr>
+      </string>
+      <string key="Arkansas">
+        <tr lang="ar"> أركنساس </tr>
+      </string>
+      <string key="British Columbia">
+        <tr lang="ar"> كولومبيا البريطانية </tr>
+      </string>
+      <string key="California">
+        <tr lang="ar"> كلفورنيا </tr>
+      </string>
+      <string key="Colorado">
+        <tr lang="ar"> كولورادو </tr>
+      </string>
+      <string key="Connecticut">
+        <tr lang="ar"> كونيتيكت </tr>
+      </string>
+      <string key="Delaware">
+        <tr lang="ar"> ولاية ديلاوير </tr>
+      </string>
+      <string key="District of Columbia">
+        <tr lang="ar"> مقاطعة كولومبيا </tr>
+      </string>
+      <string key="Florida">
+        <tr lang="ar"> فلوريدا </tr>
+      </string>
+      <string key="Georgia">
+        <tr lang="ar"> جورجيا </tr>
+      </string>
+      <string key="Guam">
+        <tr lang="ar"> غوام </tr>
+      </string>
+      <string key="Hawaii">
+        <tr lang="ar"> هاواي </tr>
+      </string>
+      <string key="Idaho">
+        <tr lang="ar"> ايداهو </tr>
+      </string>
+      <string key="Illinois">
+        <tr lang="ar"> إلينوي </tr>
+      </string>
+      <string key="Indiana">
+        <tr lang="ar"> انديانا </tr>
+      </string>
+      <string key="Iowa">
+        <tr lang="ar"> ولاية ايوا </tr>
+      </string>
+      <string key="Kansas">
+        <tr lang="ar"> كانساس </tr>
+      </string>
+      <string key="Kentucky">
+        <tr lang="ar"> كنتاكي </tr>
+      </string>
+      <string key="Louisiana">
+        <tr lang="ar"> لويزيانا </tr>
+      </string>
+      <string key="Maine">
+        <tr lang="ar"> مين </tr>
+      </string>
+      <string key="Manitoba">
+        <tr lang="ar"> مانيتوبا </tr>
+      </string>
+      <string key="Maryland">
+        <tr lang="ar"> ميريلاند </tr>
+      </string>
+      <string key="Massachusetts">
+        <tr lang="ar"> ماساتشوستس </tr>
+      </string>
+      <string key="Michigan">
+        <tr lang="ar"> ميشيغان </tr>
+      </string>
+      <string key="Minnesota">
+        <tr lang="ar"> مينيسوتا </tr>
+      </string>
+      <string key="Mississippi">
+        <tr lang="ar"> ميسيسيبي </tr>
+      </string>
+      <string key="Missouri">
+        <tr lang="ar"> ميسوري </tr>
+      </string>
+      <string key="Montana">
+        <tr lang="ar"> مونتانا </tr>
+      </string>
+      <string key="Nebraska">
+        <tr lang="ar"> نبراسكا </tr>
+      </string>
+      <string key="Nevada">
+        <tr lang="ar"> نيفادا </tr>
+      </string>
+      <string key="New Hampshire">
+        <tr lang="ar"> نيو هامبشاير </tr>
+      </string>
+      <string key="New Jersey">
+        <tr lang="ar"> نيو جيرسي </tr>
+      </string>
+      <string key="New Mexico">
+        <tr lang="ar"> نيو مكسيكو </tr>
+      </string>
+      <string key="New York">
+        <tr lang="ar"> نيويورك </tr>
+      </string>
+      <string key="North Carolina">
+        <tr lang="ar"> ولاية كارولينا الشمالية </tr>
+      </string>
+      <string key="North Dakota">
+        <tr lang="ar"> داكوتا الشمالية </tr>
+      </string>
+      <string key="Ohio">
+        <tr lang="ar"> أوهايو </tr>
+      </string>
+      <string key="Oklahoma">
+        <tr lang="ar"> أوكلاهوما </tr>
+      </string>
+      <string key="Ontario">
+        <tr lang="ar"> أونتاريو </tr>
+      </string>
+      <string key="Oregon">
+        <tr lang="ar"> ولاية أوريغون </tr>
+      </string>
+      <string key="Pennsylvania">
+        <tr lang="ar"> ولاية بنسلفانيا </tr>
+      </string>
+      <string key="Puerto Rico">
+        <tr lang="ar"> بورتوريكو </tr>
+      </string>
+      <string key="Rhode Island">
+        <tr lang="ar"> رود ايلاند </tr>
+      </string>
+      <string key="South Carolina">
+        <tr lang="ar"> ولاية كارولينا الجنوبية </tr>
+      </string>
+      <string key="South Dakota">
+        <tr lang="ar"> داكوتا الجنوبية </tr>
+      </string>
+      <string key="Tennessee">
+        <tr lang="ar"> تينيسي </tr>
+      </string>
+      <string key="Texas">
+        <tr lang="ar"> تكساس </tr>
+      </string>
+      <string key="Utah">
+        <tr lang="ar"> يوتا </tr>
+      </string>
+      <string key="Vermont">
+        <tr lang="ar"> فيرمونت </tr>
+      </string>
+      <string key="Virgin Islands">
+        <tr lang="ar"> جزر فيرجن </tr>
+      </string>
+      <string key="Virginia">
+        <tr lang="ar"> فرجينيا </tr>
+      </string>
+      <string key="Washington">
+        <tr lang="ar"> واشنطن </tr>
+      </string>
+      <string key="West Virginia">
+        <tr lang="ar"> فرجينيا الغربية </tr>
+      </string>
+      <string key="Wisconsin">
+        <tr lang="ar"> ولاية ويسكونسن </tr>
+      </string>
+      <string key="Wyoming">
+        <tr lang="ar"> وايومنغ </tr>
+      </string>
+      <string key="Outside US">
+        <tr lang="ar"> خارج الولايات المتحدة </tr>
+      </string>
+    </page>
+    <page key="Property_JobCategory">
+      <string key="Accounting">
+        <tr lang="ar"> المحاسبة </tr>
+      </string>
+      <string key="Admin-Clerical">
+        <tr lang="ar"> إداري </tr>
+      </string>
+      <string key="Automotive">
+        <tr lang="ar"> السيارات </tr>
+      </string>
+      <string key="Banking">
+        <tr lang="ar"> البنوك </tr>
+      </string>
+      <string key="Biotech">
+        <tr lang="ar"> التكنولوجيا الحيوية </tr>
+      </string>
+      <string key="Business Development">
+        <tr lang="ar"> تطوير الأعمال </tr>
+      </string>
+      <string key="Construction">
+        <tr lang="ar"> الإنشاءات والبناء </tr>
+      </string>
+      <string key="Consultant">
+        <tr lang="ar"> الإستشارة </tr>
+      </string>
+      <string key="Customer Service">
+        <tr lang="ar"> خدمة العملاء </tr>
+      </string>
+      <string key="Design">
+        <tr lang="ar"> التصميم </tr>
+      </string>
+      <string key="Distribution-Shipping">
+        <tr lang="ar"> التوزيع والشحن </tr>
+      </string>
+      <string key="Education">
+        <tr lang="ar"> التعليم </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="ar"> الهندسة </tr>
+      </string>
+      <string key="Entry Level">
+        <tr lang="ar"> مبتدأ </tr>
+      </string>
+      <string key="Executive">
+        <tr lang="ar"> تنفيذي </tr>
+      </string>
+      <string key="Facilities">
+        <tr lang="ar"> المرافق </tr>
+      </string>
+      <string key="Finance">
+        <tr lang="ar"> المالية </tr>
+      </string>
+      <string key="Franchise">
+        <tr lang="ar"> فرنتشايز </tr>
+      </string>
+      <string key="General Business">
+        <tr lang="ar"> تجارة عامة </tr>
+      </string>
+      <string key="General Labor">
+        <tr lang="ar"> عامل عام </tr>
+      </string>
+      <string key="Government">
+        <tr lang="ar"> حكومي </tr>
+      </string>
+      <string key="Grocery">
+        <tr lang="ar"> الأغذية </tr>
+      </string>
+      <string key="Health Care">
+        <tr lang="ar"> العتاية بالصحة </tr>
+      </string>
+      <string key="Hospitality-Hotel">
+        <tr lang="ar"> الفنادق </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="ar"> الموارد البشرية </tr>
+      </string>
+      <string key="Information Technology">
+        <tr lang="ar"> تقنية المعلومات </tr>
+      </string>
+      <string key="Installation-Maint-Repair">
+        <tr lang="ar"> الصيانة والإصلاح </tr>
+      </string>
+      <string key="Insurance">
+        <tr lang="ar"> التأمين </tr>
+      </string>
+      <string key="Inventory">
+        <tr lang="ar"> الجرد </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="ar"> القانون </tr>
+      </string>
+      <string key="Management">
+        <tr lang="ar"> الإدارة </tr>
+      </string>
+      <string key="Manufacturing">
+        <tr lang="ar"> التصنيع </tr>
+      </string>
+      <string key="Marketing">
+        <tr lang="ar"> التسويق </tr>
+      </string>
+      <string key="Media-Journalism">
+        <tr lang="ar"> الصحافة الإعلامية </tr>
+      </string>
+      <string key="Nonprofit-Social Services">
+        <tr lang="ar"> الخدمات الإجتماعية الغير ربحية </tr>
+      </string>
+      <string key="Nurse">
+        <tr lang="ar"> التمريض </tr>
+      </string>
+      <string key="Other">
+        <tr lang="ar"> آخرى </tr>
+      </string>
+      <string key="Pharmaceutical">
+        <tr lang="ar"> الصيدلة </tr>
+      </string>
+      <string key="Professional Services">
+        <tr lang="ar"> الخدمات الإحترافية </tr>
+      </string>
+      <string key="Purchasing-Procurement">
+        <tr lang="ar"> المشتريات </tr>
+      </string>
+      <string key="QA-Quality Control">
+        <tr lang="ar"> مراقبة الجودة </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="ar"> العقار </tr>
+      </string>
+      <string key="Research">
+        <tr lang="ar"> البحوث </tr>
+      </string>
+      <string key="Restaurant-Food Service">
+        <tr lang="ar"> المطاعم </tr>
+      </string>
+      <string key="Retail">
+        <tr lang="ar"> التجزئة </tr>
+      </string>
+      <string key="Sales">
+        <tr lang="ar"> المبيعات </tr>
+      </string>
+      <string key="Science">
+        <tr lang="ar"> العلوم </tr>
+      </string>
+      <string key="Skilled Labor">
+        <tr lang="ar"> العمالة الماهرة </tr>
+      </string>
+      <string key="Strategy-Planning">
+        <tr lang="ar"> التخطيط الإستراتيجي </tr>
+      </string>
+      <string key="Supply Chain">
+        <tr lang="ar"> التصدير والتوريد </tr>
+      </string>
+      <string key="Telecommunications">
+        <tr lang="ar"> الإتصالات </tr>
+      </string>
+      <string key="Training">
+        <tr lang="ar"> التدريب </tr>
+      </string>
+      <string key="Transportation">
+        <tr lang="ar"> المواصلات والنقل </tr>
+      </string>
+      <string key="Veterinary Services">
+        <tr lang="ar"> الخدمات البيطرية </tr>
+      </string>
+      <string key="Warehouse">
+        <tr lang="ar"> المستودعات أو المخازن </tr>
+      </string>
+    </page>
+    <page key="Property_email_frequency">
+      <string key="Daily">
+        <tr lang="ar"> يومي </tr>
+      </string>
+      <string key="Weekly">
+        <tr lang="ar"> اسبوعي </tr>
+      </string>
+      <string key="Monthly">
+        <tr lang="ar"> شهري </tr>
+      </string>
+    </page>
+    <page key="Property_Country">
+      <string key="United States">
+        <tr lang="ar"> الولايات المتحدة الإمريكية </tr>
+      </string>
+      <string key="Afghanistan">
+        <tr lang="ar"> أفغانستان </tr>
+      </string>
+      <string key="Albania">
+        <tr lang="ar"> ألبانيا </tr>
+      </string>
+      <string key="Algeria">
+        <tr lang="ar"> الجزائر </tr>
+      </string>
+      <string key="American Samoa">
+        <tr lang="ar"> ساموا الأمريكية </tr>
+      </string>
+      <string key="Andorra">
+        <tr lang="ar"> أندورا </tr>
+      </string>
+      <string key="Angola">
+        <tr lang="ar"> أنغولا </tr>
+      </string>
+      <string key="Anguilla">
+        <tr lang="ar"> أنغيلا </tr>
+      </string>
+      <string key="Antarctica">
+        <tr lang="ar"> القارة القطبية الجنوبية </tr>
+      </string>
+      <string key="Antigua and Barbuda">
+        <tr lang="ar"> أنتيغوا وبربودا </tr>
+      </string>
+      <string key="Argentina">
+        <tr lang="ar"> الأرجنتين </tr>
+      </string>
+      <string key="Armenia">
+        <tr lang="ar"> أرمينيا </tr>
+      </string>
+      <string key="Aruba">
+        <tr lang="ar"> أروبا </tr>
+      </string>
+      <string key="Ascension Island">
+        <tr lang="ar"> جزيرة الصعود </tr>
+      </string>
+      <string key="Australia">
+        <tr lang="ar"> أستراليا </tr>
+      </string>
+      <string key="Austria">
+        <tr lang="ar"> النمسا </tr>
+      </string>
+      <string key="Azerbaijan">
+        <tr lang="ar"> أذربيجان </tr>
+      </string>
+      <string key="Bahamas">
+        <tr lang="ar"> جزر البهاما </tr>
+      </string>
+      <string key="Bahrain">
+        <tr lang="ar"> البحرين </tr>
+      </string>
+      <string key="Bangladesh">
+        <tr lang="ar"> بنجلاديش </tr>
+      </string>
+      <string key="Barbados">
+        <tr lang="ar"> بربادوس </tr>
+      </string>
+      <string key="Belarus">
+        <tr lang="ar"> روسيا البيضاء </tr>
+      </string>
+      <string key="Belgium">
+        <tr lang="ar"> بلجيكا </tr>
+      </string>
+      <string key="Belize">
+        <tr lang="ar"> بليز </tr>
+      </string>
+      <string key="Benin">
+        <tr lang="ar"> بنين </tr>
+      </string>
+      <string key="Bermuda">
+        <tr lang="ar"> برمودا </tr>
+      </string>
+      <string key="Bhutan">
+        <tr lang="ar"> بوتان </tr>
+      </string>
+      <string key="Bolivia">
+        <tr lang="ar"> بوليفيا </tr>
+      </string>
+      <string key="Bosnia and Herzegovina">
+        <tr lang="ar"> البوسنة والهرسك </tr>
+      </string>
+      <string key="Botswana">
+        <tr lang="ar"> بوتسوانا </tr>
+      </string>
+      <string key="Bouvet Island">
+        <tr lang="ar"> جزيرة بوفيت </tr>
+      </string>
+      <string key="Brazil">
+        <tr lang="ar"> البرازيل </tr>
+      </string>
+      <string key="British Indian Ocean Territory">
+        <tr lang="ar"> إقليم المحيط الهندي البريطاني </tr>
+      </string>
+      <string key="Brunei Darussalam">
+        <tr lang="ar"> بروناي دار السلام </tr>
+      </string>
+      <string key="Bulgaria">
+        <tr lang="ar"> بلغاريا </tr>
+      </string>
+      <string key="Burkina Faso">
+        <tr lang="ar"> بوركينا فاسو </tr>
+      </string>
+      <string key="Burundi">
+        <tr lang="ar"> بوروندي </tr>
+      </string>
+      <string key="Cambodia">
+        <tr lang="ar"> كمبوديا </tr>
+      </string>
+      <string key="Cameroon">
+        <tr lang="ar"> الكاميرون </tr>
+      </string>
+      <string key="Canada">
+        <tr lang="ar"> كندا </tr>
+      </string>
+      <string key="Cape Verde">
+        <tr lang="ar"> الرأس الأخضر </tr>
+      </string>
+      <string key="Cayman Islands">
+        <tr lang="ar"> جزر كايمان </tr>
+      </string>
+      <string key="Central African Republic">
+        <tr lang="ar"> جمهورية أفريقيا الوسطى </tr>
+      </string>
+      <string key="Chad">
+        <tr lang="ar"> تشاد </tr>
+      </string>
+      <string key="Chile">
+        <tr lang="ar"> شيلي </tr>
+      </string>
+      <string key="China">
+        <tr lang="ar"> الصين </tr>
+      </string>
+      <string key="Christmas Island">
+        <tr lang="ar"> جزيرة كريسماس </tr>
+      </string>
+      <string key="CocoS (Keeling) Islands">
+        <tr lang="ar"> جزر كوكوس (كيلينغ) </tr>
+      </string>
+      <string key="Colombia">
+        <tr lang="ar"> كولومبيا </tr>
+      </string>
+      <string key="Comoros">
+        <tr lang="ar"> جزر القمر </tr>
+      </string>
+      <string key="Democratic Republic of the Congo (Kinshasa)">
+        <tr lang="ar"> الديمقراطية جمهورية الكونغو (كينشاسا) </tr>
+      </string>
+      <string key="Congo, Republic of (Brazzaville)">
+        <tr lang="ar"> جمهورية الكونغو (برازافيل) </tr>
+      </string>
+      <string key="Cook Islands">
+        <tr lang="ar"> جزر كوك </tr>
+      </string>
+      <string key="Costa Rica">
+        <tr lang="ar"> كوستاريكا </tr>
+      </string>
+      <string key="Ivory Coast">
+        <tr lang="ar"> ساحل العاج </tr>
+      </string>
+      <string key="Croatia">
+        <tr lang="ar"> كرواتيا </tr>
+      </string>
+      <string key="Cuba">
+        <tr lang="ar"> كوبا </tr>
+      </string>
+      <string key="Cyprus">
+        <tr lang="ar"> قبرص </tr>
+      </string>
+      <string key="Czech Republic">
+        <tr lang="ar"> الجمهورية التشيكية </tr>
+      </string>
+      <string key="Denmark">
+        <tr lang="ar"> الدنمارك </tr>
+      </string>
+      <string key="Djibouti">
+        <tr lang="ar"> جيبوتي </tr>
+      </string>
+      <string key="Dominica">
+        <tr lang="ar"> دومينيكا </tr>
+      </string>
+      <string key="Dominican Republic">
+        <tr lang="ar"> جمهورية الدومينيكان </tr>
+      </string>
+      <string key="East Timor Timor-Leste">
+        <tr lang="ar"> تيمور الشرقية وتيمور ليشتي </tr>
+      </string>
+      <string key="Ecuador">
+        <tr lang="ar"> الاكوادور </tr>
+      </string>
+      <string key="Egypt">
+        <tr lang="ar"> مصر </tr>
+      </string>
+      <string key="El Salvador">
+        <tr lang="ar"> السلفادور </tr>
+      </string>
+      <string key="Equatorial Guinea">
+        <tr lang="ar"> غينيا الاستوائية </tr>
+      </string>
+      <string key="Eritrea">
+        <tr lang="ar"> اريتريا </tr>
+      </string>
+      <string key="Estonia">
+        <tr lang="ar"> استونيا </tr>
+      </string>
+      <string key="Ethiopia">
+        <tr lang="ar"> أثيوبيا </tr>
+      </string>
+      <string key="Falkland Islands">
+        <tr lang="ar"> جزر فوكلاند </tr>
+      </string>
+      <string key="Faroe Islands">
+        <tr lang="ar"> جزر فارو </tr>
+      </string>
+      <string key="Fiji">
+        <tr lang="ar"> فيجي </tr>
+      </string>
+      <string key="Finland">
+        <tr lang="ar"> فنلندا </tr>
+      </string>
+      <string key="France">
+        <tr lang="ar"> فرنسا </tr>
+      </string>
+      <string key="French Guiana">
+        <tr lang="ar"> غيانا الفرنسية </tr>
+      </string>
+      <string key="French Metropolitan">
+        <tr lang="ar"> العاصمة الفرنسية </tr>
+      </string>
+      <string key="French Polynesia">
+        <tr lang="ar"> بولينيزيا الفرنسية </tr>
+      </string>
+      <string key="French Southern Territories">
+        <tr lang="ar"> الأقاليم الجنوبية الفرنسية </tr>
+      </string>
+      <string key="Gabon">
+        <tr lang="ar"> الغابون </tr>
+      </string>
+      <string key="Gambia">
+        <tr lang="ar"> غامبيا </tr>
+      </string>
+      <string key="Georgia">
+        <tr lang="ar"> جورجيا </tr>
+      </string>
+      <string key="Germany">
+        <tr lang="ar"> ألمانيا </tr>
+      </string>
+      <string key="Ghana">
+        <tr lang="ar"> غانا </tr>
+      </string>
+      <string key="Gibraltar">
+        <tr lang="ar"> جبل طارق </tr>
+      </string>
+      <string key="Great Britain">
+        <tr lang="ar"> بريطانيا العظمى </tr>
+      </string>
+      <string key="Greece">
+        <tr lang="ar"> يونان </tr>
+      </string>
+      <string key="Greenland">
+        <tr lang="ar"> جرينلاند </tr>
+      </string>
+      <string key="Grenada">
+        <tr lang="ar"> غرينادا </tr>
+      </string>
+      <string key="Guadeloupe">
+        <tr lang="ar"> غواديلوب </tr>
+      </string>
+      <string key="Guam">
+        <tr lang="ar"> غوام </tr>
+      </string>
+      <string key="Guatemala">
+        <tr lang="ar"> غواتيمالا </tr>
+      </string>
+      <string key="Guernsey">
+        <tr lang="ar"> غيرنسي </tr>
+      </string>
+      <string key="Guinea">
+        <tr lang="ar"> غينيا </tr>
+      </string>
+      <string key="Guinea-Bissau">
+        <tr lang="ar"> غينيا بيساو </tr>
+      </string>
+      <string key="Guyana">
+        <tr lang="ar"> غيانا </tr>
+      </string>
+      <string key="Haiti">
+        <tr lang="ar"> هايتي </tr>
+      </string>
+      <string key="Heard and Mc Donald Islands">
+        <tr lang="ar"> جزر ماك دونالد </tr>
+      </string>
+      <string key="Holy See">
+        <tr lang="ar"> هولي سي </tr>
+      </string>
+      <string key="Honduras">
+        <tr lang="ar"> هندوراس </tr>
+      </string>
+      <string key="Hong Kong">
+        <tr lang="ar"> هونج كونج </tr>
+      </string>
+      <string key="Hungary">
+        <tr lang="ar"> هنغاريا </tr>
+      </string>
+      <string key="Iceland">
+        <tr lang="ar"> أيسلندا </tr>
+      </string>
+      <string key="India">
+        <tr lang="ar"> الهند </tr>
+      </string>
+      <string key="Indonesia">
+        <tr lang="ar"> إندنوسيا </tr>
+      </string>
+      <string key="Iran (Islamic Republic of)">
+        <tr lang="ar"> إيران </tr>
+      </string>
+      <string key="Iraq">
+        <tr lang="ar"> العراق </tr>
+      </string>
+      <string key="Ireland">
+        <tr lang="ar"> أيرلندا </tr>
+      </string>
+      <string key="Isle of Man">
+        <tr lang="ar"> جزيرة مان </tr>
+      </string>
+      <string key="phalistian">
+        <tr lang="ar"> فلسطين </tr>
+      </string>
+      <string key="Italy">
+        <tr lang="ar"> إيطاليا </tr>
+      </string>
+      <string key="Jamaica">
+        <tr lang="ar"> جامايكا </tr>
+      </string>
+      <string key="Japan">
+        <tr lang="ar"> اليابان </tr>
+      </string>
+      <string key="Jersey">
+        <tr lang="ar"> جيرسي </tr>
+      </string>
+      <string key="Jordan">
+        <tr lang="ar"> الإردن </tr>
+      </string>
+      <string key="Kazakhstan">
+        <tr lang="ar"> كازاخستان </tr>
+      </string>
+      <string key="Kenya">
+        <tr lang="ar"> كينيا </tr>
+      </string>
+      <string key="Kiribati">
+        <tr lang="ar"> كيريباتي </tr>
+      </string>
+      <string key="Korea, Republic of (South Korea)">
+        <tr lang="ar"> جنوب كوريا </tr>
+      </string>
+      <string key="Kuwait">
+        <tr lang="ar"> الكويت </tr>
+      </string>
+      <string key="Kyrgyzstan">
+        <tr lang="ar"> قيرغيزستان </tr>
+      </string>
+      <string key="Lao">
+        <tr lang="ar"> لاو </tr>
+      </string>
+      <string key="Latvia">
+        <tr lang="ar"> لاتفيا </tr>
+      </string>
+      <string key="Lebanon">
+        <tr lang="ar"> لبنان </tr>
+      </string>
+      <string key="Lesotho">
+        <tr lang="ar"> ليسوتو </tr>
+      </string>
+      <string key="Liberia">
+        <tr lang="ar"> ليبيريا </tr>
+      </string>
+      <string key="Libya">
+        <tr lang="ar"> ليبيا </tr>
+      </string>
+      <string key="Liechtenstein">
+        <tr lang="ar"> ليختنشتاين </tr>
+      </string>
+      <string key="Lithuania">
+        <tr lang="ar"> ليتوانيا </tr>
+      </string>
+      <string key="Luxembourg">
+        <tr lang="ar"> لوكسمبورغ </tr>
+      </string>
+      <string key="Macau">
+        <tr lang="ar"> ماكاو </tr>
+      </string>
+      <string key="Macedonia">
+        <tr lang="ar"> مقدونيا </tr>
+      </string>
+      <string key="Madagascar">
+        <tr lang="ar"> مدغشقر </tr>
+      </string>
+      <string key="Malawi">
+        <tr lang="ar"> ملاوي </tr>
+      </string>
+      <string key="Malaysia">
+        <tr lang="ar"> ماليزيا </tr>
+      </string>
+      <string key="Maldives">
+        <tr lang="ar"> جزر المالديف </tr>
+      </string>
+      <string key="Mali">
+        <tr lang="ar"> مالي </tr>
+      </string>
+      <string key="Malta">
+        <tr lang="ar"> مالطا </tr>
+      </string>
+      <string key="Marshall Islands">
+        <tr lang="ar"> جزر مارشال </tr>
+      </string>
+      <string key="Martinique">
+        <tr lang="ar"> مارتينيك </tr>
+      </string>
+      <string key="Mauritania">
+        <tr lang="ar"> موريتانيا </tr>
+      </string>
+      <string key="Mauritius">
+        <tr lang="ar"> موريشيوس </tr>
+      </string>
+      <string key="Mayotte">
+        <tr lang="ar"> مايوت </tr>
+      </string>
+      <string key="Mexico">
+        <tr lang="ar"> المكسيك </tr>
+      </string>
+      <string key="Micronesia, Federal States of">
+        <tr lang="ar"> الولايات الاتحادية لميكرونيزيا </tr>
+      </string>
+      <string key="Moldova, Republic of">
+        <tr lang="ar"> جمهورية مولدوفا </tr>
+      </string>
+      <string key="Monaco">
+        <tr lang="ar"> موناكو </tr>
+      </string>
+      <string key="Mongolia">
+        <tr lang="ar"> منغوليا </tr>
+      </string>
+      <string key="Montenegro">
+        <tr lang="ar"> الجبل الأسود </tr>
+      </string>
+      <string key="Montserrat">
+        <tr lang="ar"> مونتسيرات </tr>
+      </string>
+      <string key="Morocco">
+        <tr lang="ar"> المغرب </tr>
+      </string>
+      <string key="Mozambique">
+        <tr lang="ar"> موزامبيق </tr>
+      </string>
+      <string key="Myanmar, Burma">
+        <tr lang="ar"> ميانمار ، بورما </tr>
+      </string>
+      <string key="Namibia">
+        <tr lang="ar"> ناميبيا </tr>
+      </string>
+      <string key="Nauru">
+        <tr lang="ar"> ناورو </tr>
+      </string>
+      <string key="Nepal">
+        <tr lang="ar"> النيبال </tr>
+      </string>
+      <string key="Netherlands">
+        <tr lang="ar"> هولندا </tr>
+      </string>
+      <string key="Netherlands Antilles">
+        <tr lang="ar"> جزر الأنتيل الهولندية </tr>
+      </string>
+      <string key="New Caledonia">
+        <tr lang="ar"> كاليدونيا الجديدة </tr>
+      </string>
+      <string key="New Zealand">
+        <tr lang="ar"> نيوزيلاندا </tr>
+      </string>
+      <string key="Nicaragua">
+        <tr lang="ar"> نيكاراغوا </tr>
+      </string>
+      <string key="Niger">
+        <tr lang="ar"> النيجر </tr>
+      </string>
+      <string key="Nigeria">
+        <tr lang="ar"> نيجيريا </tr>
+      </string>
+      <string key="Niue">
+        <tr lang="ar"> نيوي </tr>
+      </string>
+      <string key="Norfolk Island">
+        <tr lang="ar"> جزيرة نورفولك </tr>
+      </string>
+      <string key="North Korea">
+        <tr lang="ar"> شمال كوريا </tr>
+      </string>
+      <string key="Northern Mariana Islands">
+        <tr lang="ar"> جزر ماريانا الشمالية </tr>
+      </string>
+      <string key="Norway">
+        <tr lang="ar"> النرويج </tr>
+      </string>
+      <string key="Oman">
+        <tr lang="ar"> عمان </tr>
+      </string>
+      <string key="Pakistan">
+        <tr lang="ar"> الباكستان </tr>
+      </string>
+      <string key="Palau">
+        <tr lang="ar"> بالاو </tr>
+      </string>
+      <string key="Palestinian National Authority">
+        <tr lang="ar"> السلطة الوطنية الفلسطينية </tr>
+      </string>
+      <string key="Panama">
+        <tr lang="ar"> بناما </tr>
+      </string>
+      <string key="Papua New Guinea">
+        <tr lang="ar"> بابوا غينيا وجديد </tr>
+      </string>
+      <string key="Paraguay">
+        <tr lang="ar"> باراغواي </tr>
+      </string>
+      <string key="Peru">
+        <tr lang="ar"> بيرو </tr>
+      </string>
+      <string key="Philippines">
+        <tr lang="ar"> الفلبين </tr>
+      </string>
+      <string key="Pitcairn Island">
+        <tr lang="ar"> جزيرة بيتكيرن </tr>
+      </string>
+      <string key="Poland">
+        <tr lang="ar"> بولندا </tr>
+      </string>
+      <string key="Portugal">
+        <tr lang="ar"> البرتغال </tr>
+      </string>
+      <string key="Puerto Rico">
+        <tr lang="ar"> بورتوريكو </tr>
+      </string>
+      <string key="Qatar">
+        <tr lang="ar"> قطر </tr>
+      </string>
+      <string key="Reunion Island">
+        <tr lang="ar"> جزيرة ريونيون </tr>
+      </string>
+      <string key="Romania">
+        <tr lang="ar"> رومانيا </tr>
+      </string>
+      <string key="Russian Federation">
+        <tr lang="ar"> الاتحاد الروسي </tr>
+      </string>
+      <string key="Rwanda">
+        <tr lang="ar"> رواندا </tr>
+      </string>
+      <string key="Saint Kitts and Nevis">
+        <tr lang="ar"> سانت كيتس ونيفيس </tr>
+      </string>
+      <string key="Saint Lucia">
+        <tr lang="ar"> سانت لوسيا </tr>
+      </string>
+      <string key="Saint Vincent and the Grenadines">
+        <tr lang="ar"> سانت فنسنت وغرينادين </tr>
+      </string>
+      <string key="Samoa">
+        <tr lang="ar"> ساموا </tr>
+      </string>
+      <string key="San Marino">
+        <tr lang="ar"> سان مارينو </tr>
+      </string>
+      <string key="Sao Tome and Prncipe">
+        <tr lang="ar"> ساو تومي وبرينسيبي </tr>
+      </string>
+      <string key="Saudi Arabia">
+        <tr lang="ar"> المملكة العربية السعودية </tr>
+      </string>
+      <string key="Senegal">
+        <tr lang="ar"> السنغال </tr>
+      </string>
+      <string key="Serbia">
+        <tr lang="ar"> صربيا </tr>
+      </string>
+      <string key="Seychelles">
+        <tr lang="ar"> سيشيل </tr>
+      </string>
+      <string key="Sierra Leone">
+        <tr lang="ar"> سيراليون </tr>
+      </string>
+      <string key="Singapore">
+        <tr lang="ar"> سنغفورة </tr>
+      </string>
+      <string key="Slovakia (Slovak Republic)">
+        <tr lang="ar"> سلوفاكيا (الجمهورية السلوفاكية) </tr>
+      </string>
+      <string key="Slovenia">
+        <tr lang="ar"> سلوفينيا </tr>
+      </string>
+      <string key="Solomon Islands">
+        <tr lang="ar"> جزر سليمان </tr>
+      </string>
+      <string key="Somalia">
+        <tr lang="ar"> الصومال </tr>
+      </string>
+      <string key="South Africa">
+        <tr lang="ar"> جنوب إفريقيا </tr>
+      </string>
+      <string key="South Georgia and South Sandwich Islands">
+        <tr lang="ar"> وجورجيا الجنوبية وجزر ساندويتش الجنوبية </tr>
+      </string>
+      <string key="Spain">
+        <tr lang="ar"> أسبانيا </tr>
+      </string>
+      <string key="Sri Lanka">
+        <tr lang="ar"> سريلانكا </tr>
+      </string>
+      <string key="Saint Helena">
+        <tr lang="ar"> سانت هيلانة </tr>
+      </string>
+      <string key="St. Pierre and Miquelon">
+        <tr lang="ar"> سانت بيار وميكلون </tr>
+      </string>
+      <string key="Sudan">
+        <tr lang="ar"> السودان </tr>
+      </string>
+      <string key="Suriname">
+        <tr lang="ar"> سورينام </tr>
+      </string>
+      <string key="Svalbard and Jan Mayen Islands">
+        <tr lang="ar"> جزر سفالبارد وجان ماين </tr>
+      </string>
+      <string key="Swaziland">
+        <tr lang="ar"> سوازيلاند </tr>
+      </string>
+      <string key="Sweden">
+        <tr lang="ar"> السويد </tr>
+      </string>
+      <string key="Switzerland">
+        <tr lang="ar"> سويسرا </tr>
+      </string>
+      <string key="Syria, Syrian Arab Republic">
+        <tr lang="ar"> الجمهورية العربية السورية </tr>
+      </string>
+      <string key="Taiwan (Republic of China)">
+        <tr lang="ar"> تايوان (جمهورية الصين) </tr>
+      </string>
+      <string key="Tajikistan">
+        <tr lang="ar"> طاجاكستان </tr>
+      </string>
+      <string key="Tanzania">
+        <tr lang="ar"> تنزانيا </tr>
+      </string>
+      <string key="Thailand">
+        <tr lang="ar"> تايلاند </tr>
+      </string>
+      <string key="Tibet">
+        <tr lang="ar"> التبت </tr>
+      </string>
+      <string key="Timor-Leste (East Timor)">
+        <tr lang="ar"> تيمور الشرقية (تيمور الشرقية) </tr>
+      </string>
+      <string key="Togo">
+        <tr lang="ar"> توغو </tr>
+      </string>
+      <string key="Tokelau">
+        <tr lang="ar"> توكيلاو </tr>
+      </string>
+      <string key="Tonga">
+        <tr lang="ar"> تونغا </tr>
+      </string>
+      <string key="Trinidad and Tobago">
+        <tr lang="ar"> ترينيداد وتوباغو </tr>
+      </string>
+      <string key="Tunisia">
+        <tr lang="ar"> تونس </tr>
+      </string>
+      <string key="Turkey">
+        <tr lang="ar"> تركيا </tr>
+      </string>
+      <string key="Turkmenistan">
+        <tr lang="ar"> تركمانستان </tr>
+      </string>
+      <string key="Turks and Caicos Islands">
+        <tr lang="ar"> جزر تركس وكايكوس </tr>
+      </string>
+      <string key="Tuvalu">
+        <tr lang="ar"> توفالو </tr>
+      </string>
+      <string key="Uganda">
+        <tr lang="ar"> أوغندا </tr>
+      </string>
+      <string key="Ukraine">
+        <tr lang="ar"> أوكرانيا </tr>
+      </string>
+      <string key="United Arab Emirates">
+        <tr lang="ar"> الامارات العربيةالمتحدة </tr>
+      </string>
+      <string key="United Kingdom">
+        <tr lang="ar"> المملكة البريطانية المتحدة </tr>
+      </string>
+      <string key="U.S. Minor Outlying Islands">
+        <tr lang="ar"> الامريكى جزر البعيدة الصغيرة </tr>
+      </string>
+      <string key="Uruguay">
+        <tr lang="ar"> أوروغواي </tr>
+      </string>
+      <string key="Uzbekistan">
+        <tr lang="ar"> اوزباكستنان </tr>
+      </string>
+      <string key="Vanuatu">
+        <tr lang="ar"> فانواتو </tr>
+      </string>
+      <string key="Vatican City State (Holy See)">
+        <tr lang="ar"> الفاتيكان </tr>
+      </string>
+      <string key="Venezuela">
+        <tr lang="ar"> فنزويلا </tr>
+      </string>
+      <string key="Vietnam">
+        <tr lang="ar"> الفيتنام </tr>
+      </string>
+      <string key="Virgin IslandS (British)">
+        <tr lang="ar"> جزر فيرجن (البريطانية) </tr>
+      </string>
+      <string key="Virgin IslandS (U.S.)">
+        <tr lang="ar"> الجزر العذراء (الولايات المتحدة) </tr>
+      </string>
+      <string key="Wallis and Futuna Islands">
+        <tr lang="ar"> جزر واليس وفوتونا </tr>
+      </string>
+      <string key="Western Sahara">
+        <tr lang="ar"> الصحراء الغربية </tr>
+      </string>
+      <string key="Yemen">
+        <tr lang="ar"> اليمن </tr>
+      </string>
+      <string key="Zaire">
+        <tr lang="ar"> زائير </tr>
+      </string>
+      <string key="Zambia">
+        <tr lang="ar"> زامبيا </tr>
+      </string>
+      <string key="Zimbabwe">
+        <tr lang="ar"> زيمبابوي </tr>
+      </string>
+      <string key="Sao Tome and Pr?ncipe">
+        <tr lang="ar"> سان تومي والأمراء و </tr>
+      </string>
+    </page>
+    <page key="Property_SalaryType">
+      <string key="per hour">
+        <tr lang="ar"> بالساعه </tr>
+      </string>
+      <string key="per week">
+        <tr lang="ar"> إسبوعي </tr>
+      </string>
+      <string key="per month">
+        <tr lang="ar"> شهري </tr>
+      </string>
+      <string key="per year">
+        <tr lang="ar"> سنوي </tr>
+      </string>
+    </page>
+    <page key="Property_EmploymentType">
+      <string key="Full time">
+        <tr lang="ar"> عمل دائم </tr>
+      </string>
+      <string key="Part time">
+        <tr lang="ar"> عمل جزئي </tr>
+      </string>
+      <string key="Contractor">
+        <tr lang="ar"> عمل مؤقت </tr>
+      </string>
+      <string key="Intern">
+        <tr lang="ar"> تدريب </tr>
+      </string>
+      <string key="Seasonal">
+        <tr lang="ar"> موسمية </tr>
+      </string>
+    </page>
+    <page key="Membership Plan">
+      <string key="Name">
+        <tr lang="ar"> الاسم </tr>
+      </string>
+      <string key="Description">
+        <tr lang="ar"> الوصف </tr>
+      </string>
+      <string key="Price">
+        <tr lang="ar"> السعر </tr>
+      </string>
+      <string key="Expiration Period">
+        <tr lang="ar"> تاريخ الإنتهاء </tr>
+      </string>
+      <string key="Subscription Price">
+        <tr lang="ar"> تكلفة الاشتراك </tr>
+      </string>
+    </page>
+    <page key="Property_status">
+      <string key="Pending">
+        <tr lang="ar"> معلقة </tr>
+      </string>
+      <string key="Failed">
+        <tr lang="ar"> عملية غير ناجحة </tr>
+      </string>
+      <string key="Completed">
+        <tr lang="ar"> اكتملت </tr>
+      </string>
+      <string key="Everyone">
+        <tr lang="ar"> الجميع </tr>
+      </string>
+    </page>
+    <page key="Property_access_type">
+      <string key="Everyone">
+        <tr lang="ar"> الجميع </tr>
+      </string>
+      <string key="No one">
+        <tr lang="ar"> لا يوجد شخص </tr>
+      </string>
+      <string key="Only selected employers">
+        <tr lang="ar"> الشركات المحددة فقط </tr>
+      </string>
+      <string key="Everyone except selected employers">
+        <tr lang="ar"> الجميع ماعدا الشركات المحددة </tr>
+      </string>
+    </page>
+    <page key="Property_JobType">
+      <string key="full time">
+        <tr lang="ar"> عمل دائم </tr>
+      </string>
+      <string key="part time">
+        <tr lang="ar"> عمل جزئي </tr>
+      </string>
+      <string key="contractor">
+        <tr lang="ar"> عقد مؤقت </tr>
+      </string>
+      <string key="intern">
+        <tr lang="ar"> تدريب </tr>
+      </string>
+      <string key="seasonal">
+        <tr lang="ar"> موسمية </tr>
+      </string>
+    </page>
+    <page key="Property_DesiredSalaryType">
+      <string key="per month">
+        <tr lang="ar"> شهري </tr>
+      </string>
+      <string key="per year">
+        <tr lang="ar"> سنوي </tr>
+      </string>
+    </page>
+    <page key="Property_PostedWithin">
+      <string key="Posted Within">
+        <tr lang="ar"> نشرة خلال </tr>
+      </string>
+      <string key="Last 30 days">
+        <tr lang="ar"> الثلاثين يوم الاخيرة </tr>
+      </string>
+      <string key="Last 7 days">
+        <tr lang="ar"> السبعة الايام الاخيرة </tr>
+      </string>
+      <string key="Last 3 days">
+        <tr lang="ar"> آخر ثلاثة ايام </tr>
+      </string>
+      <string key="Since Yesterday">
+        <tr lang="ar"> اليوم الماضي </tr>
+      </string>
+    </page>
+    <page key="Property_Category">
+    </page>
+    <page key="Property_from">
+    </page>
+    <page key="Property_to">
+    </page>
+    <page key="Property_GraduatedIn">
+    </page>
+    <page key="Property_DegreeLevel">
+    </page>
+    <page key="Property_Industry">
+    </page>
+    <page key="Property_Residence">
+    </page>
+    <page key="Property_asd">
+    </page>
+    <page key="Property_testmultilist">
+    </page>
+    <page key="Property_test">
+    </page>
+    <page key="Property_billingCountry">
+    </page>
+    <page key="Property_billingState">
+    </page>
+    <page key="Property_ApplyNowBtnChoice">
+    </page>
+    <page key="Property_billingInformationCheckbox">
+    </page>
+    <page key="Property_1">
+    </page>
+  </pages>
+</translation2>

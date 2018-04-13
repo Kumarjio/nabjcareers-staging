@@ -1,0 +1,1 @@
+<strong>{$listings_types.Job} [[jobs]]</strong> [[currently online]]. <strong>{$listings_types.Resume} [[resumes]]</strong> [[currently online]].

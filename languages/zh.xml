@@ -1,0 +1,3975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE translation2 [
+<!ELEMENT translation2 (languages,pages)>
+<!ELEMENT languages (lang*)>
+<!ELEMENT lang (name?,meta?,error_text?,encoding?)>
+<!ATTLIST lang id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT meta (#PCDATA)>
+<!ELEMENT error_text (#PCDATA)>
+<!ELEMENT encoding (#PCDATA)>
+<!ELEMENT pages (page*)>
+<!ELEMENT page (string*)>
+<!ATTLIST page key CDATA #REQUIRED>
+<!ELEMENT string (tr*)>
+<!ATTLIST string key CDATA #REQUIRED>
+<!ELEMENT tr (#PCDATA)>
+<!ATTLIST tr lang IDREF #REQUIRED>
+]>
+
+<translation2>
+  <languages>
+    <lang id="">
+      <name></name>
+      <meta></meta>
+      <error_text></error_text>
+      <encoding> iso-8859-1 </encoding>
+    </lang>
+    <lang id="zh">
+      <name> 中文 Chinese </name>
+      <meta> a:8:{s:6:"active";s:1:"1";s:10:"is_default";b:0;s:5:"theme";N;s:11:"date_format";s:8:"%Y-%m-%d";s:17:"decimal_separator";s:0:"";s:19:"thousands_separator";s:1:",";s:8:"decimals";s:1:"0";s:11:"rightToLeft";s:1:"0";} </meta>
+      <error_text></error_text>
+      <encoding> utf-8 </encoding>
+    </lang>
+  </languages>
+  <pages>
+    <page key="PhrasesInTemplates">
+      <string key="Job Search">
+        <tr lang="zh"> 求職 </tr>
+      </string>
+      <string key="Find">
+        <tr lang="zh"> 查找 </tr>
+      </string>
+      <string key="Advanced search">
+        <tr lang="zh"> 高級搜索 </tr>
+      </string>
+      <string key="Home">
+        <tr lang="zh"> 首頁 </tr>
+      </string>
+      <string key="Register">
+        <tr lang="zh"> 註冊 </tr>
+      </string>
+      <string key="Sign In">
+        <tr lang="zh"> 登錄 </tr>
+      </string>
+      <string key="My Account">
+        <tr lang="zh"> 我的帳戶 </tr>
+      </string>
+      <string key="Find Jobs">
+        <tr lang="zh"> 找工作 </tr>
+      </string>
+      <string key="Post Resumes">
+        <tr lang="zh"> 郵政簡歷 </tr>
+      </string>
+      <string key="Search Resumes">
+        <tr lang="zh"> 搜索簡歷 </tr>
+      </string>
+      <string key="Post Jobs">
+        <tr lang="zh"> 發布職位 </tr>
+      </string>
+      <string key="Contact">
+        <tr lang="zh"> 聯繫 </tr>
+      </string>
+      <string key="Choose language">
+        <tr lang="zh"> 選擇語言 </tr>
+      </string>
+      <string key="Jobs by Category">
+        <tr lang="zh"> 職位的分類 </tr>
+      </string>
+      <string key="Jobs by City">
+        <tr lang="zh"> 職位的城市 </tr>
+      </string>
+      <string key="Featured Jobs">
+        <tr lang="zh"> 特色工作 </tr>
+      </string>
+      <string key="Employers">
+        <tr lang="zh"> 雇主 </tr>
+      </string>
+      <string key="Post a job">
+        <tr lang="zh"> 發布工作 </tr>
+      </string>
+      <string key="Search resumes">
+        <tr lang="zh"> 搜索簡歷 </tr>
+      </string>
+      <string key="Job Seekers">
+        <tr lang="zh"> 求職者 </tr>
+      </string>
+      <string key="Post resumes">
+        <tr lang="zh"> 後恢復 </tr>
+      </string>
+      <string key="Find jobs">
+        <tr lang="zh"> 找工作 </tr>
+      </string>
+      <string key="RSS Feed">
+        <tr lang="zh"> RSS源 </tr>
+      </string>
+      <string key="Latest Jobs">
+        <tr lang="zh"> 最新招聘 </tr>
+      </string>
+      <string key="powered by">
+        <tr lang="zh"> 供電 </tr>
+      </string>
+      <string key="Keep me signed in">
+        <tr lang="zh"> 記住我的登錄 </tr>
+      </string>
+      <string key="Login">
+        <tr lang="zh"> 登錄 </tr>
+      </string>
+      <string key="Forgot Your Password?">
+        <tr lang="zh"> 忘記密碼？ </tr>
+      </string>
+      <string key="Registration">
+        <tr lang="zh"> 登記 </tr>
+      </string>
+      <string key="Salutation First and Last Name">
+        <tr lang="zh"> 稱呼名和姓 </tr>
+      </string>
+      <string key="Email">
+        <tr lang="zh"> 電郵 </tr>
+      </string>
+      <string key="Comments">
+        <tr lang="zh"> 評論 </tr>
+      </string>
+      <string key="Submit">
+        <tr lang="zh"> 提交 </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we\&apos;ll send you a link to a page where you can change your password">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Please select the appropriate user group">
+        <tr lang="zh"> 請選擇相應的用戶組 </tr>
+      </string>
+      <string key="Confirm Password">
+        <tr lang="zh"> 確認密碼 </tr>
+      </string>
+      <string key="You have successfully registered in our site">
+        <tr lang="zh"> 您已成功註冊在我們的網站 </tr>
+      </string>
+      <string key="Add a New Listing">
+        <tr lang="zh"> 添加新上市 </tr>
+      </string>
+      <string key="You specified wrong username">
+        <tr lang="zh"> 错误的用户名 </tr>
+      </string>
+      <string key="The system cannot proceed as Listing ID not specified">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Invalid payment ID is specified">
+        <tr lang="zh"> 无效付款鉴定 </tr>
+      </string>
+      <string key="No such user">
+        <tr lang="zh"> 沒有這樣的用戶 </tr>
+      </string>
+      <string key="Search">
+        <tr lang="zh"> 搜索 </tr>
+      </string>
+      <string key="No logged in user found">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="My Jobs">
+        <tr lang="zh"> 我的工作 </tr>
+      </string>
+      <string key="My Profile">
+        <tr lang="zh"> 我的個人資料 </tr>
+      </string>
+      <string key="Saved Searches">
+        <tr lang="zh"> 保存的搜索 </tr>
+      </string>
+      <string key="Saved Listings">
+        <tr lang="zh"> 保存表 </tr>
+      </string>
+      <string key="Subscriptions">
+        <tr lang="zh"> 訂閱 </tr>
+      </string>
+      <string key="My Notifications">
+        <tr lang="zh"> 我的通知 </tr>
+      </string>
+      <string key="Billing History">
+        <tr lang="zh"> 帳單記錄 </tr>
+      </string>
+      <string key="Logout">
+        <tr lang="zh"> 登出 </tr>
+      </string>
+      <string key="My Listings">
+        <tr lang="zh"> 我的房產 </tr>
+      </string>
+      <string key="Filter">
+        <tr lang="zh"> 過濾器 </tr>
+      </string>
+      <string key="Choose subscription">
+        <tr lang="zh"> 選擇訂閱 </tr>
+      </string>
+      <string key="unlimited">
+        <tr lang="zh"> 無限 </tr>
+      </string>
+      <string key="Next">
+        <tr lang="zh"> 下一頁 </tr>
+      </string>
+      <string key="Edit Listing">
+        <tr lang="zh"> 編輯清單 </tr>
+      </string>
+      <string key="Edit Pictures">
+        <tr lang="zh"> 編輯圖片 </tr>
+      </string>
+      <string key="Upgrade to Featured">
+        <tr lang="zh"> 升級到精選 </tr>
+      </string>
+      <string key="You have successfully changed your membership plan">
+        <tr lang="zh"> 您已成功地改變了你的會員計劃 </tr>
+      </string>
+      <string key="You have already subscribed">
+        <tr lang="zh"> 您已訂閱 </tr>
+      </string>
+      <string key="You do not have permissions to post  listings.">
+        <tr lang="zh"> 您沒有權限上傳列表。 </tr>
+      </string>
+      <string key="No listings found.">
+        <tr lang="zh"> 沒有找到列表 </tr>
+      </string>
+      <string key="Listing ID is not defined">
+        <tr lang="zh"> 上市识别没有定义 </tr>
+      </string>
+      <string key="Save">
+        <tr lang="zh"> 保存 </tr>
+      </string>
+      <string key="image format is not supported">
+        <tr lang="zh"> 圖像格式不支持 </tr>
+      </string>
+      <string key="You have successfully changed your profile info!">
+        <tr lang="zh"> 您已成功地更改您的個人信息！ </tr>
+      </string>
+      <string key="Delete">
+        <tr lang="zh"> 刪除 </tr>
+      </string>
+      <string key="File deleted successfully">
+        <tr lang="zh"> 文件刪除成功 </tr>
+      </string>
+      <string key="Back to edit profile">
+        <tr lang="zh"> 回到編輯個人資料 </tr>
+      </string>
+      <string key="You have not saved any searches yet.">
+        <tr lang="zh"> 您沒有保存任何搜索呢。 </tr>
+      </string>
+      <string key="ID">
+        <tr lang="zh"> 鉴定 </tr>
+      </string>
+      <string key="Period">
+        <tr lang="zh"> 期 </tr>
+      </string>
+      <string key="State">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="from">
+        <tr lang="zh"> 從 </tr>
+      </string>
+      <string key="to">
+        <tr lang="zh"> 到 </tr>
+      </string>
+      <string key="Date">
+        <tr lang="zh"> 日期 </tr>
+      </string>
+      <string key="Description">
+        <tr lang="zh"> 說明 </tr>
+      </string>
+      <string key="Amount">
+        <tr lang="zh"> 金額 </tr>
+      </string>
+      <string key="Action">
+        <tr lang="zh"> 行動 </tr>
+      </string>
+      <string key="Total Amount">
+        <tr lang="zh"> 總金額 </tr>
+      </string>
+      <string key="There are no saved listings">
+        <tr lang="zh"> 有沒有保存列表 </tr>
+      </string>
+      <string key="Notify on Listing Activation">
+        <tr lang="zh"> 上市激活通知 </tr>
+      </string>
+      <string key="Notify on Listing Expiration">
+        <tr lang="zh"> 在上市期滿通知 </tr>
+      </string>
+      <string key="Notify on Contract Expiration">
+        <tr lang="zh"> 合同到期时通知 </tr>
+      </string>
+      <string key="Modify search">
+        <tr lang="zh"> 修改搜索 </tr>
+      </string>
+      <string key="Save this search">
+        <tr lang="zh"> 保存這個搜索 </tr>
+      </string>
+      <string key="Saved jobs">
+        <tr lang="zh"> 保存的職位 </tr>
+      </string>
+      <string key="Saved searches">
+        <tr lang="zh"> 保存的搜索 </tr>
+      </string>
+      <string key="Results: {$listings_number} Jobs">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Number of jobs per page">
+        <tr lang="zh"> 工作的數量每頁 </tr>
+      </string>
+      <string key="Previous">
+        <tr lang="zh"> 上一頁 </tr>
+      </string>
+      <string key="Save Your Search">
+        <tr lang="zh"> 保存你的搜索 </tr>
+      </string>
+      <string key="Search Name">
+        <tr lang="zh"> 搜索名稱 </tr>
+      </string>
+      <string key="Your search has been saved.">
+        <tr lang="zh"> 您的搜索已保存。 </tr>
+      </string>
+      <string key="You may close this window now.">
+        <tr lang="zh"> 现在，您可以关闭此窗口 </tr>
+      </string>
+      <string key="Save ad">
+        <tr lang="zh"> 储存广告 </tr>
+      </string>
+      <string key="View job details">
+        <tr lang="zh"> 查看作业详细信息 </tr>
+      </string>
+      <string key="Rate this job">
+        <tr lang="zh"> 评分工作 </tr>
+      </string>
+      <string key="Please, Vote!">
+        <tr lang="zh"> 请投票 </tr>
+      </string>
+      <string key="Watch a video">
+        <tr lang="zh"> 观看视频 </tr>
+      </string>
+      <string key="Save this Job">
+        <tr lang="zh"> 保存這個工作 </tr>
+      </string>
+      <string key="View Saved Jobs">
+        <tr lang="zh"> 查看保存的职位 </tr>
+      </string>
+      <string key="Tell a Friend">
+        <tr lang="zh"> 告訴朋友 </tr>
+      </string>
+      <string key="Print This Ad">
+        <tr lang="zh"> 打印此广告 </tr>
+      </string>
+      <string key="View Map">
+        <tr lang="zh"> 查看地图 </tr>
+      </string>
+      <string key="Back to Results">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Modify Search">
+        <tr lang="zh"> 修改搜索 </tr>
+      </string>
+      <string key="Rate This Job">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="User Info">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="All jobs by this company">
+        <tr lang="zh"> 該公司所有職位 </tr>
+      </string>
+      <string key="Video">
+        <tr lang="zh"> 視頻 </tr>
+      </string>
+      <string key="Photos">
+        <tr lang="zh"> 照片 </tr>
+      </string>
+      <string key="Apply now">
+        <tr lang="zh"> 現在申請 </tr>
+      </string>
+      <string key="Location">
+        <tr lang="zh"> 地點 </tr>
+      </string>
+      <string key="Please, wait ...">
+        <tr lang="zh"> 請稍候... </tr>
+      </string>
+      <string key="Add your comment">
+        <tr lang="zh"> 添加您的评论 </tr>
+      </string>
+      <string key="Add">
+        <tr lang="zh"> 新增 </tr>
+      </string>
+      <string key="Listing has been saved">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="View details">
+        <tr lang="zh"> 查看詳細信息 </tr>
+      </string>
+      <string key="Recommend listing with ID">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your name">
+        <tr lang="zh"> 你的名字 </tr>
+      </string>
+      <string key="Your friend\&apos;s name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your friend\&apos;s e-mail address">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your comment (will be send with the recomendation)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Send">
+        <tr lang="zh"> 發送 </tr>
+      </string>
+      <string key="Cannot send letter">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Company Info">
+        <tr lang="zh"> 公司信息 </tr>
+      </string>
+      <string key="You\&apos;ve already voted">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Author">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your e-mail">
+        <tr lang="zh"> 您的電子郵件 </tr>
+      </string>
+      <string key="Your request">
+        <tr lang="zh"> 您的要求 </tr>
+      </string>
+      <string key="Attach your resume">
+        <tr lang="zh"> 附上你的簡歷 </tr>
+      </string>
+      <string key="Cannot send your message">
+        <tr lang="zh"> 無法發送郵件 </tr>
+      </string>
+      <string key="You do not have permissions to post Resume listings.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Results: {$listings_number} Resumes">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Number of resumes per page">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Enter Your Ad Information">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Add Pictures">
+        <tr lang="zh"> 添加圖片 </tr>
+      </string>
+      <string key="is empty">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="could not convert video file">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="is unknown">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Manage Listing">
+        <tr lang="zh"> 管理上市 </tr>
+      </string>
+      <string key="Preview Listing">
+        <tr lang="zh"> 預覽上市 </tr>
+      </string>
+      <string key="Manage Listing Pictures">
+        <tr lang="zh"> 管理房源图片 </tr>
+      </string>
+      <string key="Go to Manage Listing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Add Picture">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Caption">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Thumbnail">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Actions">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Are you sure?">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Edit Picture">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Picture">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Please specify a valid email address.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Please provide your full name.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Please include your comments.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Thank you very much for your message. We will respond to you as soon as possible.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Invalid password">
+        <tr lang="zh"> 無效的密碼 </tr>
+      </string>
+      <string key="Login error">
+        <tr lang="zh"> 不正確的用戶名和/或密碼 </tr>
+      </string>
+      <string key="Browse by category">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="There are no listings with requested parameters in the system.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Browse by city">
+        <tr lang="zh"> 按城市瀏覽 </tr>
+      </string>
+      <string key="My Resumes">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Saved Jobs">
+        <tr lang="zh"> 保存的职位 </tr>
+      </string>
+      <string key="Job Alerts">
+        <tr lang="zh"> 工作快讯 </tr>
+      </string>
+      <string key="Jobs by {$companyName}">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="$select_box_field_distance of Zip $input_text_field_location">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="$input_text_field_from to $input_text_field_to">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="not confirmed">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="this value is already used in the system">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Check all">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Uncheck all">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Actions with Selected">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Number of listings per page">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Rating">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Deactivate">
+        <tr lang="zh"> 停用 </tr>
+      </string>
+      <string key="Activate">
+        <tr lang="zh"> 激活 </tr>
+      </string>
+      <string key="Your listing is successfully activated">
+        <tr lang="zh"> 您已成功激活上市 </tr>
+      </string>
+      <string key="Back to My Listings">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sort by">
+        <tr lang="zh"> 排序方式： </tr>
+      </string>
+      <string key="Edit">
+        <tr lang="zh"> 編輯 </tr>
+      </string>
+      <string key="View Details">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Enable Auto notify">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Disable Auto notify">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Results: $listings_number Jobs">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Jobs by $companyName">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Results: $listings_number Resumes">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Rate this resume">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="View resume details">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="All resumes by this user">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Rate This Resume">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="View Saved Resumes">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Save this Resume">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Resumes by $firstName $lastName">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Select a Package">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="is not an integer value">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="You&apos;ve got a limit of the allowed number of picture">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="limit exceeded">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="You don&apos;t have permissions to access this page.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Resume search is accessible only for subscribed Employers.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your friend&apos;s name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your friend&apos;s e-mail address">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Dear customer!">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for &lt;b&gt;$product_info_name&lt;/b&gt;.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Please choose from the following payment methods:">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Wire Transfer">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for $item_name&lt;br /&gt;Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you!">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="There is no listing in the system with the specified ID">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Anonymous User Info">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Welcome">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you!">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Please log in to access this page. If you do not have an account, please">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Featured Companies">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Get resumes by email">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Get jobs by email">
+        <tr lang="zh"> 通過電子郵件找到工作 </tr>
+      </string>
+      <string key="Please use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Confirm E-mail">
+        <tr lang="zh"> 確認電子郵件 </tr>
+      </string>
+      <string key="Reload Image">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Accept terms of use">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Read terms of use">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Resume Alerts">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Application Tracking">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Resume Alert Name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Add new resume alert">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Disable">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Preview Search Results">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Add resume alert">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Alert Name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Date Applied">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Status">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Attached Resume">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Applicant’s Name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="User comments">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="View Attached File">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Jobs Search Results">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Save this Search / Job Alert">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Company Profile">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sign in">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="You have no listings now. Click">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="here">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="to add a new listing.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Fields marked with an asterisk (">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key=") are mandatory">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Please log in to place a listing. If you do not have an account, please">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="within $radius $radius_search_unit of $location">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="kilometers">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Apply to job">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Cover letter (optional)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Please">
+        <tr lang="zh"> 請 </tr>
+      </string>
+      <string key="sign in ">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="to add comments!">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="You applied successfully">
+        <tr lang="zh"> 您已成功應用 </tr>
+      </string>
+      <string key="Please log in to place a new posting. If you do not have an account, please">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Register.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Search by Company">
+        <tr lang="zh"> 按公司 </tr>
+      </string>
+      <string key="Clone">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="My Job Preview">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Click to select">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Redirect to this URL">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Use the following format:">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your changes were successfully saved">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Manage Pictures">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Clone this job posting">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Clone Job">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Company">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="My Applications">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Select your resume">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Enter Job Information">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="My Postings">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Private messages">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Inbox">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Outbox">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Edit Saved Search">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Saved Searches Name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Notify on My Jobs Expiration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Notify on My Contract Expiration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Notify on new private message">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Cover Letter">
+        <tr lang="zh"> 求職信 </tr>
+      </string>
+      <string key="My Billings">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Compose Message">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="From">
+        <tr lang="zh"> 從 </tr>
+      </string>
+      <string key="Subject">
+        <tr lang="zh"> 科目 </tr>
+      </string>
+      <string key="To">
+        <tr lang="zh"> 要 </tr>
+      </string>
+      <string key="Message to">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Message">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Save to outbox">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Send private message">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="You are logged in already">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="You&apos;re not allowed to open this page">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Send Private Message">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Save this Search / Resume Alert">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Resume has been saved">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Contact User">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Send applications online via web site">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Notify on My Resumes Approve Or Reject">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Notify on My Resumes Expiration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Job Alert Name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Add new job alert">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Jobs Applied">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Enter Your Resume Information">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Company name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Company Search Results">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Results: $usersCount Company">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Number of company per page">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Mark as Read">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Message from">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Read Private Message">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Reply">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Approve selected">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Reject selected">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Pending">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Approved">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Rejected">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Select Job Posting">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="All Jobs">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Delete profile">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Back">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Enable">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="E-mail frequency">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="You have">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="jobs left to post out of">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="resumes left to post out of">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="originally available">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="You&apos;re currently subscribed to">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="plan.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Subscription date">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Subscription expiration date">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="s left to post out of">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="To change your current subscription please chose new plan below.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="job">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Not Available Anymore">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="home">
+        <tr lang="zh"> 首頁 </tr>
+      </string>
+      <string key="Search job title only">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Edit notes">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Add notes">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Close">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="My notes">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Search resume title only">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Search by title">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Match exact phrase">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Match all words">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Match any words">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Boolean">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="   Boolean search description">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Please choose new subscription plan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="You&apos;ve reached the limit of number of listings allowed by your plan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Boolean search descripion">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Search title only">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Terms of use">
+        <tr lang="zh"> 使用條款 </tr>
+      </string>
+      <string key="Test URL">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Go Search">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Applicant’s resume">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Total">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Boolean search description">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Employers List">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Selected Emloyers">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="* Use CTRL key to select two or more employers">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Loading">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Currency">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Deselect all">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="You can not subscribe to this plan twice">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="No avaiable subscriptions">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Please choose exl or csv file">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="You specified wrong email">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your username is">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Recurring">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="You are going to sign up for a recurring Subscription. Once in $product_info_subscription_period days period a charge in the amount of $product_info_price will automatically be placed on your credit card to renew your subscription.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your recurring subscription to the &quot;$cancelMembershipPlanName&quot; plan has been canceled.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your payment was successfully completed. Recurring Subscription activation may take some time. Once subscription is activated it will appear in the table below.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Notify on My Jobs Activation">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Notify on My Resumes Activation">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="jobs">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="resumes">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="currently online">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Post jobs">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Blog Posts">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="You are currently logged in as">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="News">
+        <tr lang="zh"> 新聞 </tr>
+      </string>
+      <string key="Sub Accounts">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Saved Resumes">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Screening Questionnaires">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Bulk job import from exl/csv file">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your listing succesfully upgraded to featured">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Listing is already featured">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Current Search">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Refine Results">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="show brief">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="show detailed">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Post Job">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Send applications to this e-mail">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Score">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Not passed">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Actions With Selected">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Create New Questionnaire">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Send Auto-Reply email to candidates whose score is">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Question">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Answer Type">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Questions">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Edit Questionnaire">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Edit Questions">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Order">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Required">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="My account">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="No">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Yes">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Add Answer">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Complete">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Username">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sub-user Profile">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Permissions">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Add new listings">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Manage listings and applications of other sub users">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="View and update subscription">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="years">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Save this Search">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Save Resume Alert">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Resume Search Results">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Saved resumes">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Data Import">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Please review the file examples below and ascertain that your file is up to sample">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Job import EXL file example">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Job import CSV file example">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="View All News">
+        <tr lang="zh"> 查看所有新聞 </tr>
+      </string>
+      <string key="read more">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Text">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Yes/No">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="List of answers with multiple choice">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="List of answers with single choice">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Errors">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Order Information">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Invoice Number">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Credit Card Information">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Card Number">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="enter number without spaces or dashes">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Expiration Date">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="mmyy">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Billing Information">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Reset">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Anonymous User">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="News Categories">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Powered by">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="About Us">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sitemap">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="message">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Edit Profile">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Notify on My Subscriptions Expiration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Notify on New Private Messages">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Notify on My Subscriptions Activation">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Remind about My Subscriptions expiration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Remind about My Listings expiration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Days before">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Subscription name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Subscription expiration / Renewal Date">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Never Expire">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Free">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Save Job Alert">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Flag This Job">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your comment (will be send with the recommendation)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="1. General Information">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="2. Education">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Fill in the fields below to provide Employers with a general information about yourself&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="3. Work Experience">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your education. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your work experience. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Listing Owner">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Post a Job">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Enter Security code">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="file not specified">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Security code is not valid">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your Job below&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="View Questionaire">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="View Questionnaire">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Answer">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sub-users">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Create New Account">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Edit sub-user">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sub-user">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sub-user registration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Fax">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Cancel">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Answers">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Questions of">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="No of jobs">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Please, enter your email in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Flag This Resume">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Рowered by">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="There was an error while sending your application.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Passed">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your IP address was banned by site administrator. Please contact at $adminEmail for any questions.">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Cash Payment">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="FormFieldCaptions">
+      <string key="Keywords">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="State">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Category">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="City">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Username">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Password">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="User name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="E-mail">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="First Name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Last Name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Country">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Address">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Zip Code">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Phone Number">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Company Name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Contact Name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Web Site">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Zip code">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Logo">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Search Within">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Salary">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Salary Type">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Employment Type">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="ID">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Activation Date">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Title">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Company">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Web">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Job Views">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Job ID">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Job Category">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Job Description">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Job Requirements">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Job Type">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Desired Salary">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Video">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Experience">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Resumes ID">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Email">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Objective">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Work Experience">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Resumes Views">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Total Years Experience">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Education">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Skills">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Resume">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Don&apos;t send mailings">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Number of Views">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Occupations">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Company Description">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Anonymous Resume">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Application Settings">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Applications">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Resume ID">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Approval Status">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Resume Visible To">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Location">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Screening Questionnaire">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Passing Score">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="equal or more than passing score">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="less than passing score">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Email text to candidates whose score is equal or more than passing score">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Email text to candidates whose score is less than passing score">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Entrance Date">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Institution Name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Major">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Degree Level">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Start Date">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="End Date">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Industry">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Description">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Graduation Date">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="Miscellaneous">
+      <string key="Any">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Select">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Any Distance">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Within">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="miles">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="10 days">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="20 days">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="30 days">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Priority Ad">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your posting will be shown above the average search results and will be marked by different background color">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="30 days priority resume">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Your Resume will be shown above the average search results and will be marked by different background color">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="Property_Occupations">
+      <string key="Accounting-Finance">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Bookkeeping">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Claims Review and Adjusting">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Collections">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Corporate Accounting">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Corporate Finance">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Credit Review-Analysis">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Financial Analysis-Research-Reporting">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Financial Control">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Financial Planning-Advising">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Financial Products Sales-Brokerage">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Fund Accounting">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Accounting-Finance">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Investment Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Policy Underwriting">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Real Estate Appraisal">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Real Estate Leasing-Acquisition">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Risk Management-Compliance">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Securities Analysis-Research">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Tax Accounting">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Tax Assessment and Collections">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Administrative-Clerical">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Administrative Support">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Claims Processing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Data Entry-Order Processing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Executive Support">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Filing-Records Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Administrative-Clerical">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Office Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Property Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Reception-Switchboard">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Secretary-Executive Assistant">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Transcription">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Banking-Mortgage Professionals">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Bank Teller">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Credit Manager">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Escrow Officer-Manager">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Loan Officer-Originator">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Mortgage Broker">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Store-Branch Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Title Officer-Closer">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Underwriter">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Biotech-R&amp;D-Science">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Biological-Chemical Research">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Clinical Research">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Environmental-Geological Testing &amp; Analysis">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: R&amp;D-Science">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Materials-Physical Research ">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Mathematical-Statistical Research">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="New Product R&amp;D">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Pharmaceutical Research">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Building Construction">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="CAD-Drafting">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Carpentry-Framing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Concrete and Masonry">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Electrician">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Flooring-Tiling-Painting-Wallpapering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Construction-Skilled Trades">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Heavy Equipment Operation">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="HVAC">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Ironwork-Metal Fabrication">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Plumbing-Pipefitting">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Roofing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sheetrock-Plastering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Site Superintendent">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Surveying">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Business-Strategic Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Business Analysis-Research">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Business Unit Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Franchise-Business Ownership">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Business-Strategic Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Hospital-Clinic Administration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Hotel-Lodging Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Managerial Consulting">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Mergers and Acquisitions">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="President-Top Executive">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Public Health Administration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Restaurant Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="School-College Administration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Strategic Planning-Intelligence">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Town-City Planning">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Creative-Design">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Advertising Writing (Creative)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Architecture-Interior Design">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Computer Animation &amp; Multimedia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Creative Direction-Lead">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Fashion &amp; Accessories Design">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Creative-Design">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Graphic Arts-Illustration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Industrial Design">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Photography and Videography">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Web-UI-UX Design">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Customer Support">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Account Management (Non-Commissioned)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Call Center">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Customer Training">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Flight Attendant">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Customer Support-Client Care">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Hair Cutting-Styling">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Reservations-Ticketing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Retail Customer Service">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Technical Customer Service">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Editorial Writing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Digital Content Development">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Documentation-Technical Writing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Editing &amp; Proofreading">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Editorial-Writing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Journalism">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Translation-Interpretation">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Education">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Classroom Teaching">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Continuing-Adult ">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Corporate Development and Training">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Early Childhood Care &amp; Development">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Elementary School">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Fitness &amp; Sports Training-Instruction">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Training-Instruction">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Junior-High School">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Software-Web Training">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Special Education">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="University ">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Aeronautic-Avionic Engineering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Bio-Engineering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Chemical Engineering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Civil &amp; Structural Engineering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Electrical-Electronics Engineering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Energy-Nuclear Engineering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Environmental and Geological Engineering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Engineering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Industrial-Manufacturing Engineering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Mechanical Engineering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Naval Architecture-Marine Engineering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="RF-Wireless Engineering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Systems-Process Engineering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Food Services-Hospitality">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Food &amp; Beverage Serving">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Food Preparation-Cooking">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Front Desk-Reception">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Food Services">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Guest Services-Concierge">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Guide (Tour) ">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Host-Hostess">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Wine Steward (Sommelier)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Academic Admissions and Advising">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Compensation-Benefits Policy">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Diversity Management-EEO-Compliance">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Human Resources">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="HR Systems Administration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Payroll and Benefits Administration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Recruiting-Sourcing ">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Installation-Maintenance-Repair">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Computer-Electronics-Telecomm Install-Maintain-Repair">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Equipment Install-Maintain-Repair">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Facilities Management-Maintenance">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Installation-Maintenance-Repair">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Janitorial &amp; Cleaning ">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Landscaping">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Locksmith">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Oil Rig &amp; Pipeline Install-Maintain-Repair">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Vehicle Repair and Maintenance">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Wire and Cable Install-Maintain-Repair">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="IT-Software Development">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Computer-Network Security">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Database Development-Administration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Desktop Service and Support">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Enterprise Software Implementation &amp; Consulting">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: IT-Software Development">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="IT Project Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Network and Server Administration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Software-System Architecture">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Software-Web Development">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Systems Analysis - IT">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Telecommunications Administration-Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Usability-Information Architecture">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Attorney">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Contracts Administration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Legal">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Labor &amp; Employment Law">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Paralegal &amp; Legal Secretary">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Patent-IP Law">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Real Estate Law">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Regulatory-Compliance Law">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Tax Law">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Logistics-Transportation">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Car, Van and Bus Driving">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Cargo and Baggage Handling">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Cost Estimating">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Equipment-Forklift-Crane Operation">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Logistics-Transportation">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Hazardous Materials Handling">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Import-Export Administration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Inventory Planning and Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Merchandise Planning and Buying">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Messenger-Courier">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Piloting: Air and Marine">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Purchasing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Shipping and Receiving-Warehousing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Supplier Management-Vendor Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Train or Rail Operator">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Truck Driving">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Vehicle Dispatch, Routing and Scheduling">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Manufacturing-Production">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Assembly-Assembly Line">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Audio-Video Broadcast &amp; Postproduction">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Equipment Operations">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Production-Operations">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Laundry and Dry-Cleaning Operations">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Layout, Prepress, Printing, &amp; Binding Operations">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Machining-CNC">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Metal Fabrication and Welding ">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Moldmaking-Casting">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Operations-Plant Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Production-Operations Planning">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Scientific-Technical Production">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sewing and Tailoring">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Waste Pick-up and Removal">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Marketing-Product">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Brand-Product Marketing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Copy Writing-Editing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Direct Marketing (CRM)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Events-Promotional Marketing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Marketing-Product">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Investor and Public-Media Relations">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Market Research">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Marketing Communications">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Marketing Production-Traffic">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Media Planning and Buying">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Product Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Telemarketing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Visual-Display Merchandising">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Medical-Health">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Dental Assistant-Hygienist">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Dental Practitioner">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="EMT-Paramedic">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Medical-Health">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Healthcare Aid">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Laboratory-Pathology">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Medical Imaging">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Medical Practitioner">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Medical Therapy-Rehab Services">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Mental Health">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Nursing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Nutrition and Diet">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Optical">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Pharmacy">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Physicians Assistant-Nurse Practitioner">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Social Service">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sports Medicine">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Veterinary-Animal Care">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Other">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Career Fair">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Work at Home">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Project-Program Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Event Planning-Coordination">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Project-Program Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Program Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Project Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Quality Assurance-Safety">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Building-Construction Inspection">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Environmental Protection-Conservation">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Food Safety and Inspection">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Fraud Investigation">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Quality Assurance-Safety">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="ISO Certification">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Occupational Health and Safety">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Production Quality Assurance">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Six Sigma-Black Belt-TQM">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Software Quality Assurance">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Vehicle Inspection">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Real Estate Agent-Broker">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sales-Retail">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Account Management Commissioned">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Business Development-New Accounts">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Field Sales">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Fundraising">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Sales-Business Development">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Insurance Agent-Broker">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="International Sales">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Media and Advertising Sales">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Retail-Counter Sales and Cashier">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sales Support-Assistance">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Technical Presales Support &amp; Technical Sales">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Telesales">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Travel Agent-Ticket Sales">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Wholesale-Reselling Sales">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Security-Protective Services">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Airport Security and Screening">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Correctional Officer">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Customs-Immigration">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Firefighting and Rescue">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General-Other: Security-Protective Services">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Military Combat">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Police-Law Enforcement">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Security Guard">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Security Intelligence &amp; Analysis">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Store Security-Loss Prevention">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="Property_State">
+      <string key="Alabama">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Alaska">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Alberta">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Arizona">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Arkansas">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="British Columbia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="California">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Colorado">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Connecticut">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Delaware">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="District of Columbia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Florida">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Georgia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Guam">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Hawaii">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Idaho">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Illinois">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Indiana">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Iowa">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Kansas">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Kentucky">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Louisiana">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Maine">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Manitoba">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Maryland">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Massachusetts">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Michigan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Minnesota">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Mississippi">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Missouri">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Montana">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Nebraska">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Nevada">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="New Hampshire">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="New Jersey">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="New Mexico">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="New York">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="North Carolina">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="North Dakota">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Ohio">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Oklahoma">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Ontario">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Oregon">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Pennsylvania">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Puerto Rico">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Rhode Island">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="South Carolina">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="South Dakota">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Tennessee">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Texas">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Utah">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Vermont">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Virgin Islands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Virginia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Washington">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="West Virginia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Wisconsin">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Wyoming">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Outside US">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="Property_JobCategory">
+      <string key="Accounting">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Admin-Clerical">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Automotive">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Banking">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Biotech">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Business Development">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Construction">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Consultant">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Customer Service">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Design">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Distribution-Shipping">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Education">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Entry Level">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Executive">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Facilities">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Finance">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Franchise">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General Business">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="General Labor">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Government">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Grocery">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Health Care">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Hospitality-Hotel">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Information Technology">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Installation-Maint-Repair">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Insurance">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Inventory">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Management">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Manufacturing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Marketing">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Media-Journalism">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Nonprofit-Social Services">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Nurse">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Other">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Pharmaceutical">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Professional Services">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Purchasing-Procurement">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="QA-Quality Control">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Research">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Restaurant-Food Service">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Retail">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sales">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Science">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Skilled Labor">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Strategy-Planning">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Supply Chain">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Telecommunications">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Training">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Transportation">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Veterinary Services">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Warehouse">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="Property_email_frequency">
+      <string key="Daily">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Weekly">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Monthly">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="Property_Country">
+      <string key="United States">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Afghanistan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Albania">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Algeria">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="American Samoa">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Andorra">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Angola">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Anguilla">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Antarctica">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Antigua and Barbuda">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Argentina">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Armenia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Aruba">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Ascension Island">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Australia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Austria">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Azerbaijan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Bahamas">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Bahrain">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Bangladesh">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Barbados">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Belarus">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Belgium">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Belize">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Benin">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Bermuda">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Bhutan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Bolivia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Bosnia and Herzegovina">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Botswana">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Bouvet Island">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Brazil">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="British Indian Ocean Territory">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Brunei Darussalam">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Bulgaria">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Burkina Faso">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Burundi">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Cambodia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Cameroon">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Canada">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Cape Verde">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Cayman Islands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Central African Republic">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Chad">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Chile">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="China">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Christmas Island">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="CocoS (Keeling) Islands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Colombia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Comoros">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Democratic Republic of the Congo (Kinshasa)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Congo, Republic of (Brazzaville)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Cook Islands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Costa Rica">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Ivory Coast">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Croatia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Cuba">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Cyprus">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Czech Republic">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Denmark">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Djibouti">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Dominica">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Dominican Republic">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="East Timor Timor-Leste">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Ecuador">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Egypt">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="El Salvador">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Equatorial Guinea">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Eritrea">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Estonia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Ethiopia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Falkland Islands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Faroe Islands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Fiji">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Finland">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="France">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="French Guiana">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="French Metropolitan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="French Polynesia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="French Southern Territories">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Gabon">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Gambia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Georgia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Germany">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Ghana">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Gibraltar">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Great Britain">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Greece">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Greenland">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Grenada">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Guadeloupe">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Guam">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Guatemala">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Guernsey">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Guinea">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Guinea-Bissau">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Guyana">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Haiti">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Heard and Mc Donald Islands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Holy See">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Honduras">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Hong Kong">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Hungary">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Iceland">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="India">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Indonesia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Iran (Islamic Republic of)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Iraq">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Ireland">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Isle of Man">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Israel">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Italy">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Jamaica">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Japan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Jersey">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Jordan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Kazakhstan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Kenya">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Kiribati">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Korea, Republic of (South Korea)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Kuwait">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Kyrgyzstan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Lao">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Latvia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Lebanon">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Lesotho">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Liberia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Libya">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Liechtenstein">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Lithuania">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Luxembourg">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Macau">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Macedonia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Madagascar">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Malawi">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Malaysia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Maldives">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Mali">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Malta">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Marshall Islands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Martinique">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Mauritania">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Mauritius">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Mayotte">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Mexico">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Micronesia, Federal States of">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Moldova, Republic of">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Monaco">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Mongolia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Montenegro">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Montserrat">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Morocco">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Mozambique">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Myanmar, Burma">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Namibia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Nauru">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Nepal">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Netherlands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Netherlands Antilles">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="New Caledonia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="New Zealand">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Nicaragua">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Niger">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Nigeria">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Niue">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Norfolk Island">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="North Korea">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Northern Mariana Islands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Norway">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Oman">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Pakistan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Palau">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Palestinian National Authority">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Panama">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Papua New Guinea">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Paraguay">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Peru">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Philippines">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Pitcairn Island">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Poland">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Portugal">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Puerto Rico">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Qatar">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Reunion Island">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Romania">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Russian Federation">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Rwanda">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Saint Kitts and Nevis">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Saint Lucia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Saint Vincent and the Grenadines">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Samoa">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="San Marino">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sao Tome and Prncipe">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Saudi Arabia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Senegal">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Serbia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Seychelles">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sierra Leone">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Singapore">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Slovakia (Slovak Republic)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Slovenia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Solomon Islands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Somalia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="South Africa">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="South Georgia and South Sandwich Islands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Spain">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sri Lanka">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Saint Helena">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="St. Pierre and Miquelon">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sudan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Suriname">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Svalbard and Jan Mayen Islands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Swaziland">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sweden">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Switzerland">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Syria, Syrian Arab Republic">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Taiwan (Republic of China)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Tajikistan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Tanzania">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Thailand">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Tibet">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Timor-Leste (East Timor)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Togo">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Tokelau">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Tonga">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Trinidad and Tobago">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Tunisia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Turkey">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Turkmenistan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Turks and Caicos Islands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Tuvalu">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Uganda">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Ukraine">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="United Arab Emirates">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="United Kingdom">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="U.S. Minor Outlying Islands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Uruguay">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Uzbekistan">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Vanuatu">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Vatican City State (Holy See)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Venezuela">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Vietnam">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Virgin IslandS (British)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Virgin IslandS (U.S.)">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Wallis and Futuna Islands">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Western Sahara">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Yemen">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Zaire">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Zambia">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Zimbabwe">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Sao Tome and Pr?ncipe">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="Property_SalaryType">
+      <string key="per hour">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="per week">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="per month">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="per year">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="Property_EmploymentType">
+      <string key="Full time">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Part time">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Contractor">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Intern">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Seasonal">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="Membership Plan">
+      <string key="Name">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Description">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Price">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Expiration Period">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Subscription Price">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="Property_status">
+      <string key="Pending">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Failed">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Completed">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Everyone">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="Property_access_type">
+      <string key="Everyone">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="No one">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Only selected employers">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Everyone except selected employers">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="Property_JobType">
+      <string key="full time">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="part time">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="contractor">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="intern">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="seasonal">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="Property_DesiredSalaryType">
+      <string key="per month">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="per year">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="Property_PostedWithin">
+      <string key="Posted Within">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Last 30 days">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Last 7 days">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Last 3 days">
+        <tr lang="zh">  </tr>
+      </string>
+      <string key="Since Yesterday">
+        <tr lang="zh">  </tr>
+      </string>
+    </page>
+    <page key="Property_testmultilist">
+    </page>
+    <page key="Property_test">
+    </page>
+    <page key="Property_billingCountry">
+    </page>
+    <page key="Property_billingState">
+    </page>
+    <page key="Property_ApplyNowBtnChoice">
+    </page>
+    <page key="Property_billingInformationCheckbox">
+    </page>
+    <page key="Property_1">
+    </page>
+  </pages>
+</translation2>

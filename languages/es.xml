@@ -1,0 +1,3392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE translation2 [
+<!ELEMENT translation2 (languages,pages)>
+<!ELEMENT languages (lang*)>
+<!ELEMENT lang (name?,meta?,error_text?,encoding?)>
+<!ATTLIST lang id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT meta (#PCDATA)>
+<!ELEMENT error_text (#PCDATA)>
+<!ELEMENT encoding (#PCDATA)>
+<!ELEMENT pages (page*)>
+<!ELEMENT page (string*)>
+<!ATTLIST page key CDATA #REQUIRED>
+<!ELEMENT string (tr*)>
+<!ATTLIST string key CDATA #REQUIRED>
+<!ELEMENT tr (#PCDATA)>
+<!ATTLIST tr lang IDREF #REQUIRED>
+]>
+
+<translation2>
+  <languages>
+    <lang id="es">
+      <name> Español </name>
+      <meta> a:8:{s:6:"active";s:1:"0";s:10:"is_default";b:0;s:5:"theme";s:0:"";s:11:"date_format";s:8:"%d.%m.%Y";s:17:"decimal_separator";s:1:",";s:19:"thousands_separator";s:1:".";s:8:"decimals";s:1:"1";s:11:"rightToLeft";s:1:"0";} </meta>
+      <error_text></error_text>
+      <encoding> utf-8 </encoding>
+    </lang>
+  </languages>
+  <pages>
+    <page key="PhrasesInTemplates">
+      <string key="Job Search">
+        <tr lang="es"> Buscar Ofertas </tr>
+      </string>
+      <string key="Find">
+        <tr lang="es"> Buscar </tr>
+      </string>
+      <string key="Advanced search">
+        <tr lang="es"> Busqueda Avanzada </tr>
+      </string>
+      <string key="Home">
+        <tr lang="es"> Inicio </tr>
+      </string>
+      <string key="Register">
+        <tr lang="es"> Registrarse </tr>
+      </string>
+      <string key="Sign In">
+        <tr lang="es"> Conectar </tr>
+      </string>
+      <string key="My Account">
+        <tr lang="es"> Mi cuenta </tr>
+      </string>
+      <string key="Find Jobs">
+        <tr lang="es"> Buscar trabajo </tr>
+      </string>
+      <string key="Post Resumes">
+        <tr lang="es"> Subir CV </tr>
+      </string>
+      <string key="Search Resumes">
+        <tr lang="es"> Buscar Currículos </tr>
+      </string>
+      <string key="Post Jobs">
+        <tr lang="es"> Poner Oferta </tr>
+      </string>
+      <string key="Contact">
+        <tr lang="es"> Contactar </tr>
+      </string>
+      <string key="Choose language">
+        <tr lang="es"> Idioma </tr>
+      </string>
+      <string key="Jobs by Category">
+        <tr lang="es"> Por categoría </tr>
+      </string>
+      <string key="Jobs by City">
+        <tr lang="es"> Por ciudad </tr>
+      </string>
+      <string key="Featured Jobs">
+        <tr lang="es"> Ofertas destacadas </tr>
+      </string>
+      <string key="Employers">
+        <tr lang="es"> Empresas </tr>
+      </string>
+      <string key="Post a job">
+        <tr lang="es"> Publicar Oferta </tr>
+      </string>
+      <string key="Search resumes">
+        <tr lang="es"> Buscar CV </tr>
+      </string>
+      <string key="Job Seekers">
+        <tr lang="es"> Candidatos </tr>
+      </string>
+      <string key="Post resumes">
+        <tr lang="es"> Subir CV </tr>
+      </string>
+      <string key="Find jobs">
+        <tr lang="es"> Buscar trabajo </tr>
+      </string>
+      <string key="RSS Feed">
+        <tr lang="es"> Feed RSS </tr>
+      </string>
+      <string key="Latest Jobs">
+        <tr lang="es"> Últimos Trabajos </tr>
+      </string>
+      <string key="powered by">
+        <tr lang="es"> Por </tr>
+      </string>
+      <string key="Please log in to access this page. If you do not have an account, please">
+        <tr lang="es"> Por favor, conectese para acceder. Si no tienes una cuenta, </tr>
+      </string>
+      <string key="Keep me signed in">
+        <tr lang="es"> Recordar Conexión </tr>
+      </string>
+      <string key="Login">
+        <tr lang="es"> Conectar </tr>
+      </string>
+      <string key="Forgot Your Password?">
+        <tr lang="es"> ¿Olvidaste la contraseña? </tr>
+      </string>
+      <string key="Registration">
+        <tr lang="es"> Registro </tr>
+      </string>
+      <string key="Salutation First and Last Name">
+        <tr lang="es"> Nombre y Apellido </tr>
+      </string>
+      <string key="Email">
+        <tr lang="es"> Email </tr>
+      </string>
+      <string key="Comments">
+        <tr lang="es"> Comentarios </tr>
+      </string>
+      <string key="Submit">
+        <tr lang="es"> Enviar </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we\&apos;ll send you a link to a page where you can change your password">
+        <tr lang="es"> Por favor, introduzca su nombre de usuario en el campo de abajo y le enviaremos un enlace a una página donde puede cambiar su contraseña </tr>
+      </string>
+      <string key="Please select the appropriate user group">
+        <tr lang="es"> ¿Candidato o Empresa? </tr>
+      </string>
+      <string key="Confirm Password">
+        <tr lang="es"> Confirmar Contraseña </tr>
+      </string>
+      <string key="You have successfully registered in our site">
+        <tr lang="es"> Registro realizado </tr>
+      </string>
+      <string key="Add a New Listing">
+        <tr lang="es"> Añadir </tr>
+      </string>
+      <string key="You specified wrong username">
+        <tr lang="es"> El usuario es incorrecto </tr>
+      </string>
+      <string key="The system cannot proceed as Listing ID not specified">
+        <tr lang="es"> No se encuentra la oferta especificada </tr>
+      </string>
+      <string key="Invalid payment ID is specified">
+        <tr lang="es"> Pago invalido </tr>
+      </string>
+      <string key="No such user">
+        <tr lang="es"> Este usuario no existe </tr>
+      </string>
+      <string key="Search">
+        <tr lang="es"> Buscar </tr>
+      </string>
+      <string key="No logged in user found">
+        <tr lang="es"> Usuario no encontrado </tr>
+      </string>
+      <string key="My Jobs">
+        <tr lang="es"> Mis Ofertas </tr>
+      </string>
+      <string key="My Profile">
+        <tr lang="es"> Mi perfil </tr>
+      </string>
+      <string key="Saved Searches">
+        <tr lang="es"> Mis busquedas </tr>
+      </string>
+      <string key="Saved Listings">
+        <tr lang="es"> Guardadas </tr>
+      </string>
+      <string key="Subscriptions">
+        <tr lang="es"> Suscripciones </tr>
+      </string>
+      <string key="My Notifications">
+        <tr lang="es"> Mis Avisos </tr>
+      </string>
+      <string key="Billing History">
+        <tr lang="es"> Historial de Pagos </tr>
+      </string>
+      <string key="Logout">
+        <tr lang="es"> Salir </tr>
+      </string>
+      <string key="My Listings">
+        <tr lang="es"> Listado </tr>
+      </string>
+      <string key="Filter">
+        <tr lang="es"> Filtrar </tr>
+      </string>
+      <string key="Choose subscription">
+        <tr lang="es"> Elija suscripción </tr>
+      </string>
+      <string key="unlimited">
+        <tr lang="es"> Ilimitado </tr>
+      </string>
+      <string key="Next">
+        <tr lang="es"> Siguiente </tr>
+      </string>
+      <string key="Edit Listing">
+        <tr lang="es"> Editar </tr>
+      </string>
+      <string key="Edit Pictures">
+        <tr lang="es"> Editar imágenes </tr>
+      </string>
+      <string key="Upgrade to Featured">
+        <tr lang="es"> Destacar </tr>
+      </string>
+      <string key="You have successfully changed your membership plan">
+        <tr lang="es"> Suscripción cambiada </tr>
+      </string>
+      <string key="You have already subscribed">
+        <tr lang="es"> Ya estabas suscrito </tr>
+      </string>
+      <string key="You do not have permissions to post  listings.">
+        <tr lang="es"> No puedes publicar ofertas </tr>
+      </string>
+      <string key="No listings found.">
+        <tr lang="es"> No se han encontrado ofertas </tr>
+      </string>
+      <string key="Listing ID is not defined">
+        <tr lang="es"> No se encuentra </tr>
+      </string>
+      <string key="Save">
+        <tr lang="es"> Guardar </tr>
+      </string>
+      <string key="image format is not supported">
+        <tr lang="es"> Formato de la imagen no valido </tr>
+      </string>
+      <string key="You have successfully changed your profile info!">
+        <tr lang="es"> Guardados los cambios del perfil </tr>
+      </string>
+      <string key="Delete">
+        <tr lang="es"> Borrar </tr>
+      </string>
+      <string key="File deleted successfully">
+        <tr lang="es"> Archivo borrado </tr>
+      </string>
+      <string key="Back to edit profile">
+        <tr lang="es"> Volver a editar el perfil </tr>
+      </string>
+      <string key="You have not saved any searches yet.">
+        <tr lang="es"> No has guardado los cambios. </tr>
+      </string>
+      <string key="ID">
+        <tr lang="es"> ID </tr>
+      </string>
+      <string key="Period">
+        <tr lang="es"> Tiempo </tr>
+      </string>
+      <string key="State">
+        <tr lang="es"> Estado </tr>
+      </string>
+      <string key="from">
+        <tr lang="es"> de </tr>
+      </string>
+      <string key="to">
+        <tr lang="es"> a </tr>
+      </string>
+      <string key="Date">
+        <tr lang="es"> Fecha </tr>
+      </string>
+      <string key="Description">
+        <tr lang="es"> Descripción </tr>
+      </string>
+      <string key="Amount">
+        <tr lang="es"> Cantidad </tr>
+      </string>
+      <string key="Action">
+        <tr lang="es"> Acción </tr>
+      </string>
+      <string key="Total Amount">
+        <tr lang="es"> Total </tr>
+      </string>
+      <string key="There are no saved listings">
+        <tr lang="es"> No hay ofertas guardadas </tr>
+      </string>
+      <string key="Notify on Listing Activation">
+        <tr lang="es"> Notificar ofertas activas </tr>
+      </string>
+      <string key="Notify on Listing Expiration">
+        <tr lang="es"> Notificar ofertas caducadas </tr>
+      </string>
+      <string key="Notify on Contract Expiration">
+        <tr lang="es"> Notificar caducidad de suscripción </tr>
+      </string>
+      <string key="Modify search">
+        <tr lang="es"> Modificar busqueda </tr>
+      </string>
+      <string key="Save this search">
+        <tr lang="es"> Guardar esta busqueda </tr>
+      </string>
+      <string key="Saved jobs">
+        <tr lang="es"> Guardadas </tr>
+      </string>
+      <string key="Saved searches">
+        <tr lang="es"> Busquedas Guardadas </tr>
+      </string>
+      <string key="Results: {$listings_number} Jobs">
+        <tr lang="es"> Resultados: {$listings_number} Trabajo/s </tr>
+      </string>
+      <string key="Number of jobs per page">
+        <tr lang="es"> Numero de trabajos por página </tr>
+      </string>
+      <string key="Previous">
+        <tr lang="es"> Anterior </tr>
+      </string>
+      <string key="Save Your Search">
+        <tr lang="es"> Guardar tu busqueda </tr>
+      </string>
+      <string key="Search Name">
+        <tr lang="es"> Buscar nombre </tr>
+      </string>
+      <string key="Your search has been saved.">
+        <tr lang="es"> La busqueda ha sido guardada </tr>
+      </string>
+      <string key="You may close this window now.">
+        <tr lang="es"> Puede cerrar la ventana </tr>
+      </string>
+      <string key="Save ad">
+        <tr lang="es"> Guardar oferta </tr>
+      </string>
+      <string key="View job details">
+        <tr lang="es"> Ver detalles de la oferta </tr>
+      </string>
+      <string key="Rate this job">
+        <tr lang="es"> Valorar este puesto </tr>
+      </string>
+      <string key="Please, Vote!">
+        <tr lang="es"> Por favor, vote </tr>
+      </string>
+      <string key="Watch a video">
+        <tr lang="es"> Ver video </tr>
+      </string>
+      <string key="Save this Job">
+        <tr lang="es"> Guardar oferta </tr>
+      </string>
+      <string key="View Saved Jobs">
+        <tr lang="es"> Guardadas </tr>
+      </string>
+      <string key="Tell a Friend">
+        <tr lang="es"> Enviar a amigo </tr>
+      </string>
+      <string key="Print This Ad">
+        <tr lang="es"> Imprimir </tr>
+      </string>
+      <string key="View Map">
+        <tr lang="es"> Ver en Mapa </tr>
+      </string>
+      <string key="Back to Results">
+        <tr lang="es"> Volver a los resultados </tr>
+      </string>
+      <string key="Modify Search">
+        <tr lang="es"> Modificar busqueda </tr>
+      </string>
+      <string key="Rate This Job">
+        <tr lang="es"> Valorar oferta </tr>
+      </string>
+      <string key="User Info">
+        <tr lang="es"> Información de Usuario </tr>
+      </string>
+      <string key="All jobs by this company">
+        <tr lang="es"> Todas las ofertas de esta empresa </tr>
+      </string>
+      <string key="Video">
+        <tr lang="es"> Video </tr>
+      </string>
+      <string key="Photos">
+        <tr lang="es"> Imágenes </tr>
+      </string>
+      <string key="Inscribirse en oferta">
+        <tr lang="es"> Inscribirse en Oferta </tr>
+      </string>
+      <string key="52">
+        <tr lang="es"> 52 </tr>
+      </string>
+      <string key="Location">
+        <tr lang="es"> Lugar </tr>
+      </string>
+      <string key="Please, wait ...">
+        <tr lang="es"> Por favor, espere ... </tr>
+      </string>
+      <string key="Add your comment">
+        <tr lang="es"> Añadir comentario </tr>
+      </string>
+      <string key="Add">
+        <tr lang="es"> Añadir </tr>
+      </string>
+      <string key="Listing has been saved">
+        <tr lang="es"> Oferta Guardada </tr>
+      </string>
+      <string key="View details">
+        <tr lang="es"> Ver detalles </tr>
+      </string>
+      <string key="Recommend listing with ID">
+        <tr lang="es"> Recomendar oferta </tr>
+      </string>
+      <string key="Your name">
+        <tr lang="es"> Tú Nombre </tr>
+      </string>
+      <string key="Your friend\&apos;s name">
+        <tr lang="es"> Nombre de tú amigo </tr>
+      </string>
+      <string key="Your friend\&apos;s e-mail address">
+        <tr lang="es"> E-mail de tú amigo </tr>
+      </string>
+      <string key="Your comment (will be send with the recomendation)">
+        <tr lang="es"> Tus comentarios (Se enviará junto a la oferta) </tr>
+      </string>
+      <string key="Send">
+        <tr lang="es"> Enviar </tr>
+      </string>
+      <string key="Cannot send letter">
+        <tr lang="es"> No se puede enviar </tr>
+      </string>
+      <string key="Company Info">
+        <tr lang="es"> Empresa </tr>
+      </string>
+      <string key="You\&apos;ve already voted">
+        <tr lang="es"> Ya\&apos;ve has votado </tr>
+      </string>
+      <string key="Author">
+        <tr lang="es"> Autor </tr>
+      </string>
+      <string key="Your e-mail">
+        <tr lang="es"> e-mail </tr>
+      </string>
+      <string key="Your request">
+        <tr lang="es"> Comentarios </tr>
+      </string>
+      <string key="Attach your resume">
+        <tr lang="es"> Adjuntar CV </tr>
+      </string>
+      <string key="Cannot send your message">
+        <tr lang="es"> No ha podido ser enviado </tr>
+      </string>
+      <string key="You do not have permissions to post Resume listings.">
+        <tr lang="es"> NO tienes permisos para inscribirte en ofertas </tr>
+      </string>
+      <string key="Results: {$listings_number} Resumes">
+        <tr lang="es"> Resultado: {$listings_number} CV </tr>
+      </string>
+      <string key="Number of resumes per page">
+        <tr lang="es"> Numero de CV por página </tr>
+      </string>
+      <string key="Enter Your Ad Information">
+        <tr lang="es"> Introduzca la información de la oferta </tr>
+      </string>
+      <string key="Add Pictures">
+        <tr lang="es"> Con Foto </tr>
+      </string>
+      <string key="is empty">
+        <tr lang="es"> está vacio </tr>
+      </string>
+      <string key="could not convert video file">
+        <tr lang="es"> No podemos cargar este formato de video </tr>
+      </string>
+      <string key="is unknown">
+        <tr lang="es"> es desconocido </tr>
+      </string>
+      <string key="Manage Listing">
+        <tr lang="es"> Gestor de Listados </tr>
+      </string>
+      <string key="Preview Listing">
+        <tr lang="es"> Anterior </tr>
+      </string>
+      <string key="54">
+        <tr lang="es"> 54 </tr>
+      </string>
+      <string key="Manage Listing Pictures">
+        <tr lang="es"> Gestor de Imágenes </tr>
+      </string>
+      <string key="Go to Manage Listing">
+        <tr lang="es"> Ir al Gestor </tr>
+      </string>
+      <string key="Add Picture">
+        <tr lang="es"> Con Imágen </tr>
+      </string>
+      <string key="Caption">
+        <tr lang="es"> Nombre </tr>
+      </string>
+      <string key="Thumbnail">
+        <tr lang="es"> Miniatura </tr>
+      </string>
+      <string key="Actions">
+        <tr lang="es"> Acciones </tr>
+      </string>
+      <string key="Are you sure?">
+        <tr lang="es"> ¿Estas Seguro? </tr>
+      </string>
+      <string key="Edit Picture">
+        <tr lang="es"> Cambiar Imágen </tr>
+      </string>
+      <string key="Picture">
+        <tr lang="es"> Imagen </tr>
+      </string>
+      <string key="Please specify a valid email address.">
+        <tr lang="es"> Introduzca un e-mail valido </tr>
+      </string>
+      <string key="Please provide your full name.">
+        <tr lang="es"> Introduzca su nombre completo </tr>
+      </string>
+      <string key="Please include your comments.">
+        <tr lang="es"> Introduzca comentarios </tr>
+      </string>
+      <string key="Thank you very much for your message. We will respond to you as soon as possible.">
+        <tr lang="es"> Gracias por su mensaje. Le responderemos lo antes posible. </tr>
+      </string>
+      <string key="Invalid password">
+        <tr lang="es"> Contraseña Incorrecta </tr>
+      </string>
+      <string key="Login error">
+        <tr lang="es"> Error de usuario/contraseña </tr>
+      </string>
+      <string key="Browse by category">
+        <tr lang="es"> Por categoria </tr>
+      </string>
+      <string key="There are no listings with requested parameters in the system.">
+        <tr lang="es"> Ninguna oferta con estos parámetros </tr>
+      </string>
+      <string key="Browse by city">
+        <tr lang="es"> Por ciudad </tr>
+      </string>
+      <string key="My Resumes">
+        <tr lang="es"> Mis CV </tr>
+      </string>
+      <string key="Saved Jobs">
+        <tr lang="es"> Ofertas Guardadas </tr>
+      </string>
+      <string key="Job Alerts">
+        <tr lang="es"> Alertas de Trabajo </tr>
+      </string>
+      <string key="40">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Jobs by {$companyName}">
+        <tr lang="es"> Oferta de {$companyName} </tr>
+      </string>
+      <string key="39">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="$select_box_field_distance of Zip $input_text_field_location">
+        <tr lang="es"> $select_box_field_distance del Codigo postal $input_text_field_location </tr>
+      </string>
+      <string key="$input_text_field_from to $input_text_field_to">
+        <tr lang="es"> $input_text_field_from a $input_text_field_to </tr>
+      </string>
+      <string key="Please log in to access this page. If you do not have an account, please &lt;a href=&quot;http://192.168.0.1/registration/&quot;&gt;Register&lt;/a&gt;.">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="not confirmed">
+        <tr lang="es"> Sin confirmar </tr>
+      </string>
+      <string key="this value is already used in the system">
+        <tr lang="es"> Ya está siendo usado </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="es"> Por favor, introduzca su nombre de usuario en el campo de abajo y le enviaremos un enlace a una página donde puede cambiar su contraseña </tr>
+      </string>
+      <string key="Check all">
+        <tr lang="es"> Marcar Todo </tr>
+      </string>
+      <string key="Uncheck all">
+        <tr lang="es"> Desmarcar todo </tr>
+      </string>
+      <string key="Actions with Selected">
+        <tr lang="es"> Seleccione </tr>
+      </string>
+      <string key="Number of listings per page">
+        <tr lang="es"> Numero de Ofertas por Página </tr>
+      </string>
+      <string key="Rating">
+        <tr lang="es"> Calificación </tr>
+      </string>
+      <string key="Deactivate">
+        <tr lang="es"> Desactivar </tr>
+      </string>
+      <string key="Activate">
+        <tr lang="es"> Activar </tr>
+      </string>
+      <string key="Your listing is successfully activated">
+        <tr lang="es"> Fue activado. </tr>
+      </string>
+      <string key="Back to My Listings">
+        <tr lang="es"> Volver a mis ofertas </tr>
+      </string>
+      <string key="Sort by">
+        <tr lang="es"> Ordenar por </tr>
+      </string>
+      <string key="Edit">
+        <tr lang="es"> Editar </tr>
+      </string>
+      <string key="View Details">
+        <tr lang="es"> Ver detalles </tr>
+      </string>
+      <string key="Enable Auto notify">
+        <tr lang="es"> Activar avisos </tr>
+      </string>
+      <string key="Disable Auto notify">
+        <tr lang="es"> Desactivar avisos </tr>
+      </string>
+      <string key="Results: $listings_number Jobs">
+        <tr lang="es"> Resultados: $listings_number Trabajos </tr>
+      </string>
+      <string key="Jobs by $companyName">
+        <tr lang="es"> Empresa $companyName </tr>
+      </string>
+      <string key="Results: $listings_number Resumes">
+        <tr lang="es"> Resultados: $listings_number CV </tr>
+      </string>
+      <string key="Rate this resume">
+        <tr lang="es"> Valorar este CV </tr>
+      </string>
+      <string key="View resume details">
+        <tr lang="es"> Ver detalles del CV </tr>
+      </string>
+      <string key="All resumes by this user">
+        <tr lang="es"> Cv´s del Usuario </tr>
+      </string>
+      <string key="Rate This Resume">
+        <tr lang="es"> Valorar este CV </tr>
+      </string>
+      <string key="View Saved Resumes">
+        <tr lang="es"> Ver CV guardados </tr>
+      </string>
+      <string key="Save this Resume">
+        <tr lang="es"> Guardar CV </tr>
+      </string>
+      <string key="Resumes by $firstName $lastName">
+        <tr lang="es"> CV por $firstName $lastName </tr>
+      </string>
+      <string key="Select a Package">
+        <tr lang="es"> Seleccione una opción: </tr>
+      </string>
+      <string key="is not an integer value">
+        <tr lang="es"> no es un valor entero </tr>
+      </string>
+      <string key="You&apos;ve got a limit of the allowed number of picture">
+        <tr lang="es"> Tiene un limite de imagenes </tr>
+      </string>
+      <string key="limit exceeded">
+        <tr lang="es"> limite excedido </tr>
+      </string>
+      <string key="You don&apos;t have permissions to access this page.">
+        <tr lang="es"> No tiene permiso para acceder a esta página </tr>
+      </string>
+      <string key="Resume search is accessible only for subscribed Employers.">
+        <tr lang="es"> El buscador de CV sólo está disponible para empresas y bajo contratación previa. </tr>
+      </string>
+      <string key="Your friend&apos;s name">
+        <tr lang="es"> Nombre de tú amigo </tr>
+      </string>
+      <string key="Your friend&apos;s e-mail address">
+        <tr lang="es"> e-mail de tu amigo </tr>
+      </string>
+      <string key="Dear customer!">
+        <tr lang="es"> Estimado usuario, </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for &lt;b&gt;$product_info_name&lt;/b&gt;.">
+        <tr lang="es"> Por favor, realice el pago de $currency_sign $product_info_price para &lt;b&gt;$product_info_name&lt;/b&gt;. </tr>
+      </string>
+      <string key="Please choose from the following payment methods:">
+        <tr lang="es"> Por favor, seleccione uno de los siguientes metodos de pago: </tr>
+      </string>
+      <string key="Wire Transfer">
+        <tr lang="es"> Transferencia Bancaria </tr>
+      </string>
+      <string key="Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for $item_name&lt;br /&gt;Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you!">
+        <tr lang="es"> Estimado $username, &lt;br /&gt;&lt;br /&gt;Por favor, realice el pago de $amount para $item_name&lt;br /&gt;El numero de referencia para la transacción es $payment_id. &lt;br /&gt;&lt;br /&gt;Gracias! </tr>
+      </string>
+      <string key="There is no listing in the system with the specified ID">
+        <tr lang="es"> No existe información </tr>
+      </string>
+      <string key="Anonymous User Info">
+        <tr lang="es"> Información de usuario Visitante </tr>
+      </string>
+      <string key="Apply now">
+        <tr lang="es"> Inscribirse </tr>
+      </string>
+      <string key="Welcome">
+        <tr lang="es"> Bienvenido </tr>
+      </string>
+      <string key="Get jobs by email">
+        <tr lang="es"> Recibir ofertas por e-mail </tr>
+      </string>
+      <string key="Get resumes by email">
+        <tr lang="es"> Recibir CV por e-mail </tr>
+      </string>
+      <string key="Reload Image">
+        <tr lang="es"> Otra imágen </tr>
+      </string>
+      <string key="Please use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="es"> Mantenga pulsado &quot;Control&quot; para seleccionar varias opciones </tr>
+      </string>
+      <string key="Register.">
+        <tr lang="es"> Registrarse </tr>
+      </string>
+      <string key="Resume Alerts">
+        <tr lang="es"> Alertas de CV </tr>
+      </string>
+      <string key="Add new job alert">
+        <tr lang="es"> Añadir alerta de trabajo </tr>
+      </string>
+      <string key="Job Alert Name">
+        <tr lang="es"> Nombre de alerta de trabajo </tr>
+      </string>
+      <string key="Enter Your Resume Information">
+        <tr lang="es"> Introdzca la información de su CV </tr>
+      </string>
+      <string key="Jobs Search Results">
+        <tr lang="es"> Trabajos Encontrados </tr>
+      </string>
+      <string key="Company Profile">
+        <tr lang="es"> Más ofertas </tr>
+      </string>
+      <string key="Applications">
+        <tr lang="es"> Inscritos </tr>
+      </string>
+      <string key="User comments">
+        <tr lang="es"> Carta de Presentación </tr>
+      </string>
+      <string key="Attached file">
+        <tr lang="es"> Documento Adjuntado </tr>
+      </string>
+      <string key="Date Applied">
+        <tr lang="es"> Fecha </tr>
+      </string>
+      <string key="Titulo">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="es"> Oferta </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="es"> Introduzca el código </tr>
+      </string>
+      <string key="Show your contact info to this employer">
+        <tr lang="es"> Para usuarios Registrados. ¿Mostar datos personales? </tr>
+      </string>
+      <string key="You applied successfully">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="You have no Applications now">
+        <tr lang="es"> No hay inscritos </tr>
+      </string>
+      <string key="Enter Job Information">
+        <tr lang="es"> Introduzca la descripción del puesto </tr>
+      </string>
+      <string key="Saved Searches Name">
+        <tr lang="es"> Búsquedas guardadas por nombre </tr>
+      </string>
+      <string key="Attached resume">
+        <tr lang="es"> Cv adjuntado </tr>
+      </string>
+      <string key="My Applications">
+        <tr lang="es"> Mis ofertas </tr>
+      </string>
+      <string key="Notify on My Listing Activation">
+        <tr lang="es"> Avisarme de Nuevas Ofertas </tr>
+      </string>
+      <string key="Notify on My Listing Expiration">
+        <tr lang="es"> Avisarme de Ofertas que Caducan </tr>
+      </string>
+      <string key="Notify on My Contract Expiration">
+        <tr lang="es"> Avisarme cuando caduque mi servicio </tr>
+      </string>
+      <string key="My comments">
+        <tr lang="es"> Mis comentarios </tr>
+      </string>
+      <string key="Company">
+        <tr lang="es"> Empresa </tr>
+      </string>
+      <string key="Jobs Applied">
+        <tr lang="es"> Trabajos inscritos </tr>
+      </string>
+      <string key="Alert Name">
+        <tr lang="es"> Nombre de Alerta </tr>
+      </string>
+      <string key="Add job alert">
+        <tr lang="es"> Añadir Aviso </tr>
+      </string>
+      <string key="You have no listings now. Click &lt;a href=&quot;http://www.forotrabajo.es/ofertas-trabajo/add_listing/?listing_type_id=Resume&quot;&gt;here&lt;/a&gt; to add a new listing.">
+        <tr lang="es"> No has puesto ningún CV. Añade uno pulsando &lt;a href=&quot;http://www.forotrabajo.es/ofertas-trabajo/add_listing/?listing_type_id=Resume&quot;&gt;aquí&lt;/a&gt;. </tr>
+      </string>
+      <string key="You do not have permissions to post Job listings.">
+        <tr lang="es"> Sólo las empresas con servicio activo pueden publicar ofertas de empleo. </tr>
+      </string>
+      <string key="Confirm E-mail">
+        <tr lang="es"> Confirmar e-mail </tr>
+      </string>
+      <string key="Your registration is almost complete. Please check your mailbox for an activation email containing further instructions.">
+        <tr lang="es"> Para finalizar el registro acceda al correo electrónico que nos ha indicado. En el habrá un enlace para activar la cuenta. </tr>
+      </string>
+      <string key="Account activated.">
+        <tr lang="es"> Cuenta activada. </tr>
+      </string>
+      <string key="You have no listings now. Click &lt;a href=&quot;http://www.forotrabajo.es/ofertas-trabajo/add_listing/?listing_type_id=Job&quot;&gt;here&lt;/a&gt; to add a new listing.">
+        <tr lang="es"> No tienes Ofertas activas. Click &lt;a href=&quot;http://www.forotrabajo.es/ofertas-trabajo/add_listing/?listing_type_id=Job&quot;&gt;aquí&lt;/a&gt; para publicar. </tr>
+      </string>
+      <string key="You are logged in already">
+        <tr lang="es"> Ya estás conectado </tr>
+      </string>
+      <string key="Your listing succesfully upgraded to featured">
+        <tr lang="es"> Se ha destacado </tr>
+      </string>
+      <string key="Listing is already featured">
+        <tr lang="es"> Ya estaba destacado </tr>
+      </string>
+      <string key="Select your resume">
+        <tr lang="es"> Seleccionar CV </tr>
+      </string>
+      <string key="You already applied">
+        <tr lang="es"> Ya estabas inscrito </tr>
+      </string>
+      <string key="Security code is not valid">
+        <tr lang="es"> El código de Seguridad no es Válido </tr>
+      </string>
+      <string key="Cannot apply">
+        <tr lang="es"> No se puede realizar la acción </tr>
+      </string>
+      <string key="Resume Search Results">
+        <tr lang="es"> Resultados de Búsqueda </tr>
+      </string>
+      <string key="Save this Search / Resume Alert">
+        <tr lang="es"> Guardar esta busqueda/ alerta de cv </tr>
+      </string>
+      <string key="Saved resumes">
+        <tr lang="es"> Cv Guardados </tr>
+      </string>
+      <string key="Contact User">
+        <tr lang="es"> Usuario de Contacto </tr>
+      </string>
+      <string key="Anonymous User">
+        <tr lang="es"> CV anónimo (Sólo valido para inscripciones) </tr>
+      </string>
+      <string key="Your account is not active">
+        <tr lang="es"> La cuenta está desactivada. Si desea más información contacte con nosotros. </tr>
+      </string>
+      <string key="Wrong activation key is specified">
+        <tr lang="es"> La clave de activación especificada es errónea. </tr>
+      </string>
+      <string key="Your comment (will be send with the recommendation)">
+        <tr lang="es"> Comentarios (se enviará en el mail) </tr>
+      </string>
+      <string key="Your letter was sent">
+        <tr lang="es"> Ha sido enviado. </tr>
+      </string>
+      <string key="is not valid">
+        <tr lang="es"> No es válido </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for">
+        <tr lang="es"> El servicio tiene un precio de $product_info_price € + IVA. </tr>
+      </string>
+      <string key="Please make a payment in the amount of $product_info_price &amp;euro; for">
+        <tr lang="es"> Please make a payment in the amount of $product_info_price &amp;euro; for </tr>
+      </string>
+      <string key="data length is exceeded">
+        <tr lang="es"> compruebe este campo. </tr>
+      </string>
+      <string key="The following errors occured">
+        <tr lang="es"> Han ocurrido los siguientes errores: </tr>
+      </string>
+      <string key="Callback parameters are missing required payment information.">
+        <tr lang="es"> El pago no se ha procesado correctamente, repita el proceso o contacte con administrador @ forotrabajo.es </tr>
+      </string>
+      <string key="You&apos;ve reached the limit of number of listings alowed by your plan">
+        <tr lang="es"> Ya no puedes añadir más con el plan actual. </tr>
+      </string>
+      <string key="Save this Search / Job Alert">
+        <tr lang="es"> Guardar Búsqueda / Alerta </tr>
+      </string>
+      <string key="Add new resume alert">
+        <tr lang="es"> Añadir Alertas de Cv </tr>
+      </string>
+      <string key="Resume Alert Name">
+        <tr lang="es"> Nombre de Alerta CV </tr>
+      </string>
+      <string key="Add resume alert">
+        <tr lang="es"> Añadir Alerta CV </tr>
+      </string>
+      <string key="Complete">
+        <tr lang="es"> Pagar </tr>
+      </string>
+      <string key="Not Available Anymore">
+        <tr lang="es"> No hay disponibles </tr>
+      </string>
+      <string key="Approve selected">
+        <tr lang="es"> Aprobar seleccionados </tr>
+      </string>
+      <string key="Reject selected">
+        <tr lang="es"> Rechazar seleccionados </tr>
+      </string>
+      <string key="Applicant’s Name">
+        <tr lang="es"> Nombre candidato </tr>
+      </string>
+      <string key="Pending">
+        <tr lang="es"> Pendiente </tr>
+      </string>
+      <string key="Status">
+        <tr lang="es"> Estado </tr>
+      </string>
+      <string key="Are you sure you want to delete this listing?">
+        <tr lang="es"> Are you sure you want to delete this listing? </tr>
+      </string>
+      <string key="or">
+        <tr lang="es"> o </tr>
+      </string>
+      <string key="Select resume">
+        <tr lang="es"> Seleccionar CV </tr>
+      </string>
+      <string key="Please log in to access this page. If you do not have an account, please &lt;a href=&quot;http://www.forotrabajo.es/ofertas-trabajo/registration/&quot;&gt;Register&lt;/a&gt;.">
+        <tr lang="es"> Por favor, conectese para acceder.Si no tiene una cuenta, &lt;a href=&quot;http://www.forotrabajo.es/ofertas-trabajo/registration/&quot;&gt;Registrese&lt;/a&gt;. </tr>
+      </string>
+      <string key="Listing with specified ID is not active">
+        <tr lang="es"> El interesado tiene desactivada la visualización de la información. </tr>
+      </string>
+      <string key="There&apos;s no listing packages available on your membership plan">
+        <tr lang="es"> El plan contratado no permite esta opción. </tr>
+      </string>
+      <string key="Pay For Listing">
+        <tr lang="es"> Realice pago para publicar oferta </tr>
+      </string>
+      <string key="You are not owner of this listing">
+        <tr lang="es"> No puede acceder a información que de la que usted no es titular. </tr>
+      </string>
+      <string key="anonymous">
+        <tr lang="es"> Anónimo </tr>
+      </string>
+      <string key="Payment is not verified">
+        <tr lang="es"> El pago no se ha podido confirmar </tr>
+      </string>
+      <string key="The payment that you are requesting to process has already been processed before.">
+        <tr lang="es"> El pago ya había sido procesado </tr>
+      </string>
+      <string key="You have successfully subscribed for the membership plan">
+        <tr lang="es"> Pago Confirmado. Ya tiene activada la suscripción. </tr>
+      </string>
+      <string key="The message was sent successfully">
+        <tr lang="es"> El mensaje ha sido enviado </tr>
+      </string>
+      <string key="Your password was successfully changed">
+        <tr lang="es"> La contraseña ha sido cambiada </tr>
+      </string>
+      <string key="file not specified">
+        <tr lang="es"> no has puesto ningún archivo </tr>
+      </string>
+      <string key="Inquiry for listing with ID">
+        <tr lang="es"> Formulario de Contacto ID </tr>
+      </string>
+      <string key="Featured Companies">
+        <tr lang="es"> Empresas destacadas </tr>
+      </string>
+      <string key="Application Tracking">
+        <tr lang="es"> Aplicacion de seguimiento </tr>
+      </string>
+      <string key="Sign in">
+        <tr lang="es"> Conectar </tr>
+      </string>
+      <string key="You have no listings now. Click">
+        <tr lang="es"> No tienes ofertas. Click </tr>
+      </string>
+      <string key="here">
+        <tr lang="es"> aquí </tr>
+      </string>
+      <string key="to add a new listing.">
+        <tr lang="es"> para publicar una. </tr>
+      </string>
+      <string key="Fields marked with an asterisk (">
+        <tr lang="es"> Campos marcados con ( </tr>
+      </string>
+      <string key=") are mandatory">
+        <tr lang="es"> ) son obligatorios </tr>
+      </string>
+      <string key="Please log in to place a listing. If you do not have an account, please">
+        <tr lang="es"> Conectese para poner una oferta. Si no es usuario, por favor, </tr>
+      </string>
+      <string key="within $radius $radius_search_unit of $location">
+        <tr lang="es"> within $radius $radius_search_unit of $location </tr>
+      </string>
+      <string key="kilometers">
+        <tr lang="es"> kilometers </tr>
+      </string>
+      <string key="Apply to job">
+        <tr lang="es"> Suscribirse a la oferta </tr>
+      </string>
+      <string key="Cover letter (optional)">
+        <tr lang="es"> Comentarios </tr>
+      </string>
+      <string key="Please">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="sign in ">
+        <tr lang="es"> conectar </tr>
+      </string>
+      <string key="to add comments!">
+        <tr lang="es"> to add comments! </tr>
+      </string>
+      <string key="Please log in to place a new posting. If you do not have an account, please">
+        <tr lang="es"> Es necesario conectarse para acceder a esta seccion. Si no tienes una cuenta, debe </tr>
+      </string>
+      <string key="Search by Company">
+        <tr lang="es"> Buscar por empresa </tr>
+      </string>
+      <string key="Clone">
+        <tr lang="es"> Duplicar </tr>
+      </string>
+      <string key="My Job Preview">
+        <tr lang="es"> Previsualizar oferta </tr>
+      </string>
+      <string key="Click to select">
+        <tr lang="es"> Click para seleccionar </tr>
+      </string>
+      <string key="Redirect to this URL">
+        <tr lang="es"> Redirigir a la siguiente URL </tr>
+      </string>
+      <string key="Use the following format:">
+        <tr lang="es"> Use el siguiente formato </tr>
+      </string>
+      <string key="Your changes were successfully saved">
+        <tr lang="es"> Los cambios han sido salvados </tr>
+      </string>
+      <string key="Manage Pictures">
+        <tr lang="es"> Gestionar imágenes </tr>
+      </string>
+      <string key="Clone this job posting">
+        <tr lang="es"> Duplicar la oferta </tr>
+      </string>
+      <string key="Clone Job">
+        <tr lang="es"> Duplicar oferta </tr>
+      </string>
+      <string key="My Postings">
+        <tr lang="es"> Mis ofertas </tr>
+      </string>
+      <string key="Private messages">
+        <tr lang="es"> Mensajes privados </tr>
+      </string>
+      <string key="Inbox">
+        <tr lang="es"> Entrada </tr>
+      </string>
+      <string key="Outbox">
+        <tr lang="es"> Salida </tr>
+      </string>
+      <string key="Edit Saved Search">
+        <tr lang="es"> Editar búsquedas guardadas </tr>
+      </string>
+      <string key="Notify on My Jobs Expiration">
+        <tr lang="es"> Avisarme cuando caduquen las ofertas </tr>
+      </string>
+      <string key="Notify on new private message">
+        <tr lang="es"> Avisarme de mensajes privados </tr>
+      </string>
+      <string key="Cover Letter">
+        <tr lang="es"> Carta </tr>
+      </string>
+      <string key="View Attached File">
+        <tr lang="es"> Ver archive adjunto </tr>
+      </string>
+      <string key="Attached Resume">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Preview Search Results">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Disable">
+        <tr lang="es"> Desactivar </tr>
+      </string>
+      <string key="My Billings">
+        <tr lang="es"> Mis pagos </tr>
+      </string>
+      <string key="Compose Message">
+        <tr lang="es"> Redactar mensaje </tr>
+      </string>
+      <string key="From">
+        <tr lang="es"> de </tr>
+      </string>
+      <string key="Subject">
+        <tr lang="es"> Asunto </tr>
+      </string>
+      <string key="To">
+        <tr lang="es"> a </tr>
+      </string>
+      <string key="Message to">
+        <tr lang="es"> Enviar a </tr>
+      </string>
+      <string key="Message">
+        <tr lang="es"> Mensaje </tr>
+      </string>
+      <string key="Save to outbox">
+        <tr lang="es"> Salvar en bandeja de salida </tr>
+      </string>
+      <string key="Send private message">
+        <tr lang="es"> Enviar mensaje privado </tr>
+      </string>
+      <string key="You&apos;re not allowed to open this page">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Send applications online via web site">
+        <tr lang="es"> Enviar candidature por vía web </tr>
+      </string>
+      <string key="Notify on My Resumes Approve Or Reject">
+        <tr lang="es"> Recibir avisos de candidature aprobada o descartada </tr>
+      </string>
+      <string key="Notify on My Resumes Expiration">
+        <tr lang="es"> Avisarme cuando expire mi CV </tr>
+      </string>
+      <string key="Company name">
+        <tr lang="es"> Nombre de la empresa </tr>
+      </string>
+      <string key="Company Search Results">
+        <tr lang="es"> Resultados de busqueda por empresa </tr>
+      </string>
+      <string key="Results: $usersCount Company">
+        <tr lang="es"> Resultados: de la empresa $usersCount </tr>
+      </string>
+      <string key="Number of company per page">
+        <tr lang="es"> Número de empresas por página </tr>
+      </string>
+      <string key="Mark as Read">
+        <tr lang="es"> Marcar como leído </tr>
+      </string>
+      <string key="Message from">
+        <tr lang="es"> Mensaje de </tr>
+      </string>
+      <string key="Read Private Message">
+        <tr lang="es"> Leer mensaje privado </tr>
+      </string>
+      <string key="Reply">
+        <tr lang="es"> Respoder </tr>
+      </string>
+      <string key="Approved">
+        <tr lang="es"> Aprobados </tr>
+      </string>
+      <string key="Rejected">
+        <tr lang="es"> Seleccionados </tr>
+      </string>
+      <string key="Select Job Posting">
+        <tr lang="es"> Seleccionar trabajo </tr>
+      </string>
+      <string key="All Jobs">
+        <tr lang="es"> All Jobs </tr>
+      </string>
+      <string key="Delete profile">
+        <tr lang="es"> Dar de baja </tr>
+      </string>
+      <string key="Back">
+        <tr lang="es"> Volver </tr>
+      </string>
+      <string key="Enable">
+        <tr lang="es"> Activar </tr>
+      </string>
+      <string key="E-mail frequency">
+        <tr lang="es"> Frencuencia de e-mails </tr>
+      </string>
+      <string key="You have">
+        <tr lang="es"> Tienes </tr>
+      </string>
+      <string key="jobs left to post out of">
+        <tr lang="es"> trabajos de los </tr>
+      </string>
+      <string key="resumes left to post out of">
+        <tr lang="es"> CV  de los </tr>
+      </string>
+      <string key="originally available">
+        <tr lang="es"> inicialmente disponibles </tr>
+      </string>
+      <string key="You&apos;re currently subscribed to">
+        <tr lang="es"> You&apos;re currently subscribed to </tr>
+      </string>
+      <string key="plan.">
+        <tr lang="es"> plan. </tr>
+      </string>
+      <string key="Subscription date">
+        <tr lang="es"> Fecha de suscripción </tr>
+      </string>
+      <string key="Subscription expiration date">
+        <tr lang="es"> Suscripción caduca el </tr>
+      </string>
+      <string key="s left to post out of">
+        <tr lang="es"> s left to post out of </tr>
+      </string>
+      <string key="To change your current subscription please chose new plan below.">
+        <tr lang="es"> Para cambiar de suscripción selecciona un nuevo plan </tr>
+      </string>
+      <string key="job">
+        <tr lang="es"> job </tr>
+      </string>
+      <string key="home">
+        <tr lang="es"> inicio </tr>
+      </string>
+      <string key="Search job title only">
+        <tr lang="es"> Buscar ofertas sólo por título </tr>
+      </string>
+      <string key="Edit notes">
+        <tr lang="es"> Editar notas </tr>
+      </string>
+      <string key="Add notes">
+        <tr lang="es"> Añadir notas </tr>
+      </string>
+      <string key="Close">
+        <tr lang="es"> Cerrar </tr>
+      </string>
+      <string key="My notes">
+        <tr lang="es"> Mis notas </tr>
+      </string>
+      <string key="Search resume title only">
+        <tr lang="es"> Buscar CV por título </tr>
+      </string>
+      <string key="Search by title">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Accept terms of use">
+        <tr lang="es"> Aceptar terminos de Uso </tr>
+      </string>
+      <string key="Read terms of use">
+        <tr lang="es"> Leer terminos de uso </tr>
+      </string>
+      <string key="Match exact phrase">
+        <tr lang="es"> Palabras exactas </tr>
+      </string>
+      <string key="Match all words">
+        <tr lang="es"> Todas las palabras </tr>
+      </string>
+      <string key="Match any words">
+        <tr lang="es"> Algunas palabas </tr>
+      </string>
+      <string key="Boolean">
+        <tr lang="es"> Boolean </tr>
+      </string>
+      <string key="   Boolean search description">
+        <tr lang="es"> Descripción de búsqueda booleana </tr>
+      </string>
+      <string key="Please choose new subscription plan">
+        <tr lang="es"> Por favor, elija una nueva suscripción </tr>
+      </string>
+      <string key="You&apos;ve reached the limit of number of listings allowed by your plan">
+        <tr lang="es"> Has alcanzado el numero máximo de ofertas que permite su suscripción </tr>
+      </string>
+      <string key="Boolean search descripion">
+        <tr lang="es"> Descripción de búsqueda booleana </tr>
+      </string>
+      <string key="Send Private Message">
+        <tr lang="es"> Enviar mensaje privado </tr>
+      </string>
+      <string key="Search title only">
+        <tr lang="es"> Buscar sólo título </tr>
+      </string>
+      <string key="Terms of use">
+        <tr lang="es"> Terminos de uso </tr>
+      </string>
+      <string key="Test URL">
+        <tr lang="es"> Prueba de URL </tr>
+      </string>
+      <string key="Go Search">
+        <tr lang="es"> Iniciar búsqueda </tr>
+      </string>
+      <string key="Applicant’s resume">
+        <tr lang="es"> Cv del candidato </tr>
+      </string>
+      <string key="Total">
+        <tr lang="es"> Total </tr>
+      </string>
+      <string key="Boolean search description">
+        <tr lang="es"> Descripción de búsqueda booleana </tr>
+      </string>
+      <string key="Employers List">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Selected Emloyers">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="* Use CTRL key to select two or more employers">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Loading">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Currency">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Deselect all">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="You can not subscribe to this plan twice">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Posted Within">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="No avaiable subscriptions">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Please choose exl or csv file">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Please, enter your email in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="You specified wrong email">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Your username is">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Recurring">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="You are going to sign up for a recurring Subscription. Once in $product_info_subscription_period days period a charge in the amount of $product_info_price will automatically be placed on your credit card to renew your subscription.">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Your recurring subscription to the &quot;$cancelMembershipPlanName&quot; plan has been canceled.">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Your payment was successfully completed. Recurring Subscription activation may take some time. Once subscription is activated it will appear in the table below.">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Notify on My Jobs Activation">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Notify on My Resumes Activation">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="jobs">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="resumes">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="currently online">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Post jobs">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Blog Posts">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="You are currently logged in as">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="News">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Sub Accounts">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Saved Resumes">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Screening Questionnaires">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Bulk job import from exl/csv file">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Current Search">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Refine Results">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="show brief">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="show detailed">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Post Job">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Send applications to this e-mail">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Score">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Not passed">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Actions With Selected">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Create New Questionnaire">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Send Auto-Reply email to candidates whose score is">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Question">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Answer Type">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Questions">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Edit Questionnaire">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Edit Questions">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Order">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Name">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Required">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="My account">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="No">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Yes">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Add Answer">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Username">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Sub-user Profile">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Permissions">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Add new listings">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Manage listings and applications of other sub users">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="View and update subscription">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="years">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Save this Search">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Save Resume Alert">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Data Import">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Please review the file examples below and ascertain that your file is up to sample">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Job import EXL file example">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Job import CSV file example">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="View All News">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="read more">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Text">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Yes/No">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="List of answers with multiple choice">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="List of answers with single choice">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Errors">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Order Information">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Invoice Number">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Credit Card Information">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Card Number">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="enter number without spaces or dashes">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Expiration Date">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="mmyy">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Billing Information">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Reset">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="News Categories">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Powered by">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="About Us">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Sitemap">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="message">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Edit Profile">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Notify on My Subscriptions Expiration">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Notify on New Private Messages">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Notify on My Subscriptions Activation">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Remind about My Subscriptions expiration">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Remind about My Listings expiration">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Days before">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Subscription name">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Subscription expiration / Renewal Date">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Never Expire">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Free">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Save Job Alert">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Flag This Job">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="1. General Information">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="2. Education">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Fill in the fields below to provide Employers with a general information about yourself&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="3. Work Experience">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your education. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your work experience. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Listing Owner">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Post a Job">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Enter Security code">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your Job below&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="View Questionaire">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="View Questionnaire">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Answer">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Sub-users">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Create New Account">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Edit sub-user">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Sub-user">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Sub-user registration">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Fax">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Cancel">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Answers">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Questions of">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="No of jobs">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Flag This Resume">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Рowered by">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="There was an error while sending your application.">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Passed">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Your IP address was banned by site administrator. Please contact at $adminEmail for any questions.">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Please select a Package">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="You are going to sign up for a recurring Subscription. Once in $product_info_subscription_period days period a charge in the amount of $currency_sign $product_info_price will automatically be placed on your credit card to renew your subscription.">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="This Resume is no longer available">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="This Job is no longer available">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Cash Payment">
+        <tr lang="es">  </tr>
+      </string>
+    </page>
+    <page key="FormFieldCaptions">
+      <string key="Keywords">
+        <tr lang="es"> Por Palabra </tr>
+      </string>
+      <string key="State">
+        <tr lang="es"> Provincia </tr>
+      </string>
+      <string key="Category">
+        <tr lang="es"> Categoria </tr>
+      </string>
+      <string key="City">
+        <tr lang="es"> Ciudad </tr>
+      </string>
+      <string key="Username">
+        <tr lang="es"> Usuario </tr>
+      </string>
+      <string key="Password">
+        <tr lang="es"> Contraseña </tr>
+      </string>
+      <string key="User name">
+        <tr lang="es"> Usuario </tr>
+      </string>
+      <string key="E-mail">
+        <tr lang="es"> E-mail </tr>
+      </string>
+      <string key="First Name">
+        <tr lang="es"> Nombre </tr>
+      </string>
+      <string key="Last Name">
+        <tr lang="es"> Apellido </tr>
+      </string>
+      <string key="Country">
+        <tr lang="es"> País </tr>
+      </string>
+      <string key="Address">
+        <tr lang="es"> Dirección </tr>
+      </string>
+      <string key="Zip Code">
+        <tr lang="es"> Codigo Postal </tr>
+      </string>
+      <string key="Phone Number">
+        <tr lang="es"> Teléfono </tr>
+      </string>
+      <string key="Company Name">
+        <tr lang="es"> Nombre de Empresa </tr>
+      </string>
+      <string key="Contact Name">
+        <tr lang="es"> Persona de Contacto </tr>
+      </string>
+      <string key="Web Site">
+        <tr lang="es"> web </tr>
+      </string>
+      <string key="Zip code">
+        <tr lang="es"> Codigo Postal </tr>
+      </string>
+      <string key="Logo">
+        <tr lang="es"> Logo </tr>
+      </string>
+      <string key="Search Within">
+        <tr lang="es"> Buscar en </tr>
+      </string>
+      <string key="Salary">
+        <tr lang="es"> Salario </tr>
+      </string>
+      <string key="Salary Type">
+        <tr lang="es"> Tipo de salario </tr>
+      </string>
+      <string key="Employment Type">
+        <tr lang="es"> Contrato </tr>
+      </string>
+      <string key="ID">
+        <tr lang="es"> ID </tr>
+      </string>
+      <string key="Activation Date">
+        <tr lang="es"> Fecha de Activación </tr>
+      </string>
+      <string key="Title">
+        <tr lang="es"> Titulo </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="es"> Publicada </tr>
+      </string>
+      <string key="Company">
+        <tr lang="es"> Empresa </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="es"> Teléfono </tr>
+      </string>
+      <string key="Web">
+        <tr lang="es"> Web </tr>
+      </string>
+      <string key="Job Views">
+        <tr lang="es"> Vistas </tr>
+      </string>
+      <string key="Job ID">
+        <tr lang="es"> ID Oferta </tr>
+      </string>
+      <string key="Job Category">
+        <tr lang="es"> Categoria </tr>
+      </string>
+      <string key="Job Description">
+        <tr lang="es"> Descripción </tr>
+      </string>
+      <string key="Job Requirements">
+        <tr lang="es"> Requerimientos </tr>
+      </string>
+      <string key="Job Type">
+        <tr lang="es"> Contrato </tr>
+      </string>
+      <string key="Desired Salary">
+        <tr lang="es"> Sueldo deseado </tr>
+      </string>
+      <string key="Video">
+        <tr lang="es"> Video </tr>
+      </string>
+      <string key="Experience">
+        <tr lang="es"> Experiencia </tr>
+      </string>
+      <string key="Name">
+        <tr lang="es"> Nombre </tr>
+      </string>
+      <string key="Resumes ID">
+        <tr lang="es"> ID CV </tr>
+      </string>
+      <string key="Email">
+        <tr lang="es"> Email </tr>
+      </string>
+      <string key="Objective">
+        <tr lang="es"> Objetivo Futuro empleo </tr>
+      </string>
+      <string key="Work Experience">
+        <tr lang="es"> Experiencia Laboral </tr>
+      </string>
+      <string key="Resumes Views">
+        <tr lang="es"> Visto CV </tr>
+      </string>
+      <string key="Total Years Experience">
+        <tr lang="es"> Total años de Experiencia </tr>
+      </string>
+      <string key="Education">
+        <tr lang="es"> Educación </tr>
+      </string>
+      <string key="Skills">
+        <tr lang="es"> Otra Formación / Conocimientos </tr>
+      </string>
+      <string key="Resume">
+        <tr lang="es"> CV formato Doc,Docx o PDF </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="es"> Introducza el código de la imagén </tr>
+      </string>
+      <string key="salario">
+        <tr lang="es"> salario </tr>
+      </string>
+      <string key="Anonymous Resume">
+        <tr lang="es"> CV anónimo </tr>
+      </string>
+      <string key="Acepto Aviso Legal y P. Privacidad de Pie de Página">
+        <tr lang="es"> Acepto Aviso Legal y P. Privacidad de Pie de Página </tr>
+      </string>
+      <string key="status">
+        <tr lang="es"> estado </tr>
+      </string>
+      <string key="Confirm password">
+        <tr lang="es"> Confirmar contraseña </tr>
+      </string>
+      <string key="Number of Views">
+        <tr lang="es"> Veces visto </tr>
+      </string>
+      <string key="Occupations">
+        <tr lang="es"> Puestos </tr>
+      </string>
+      <string key="Resume ID">
+        <tr lang="es"> Id de CV </tr>
+      </string>
+      <string key="Approval Status">
+        <tr lang="es"> Estado Aprobado </tr>
+      </string>
+      <string key="Don&apos;t send mailings">
+        <tr lang="es"> No enviar correos electrónicos </tr>
+      </string>
+      <string key="Company Description">
+        <tr lang="es"> Descripción de compañía </tr>
+      </string>
+      <string key="Application Settings">
+        <tr lang="es"> CV recibidos </tr>
+      </string>
+      <string key="Resume Visible To">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Location">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Screening Questionnaire">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Passing Score">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="equal or more than passing score">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="less than passing score">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Email text to candidates whose score is equal or more than passing score">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Email text to candidates whose score is less than passing score">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Entrance Date">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Institution Name">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Major">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Degree Level">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Start Date">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="End Date">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Industry">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Description">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Graduation Date">
+        <tr lang="es">  </tr>
+      </string>
+    </page>
+    <page key="Miscellaneous">
+      <string key="Any">
+        <tr lang="es"> - </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="es"> Candidatos </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="es"> Empresas </tr>
+      </string>
+      <string key="Select">
+        <tr lang="es"> Seleccionar </tr>
+      </string>
+      <string key="Any Distance">
+        <tr lang="es"> Cualquier Distancia </tr>
+      </string>
+      <string key="Within">
+        <tr lang="es"> Dentro de </tr>
+      </string>
+      <string key="miles">
+        <tr lang="es"> millas </tr>
+      </string>
+      <string key="10 days">
+        <tr lang="es"> 10 días </tr>
+      </string>
+      <string key="20 days">
+        <tr lang="es"> 20 días </tr>
+      </string>
+      <string key="30 days">
+        <tr lang="es"> 30 días </tr>
+      </string>
+      <string key="requires payment">
+        <tr lang="es"> Servicio de Pago </tr>
+      </string>
+      <string key="30 days priority resume">
+        <tr lang="es"> 30 días de CV destacado </tr>
+      </string>
+      <string key="Your Resume will be shown above the average search results and will be marked by different background color">
+        <tr lang="es"> Tu Cv destacará en los primeros puestos y con fondo destacado </tr>
+      </string>
+    </page>
+    <page key="Property_Occupations">
+      <string key="Accounting-Finance">
+        <tr lang="es"> Cuenta – Datos Financieros </tr>
+      </string>
+      <string key="Bookkeeping">
+        <tr lang="es"> Libros </tr>
+      </string>
+      <string key="Claims Review and Adjusting">
+        <tr lang="es"> Ajustos y Reclamaciones </tr>
+      </string>
+      <string key="Collections">
+        <tr lang="es"> Colecciones </tr>
+      </string>
+      <string key="Corporate Accounting">
+        <tr lang="es"> Cuenta corporativa </tr>
+      </string>
+      <string key="Corporate Finance">
+        <tr lang="es"> Financiación corporativa </tr>
+      </string>
+      <string key="Credit Review-Analysis">
+        <tr lang="es"> Revisión y Análisis de crédito </tr>
+      </string>
+      <string key="Financial Analysis-Research-Reporting">
+        <tr lang="es"> Busqueda, reporta y Análisis financiero </tr>
+      </string>
+      <string key="Financial Control">
+        <tr lang="es"> Control Financiero </tr>
+      </string>
+      <string key="Financial Planning-Advising">
+        <tr lang="es"> Plan financier de publicaciones </tr>
+      </string>
+      <string key="Financial Products Sales-Brokerage">
+        <tr lang="es"> Venta de productos Financieros - Broker </tr>
+      </string>
+      <string key="Fund Accounting">
+        <tr lang="es"> Contable </tr>
+      </string>
+      <string key="General-Other: Accounting-Finance">
+        <tr lang="es"> Otros: Relacionados con las finanzas </tr>
+      </string>
+      <string key="Investment Management">
+        <tr lang="es"> Gestor de Inversiones </tr>
+      </string>
+      <string key="Policy Underwriting">
+        <tr lang="es"> Politica de suscripcion </tr>
+      </string>
+      <string key="Real Estate Appraisal">
+        <tr lang="es"> Asesor Inmobiliaro </tr>
+      </string>
+      <string key="Real Estate Leasing-Acquisition">
+        <tr lang="es"> Asesor de adquisiciones y Leasing </tr>
+      </string>
+      <string key="Risk Management-Compliance">
+        <tr lang="es"> Gestor de Riesgo </tr>
+      </string>
+      <string key="Securities Analysis-Research">
+        <tr lang="es"> Análista de Seguridad </tr>
+      </string>
+      <string key="Tax Accounting">
+        <tr lang="es"> Contabilidad Fiscal </tr>
+      </string>
+      <string key="Tax Assessment and Collections">
+        <tr lang="es"> Asesor Fiscal </tr>
+      </string>
+      <string key="Administrative-Clerical">
+        <tr lang="es"> Administrativo </tr>
+      </string>
+      <string key="Administrative Support">
+        <tr lang="es"> Auxiliar Administrativo </tr>
+      </string>
+      <string key="Claims Processing">
+        <tr lang="es"> Gestor de Reclamaciones </tr>
+      </string>
+      <string key="Data Entry-Order Processing">
+        <tr lang="es"> Grabador de datos </tr>
+      </string>
+      <string key="Executive Support">
+        <tr lang="es"> Ejecutivo Junior </tr>
+      </string>
+      <string key="Filing-Records Management">
+        <tr lang="es"> Gestoria </tr>
+      </string>
+      <string key="General-Other: Administrative-Clerical">
+        <tr lang="es"> Otros: Relacionado con la administración </tr>
+      </string>
+      <string key="Office Management">
+        <tr lang="es"> Personal de Oficina </tr>
+      </string>
+      <string key="Property Management">
+        <tr lang="es"> Responsible de oficina </tr>
+      </string>
+      <string key="Reception-Switchboard">
+        <tr lang="es"> Recepcionista </tr>
+      </string>
+      <string key="Secretary-Executive Assistant">
+        <tr lang="es"> Secretaria </tr>
+      </string>
+      <string key="Transcription">
+        <tr lang="es"> Transcriptor </tr>
+      </string>
+      <string key="Banking-Mortgage Professionals">
+        <tr lang="es"> Gestor bancario </tr>
+      </string>
+      <string key="Bank Teller">
+        <tr lang="es"> Banco Teller </tr>
+      </string>
+      <string key="Credit Manager">
+        <tr lang="es"> Gestor de Crédito </tr>
+      </string>
+      <string key="Escrow Officer-Manager">
+        <tr lang="es"> Oficial de Oficina </tr>
+      </string>
+      <string key="Loan Officer-Originator">
+        <tr lang="es"> Control de Préstamos </tr>
+      </string>
+      <string key="Mortgage Broker">
+        <tr lang="es"> Agente de Bolsa hipotecaria </tr>
+      </string>
+      <string key="Store-Branch Management">
+        <tr lang="es"> Director de Sucursal </tr>
+      </string>
+      <string key="Title Officer-Closer">
+        <tr lang="es"> Sub-director de sucursal </tr>
+      </string>
+      <string key="Underwriter">
+        <tr lang="es"> Asegurador </tr>
+      </string>
+      <string key="Biotech-R&amp;D-Science">
+        <tr lang="es"> Biotecnología - Ciencía </tr>
+      </string>
+      <string key="Biological-Chemical Research">
+        <tr lang="es"> Biología – Química - Investigación </tr>
+      </string>
+      <string key="Clinical Research">
+        <tr lang="es"> Clínica - Investigación </tr>
+      </string>
+      <string key="Environmental-Geological Testing &amp; Analysis">
+        <tr lang="es"> Pruebas Ambientales geológicas y Análisis </tr>
+      </string>
+      <string key="General-Other: R&amp;D-Science">
+        <tr lang="es"> Otros: Relacionados con la ciencia </tr>
+      </string>
+      <string key="Materials-Physical Research ">
+        <tr lang="es"> Investigación Física de materiales </tr>
+      </string>
+      <string key="Mathematical-Statistical Research">
+        <tr lang="es"> Análisís Matemático y Estadístico </tr>
+      </string>
+      <string key="New Product R&amp;D">
+        <tr lang="es"> Análisis de Nuevos productos </tr>
+      </string>
+      <string key="Pharmaceutical Research">
+        <tr lang="es"> Investigación Farmacéutica </tr>
+      </string>
+      <string key="Building Construction">
+        <tr lang="es"> Construcción </tr>
+      </string>
+      <string key="CAD-Drafting">
+        <tr lang="es"> Delineación </tr>
+      </string>
+      <string key="Carpentry-Framing">
+        <tr lang="es"> Carpintería </tr>
+      </string>
+      <string key="Concrete and Masonry">
+        <tr lang="es"> Hormigón </tr>
+      </string>
+      <string key="Electrician">
+        <tr lang="es"> Electrícista </tr>
+      </string>
+      <string key="Flooring-Tiling-Painting-Wallpapering">
+        <tr lang="es"> Pintor </tr>
+      </string>
+      <string key="General-Other: Construction-Skilled Trades">
+        <tr lang="es"> Otros: Relacionado con la construcción </tr>
+      </string>
+      <string key="Heavy Equipment Operation">
+        <tr lang="es"> Operador de Maquinaría pesada </tr>
+      </string>
+      <string key="HVAC">
+        <tr lang="es"> CVAA </tr>
+      </string>
+      <string key="Ironwork-Metal Fabrication">
+        <tr lang="es"> Fabrica de Metal - Especialistas </tr>
+      </string>
+      <string key="Plumbing-Pipefitting">
+        <tr lang="es"> Fontanero </tr>
+      </string>
+      <string key="Roofing">
+        <tr lang="es"> Techador </tr>
+      </string>
+      <string key="Sheetrock-Plastering">
+        <tr lang="es"> Albañail (Enlucir) </tr>
+      </string>
+      <string key="Site Superintendent">
+        <tr lang="es"> Jefe de Obra </tr>
+      </string>
+      <string key="Surveying">
+        <tr lang="es"> Inspector de Obra </tr>
+      </string>
+      <string key="Business-Strategic Management">
+        <tr lang="es"> Dirección de Negocio </tr>
+      </string>
+      <string key="Business Analysis-Research">
+        <tr lang="es"> Analista de Negocios </tr>
+      </string>
+      <string key="Business Unit Management">
+        <tr lang="es"> Dirección de Unidad de Negocio </tr>
+      </string>
+      <string key="Franchise-Business Ownership">
+        <tr lang="es"> Gestor de Licencias </tr>
+      </string>
+      <string key="General-Other: Business-Strategic Management">
+        <tr lang="es"> Otros: Relacionados con la estrategia de negocios </tr>
+      </string>
+      <string key="Hospital-Clinic Administration">
+        <tr lang="es"> Administrador de hospital </tr>
+      </string>
+      <string key="Hotel-Lodging Management">
+        <tr lang="es"> Director de hotel </tr>
+      </string>
+      <string key="Managerial Consulting">
+        <tr lang="es"> Consultor de Gestión </tr>
+      </string>
+      <string key="Mergers and Acquisitions">
+        <tr lang="es"> Fusiones y Adquisiciones </tr>
+      </string>
+      <string key="President-Top Executive">
+        <tr lang="es"> Presidencia – Alta dirección </tr>
+      </string>
+      <string key="Public Health Administration">
+        <tr lang="es"> Administrador de salud pública </tr>
+      </string>
+      <string key="Restaurant Management">
+        <tr lang="es"> Jefe de Restaurante </tr>
+      </string>
+      <string key="School-College Administration">
+        <tr lang="es"> Administrador Educativo </tr>
+      </string>
+      <string key="Strategic Planning-Intelligence">
+        <tr lang="es"> Planificación de Estrategia </tr>
+      </string>
+      <string key="Town-City Planning">
+        <tr lang="es"> Planificación de urbanismo </tr>
+      </string>
+      <string key="Creative-Design">
+        <tr lang="es"> Creativo - Diseñador </tr>
+      </string>
+      <string key="Advertising Writing (Creative)">
+        <tr lang="es"> Creativo de Publicidad </tr>
+      </string>
+      <string key="Architecture-Interior Design">
+        <tr lang="es"> Diseñador de interiores </tr>
+      </string>
+      <string key="Computer Animation &amp; Multimedia">
+        <tr lang="es"> Diseñador Multimedia </tr>
+      </string>
+      <string key="Creative Direction-Lead">
+        <tr lang="es"> Director Creativo </tr>
+      </string>
+      <string key="Fashion &amp; Accessories Design">
+        <tr lang="es"> Moda y Accesorios de diseno </tr>
+      </string>
+      <string key="General-Other: Creative-Design">
+        <tr lang="es"> Otros: Diseño - Creativo </tr>
+      </string>
+      <string key="Graphic Arts-Illustration">
+        <tr lang="es"> Artes Gráficas - ilustracion </tr>
+      </string>
+      <string key="Industrial Design">
+        <tr lang="es"> Diseñador Industrial </tr>
+      </string>
+      <string key="Photography and Videography">
+        <tr lang="es"> Fotografía y Videio </tr>
+      </string>
+      <string key="Web-UI-UX Design">
+        <tr lang="es"> Diseñador web </tr>
+      </string>
+      <string key="Customer Support">
+        <tr lang="es"> Atención al cliente </tr>
+      </string>
+      <string key="Account Management (Non-Commissioned)">
+        <tr lang="es"> Acount Manager </tr>
+      </string>
+      <string key="Call Center">
+        <tr lang="es"> Call Center </tr>
+      </string>
+      <string key="Customer Training">
+        <tr lang="es"> Formador de Call center </tr>
+      </string>
+      <string key="Flight Attendant">
+        <tr lang="es"> Auxiliar de Vuelo </tr>
+      </string>
+      <string key="General-Other: Customer Support-Client Care">
+        <tr lang="es"> Otros: Atención al cliente </tr>
+      </string>
+      <string key="Hair Cutting-Styling">
+        <tr lang="es"> Estilista-Peluqero </tr>
+      </string>
+      <string key="Reservations-Ticketing">
+        <tr lang="es"> Reservas-Entradas </tr>
+      </string>
+      <string key="Retail Customer Service">
+        <tr lang="es"> Reclamaciones atención al cliente </tr>
+      </string>
+      <string key="Technical Customer Service">
+        <tr lang="es"> Soporte técnico </tr>
+      </string>
+      <string key="Editorial Writing">
+        <tr lang="es"> Redactor </tr>
+      </string>
+      <string key="Digital Content Development">
+        <tr lang="es"> Creador de contenidos digitales </tr>
+      </string>
+      <string key="Documentation-Technical Writing">
+        <tr lang="es"> Documentalista técnico </tr>
+      </string>
+      <string key="Editing &amp; Proofreading">
+        <tr lang="es"> Corrector </tr>
+      </string>
+      <string key="General-Other: Editorial-Writing">
+        <tr lang="es"> Otros: Mundo Editorial </tr>
+      </string>
+      <string key="Journalism">
+        <tr lang="es"> Periodismo </tr>
+      </string>
+      <string key="Translation-Interpretation">
+        <tr lang="es"> Traductor-Interprete </tr>
+      </string>
+      <string key="Education">
+        <tr lang="es"> Educación </tr>
+      </string>
+      <string key="Classroom Teaching">
+        <tr lang="es"> Profesor </tr>
+      </string>
+      <string key="Continuing-Adult ">
+        <tr lang="es"> Profesorado de adultos </tr>
+      </string>
+      <string key="Corporate Development and Training">
+        <tr lang="es"> Desarrollador corporatavio y educación </tr>
+      </string>
+      <string key="Early Childhood Care &amp; Development">
+        <tr lang="es"> Desallorrador de cuidaos infantiles </tr>
+      </string>
+      <string key="Elementary School">
+        <tr lang="es"> Escuela Primaria </tr>
+      </string>
+      <string key="Fitness &amp; Sports Training-Instruction">
+        <tr lang="es"> Monitor </tr>
+      </string>
+      <string key="General-Other: Training-Instruction">
+        <tr lang="es"> Otros: Entrenamiento y Gimnasios </tr>
+      </string>
+      <string key="Junior-High School">
+        <tr lang="es"> Escuela Secundaria </tr>
+      </string>
+      <string key="Software-Web Training">
+        <tr lang="es"> Formador de Software </tr>
+      </string>
+      <string key="Special Education">
+        <tr lang="es"> Educación Especial </tr>
+      </string>
+      <string key="University ">
+        <tr lang="es"> Universidad </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="es"> Ingeniero </tr>
+      </string>
+      <string key="Aeronautic-Avionic Engineering">
+        <tr lang="es"> Ingeniero aeronáutico </tr>
+      </string>
+      <string key="Bio-Engineering">
+        <tr lang="es"> Biologo </tr>
+      </string>
+      <string key="Chemical Engineering">
+        <tr lang="es"> Químico </tr>
+      </string>
+      <string key="Civil &amp; Structural Engineering">
+        <tr lang="es"> Ingeniero obra civil </tr>
+      </string>
+      <string key="Electrical-Electronics Engineering">
+        <tr lang="es"> Ingeniero electrónico </tr>
+      </string>
+      <string key="Energy-Nuclear Engineering">
+        <tr lang="es"> Ingeniero Nuclear </tr>
+      </string>
+      <string key="Environmental and Geological Engineering">
+        <tr lang="es"> Medio Ambiente </tr>
+      </string>
+      <string key="General-Other: Engineering">
+        <tr lang="es"> Otros: Ingeniería </tr>
+      </string>
+      <string key="Industrial-Manufacturing Engineering">
+        <tr lang="es"> Ingeniero Industrial </tr>
+      </string>
+      <string key="Mechanical Engineering">
+        <tr lang="es"> Ingeniero mecánico </tr>
+      </string>
+      <string key="Naval Architecture-Marine Engineering">
+        <tr lang="es"> Ingeniero Naval </tr>
+      </string>
+      <string key="RF-Wireless Engineering">
+        <tr lang="es"> Ingeniero en Redes </tr>
+      </string>
+      <string key="Systems-Process Engineering">
+        <tr lang="es"> Ingeniero de procesos </tr>
+      </string>
+      <string key="Food Services-Hospitality">
+        <tr lang="es"> Servicios alimientarios </tr>
+      </string>
+      <string key="Food &amp; Beverage Serving">
+        <tr lang="es"> Servicio de Comidas y Bebidas </tr>
+      </string>
+      <string key="Food Preparation-Cooking">
+        <tr lang="es"> Cocinero </tr>
+      </string>
+      <string key="Front Desk-Reception">
+        <tr lang="es"> Recepcionista </tr>
+      </string>
+      <string key="General-Other: Food Services">
+        <tr lang="es"> Otros: Industria alimentaria </tr>
+      </string>
+      <string key="Guest Services-Concierge">
+        <tr lang="es"> Conserje </tr>
+      </string>
+      <string key="Guide (Tour) ">
+        <tr lang="es"> Guía de Turismo </tr>
+      </string>
+      <string key="Host-Hostess">
+        <tr lang="es"> Responsible de turismo </tr>
+      </string>
+      <string key="Wine Steward (Sommelier)">
+        <tr lang="es"> Sumiller </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="es"> Recursos Humanos </tr>
+      </string>
+      <string key="Academic Admissions and Advising">
+        <tr lang="es"> Admisiones academicas </tr>
+      </string>
+      <string key="Compensation-Benefits Policy">
+        <tr lang="es"> Politíca de Compensaciones y Beneficios </tr>
+      </string>
+      <string key="Diversity Management-EEO-Compliance">
+        <tr lang="es"> Responsables de Gestión y Objetivos </tr>
+      </string>
+      <string key="General-Other: Human Resources">
+        <tr lang="es"> Otros: Recursos Humanos </tr>
+      </string>
+      <string key="HR Systems Administration">
+        <tr lang="es"> Administración de sistemas </tr>
+      </string>
+      <string key="Payroll and Benefits Administration">
+        <tr lang="es"> Administración de nóminas </tr>
+      </string>
+      <string key="Recruiting-Sourcing ">
+        <tr lang="es"> Responsible de selección </tr>
+      </string>
+      <string key="Installation-Maintenance-Repair">
+        <tr lang="es"> Instalaciones-Mantenimiento-Reparaciones </tr>
+      </string>
+      <string key="Computer-Electronics-Telecomm Install-Maintain-Repair">
+        <tr lang="es"> Informática-Electrónico-Telecomunicaciones-Mantenimiento-Reparación </tr>
+      </string>
+      <string key="Equipment Install-Maintain-Repair">
+        <tr lang="es"> Instalador de Equipamiento-Mantenimiento-Reparación </tr>
+      </string>
+      <string key="Facilities Management-Maintenance">
+        <tr lang="es"> Técnico de Mantenimiento </tr>
+      </string>
+      <string key="General-Other: Installation-Maintenance-Repair">
+        <tr lang="es"> Otros: Instalación-Mantenimiento-Reparación </tr>
+      </string>
+      <string key="Janitorial &amp; Cleaning ">
+        <tr lang="es"> Consejería y limpieza </tr>
+      </string>
+      <string key="Landscaping">
+        <tr lang="es"> Jardinero </tr>
+      </string>
+      <string key="Locksmith">
+        <tr lang="es"> Cerrajero </tr>
+      </string>
+      <string key="Oil Rig &amp; Pipeline Install-Maintain-Repair">
+        <tr lang="es"> Plataformas petroliferas Instalación-Mantenimiento-Reparación </tr>
+      </string>
+      <string key="Vehicle Repair and Maintenance">
+        <tr lang="es"> Mecánico </tr>
+      </string>
+      <string key="Wire and Cable Install-Maintain-Repair">
+        <tr lang="es"> Instalador de Cable </tr>
+      </string>
+      <string key="IT-Software Development">
+        <tr lang="es"> IT- Desarrollador de Software </tr>
+      </string>
+      <string key="Computer-Network Security">
+        <tr lang="es"> Seguridad de Redes e informática </tr>
+      </string>
+      <string key="Database Development-Administration">
+        <tr lang="es"> Desarrollador de BBDD. </tr>
+      </string>
+      <string key="Desktop Service and Support">
+        <tr lang="es"> Soporte técnico </tr>
+      </string>
+      <string key="Enterprise Software Implementation &amp; Consulting">
+        <tr lang="es"> Consultor de software </tr>
+      </string>
+      <string key="General-Other: IT-Software Development">
+        <tr lang="es"> Otros: Desarrollador de software </tr>
+      </string>
+      <string key="IT Project Management">
+        <tr lang="es"> IT Gestor de Proyectos </tr>
+      </string>
+      <string key="Network and Server Administration">
+        <tr lang="es"> Administrador de Redes y Servidores </tr>
+      </string>
+      <string key="Software-System Architecture">
+        <tr lang="es"> Arquitectura de sistemas </tr>
+      </string>
+      <string key="Software-Web Development">
+        <tr lang="es"> Desarrollador de software entornos web </tr>
+      </string>
+      <string key="Systems Analysis - IT">
+        <tr lang="es"> Análisis de sistemas </tr>
+      </string>
+      <string key="Telecommunications Administration-Management">
+        <tr lang="es"> Administrador de Telecomunicaciones </tr>
+      </string>
+      <string key="Usability-Information Architecture">
+        <tr lang="es"> Experto en Usabilidad </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="es"> Legal </tr>
+      </string>
+      <string key="Attorney">
+        <tr lang="es"> Abogado </tr>
+      </string>
+      <string key="Contracts Administration">
+        <tr lang="es"> Gestor de Contratos </tr>
+      </string>
+      <string key="General-Other: Legal">
+        <tr lang="es"> Otros-Legal </tr>
+      </string>
+      <string key="Labor &amp; Employment Law">
+        <tr lang="es"> Derecho Laboral </tr>
+      </string>
+      <string key="Paralegal &amp; Legal Secretary">
+        <tr lang="es"> Secretaría Jurídica </tr>
+      </string>
+      <string key="Patent-IP Law">
+        <tr lang="es"> Leyes de patentes </tr>
+      </string>
+      <string key="Real Estate Law">
+        <tr lang="es"> Derecho inmobiliario </tr>
+      </string>
+      <string key="Regulatory-Compliance Law">
+        <tr lang="es"> Derecho regulatorio </tr>
+      </string>
+      <string key="Tax Law">
+        <tr lang="es"> Derecho fiscal </tr>
+      </string>
+      <string key="Logistics-Transportation">
+        <tr lang="es"> Logística-Transporte </tr>
+      </string>
+      <string key="Car, Van and Bus Driving">
+        <tr lang="es"> Conductor </tr>
+      </string>
+      <string key="Cargo and Baggage Handling">
+        <tr lang="es"> Handling de Equipaje </tr>
+      </string>
+      <string key="Cost Estimating">
+        <tr lang="es"> Estimador de costes </tr>
+      </string>
+      <string key="Equipment-Forklift-Crane Operation">
+        <tr lang="es"> Conductor de Carretilla elevadora </tr>
+      </string>
+      <string key="General-Other: Logistics-Transportation">
+        <tr lang="es"> Otros: Logisitica y Transporte </tr>
+      </string>
+      <string key="Hazardous Materials Handling">
+        <tr lang="es"> Operario de Materiales peligrosos </tr>
+      </string>
+      <string key="Import-Export Administration">
+        <tr lang="es"> Administrador de Importaciones-Exportaciones </tr>
+      </string>
+      <string key="Inventory Planning and Management">
+        <tr lang="es"> Gestor de Inventario </tr>
+      </string>
+      <string key="Merchandise Planning and Buying">
+        <tr lang="es"> Planificador de Compras </tr>
+      </string>
+      <string key="Messenger-Courier">
+        <tr lang="es"> Mensajero </tr>
+      </string>
+      <string key="Piloting: Air and Marine">
+        <tr lang="es"> Piloto: Aereo y Marino </tr>
+      </string>
+      <string key="Purchasing">
+        <tr lang="es"> Reservas </tr>
+      </string>
+      <string key="Shipping and Receiving-Warehousing">
+        <tr lang="es"> Embarque y Recepción </tr>
+      </string>
+      <string key="Supplier Management-Vendor Management">
+        <tr lang="es"> Responsible de Proveedores </tr>
+      </string>
+      <string key="Train or Rail Operator">
+        <tr lang="es"> Operador Ferroviario </tr>
+      </string>
+      <string key="Truck Driving">
+        <tr lang="es"> Conductor de Camiones </tr>
+      </string>
+      <string key="Vehicle Dispatch, Routing and Scheduling">
+        <tr lang="es"> Responsable de Rutas </tr>
+      </string>
+      <string key="Manufacturing-Production">
+        <tr lang="es"> Manufacturación - Produccion </tr>
+      </string>
+      <string key="Assembly-Assembly Line">
+        <tr lang="es"> Cadena de montaje </tr>
+      </string>
+      <string key="Audio-Video Broadcast &amp; Postproduction">
+        <tr lang="es"> Editor de Video </tr>
+      </string>
+      <string key="Equipment Operations">
+        <tr lang="es"> Operario de producción </tr>
+      </string>
+      <string key="General-Other: Production-Operations">
+        <tr lang="es"> Otros: Producción-Operaciones </tr>
+      </string>
+      <string key="Laundry and Dry-Cleaning Operations">
+        <tr lang="es"> Lavandería </tr>
+      </string>
+      <string key="Layout, Prepress, Printing, &amp; Binding Operations">
+        <tr lang="es"> Imprenta </tr>
+      </string>
+      <string key="Machining-CNC">
+        <tr lang="es"> Operario de imprenta </tr>
+      </string>
+      <string key="Metal Fabrication and Welding ">
+        <tr lang="es"> Fabrica de Metal </tr>
+      </string>
+      <string key="Moldmaking-Casting">
+        <tr lang="es"> Modelador </tr>
+      </string>
+      <string key="Operations-Plant Management">
+        <tr lang="es"> Director de Planta </tr>
+      </string>
+      <string key="Production-Operations Planning">
+        <tr lang="es"> Planificador de Producción y Operaciones </tr>
+      </string>
+      <string key="Scientific-Technical Production">
+        <tr lang="es"> Producción Cientifico-Técnica </tr>
+      </string>
+      <string key="Sewing and Tailoring">
+        <tr lang="es"> Costura </tr>
+      </string>
+      <string key="Waste Pick-up and Removal">
+        <tr lang="es"> Recogida </tr>
+      </string>
+      <string key="Marketing-Product">
+        <tr lang="es"> Marketing-Productos </tr>
+      </string>
+      <string key="Brand-Product Marketing">
+        <tr lang="es"> Marca-Produtos de Maketing </tr>
+      </string>
+      <string key="Copy Writing-Editing">
+        <tr lang="es"> Editor </tr>
+      </string>
+      <string key="Direct Marketing (CRM)">
+        <tr lang="es"> Director de Marketing </tr>
+      </string>
+      <string key="Events-Promotional Marketing">
+        <tr lang="es"> Eventos-Marketing promocional </tr>
+      </string>
+      <string key="General-Other: Marketing-Product">
+        <tr lang="es"> Otros: Marketing-Productos </tr>
+      </string>
+      <string key="Investor and Public-Media Relations">
+        <tr lang="es"> Relaciones Públicas </tr>
+      </string>
+      <string key="Market Research">
+        <tr lang="es"> Estudios de Mercado </tr>
+      </string>
+      <string key="Marketing Communications">
+        <tr lang="es"> Comuniciones de Marketing </tr>
+      </string>
+      <string key="Marketing Production-Traffic">
+        <tr lang="es"> Producción-Comercialización de Marketing </tr>
+      </string>
+      <string key="Media Planning and Buying">
+        <tr lang="es"> Planificación y compra de medios </tr>
+      </string>
+      <string key="Product Management">
+        <tr lang="es"> Gestor de Productos </tr>
+      </string>
+      <string key="Telemarketing">
+        <tr lang="es"> Telemarketing </tr>
+      </string>
+      <string key="Visual-Display Merchandising">
+        <tr lang="es"> Merchandisin Visual </tr>
+      </string>
+      <string key="Medical-Health">
+        <tr lang="es"> Salud </tr>
+      </string>
+      <string key="Dental Assistant-Hygienist">
+        <tr lang="es"> Asistente-Higienista </tr>
+      </string>
+      <string key="Dental Practitioner">
+        <tr lang="es"> Dentista </tr>
+      </string>
+      <string key="EMT-Paramedic">
+        <tr lang="es"> Paramédico </tr>
+      </string>
+      <string key="General-Other: Medical-Health">
+        <tr lang="es"> Otros: Salud </tr>
+      </string>
+      <string key="Healthcare Aid">
+        <tr lang="es"> Asistente sanitario </tr>
+      </string>
+      <string key="Laboratory-Pathology">
+        <tr lang="es"> Laboratorio-Patologia </tr>
+      </string>
+      <string key="Medical Imaging">
+        <tr lang="es"> Imágenes médicas </tr>
+      </string>
+      <string key="Medical Practitioner">
+        <tr lang="es"> Médico </tr>
+      </string>
+      <string key="Medical Therapy-Rehab Services">
+        <tr lang="es"> Rehabilitación </tr>
+      </string>
+      <string key="Mental Health">
+        <tr lang="es"> Psquiatra </tr>
+      </string>
+      <string key="Nursing">
+        <tr lang="es"> Enfermeria </tr>
+      </string>
+      <string key="Nutrition and Diet">
+        <tr lang="es"> Nutrición y Dieta </tr>
+      </string>
+      <string key="Optical">
+        <tr lang="es"> Optico </tr>
+      </string>
+      <string key="Pharmacy">
+        <tr lang="es"> Farmacia </tr>
+      </string>
+      <string key="Physicians Assistant-Nurse Practitioner">
+        <tr lang="es"> Auxiliar de Enfermería </tr>
+      </string>
+      <string key="Social Service">
+        <tr lang="es"> Servicios sociales </tr>
+      </string>
+      <string key="Sports Medicine">
+        <tr lang="es"> Medicina Deportiva </tr>
+      </string>
+      <string key="Veterinary-Animal Care">
+        <tr lang="es"> Veterinaria </tr>
+      </string>
+      <string key="Other">
+        <tr lang="es"> Otros </tr>
+      </string>
+      <string key="Career Fair">
+        <tr lang="es"> Carrera </tr>
+      </string>
+      <string key="Work at Home">
+        <tr lang="es"> Trabajo desde Casa </tr>
+      </string>
+      <string key="Project-Program Management">
+        <tr lang="es"> Dirección de Proyectos </tr>
+      </string>
+      <string key="Event Planning-Coordination">
+        <tr lang="es"> Gestor de Planficación-Coordinacion </tr>
+      </string>
+      <string key="General-Other: Project-Program Management">
+        <tr lang="es"> Otros: Gestión de Proyectos </tr>
+      </string>
+      <string key="Program Management">
+        <tr lang="es"> Dirección de Programas </tr>
+      </string>
+      <string key="Project Management">
+        <tr lang="es"> Director de Proyectos </tr>
+      </string>
+      <string key="Quality Assurance-Safety">
+        <tr lang="es"> Inspector de Calidad </tr>
+      </string>
+      <string key="Building-Construction Inspection">
+        <tr lang="es"> Inspector de Obra </tr>
+      </string>
+      <string key="Environmental Protection-Conservation">
+        <tr lang="es"> Conservación del Medio Ambiente </tr>
+      </string>
+      <string key="Food Safety and Inspection">
+        <tr lang="es"> Seguridad Alimentaria e Inspección </tr>
+      </string>
+      <string key="Fraud Investigation">
+        <tr lang="es"> Investigación de Fraude </tr>
+      </string>
+      <string key="General-Other: Quality Assurance-Safety">
+        <tr lang="es"> Otros: Medio Ambiente-Calidad </tr>
+      </string>
+      <string key="ISO Certification">
+        <tr lang="es"> Certificación ISO </tr>
+      </string>
+      <string key="Occupational Health and Safety">
+        <tr lang="es"> Salud Ocupacional y Segruidad </tr>
+      </string>
+      <string key="Production Quality Assurance">
+        <tr lang="es"> Responsable de Calidad </tr>
+      </string>
+      <string key="Six Sigma-Black Belt-TQM">
+        <tr lang="es"> Gestion de calidad total </tr>
+      </string>
+      <string key="Software Quality Assurance">
+        <tr lang="es"> Calidad de Software </tr>
+      </string>
+      <string key="Vehicle Inspection">
+        <tr lang="es"> Inspector de Vehículos </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="es"> Bienes inmbueles </tr>
+      </string>
+      <string key="Real Estate Agent-Broker">
+        <tr lang="es"> Broker de Bienes inmuebles </tr>
+      </string>
+      <string key="Sales-Retail">
+        <tr lang="es"> Ventas-Retail </tr>
+      </string>
+      <string key="Account Management Commissioned">
+        <tr lang="es"> Gestor de clientes comisionado </tr>
+      </string>
+      <string key="Business Development-New Accounts">
+        <tr lang="es"> Desarrollador de negocio-Nuevas cuentas </tr>
+      </string>
+      <string key="Field Sales">
+        <tr lang="es"> Venta de Campañas </tr>
+      </string>
+      <string key="Fundraising">
+        <tr lang="es"> Responsabilidad Social </tr>
+      </string>
+      <string key="General-Other: Sales-Business Development">
+        <tr lang="es"> Otros: Ventas-Desarrollador de Negocios </tr>
+      </string>
+      <string key="Insurance Agent-Broker">
+        <tr lang="es"> Agente de Bolsa </tr>
+      </string>
+      <string key="International Sales">
+        <tr lang="es"> Ventas Internacionales </tr>
+      </string>
+      <string key="Media and Advertising Sales">
+        <tr lang="es"> Medios de comunicación y ventas publicitarias </tr>
+      </string>
+      <string key="Retail-Counter Sales and Cashier">
+        <tr lang="es"> Reventas y caja </tr>
+      </string>
+      <string key="Sales Support-Assistance">
+        <tr lang="es"> Asistente de Ventas </tr>
+      </string>
+      <string key="Technical Presales Support &amp; Technical Sales">
+        <tr lang="es"> Apyo a preventas &amp; Ventas técnicas </tr>
+      </string>
+      <string key="Telesales">
+        <tr lang="es"> Televenta </tr>
+      </string>
+      <string key="Travel Agent-Ticket Sales">
+        <tr lang="es"> Agente de Viajes </tr>
+      </string>
+      <string key="Wholesale-Reselling Sales">
+        <tr lang="es"> Revendedor a Mayoristas </tr>
+      </string>
+      <string key="Security-Protective Services">
+        <tr lang="es"> Seguridad-Servicios de protección </tr>
+      </string>
+      <string key="Airport Security and Screening">
+        <tr lang="es"> Seguridad aeropuertuaria y selección </tr>
+      </string>
+      <string key="Correctional Officer">
+        <tr lang="es"> Oficial </tr>
+      </string>
+      <string key="Customs-Immigration">
+        <tr lang="es"> Aduanas </tr>
+      </string>
+      <string key="Firefighting and Rescue">
+        <tr lang="es"> Bombero y rescate </tr>
+      </string>
+      <string key="General-Other: Security-Protective Services">
+        <tr lang="es"> Otros: Seguridad-Servicios protección </tr>
+      </string>
+      <string key="Military Combat">
+        <tr lang="es"> Combate militar </tr>
+      </string>
+      <string key="Police-Law Enforcement">
+        <tr lang="es"> Policia-Derecho </tr>
+      </string>
+      <string key="Security Guard">
+        <tr lang="es"> Guardia de seguritad </tr>
+      </string>
+      <string key="Security Intelligence &amp; Analysis">
+        <tr lang="es"> Análisis de seguridad e inteligencia </tr>
+      </string>
+      <string key="Store Security-Loss Prevention">
+        <tr lang="es"> Seguridad en tiendas-Antirobo </tr>
+      </string>
+    </page>
+    <page key="Property_State">
+      <string key="Alabama">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Alaska">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Alberta">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Arizona">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Arkansas">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="British Columbia">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="California">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Colorado">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Connecticut">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Delaware">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="District of Columbia">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Florida">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Georgia">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Guam">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Hawaii">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Idaho">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Illinois">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Indiana">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Iowa">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Kansas">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Kentucky">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Louisiana">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Maine">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Manitoba">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Maryland">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Massachusetts">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Michigan">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Minnesota">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Mississippi">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Missouri">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Montana">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Nebraska">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Nevada">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="New Hampshire">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="New Jersey">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="New Mexico">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="New York">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="North Carolina">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="North Dakota">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Ohio">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Oklahoma">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Ontario">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Oregon">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Pennsylvania">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Puerto Rico">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Rhode Island">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="South Carolina">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="South Dakota">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Tennessee">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Texas">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Utah">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Vermont">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Virgin Islands">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Virginia">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Washington">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="West Virginia">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Wisconsin">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Wyoming">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Outside US">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Ceuta">
+        <tr lang="es"> Ceuta </tr>
+      </string>
+      <string key="Melilla">
+        <tr lang="es"> Melilla </tr>
+      </string>
+    </page>
+    <page key="Property_JobCategory">
+      <string key="Accounting">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Admin-Clerical">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Automotive">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Banking">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Biotech">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Business Development">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Construction">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Consultant">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Customer Service">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Design">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Distribution-Shipping">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Education">
+        <tr lang="es"> Educación </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="es"> Ingeniero </tr>
+      </string>
+      <string key="Entry Level">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Executive">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Facilities">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Finance">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Franchise">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="General Business">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="General Labor">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Government">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Grocery">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Health Care">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Hospitality-Hotel">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="es"> Recursos Humanos </tr>
+      </string>
+      <string key="Information Technology">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Installation-Maint-Repair">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Insurance">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Inventory">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="es"> Legal </tr>
+      </string>
+      <string key="Management">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Manufacturing">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Marketing">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Media-Journalism">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Nonprofit-Social Services">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Nurse">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Other">
+        <tr lang="es"> Otros </tr>
+      </string>
+      <string key="Pharmaceutical">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Professional Services">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Purchasing-Procurement">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="QA-Quality Control">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="es"> Bienes inmbueles </tr>
+      </string>
+      <string key="Research">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Restaurant-Food Service">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Retail">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Sales">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Science">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Skilled Labor">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Strategy-Planning">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Supply Chain">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Telecommunications">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Training">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Transportation">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Veterinary Services">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Warehouse">
+        <tr lang="es">  </tr>
+      </string>
+    </page>
+    <page key="Property_email_frequency">
+      <string key="Daily">
+        <tr lang="es"> Diaria </tr>
+      </string>
+      <string key="Weekly">
+        <tr lang="es"> Semanal </tr>
+      </string>
+      <string key="Monthly">
+        <tr lang="es"> Menssual </tr>
+      </string>
+    </page>
+    <page key="Property_Country">
+      <string key="Nicaragua">
+        <tr lang="es">  </tr>
+      </string>
+    </page>
+    <page key="Property_SalaryType">
+      <string key="per hour">
+        <tr lang="es"> Bruto/Hora </tr>
+      </string>
+      <string key="per week">
+        <tr lang="es"> Bruto/Semana </tr>
+      </string>
+      <string key="per month">
+        <tr lang="es"> Bruto/Mes </tr>
+      </string>
+      <string key="per year">
+        <tr lang="es"> Bruto/Año </tr>
+      </string>
+    </page>
+    <page key="Property_EmploymentType">
+      <string key="Full time">
+        <tr lang="es"> Jornada Completa </tr>
+      </string>
+      <string key="Part time">
+        <tr lang="es"> Media Jornada </tr>
+      </string>
+      <string key="Contractor">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Intern">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Seasonal">
+        <tr lang="es">  </tr>
+      </string>
+    </page>
+    <page key="Membership Plan">
+      <string key="Name">
+        <tr lang="es"> Nombre </tr>
+      </string>
+      <string key="Description">
+        <tr lang="es"> Descripción </tr>
+      </string>
+      <string key="Price">
+        <tr lang="es"> Precio </tr>
+      </string>
+      <string key="Expiration Period">
+        <tr lang="es"> Duración </tr>
+      </string>
+      <string key="Subscription Price">
+        <tr lang="es"> Precio de suscripción </tr>
+      </string>
+    </page>
+    <page key="Property_status">
+      <string key="Pending">
+        <tr lang="es"> Pendiente </tr>
+      </string>
+      <string key="Failed">
+        <tr lang="es"> Rechazado </tr>
+      </string>
+      <string key="Completed">
+        <tr lang="es"> Completado </tr>
+      </string>
+      <string key="Everyone">
+        <tr lang="es">  </tr>
+      </string>
+    </page>
+    <page key="Property_access_type">
+      <string key="Everyone">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="No one">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Only selected employers">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Everyone except selected employers">
+        <tr lang="es">  </tr>
+      </string>
+    </page>
+    <page key="Property_JobType">
+      <string key="full time">
+        <tr lang="es"> Jornada Completa </tr>
+      </string>
+      <string key="part time">
+        <tr lang="es"> Jornada Parcial </tr>
+      </string>
+      <string key="contractor">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="intern">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="seasonal">
+        <tr lang="es">  </tr>
+      </string>
+    </page>
+    <page key="Property_DesiredSalaryType">
+      <string key="per month">
+        <tr lang="es"> Mensual </tr>
+      </string>
+      <string key="per year">
+        <tr lang="es"> Anual </tr>
+      </string>
+    </page>
+    <page key="Property_PostedWithin">
+      <string key="Posted Within">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Last 30 days">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Last 7 days">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Last 3 days">
+        <tr lang="es">  </tr>
+      </string>
+      <string key="Since Yesterday">
+        <tr lang="es">  </tr>
+      </string>
+    </page>
+    <page key="Property_Category">
+    </page>
+    <page key="Property_from">
+    </page>
+    <page key="Property_to">
+    </page>
+    <page key="Property_GraduatedIn">
+    </page>
+    <page key="Property_DegreeLevel">
+    </page>
+    <page key="Property_Industry">
+    </page>
+    <page key="Property_asd">
+    </page>
+    <page key="Property_testmultilist">
+    </page>
+    <page key="Property_test">
+    </page>
+    <page key="Property_billingCountry">
+    </page>
+    <page key="Property_billingState">
+    </page>
+    <page key="Property_ApplyNowBtnChoice">
+    </page>
+    <page key="Property_billingInformationCheckbox">
+    </page>
+    <page key="Property_1">
+    </page>
+  </pages>
+</translation2>

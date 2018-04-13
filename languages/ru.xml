@@ -1,0 +1,3634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE translation2 [
+<!ELEMENT translation2 (languages,pages)>
+<!ELEMENT languages (lang*)>
+<!ELEMENT lang (name?,meta?,error_text?,encoding?)>
+<!ATTLIST lang id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT meta (#PCDATA)>
+<!ELEMENT error_text (#PCDATA)>
+<!ELEMENT encoding (#PCDATA)>
+<!ELEMENT pages (page*)>
+<!ELEMENT page (string*)>
+<!ATTLIST page key CDATA #REQUIRED>
+<!ELEMENT string (tr*)>
+<!ATTLIST string key CDATA #REQUIRED>
+<!ELEMENT tr (#PCDATA)>
+<!ATTLIST tr lang IDREF #REQUIRED>
+]>
+
+<translation2>
+  <languages>
+    <lang id="ru">
+      <name> Русский </name>
+      <meta> a:8:{s:6:"active";s:1:"0";s:10:"is_default";b:0;s:5:"theme";s:0:"";s:11:"date_format";s:8:"%d.%m.%Y";s:17:"decimal_separator";s:1:".";s:19:"thousands_separator";s:1:",";s:8:"decimals";s:1:"1";s:11:"rightToLeft";s:1:"0";} </meta>
+      <error_text></error_text>
+      <encoding> utf-8 </encoding>
+    </lang>
+  </languages>
+  <pages>
+    <page key="PhrasesInTemplates">
+      <string key="About Us">
+        <tr lang="ru"> О нас </tr>
+      </string>
+      <string key="Auto News">
+        <tr lang="ru"> Авто новости </tr>
+      </string>
+      <string key="Service Providers">
+        <tr lang="ru"> Поставщики услуг </tr>
+      </string>
+      <string key="Sign in">
+        <tr lang="ru"> Войти </tr>
+      </string>
+      <string key="Register">
+        <tr lang="ru"> Регистрация </tr>
+      </string>
+      <string key="Saved Ads">
+        <tr lang="ru"> Сохраненные объяв. </tr>
+      </string>
+      <string key="Saved Searches">
+        <tr lang="ru"> Сохраненные поиски </tr>
+      </string>
+      <string key="Log Out">
+        <tr lang="ru"> Выйти </tr>
+      </string>
+      <string key="My Listings">
+        <tr lang="ru"> Мои объявления </tr>
+      </string>
+      <string key="My Notifications">
+        <tr lang="ru"> Мои уведомления </tr>
+      </string>
+      <string key="My Payments">
+        <tr lang="ru"> Мои платежи </tr>
+      </string>
+      <string key="My Profile">
+        <tr lang="ru"> Мой профиль </tr>
+      </string>
+      <string key="Find Your Car">
+        <tr lang="ru"> Найти авто </tr>
+      </string>
+      <string key="Sell Your Car">
+        <tr lang="ru"> Продать авто </tr>
+      </string>
+      <string key="Home">
+        <tr lang="ru"> Главная </tr>
+      </string>
+      <string key="Contact Us">
+        <tr lang="ru"> Контакт </tr>
+      </string>
+      <string key="Advanced search">
+        <tr lang="ru"> Расширенный поиск </tr>
+      </string>
+      <string key="Automobile classifieds demo site">
+        <tr lang="ru"> Демо сайт авто объявлений </tr>
+      </string>
+      <string key="Show Results">
+        <tr lang="ru"> Результаты </tr>
+      </string>
+      <string key="CARS BY MAKE">
+        <tr lang="ru"> Авто по маркам </tr>
+      </string>
+      <string key="CARS BY BODY STYLE">
+        <tr lang="ru"> Авто по типу кузова </tr>
+      </string>
+      <string key="You are logged in already">
+        <tr lang="ru"> Вы уже вошли в систему </tr>
+      </string>
+      <string key="Please select the appropriate user group:">
+        <tr lang="ru"> Пажалуйста, выберите группу пользователя: </tr>
+      </string>
+      <string key="Select a Package">
+        <tr lang="ru"> Выберите пакет </tr>
+      </string>
+      <string key="Your listing is successfully activated">
+        <tr lang="ru"> Ваше объявление успешно активировано </tr>
+      </string>
+      <string key="Back to My Listings">
+        <tr lang="ru"> Вернуться к моему списку </tr>
+      </string>
+      <string key="Features">
+        <tr lang="ru"> Опции </tr>
+      </string>
+      <string key="Number of listings per page:">
+        <tr lang="ru"> Объявлений на странице: </tr>
+      </string>
+      <string key="Previous">
+        <tr lang="ru"> Пред. </tr>
+      </string>
+      <string key="Next">
+        <tr lang="ru"> След. </tr>
+      </string>
+      <string key="FIND YOUR CAR">
+        <tr lang="ru"> Найти авто </tr>
+      </string>
+      <string key="Check all">
+        <tr lang="ru"> Выделить все </tr>
+      </string>
+      <string key="Results: $listings_number Listings">
+        <tr lang="ru"> Найдено объявлений: $listings_number </tr>
+      </string>
+      <string key="Browse by Make Model">
+        <tr lang="ru"> Обзор по маркам и моделям </tr>
+      </string>
+      <string key="Choose language">
+        <tr lang="ru"> Выбрать язык </tr>
+      </string>
+      <string key="$select_box_field_distance of Zip $input_text_field_location">
+        <tr lang="ru"> $select_box_field_distance Индекс $input_text_field_location </tr>
+      </string>
+      <string key="Featured Vehicles">
+        <tr lang="ru"> Горячие объявления </tr>
+      </string>
+      <string key="Sign In">
+        <tr lang="ru"> Войти </tr>
+      </string>
+      <string key="Keep me signed in">
+        <tr lang="ru"> Запомнить меня </tr>
+      </string>
+      <string key="Forgot Your Password?">
+        <tr lang="ru"> Забыли пароль? </tr>
+      </string>
+      <string key="Registration">
+        <tr lang="ru"> Регистрация </tr>
+      </string>
+      <string key="Welcome">
+        <tr lang="ru"> Добро Пожаловать, </tr>
+      </string>
+      <string key="Add Listing">
+        <tr lang="ru"> Добавить объявление </tr>
+      </string>
+      <string key="Enter Your Ad Information">
+        <tr lang="ru"> Введите информацию о Вашем объявлении </tr>
+      </string>
+      <string key="Manage Listing">
+        <tr lang="ru"> Действия с объявлением </tr>
+      </string>
+      <string key="Preview Listing">
+        <tr lang="ru"> Предварительный просмотр </tr>
+      </string>
+      <string key="Edit Listing">
+        <tr lang="ru"> Редактировать объявление </tr>
+      </string>
+      <string key="Pay For Listing">
+        <tr lang="ru"> Произвести оплату </tr>
+      </string>
+      <string key="Save Ad">
+        <tr lang="ru"> Сохранить объяв. </tr>
+      </string>
+      <string key="Tell a Friend">
+        <tr lang="ru"> Отправить другу </tr>
+      </string>
+      <string key="Print This Ad">
+        <tr lang="ru"> Печать </tr>
+      </string>
+      <string key="Get Directions">
+        <tr lang="ru"> Схема проезда </tr>
+      </string>
+      <string key="Loan Calculator">
+        <tr lang="ru"> Расчет кредита </tr>
+      </string>
+      <string key="Your name">
+        <tr lang="ru"> Ваше имя </tr>
+      </string>
+      <string key="Recommend listing with ID">
+        <tr lang="ru"> Рекомендация объявления № </tr>
+      </string>
+      <string key="Your friend&apos;s name">
+        <tr lang="ru"> Имя друга </tr>
+      </string>
+      <string key="Your friend&apos;s e-mail address">
+        <tr lang="ru"> E-mail друга </tr>
+      </string>
+      <string key="Your comment (will be send with the recommendation)">
+        <tr lang="ru"> Ваши комментарии </tr>
+      </string>
+      <string key="Car details">
+        <tr lang="ru"> Детали авто </tr>
+      </string>
+      <string key="Features:">
+        <tr lang="ru"> Опции: </tr>
+      </string>
+      <string key="Seller Info">
+        <tr lang="ru"> Информация о продавце </tr>
+      </string>
+      <string key="Contact seller">
+        <tr lang="ru"> Связаться с продавцом </tr>
+      </string>
+      <string key="All ads by this seller">
+        <tr lang="ru"> Все объявления этого пользователя </tr>
+      </string>
+      <string key="Monthly Payment">
+        <tr lang="ru"> Месячная выплата </tr>
+      </string>
+      <string key="Loan Amount">
+        <tr lang="ru"> Размер кредита </tr>
+      </string>
+      <string key="Term of Loan">
+        <tr lang="ru"> Срок кредита </tr>
+      </string>
+      <string key="months">
+        <tr lang="ru"> месяцев </tr>
+      </string>
+      <string key="Interest Rate">
+        <tr lang="ru"> Процентная ставка </tr>
+      </string>
+      <string key="$select_box_field_from to $select_box_field_to">
+        <tr lang="ru"> $select_box_field_from - $select_box_field_to </tr>
+      </string>
+      <string key="$input_text_field_from to $input_text_field_to">
+        <tr lang="ru"> $input_text_field_from - $input_text_field_to </tr>
+      </string>
+      <string key="Confirm Password">
+        <tr lang="ru"> Подтвердите пароль </tr>
+      </string>
+      <string key="Uncheck all">
+        <tr lang="ru"> Снять все выделения </tr>
+      </string>
+      <string key="Sort by:">
+        <tr lang="ru"> Сортировка: </tr>
+      </string>
+      <string key="View Details">
+        <tr lang="ru"> Детали </tr>
+      </string>
+      <string key="Deactivate Listing">
+        <tr lang="ru"> Деактивировать </tr>
+      </string>
+      <string key="Delete Listing">
+        <tr lang="ru"> Удалить </tr>
+      </string>
+      <string key="Back to Results">
+        <tr lang="ru"> Вернуться к результатам </tr>
+      </string>
+      <string key="Modify Search">
+        <tr lang="ru"> Изменить поиск </tr>
+      </string>
+      <string key="View the CARFAX Vehicle History Report">
+        <tr lang="ru"> История авто от CARFAX </tr>
+      </string>
+      <string key="Save this Search">
+        <tr lang="ru"> Сохранить поиск </tr>
+      </string>
+      <string key="Save ad">
+        <tr lang="ru"> Сохранить объявление </tr>
+      </string>
+      <string key="View car details">
+        <tr lang="ru"> Детали </tr>
+      </string>
+      <string key="Edit Pictures">
+        <tr lang="ru"> Редактировать фото </tr>
+      </string>
+      <string key="You specified wrong username">
+        <tr lang="ru"> Неверное имя пользователя </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="ru"> Пожалуйста, введите Ваш логин в поле ниже - и мы вышлем Вам ссылку для восстановления пароля на e-mail, указанный при регистрации </tr>
+      </string>
+      <string key="The message was sent successfully">
+        <tr lang="ru"> Сообщение успешно отправлено </tr>
+      </string>
+      <string key="Action">
+        <tr lang="ru"> Действия </tr>
+      </string>
+      <string key="Total Amount">
+        <tr lang="ru"> Итого </tr>
+      </string>
+      <string key="Listing ID is not defined">
+        <tr lang="ru"> Не указан № объявления </tr>
+      </string>
+      <string key="There is no listing in the system with the specified ID">
+        <tr lang="ru"> Не найденно объявление с указанным ID </tr>
+      </string>
+      <string key="Listing with specified ID is not active">
+        <tr lang="ru"> Объявление с указанным номером не активно </tr>
+      </string>
+      <string key="There are no articles available at this time">
+        <tr lang="ru"> На данный момент статей нет </tr>
+      </string>
+      <string key="Business Catalog">
+        <tr lang="ru"> Бизнес каталог </tr>
+      </string>
+      <string key="view full profile">
+        <tr lang="ru"> Подробная информация </tr>
+      </string>
+      <string key="Saved Listings">
+        <tr lang="ru"> Сохраненные объявления </tr>
+      </string>
+      <string key="Delete">
+        <tr lang="ru"> Удалить </tr>
+      </string>
+      <string key="There are no saved listings">
+        <tr lang="ru"> Нет сохраненных объявлений </tr>
+      </string>
+      <string key="Payment is not verified">
+        <tr lang="ru"> Платеж не прошел проверку </tr>
+      </string>
+      <string key="Invalid payment ID is specified">
+        <tr lang="ru"> Неверный номер платежа </tr>
+      </string>
+      <string key="You have successfully subscribed for the membership plan">
+        <tr lang="ru"> Вы успешно подписаны </tr>
+      </string>
+      <string key="Your name:">
+        <tr lang="ru"> Ваше имя: </tr>
+      </string>
+      <string key="Your e-mail">
+        <tr lang="ru"> Ваш e-mail </tr>
+      </string>
+      <string key="Your request">
+        <tr lang="ru"> Текст сообщения </tr>
+      </string>
+      <string key="Inquiry for listing with ID">
+        <tr lang="ru"> Запрос по объявлению № </tr>
+      </string>
+      <string key="Your letter was sent">
+        <tr lang="ru"> Сообщение отправлено </tr>
+      </string>
+      <string key="Cannot send letter">
+        <tr lang="ru"> Сообщение не может быть отправлено </tr>
+      </string>
+      <string key="You have not saved any searches yet.">
+        <tr lang="ru"> Вы не сохранили ни одного поиска </tr>
+      </string>
+      <string key="Save Your Search">
+        <tr lang="ru"> Сохранить поиск </tr>
+      </string>
+      <string key="Search Name">
+        <tr lang="ru"> Название поиска </tr>
+      </string>
+      <string key="There are no listings with requested parameters in the system.">
+        <tr lang="ru"> В системе нет объявлений с указанными параметрами </tr>
+      </string>
+      <string key="The system cannot proceed as Listing ID not specified">
+        <tr lang="ru"> Не указан номер объявления </tr>
+      </string>
+      <string key="Wrong Listing ID specified">
+        <tr lang="ru"> Неверный номер объявления </tr>
+      </string>
+      <string key="Payment already has been processed">
+        <tr lang="ru"> Платеж уже осуществлен </tr>
+      </string>
+      <string key="Invalid listing ID is specified">
+        <tr lang="ru"> Неверный номер объявления </tr>
+      </string>
+      <string key="Listing is already featured">
+        <tr lang="ru"> У объявления уже установлен этот статус </tr>
+      </string>
+      <string key="The system cannot proceed as some key parameters are missed">
+        <tr lang="ru"> Не указаны ключевые параметры </tr>
+      </string>
+      <string key="Your listing succesfully upgraded to featured">
+        <tr lang="ru"> Объявление успешно переведено в статус &quot;Горячие&quot; </tr>
+      </string>
+      <string key="The key parameters are not specified">
+        <tr lang="ru"> Не указаны ключевые параметры </tr>
+      </string>
+      <string key="Wrong parameters are specified">
+        <tr lang="ru"> Указаны неверные параметры </tr>
+      </string>
+      <string key="You are not owner of this listing">
+        <tr lang="ru"> Вы не являетесь владельцем этого объявления </tr>
+      </string>
+      <string key="Listing has been saved">
+        <tr lang="ru"> Объявление сохранено </tr>
+      </string>
+      <string key="Listing ID not specified">
+        <tr lang="ru"> Не указан номер объявления </tr>
+      </string>
+      <string key="Maximum query storage capacity exceeded for you as an unregistered user. To save more searches, please login or register.">
+        <tr lang="ru"> Вы исчерпали место для не зарегистрированного пользователя. Для сохранения большего количества поисков, Вам необходимо зарегистрироваться. </tr>
+      </string>
+      <string key="Your search has been saved.">
+        <tr lang="ru"> Поиск сохранен </tr>
+      </string>
+      <string key="You may close this window now.">
+        <tr lang="ru"> Можете закрыть это окно </tr>
+      </string>
+      <string key="Disable Auto notify">
+        <tr lang="ru"> выкл. Авто уведомление </tr>
+      </string>
+      <string key="Enable Auto notify">
+        <tr lang="ru"> вкл. Авто уведомление </tr>
+      </string>
+      <string key="Your listing was successfully added to the system!">
+        <tr lang="ru"> Ваше объявление успешно добавлено! </tr>
+      </string>
+      <string key="You&apos;ve got the limit of the number of the active listings">
+        <tr lang="ru"> Вы достигли предела по количеству активных объявлений </tr>
+      </string>
+      <string key="Add a New Listing">
+        <tr lang="ru"> Добавить новое объявление </tr>
+      </string>
+      <string key="There&apos;s no listing packages available on your membership plan">
+        <tr lang="ru"> Для вашего плана не настроено ни одного пакета </tr>
+      </string>
+      <string key="You&apos;ve reached the limit of number of listings alowed by your plan">
+        <tr lang="ru"> Вы достигли предела по кол. объявлений </tr>
+      </string>
+      <string key="Choose your memberhsip plan">
+        <tr lang="ru"> Выберете Ваш план </tr>
+      </string>
+      <string key="The service was not executed, contact to administrator of the site.">
+        <tr lang="ru"> Услуга не выполнена. Обратитесь к администратору сайта. </tr>
+      </string>
+      <string key="This service is not available for you.">
+        <tr lang="ru"> Эта услуга вам не доступна. </tr>
+      </string>
+      <string key="This service is not found.">
+        <tr lang="ru"> Услуга не найдена. </tr>
+      </string>
+      <string key="You are not logged in">
+        <tr lang="ru"> Вы не вошли в систему </tr>
+      </string>
+      <string key="You have already subscribed">
+        <tr lang="ru"> Вы уже подписаны </tr>
+      </string>
+      <string key="There is no such membership plan in your group">
+        <tr lang="ru"> Ваша группа пользователей не включает этот план </tr>
+      </string>
+      <string key="Cannot save your membership plan">
+        <tr lang="ru"> Не удалось сохранить план </tr>
+      </string>
+      <string key="Choose subscription">
+        <tr lang="ru"> Выбор подписки </tr>
+      </string>
+      <string key="Please specify a valid email address.Please provide your full name.">
+        <tr lang="ru"> Пажалуйста, укажите действительный email. </tr>
+      </string>
+      <string key="Salutation First and Last Name">
+        <tr lang="ru"> Ваше имя </tr>
+      </string>
+      <string key="Email">
+        <tr lang="ru"> Email </tr>
+      </string>
+      <string key="Thank you very much for your message. We will respond to you as soon as possible.">
+        <tr lang="ru"> Спасибо за Ваше сообщение. Мы ответим в ближайшее время. </tr>
+      </string>
+      <string key="Manage Listing Pictures">
+        <tr lang="ru"> Редактировать фото </tr>
+      </string>
+      <string key="Go to Manage Listing">
+        <tr lang="ru"> Перейти к действиям с объявлением </tr>
+      </string>
+      <string key="Add Picture">
+        <tr lang="ru"> Добавить фото </tr>
+      </string>
+      <string key="Caption">
+        <tr lang="ru"> Заголовок </tr>
+      </string>
+      <string key="Picture">
+        <tr lang="ru"> Фото </tr>
+      </string>
+      <string key="You&apos;ve got a limit of the allowed number of picture">
+        <tr lang="ru"> Вы превысили лимит загружаемых фотографий </tr>
+      </string>
+      <string key="Thumbnail">
+        <tr lang="ru"> Иконка </tr>
+      </string>
+      <string key="Actions">
+        <tr lang="ru"> Действия </tr>
+      </string>
+      <string key="Edit Picture">
+        <tr lang="ru"> Редактировать фото </tr>
+      </string>
+      <string key="Cover letter (optional)">
+        <tr lang="ru"> Комментарии </tr>
+      </string>
+      <string key="Online Poll Results">
+        <tr lang="ru"> Результаты голосования </tr>
+      </string>
+      <string key="votes">
+        <tr lang="ru"> голосов </tr>
+      </string>
+      <string key="Total votes">
+        <tr lang="ru"> Итого голосов </tr>
+      </string>
+      <string key="No votes available at this time">
+        <tr lang="ru"> Нет ни одного голоса </tr>
+      </string>
+      <string key="Publications">
+        <tr lang="ru"> Публикации </tr>
+      </string>
+      <string key="Section list">
+        <tr lang="ru"> Список секций </tr>
+      </string>
+      <string key="There no categories available at this time">
+        <tr lang="ru"> Нет категорий </tr>
+      </string>
+      <string key="The system cannot proceed as some key parameters are missing">
+        <tr lang="ru"> Не указанны ключевые параметры </tr>
+      </string>
+      <string key="No such user found">
+        <tr lang="ru"> Пользователь не найден </tr>
+      </string>
+      <string key="Wrong activation key is specified">
+        <tr lang="ru"> Не верный ключ активации </tr>
+      </string>
+      <string key="Cannot activate account. Please contact administrator.">
+        <tr lang="ru"> Не удалось активировать учетную запись. Обратитесь к администратору. </tr>
+      </string>
+      <string key="Username is empty">
+        <tr lang="ru"> Не указано имя пользователя </tr>
+      </string>
+      <string key="Verification key is empty">
+        <tr lang="ru"> Не указан ключ верификации </tr>
+      </string>
+      <string key="Worng verification key is specified">
+        <tr lang="ru"> Не верный ключ верификации </tr>
+      </string>
+      <string key="Password is not confirmed or empty">
+        <tr lang="ru"> Пароль не подтвержден или пустой </tr>
+      </string>
+      <string key="Wrong parameters specified">
+        <tr lang="ru"> Указанны неверные параметры </tr>
+      </string>
+      <string key="File deleted successfully">
+        <tr lang="ru"> Файл успешно удален </tr>
+      </string>
+      <string key="Back to edit profile">
+        <tr lang="ru"> Вернуться к редактированию профиля </tr>
+      </string>
+      <string key="No such user">
+        <tr lang="ru"> Такого пользователя не существует </tr>
+      </string>
+      <string key="Invalid password">
+        <tr lang="ru"> Неверный пароль </tr>
+      </string>
+      <string key="Login error">
+        <tr lang="ru"> Неправильное имя пользователя и/или пароль </tr>
+      </string>
+      <string key="Your account is not active">
+        <tr lang="ru"> Ваша учетная запись не активна </tr>
+      </string>
+      <string key="Your registration is almost complete. Please check your mailbox for an activation email containing further instructions.">
+        <tr lang="ru"> Вам выслано письмо активации. Для завершения регистрации следуйте инструкциям в письме. </tr>
+      </string>
+      <string key="Failed to send activation email.">
+        <tr lang="ru"> Не удалось отправить письмо активации. </tr>
+      </string>
+      <string key="You have successfully registered in our site">
+        <tr lang="ru"> Регистрация успешно завершена </tr>
+      </string>
+      <string key="Your password was successfully changed">
+        <tr lang="ru"> Смена пароля успешно произведена </tr>
+      </string>
+      <string key="Cannot set this membership plan for your account">
+        <tr lang="ru"> Не удалось установить выбранный план для вашей учетной записи </tr>
+      </string>
+      <string key="User not logged in">
+        <tr lang="ru"> Пользователь не залогинен </tr>
+      </string>
+      <string key="Notify on Listing Activation">
+        <tr lang="ru"> Уведомлять об активации объявлений </tr>
+      </string>
+      <string key="Notify on Listing Expiration">
+        <tr lang="ru"> Уведомлять об истечении срока действия объявлений </tr>
+      </string>
+      <string key="Notify on Contract Expiration">
+        <tr lang="ru"> Уведомлять об истечении подписки </tr>
+      </string>
+      <string key="Watch a video">
+        <tr lang="ru"> Просмотр видео </tr>
+      </string>
+      <string key="Send">
+        <tr lang="ru"> Отправить </tr>
+      </string>
+      <string key="Save">
+        <tr lang="ru"> Сохранить </tr>
+      </string>
+      <string key="Add">
+        <tr lang="ru"> Добавить </tr>
+      </string>
+      <string key="Add Pictures">
+        <tr lang="ru"> Добавить фото </tr>
+      </string>
+      <string key="Next &gt;&gt;">
+        <tr lang="ru"> След. &gt;&gt; </tr>
+      </string>
+      <string key="Deactivate">
+        <tr lang="ru"> Деактивировать </tr>
+      </string>
+      <string key="Filter">
+        <tr lang="ru"> Фильтровать </tr>
+      </string>
+      <string key="Find">
+        <tr lang="ru"> Поиск </tr>
+      </string>
+      <string key="Go search">
+        <tr lang="ru"> Искать </tr>
+      </string>
+      <string key="Search">
+        <tr lang="ru"> Поиск </tr>
+      </string>
+      <string key="Submit">
+        <tr lang="ru"> Отправить </tr>
+      </string>
+      <string key="Vote">
+        <tr lang="ru"> Голосовать </tr>
+      </string>
+      <string key="Login">
+        <tr lang="ru"> Войти </tr>
+      </string>
+      <string key="Subscription">
+        <tr lang="ru"> Подписка </tr>
+      </string>
+      <string key="Account Activation">
+        <tr lang="ru"> Активация профиля </tr>
+      </string>
+      <string key="Fields marked &lt;font color=&quot;red&quot;&gt;*&lt;/font&gt; are required">
+        <tr lang="ru"> &lt;font color=&quot;red&quot;&gt;*&lt;/font&gt; - обязательные поля </tr>
+      </string>
+      <string key="file not specified">
+        <tr lang="ru"> не указан файл </tr>
+      </string>
+      <string key="not supported image format">
+        <tr lang="ru"> данный формат не поддерживается </tr>
+      </string>
+      <string key="limit exceeded">
+        <tr lang="ru"> Ваш лимит исчерпан </tr>
+      </string>
+      <string key="is empty">
+        <tr lang="ru"> пустой </tr>
+      </string>
+      <string key="this value is already used in the system">
+        <tr lang="ru"> это значение уже используется в системе </tr>
+      </string>
+      <string key="not confirmed">
+        <tr lang="ru"> не подтверждено </tr>
+      </string>
+      <string key="length is exceeded">
+        <tr lang="ru"> превышенна длина </tr>
+      </string>
+      <string key="is not an integer value">
+        <tr lang="ru"> это не целое число </tr>
+      </string>
+      <string key="value is out of range">
+        <tr lang="ru"> значение за пределами возможных значений </tr>
+      </string>
+      <string key="is not an float value">
+        <tr lang="ru"> указанное значение не является числом </tr>
+      </string>
+      <string key="is unknown">
+        <tr lang="ru"> неизвестно </tr>
+      </string>
+      <string key="is not valid">
+        <tr lang="ru"> не действительно </tr>
+      </string>
+      <string key="this file is not in a supported video file format">
+        <tr lang="ru"> формат видео файла не поддерживается </tr>
+      </string>
+      <string key="filesize exceeds the quota">
+        <tr lang="ru"> размер файла превышает допустимое значение </tr>
+      </string>
+      <string key="within $radius $radius_search_unit of $location">
+        <tr lang="ru"> within $radius $radius_search_unit of $location </tr>
+      </string>
+      <string key="miles">
+        <tr lang="ru"> миль </tr>
+      </string>
+      <string key="Listings by $firstName $lastName">
+        <tr lang="ru"> Объявления пользователя $firstName $lastName </tr>
+      </string>
+      <string key="Account activated. Please &lt;a href=&quot;$url&quot;&gt;login&lt;/a&gt;.">
+        <tr lang="ru"> Профиль активирован. Пожалуйста &lt;a href=&quot;$url&quot;&gt;войдите в систему&lt;/a&gt;. </tr>
+      </string>
+      <string key="Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for $item_name&lt;br /&gt;Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you!">
+        <tr lang="ru"> Уважаемый $username,&lt;br /&gt;&lt;br /&gt; Вам необходимо выслать нам сумму в размере $amount за $item_name.&lt;br /&gt; Номер вашей транзакции $payment_id.&lt;br \&gt;&lt;br \&gt; Спасибо </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for &lt;b&gt;$product_info_name&lt;/b&gt;.">
+        <tr lang="ru"> Вам необходимо произвести платеж в размере $currency_sign $product_info_price за &lt;b&gt;$product_info_name&lt;/b&gt;. </tr>
+      </string>
+      <string key="E-mail">
+        <tr lang="ru"> E-mail </tr>
+      </string>
+      <string key="Fax">
+        <tr lang="ru"> Факс </tr>
+      </string>
+      <string key="Website">
+        <tr lang="ru"> Веб сайт </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="ru"> Телефон </tr>
+      </string>
+      <string key="ID">
+        <tr lang="ru"> № </tr>
+      </string>
+      <string key="Period">
+        <tr lang="ru"> Период </tr>
+      </string>
+      <string key="State">
+        <tr lang="ru"> Статус </tr>
+      </string>
+      <string key="from">
+        <tr lang="ru"> от </tr>
+      </string>
+      <string key="to">
+        <tr lang="ru"> до </tr>
+      </string>
+      <string key="Date">
+        <tr lang="ru"> Дата </tr>
+      </string>
+      <string key="Amount">
+        <tr lang="ru"> Сумма </tr>
+      </string>
+      <string key="Complete">
+        <tr lang="ru"> Завершить </tr>
+      </string>
+      <string key="Upgrade to Featured">
+        <tr lang="ru"> Установить статус &quot;Горячие&quot; </tr>
+      </string>
+      <string key="Please select the appropriate user group">
+        <tr lang="ru"> Выберите подходящую для Вас группу пользователя </tr>
+      </string>
+      <string key="Dear customer!">
+        <tr lang="ru"> Уважаемый клиент, </tr>
+      </string>
+      <string key="Please choose from the following payment methods:">
+        <tr lang="ru"> Пожалуйста, выберите удобный для Вас способ оплаты: </tr>
+      </string>
+      <string key="Vehicle Option">
+        <tr lang="ru"> Опции Автомобиля </tr>
+      </string>
+      <string key="Safety">
+        <tr lang="ru"> Безопасность </tr>
+      </string>
+      <string key="Comfort">
+        <tr lang="ru"> Удобство </tr>
+      </string>
+      <string key="Seats">
+        <tr lang="ru"> Сиденья </tr>
+      </string>
+      <string key="Other Features">
+        <tr lang="ru"> Другие </tr>
+      </string>
+      <string key="Sound System">
+        <tr lang="ru"> Звуковая система </tr>
+      </string>
+      <string key="Windows">
+        <tr lang="ru"> Окна </tr>
+      </string>
+      <string key="Sort by">
+        <tr lang="ru"> Сортировать по </tr>
+      </string>
+      <string key="Actions with Selected">
+        <tr lang="ru"> Действие с выделенными </tr>
+      </string>
+      <string key="Number of listings per page">
+        <tr lang="ru"> Количество объявлений на странице </tr>
+      </string>
+      <string key="Description">
+        <tr lang="ru"> Описание </tr>
+      </string>
+      <string key="List of Categories">
+        <tr lang="ru"> Список категорий </tr>
+      </string>
+      <string key="No listings found.">
+        <tr lang="ru"> По этому запросу объявлений не найдено </tr>
+      </string>
+      <string key="Browse by Body Style">
+        <tr lang="ru"> Обзор по типу кузова </tr>
+      </string>
+      <string key="Activate Listing">
+        <tr lang="ru"> Активировать </tr>
+      </string>
+      <string key="Are you sure?">
+        <tr lang="ru"> Вы уверены? </tr>
+      </string>
+      <string key="Resumes by $firstName $lastName">
+        <tr lang="ru"> Резюме $firstName $lastName </tr>
+      </string>
+      <string key="Jobs by $companyName">
+        <tr lang="ru"> Вакансии от $companyName </tr>
+      </string>
+      <string key="Results: $listings_number Resumes">
+        <tr lang="ru"> Результат: $listings_number резюме </tr>
+      </string>
+      <string key="Results: $listings_number Jobs">
+        <tr lang="ru"> Результат: $listings_number вакансий </tr>
+      </string>
+      <string key="Rating">
+        <tr lang="ru"> Рейтинг </tr>
+      </string>
+      <string key="Activate">
+        <tr lang="ru"> Активировать </tr>
+      </string>
+      <string key="Edit">
+        <tr lang="ru"> Редактировать </tr>
+      </string>
+      <string key="Rate this resume">
+        <tr lang="ru"> Оценить резюме </tr>
+      </string>
+      <string key="View resume details">
+        <tr lang="ru"> Просмотреть детали резюме </tr>
+      </string>
+      <string key="All resumes by this user">
+        <tr lang="ru"> Все резюме данного пользователя </tr>
+      </string>
+      <string key="Rate This Resume">
+        <tr lang="ru"> Оценить резюме </tr>
+      </string>
+      <string key="View Saved Resumes">
+        <tr lang="ru"> Посмотреть сохраненные резюме </tr>
+      </string>
+      <string key="Save this Resume">
+        <tr lang="ru"> Сохранить резюме </tr>
+      </string>
+      <string key="You don&apos;t have permissions to access this page.">
+        <tr lang="ru"> У Вас нет прав для входа на данную страницу </tr>
+      </string>
+      <string key="Resume search is accessible only for subscribed Employers.">
+        <tr lang="ru"> Поиск резюме доступен только для зарегистрированных работодателей </tr>
+      </string>
+      <string key="Wire Transfer">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Contact">
+        <tr lang="ru"> Контакты </tr>
+      </string>
+      <string key="Subscriptions">
+        <tr lang="ru"> Подписка </tr>
+      </string>
+      <string key="Logout">
+        <tr lang="ru"> Выход </tr>
+      </string>
+      <string key="Video">
+        <tr lang="ru"> Видео </tr>
+      </string>
+      <string key="Find Jobs">
+        <tr lang="ru"> Поиск работы </tr>
+      </string>
+      <string key="Add your comment">
+        <tr lang="ru"> Добавить комментарий </tr>
+      </string>
+      <string key="Author">
+        <tr lang="ru"> Автор </tr>
+      </string>
+      <string key="Cannot send your message">
+        <tr lang="ru"> Невозможно отправить Ваше сообщение </tr>
+      </string>
+      <string key="Post a job">
+        <tr lang="ru"> Добавить вакансию </tr>
+      </string>
+      <string key="Please, wait ...">
+        <tr lang="ru"> Пожалуйста, подождите ... </tr>
+      </string>
+      <string key="Post resumes">
+        <tr lang="ru"> Добавить резюме </tr>
+      </string>
+      <string key="Search Resumes">
+        <tr lang="ru"> Поиск резюме </tr>
+      </string>
+      <string key="Search resumes">
+        <tr lang="ru"> Поиск резюме </tr>
+      </string>
+      <string key="image format is not supported">
+        <tr lang="ru"> Неправильный формат рисунка </tr>
+      </string>
+      <string key="Post Resumes">
+        <tr lang="ru"> Добавить резюме </tr>
+      </string>
+      <string key="Post Jobs">
+        <tr lang="ru"> Добавить вакансию </tr>
+      </string>
+      <string key="Employers">
+        <tr lang="ru"> Работодатель </tr>
+      </string>
+      <string key="Job Seekers">
+        <tr lang="ru"> Соискатель </tr>
+      </string>
+      <string key="Find jobs">
+        <tr lang="ru"> Поиск работы </tr>
+      </string>
+      <string key="Save this search">
+        <tr lang="ru"> Сохранить поиск </tr>
+      </string>
+      <string key="Location">
+        <tr lang="ru"> Месторасположение </tr>
+      </string>
+      <string key="You have successfully changed your profile info!">
+        <tr lang="ru"> Ваш профиль успешно изменен </tr>
+      </string>
+      <string key="Modify search">
+        <tr lang="ru"> Изменить поиск </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we\&apos;ll send you a link to a page where you can change your password">
+        <tr lang="ru"> Пожалуйста, введите Ваш логин в поле ниже - и мы вышлем Вам ссылку для восстановления пароля на e-mail, указанный при регистрации </tr>
+      </string>
+      <string key="All jobs by this company">
+        <tr lang="ru"> Все вакансии данной компании </tr>
+      </string>
+      <string key="Job Search">
+        <tr lang="ru"> Поиск работы </tr>
+      </string>
+      <string key="Latest Jobs">
+        <tr lang="ru"> Последние вакансии </tr>
+      </string>
+      <string key="My Account">
+        <tr lang="ru"> Мой кабинет </tr>
+      </string>
+      <string key="Jobs by Category">
+        <tr lang="ru"> Вакансии по разделам </tr>
+      </string>
+      <string key="Jobs by City">
+        <tr lang="ru"> Работа по городам </tr>
+      </string>
+      <string key="My Jobs">
+        <tr lang="ru"> Мои вакансии </tr>
+      </string>
+      <string key="Saved jobs">
+        <tr lang="ru"> Сохраненные вакансии </tr>
+      </string>
+      <string key="No logged in user found">
+        <tr lang="ru"> Указанный пользователь не найден </tr>
+      </string>
+      <string key="Results: {$listings_number} Jobs">
+        <tr lang="ru"> Результат: {$listings_number} вакансий </tr>
+      </string>
+      <string key="View job details">
+        <tr lang="ru"> Просмотреть детали </tr>
+      </string>
+      <string key="Your friend\&apos;s name">
+        <tr lang="ru"> Имя друга </tr>
+      </string>
+      <string key="Your friend\&apos;s e-mail address">
+        <tr lang="ru"> E-mail друга </tr>
+      </string>
+      <string key="Featured Jobs">
+        <tr lang="ru"> Горячие вакансии </tr>
+      </string>
+      <string key="You have successfully changed your membership plan">
+        <tr lang="ru"> Ваша подписка успешно изменена </tr>
+      </string>
+      <string key="Billing History">
+        <tr lang="ru"> История платежей </tr>
+      </string>
+      <string key="You do not have permissions to post  listings.">
+        <tr lang="ru"> У Вас недостаточно прав, чтобы добавить новое объявление </tr>
+      </string>
+      <string key="Rate this job">
+        <tr lang="ru"> Оценить </tr>
+      </string>
+      <string key="Please, Vote!">
+        <tr lang="ru"> Пожалуйста, проголосуйте! </tr>
+      </string>
+      <string key="Save this Job">
+        <tr lang="ru"> Сохранить вакансию </tr>
+      </string>
+      <string key="View Saved Jobs">
+        <tr lang="ru"> Просмотреть сохр. вакансии </tr>
+      </string>
+      <string key="View Map">
+        <tr lang="ru"> Посмотреть на карте </tr>
+      </string>
+      <string key="Apply now">
+        <tr lang="ru"> Подать заявку </tr>
+      </string>
+      <string key="View details">
+        <tr lang="ru"> Просмотр деталей </tr>
+      </string>
+      <string key="You\&apos;ve already voted">
+        <tr lang="ru"> Вы уже голосовали </tr>
+      </string>
+      <string key="You do not have permissions to post Resume listings.">
+        <tr lang="ru"> У Вас нет прав для размещения Резюме </tr>
+      </string>
+      <string key="Photos">
+        <tr lang="ru"> Фотографии </tr>
+      </string>
+      <string key="unlimited">
+        <tr lang="ru"> без ограничений </tr>
+      </string>
+      <string key="Rate This Job">
+        <tr lang="ru"> Оценить </tr>
+      </string>
+      <string key="Your comment (will be send with the recomendation)">
+        <tr lang="ru"> Ваше сообщение </tr>
+      </string>
+      <string key="Please specify a valid email address.">
+        <tr lang="ru"> Пожалуйста, введите правильный e-mail адрес </tr>
+      </string>
+      <string key="Please provide your full name.">
+        <tr lang="ru"> Пожалуйста, введите Ваше полное имя </tr>
+      </string>
+      <string key="My Resumes">
+        <tr lang="ru"> Мои резюме </tr>
+      </string>
+      <string key="Jobs by {$companyName}">
+        <tr lang="ru"> Вакансии {$companyName} </tr>
+      </string>
+      <string key="Please include your comments.">
+        <tr lang="ru"> Пожалуйста, введите Ваш комментарий </tr>
+      </string>
+      <string key="Company Info">
+        <tr lang="ru"> О компании </tr>
+      </string>
+      <string key="Attach your resume">
+        <tr lang="ru"> Прикрепить Ваше резюме </tr>
+      </string>
+      <string key="Results: {$listings_number} Resumes">
+        <tr lang="ru"> Результат: {$listings_number} резюме </tr>
+      </string>
+      <string key="Saved Jobs">
+        <tr lang="ru"> Сохраненные вакансии </tr>
+      </string>
+      <string key="You do not have permissions to post Job listings.">
+        <tr lang="ru"> У Вас нет прав для размещения объявлений о работе </tr>
+      </string>
+      <string key="Browse by city">
+        <tr lang="ru"> Обзор по городам </tr>
+      </string>
+      <string key="Browse by category">
+        <tr lang="ru"> Обзор по разделам </tr>
+      </string>
+      <string key="Saved searches">
+        <tr lang="ru"> Сохраненные поиски </tr>
+      </string>
+      <string key="User Info">
+        <tr lang="ru"> О Пользователе </tr>
+      </string>
+      <string key="Number of jobs per page">
+        <tr lang="ru"> Кол-во вакансий на странице </tr>
+      </string>
+      <string key="Number of resumes per page">
+        <tr lang="ru"> Кол-во резюме на странице </tr>
+      </string>
+      <string key="could not convert video file">
+        <tr lang="ru"> невозможно конвертировать видео файл </tr>
+      </string>
+      <string key="Job Alerts">
+        <tr lang="ru"> Оповещение о работе </tr>
+      </string>
+      <string key="Jobs Search Results">
+        <tr lang="ru"> Результаты поиска работ </tr>
+      </string>
+      <string key="Contact Info">
+        <tr lang="ru"> Контакты </tr>
+      </string>
+      <string key="home">
+        <tr lang="ru"> главная </tr>
+      </string>
+      <string key="powered by">
+        <tr lang="ru"> powered by </tr>
+      </string>
+      <string key="User login form">
+        <tr lang="ru"> User login form </tr>
+      </string>
+      <string key="Search Results">
+        <tr lang="ru"> Search Results </tr>
+      </string>
+      <string key="Resume Search Results">
+        <tr lang="ru"> Результат поиска резюме </tr>
+      </string>
+      <string key="Saved resumes">
+        <tr lang="ru"> Сохраненные резюме </tr>
+      </string>
+      <string key="Edit Profile">
+        <tr lang="ru"> Редактировать профиль </tr>
+      </string>
+      <string key="Payments">
+        <tr lang="ru"> История платежей </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="ru"> Соискатель </tr>
+      </string>
+      <string key="Emploeyrs">
+        <tr lang="ru"> Работодатель </tr>
+      </string>
+      <string key="Please log in to access this page. If you do not have an account, please">
+        <tr lang="ru"> Пожалуйста, введите Ваш логин и пароль для авторизации. Если у Вас нет своего аккаунта, пожалуйста </tr>
+      </string>
+      <string key="Register.">
+        <tr lang="ru"> Зарегистрируйтесь </tr>
+      </string>
+      <string key="Anonymous User Info">
+        <tr lang="ru"> Информация Анонимного Пользователя </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for">
+        <tr lang="ru"> Please make a payment in the amount of $currency_sign $product_info_price for </tr>
+      </string>
+      <string key="Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for">
+        <tr lang="ru"> Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for </tr>
+      </string>
+      <string key="Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you!">
+        <tr lang="ru"> Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you! </tr>
+      </string>
+      <string key="Featured Companies">
+        <tr lang="ru"> Работа в компаниях </tr>
+      </string>
+      <string key="Get resumes by email">
+        <tr lang="ru"> Получать резюме на email </tr>
+      </string>
+      <string key="Get jobs by email">
+        <tr lang="ru"> Получать работы на email </tr>
+      </string>
+      <string key="Please use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="ru"> Пожалуйста используйте кнопку &quot;Control&quot; для выбора двух или более опций </tr>
+      </string>
+      <string key="Confirm E-mail">
+        <tr lang="ru"> Подтвердите e-mail </tr>
+      </string>
+      <string key="Reload Image">
+        <tr lang="ru"> Обновить картинку </tr>
+      </string>
+      <string key="Accept terms of use">
+        <tr lang="ru"> Принимаю условия пользовательского соглашения </tr>
+      </string>
+      <string key="Read terms of use">
+        <tr lang="ru"> Прочитал условия пользовательского соглашения </tr>
+      </string>
+      <string key="Resume Alerts">
+        <tr lang="ru"> Оповещения о резюме </tr>
+      </string>
+      <string key="Application Tracking">
+        <tr lang="ru"> Полученные заявки </tr>
+      </string>
+      <string key="Resume Alert Name">
+        <tr lang="ru"> Название оповещения </tr>
+      </string>
+      <string key="Add new resume alert">
+        <tr lang="ru"> Добавить новое оповещение </tr>
+      </string>
+      <string key="Disable">
+        <tr lang="ru"> Отключить </tr>
+      </string>
+      <string key="Preview Search Results">
+        <tr lang="ru"> Предварительный просмотр результатов поиска </tr>
+      </string>
+      <string key="Add resume alert">
+        <tr lang="ru"> Добавить оповещения о резюме </tr>
+      </string>
+      <string key="Alert Name">
+        <tr lang="ru"> Имя оповещения </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="ru"> Заголовок </tr>
+      </string>
+      <string key="Date Applied">
+        <tr lang="ru"> Дата обращения </tr>
+      </string>
+      <string key="Status">
+        <tr lang="ru"> Статус </tr>
+      </string>
+      <string key="Attached Resume">
+        <tr lang="ru"> Прикрепленный Файл </tr>
+      </string>
+      <string key="Applicant’s Name">
+        <tr lang="ru"> Имя кандидата </tr>
+      </string>
+      <string key="User comments">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="View Attached File">
+        <tr lang="ru"> Просмотреть файл </tr>
+      </string>
+      <string key="Save this Search / Job Alert">
+        <tr lang="ru"> Сохранить поиск/Оповещение о работе </tr>
+      </string>
+      <string key="Company Profile">
+        <tr lang="ru"> Профиль компании </tr>
+      </string>
+      <string key="You have no listings now. Click">
+        <tr lang="ru"> Ваш список пуст, нажмите </tr>
+      </string>
+      <string key="here">
+        <tr lang="ru"> здесь </tr>
+      </string>
+      <string key="to add a new listing.">
+        <tr lang="ru"> , чтобы добавить объявление </tr>
+      </string>
+      <string key="Fields marked with an asterisk (">
+        <tr lang="ru"> Поля со знаком ( </tr>
+      </string>
+      <string key=") are mandatory">
+        <tr lang="ru"> ) обязательны к заполнению </tr>
+      </string>
+      <string key="Please log in to place a listing. If you do not have an account, please">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="kilometers">
+        <tr lang="ru"> kilometers </tr>
+      </string>
+      <string key="Apply to job">
+        <tr lang="ru"> Подать заявку на работу </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="ru"> Введите код с картинки </tr>
+      </string>
+      <string key="Comments">
+        <tr lang="ru"> Коментарии </tr>
+      </string>
+      <string key="Please">
+        <tr lang="ru"> Пожалуйста </tr>
+      </string>
+      <string key="sign in ">
+        <tr lang="ru"> авторизируйтесь </tr>
+      </string>
+      <string key="to add comments!">
+        <tr lang="ru"> чтобы оставить комментарий! </tr>
+      </string>
+      <string key="You applied successfully">
+        <tr lang="ru"> Вы успешно подали заявку </tr>
+      </string>
+      <string key="Please log in to place a new posting. If you do not have an account, please">
+        <tr lang="ru"> Пожалуйста, авторизируйтесь, что бы добавить новое объявление. Если у вас нет аккаунта, пожалуйста </tr>
+      </string>
+      <string key="Search by Company">
+        <tr lang="ru"> Поиск по компаниям </tr>
+      </string>
+      <string key="Clone">
+        <tr lang="ru"> Клонировать </tr>
+      </string>
+      <string key="My Job Preview">
+        <tr lang="ru"> Просмотр моей работы </tr>
+      </string>
+      <string key="Click to select">
+        <tr lang="ru"> Нажмите для выбора </tr>
+      </string>
+      <string key="Redirect to this URL">
+        <tr lang="ru"> Перенаправить на следующий URL </tr>
+      </string>
+      <string key="Use the following format:">
+        <tr lang="ru"> Используйте данный формат: </tr>
+      </string>
+      <string key="Your changes were successfully saved">
+        <tr lang="ru"> Ваши изменения успешно сохранены </tr>
+      </string>
+      <string key="Manage Pictures">
+        <tr lang="ru"> Управление картинками </tr>
+      </string>
+      <string key="Clone this job posting">
+        <tr lang="ru"> Клонировать данную работу </tr>
+      </string>
+      <string key="Clone Job">
+        <tr lang="ru"> Клонировать работу </tr>
+      </string>
+      <string key="Company">
+        <tr lang="ru"> Компания </tr>
+      </string>
+      <string key="My Applications">
+        <tr lang="ru"> Мои заявления </tr>
+      </string>
+      <string key="Select your resume">
+        <tr lang="ru"> Выберите Ваше резюме </tr>
+      </string>
+      <string key="Enter Job Information">
+        <tr lang="ru"> Введите информацию о работе. </tr>
+      </string>
+      <string key="My Postings">
+        <tr lang="ru"> Мои объявления </tr>
+      </string>
+      <string key="Private messages">
+        <tr lang="ru"> Личные сообщения </tr>
+      </string>
+      <string key="Inbox">
+        <tr lang="ru"> Входящие </tr>
+      </string>
+      <string key="Outbox">
+        <tr lang="ru"> Исходящие </tr>
+      </string>
+      <string key="Edit Saved Search">
+        <tr lang="ru"> Редактировать сохраненные поиски </tr>
+      </string>
+      <string key="Saved Searches Name">
+        <tr lang="ru"> Название сохраненного поиска </tr>
+      </string>
+      <string key="Notify on My Jobs Expiration">
+        <tr lang="ru"> Уведомить об истечении срока действия моих работ </tr>
+      </string>
+      <string key="Notify on My Contract Expiration">
+        <tr lang="ru"> Уведомить об истечении срока действия моего контракта </tr>
+      </string>
+      <string key="Notify on new private message">
+        <tr lang="ru"> Уведомить о получении новых личных сообщений </tr>
+      </string>
+      <string key="Cover Letter">
+        <tr lang="ru"> Сопроводительное письмо </tr>
+      </string>
+      <string key="My Billings">
+        <tr lang="ru"> Мои платежи </tr>
+      </string>
+      <string key="Compose Message">
+        <tr lang="ru"> Написать сообщение </tr>
+      </string>
+      <string key="From">
+        <tr lang="ru"> Отправитель </tr>
+      </string>
+      <string key="Subject">
+        <tr lang="ru"> Тема </tr>
+      </string>
+      <string key="To">
+        <tr lang="ru"> Получатель </tr>
+      </string>
+      <string key="Message to">
+        <tr lang="ru"> Получатель </tr>
+      </string>
+      <string key="Message">
+        <tr lang="ru"> Сообщение </tr>
+      </string>
+      <string key="Save to outbox">
+        <tr lang="ru"> Сохранить в исходящих </tr>
+      </string>
+      <string key="Send private message">
+        <tr lang="ru"> Отправить личное сообщение </tr>
+      </string>
+      <string key="You&apos;re not allowed to open this page">
+        <tr lang="ru"> У вас нет прав на просмотр этой страницы </tr>
+      </string>
+      <string key="Send Private Message">
+        <tr lang="ru"> Отправить личное сообщение </tr>
+      </string>
+      <string key="Save this Search / Resume Alert">
+        <tr lang="ru"> Сохранить это поиск/ оповещение о резюме </tr>
+      </string>
+      <string key="Resume has been saved">
+        <tr lang="ru"> Резюме сохранено </tr>
+      </string>
+      <string key="Contact User">
+        <tr lang="ru"> Написать пользователю </tr>
+      </string>
+      <string key="Send applications online via web site">
+        <tr lang="ru"> Отправить заявление через сайт </tr>
+      </string>
+      <string key="Notify on My Resumes Approve Or Reject">
+        <tr lang="ru"> Уведомить об отклонении или одобрении моих резюме </tr>
+      </string>
+      <string key="Notify on My Resumes Expiration">
+        <tr lang="ru"> Уведомить об истечении срока действия моих резюме </tr>
+      </string>
+      <string key="Job Alert Name">
+        <tr lang="ru"> Название оповещения </tr>
+      </string>
+      <string key="Add new job alert">
+        <tr lang="ru"> Добавить новое оповещение </tr>
+      </string>
+      <string key="Jobs Applied">
+        <tr lang="ru"> Заявления </tr>
+      </string>
+      <string key="Enter Your Resume Information">
+        <tr lang="ru"> Введите информацию о вашем резюме </tr>
+      </string>
+      <string key="Company name">
+        <tr lang="ru"> Имя компании </tr>
+      </string>
+      <string key="Company Search Results">
+        <tr lang="ru"> Результаты поиска компаний </tr>
+      </string>
+      <string key="Results: $usersCount Company">
+        <tr lang="ru"> Результат: $usersCount Компаний </tr>
+      </string>
+      <string key="Number of company per page">
+        <tr lang="ru"> Кол-во компаний на странице </tr>
+      </string>
+      <string key="Mark as Read">
+        <tr lang="ru"> Пометить как прочитанное </tr>
+      </string>
+      <string key="Message from">
+        <tr lang="ru"> Сообщение от </tr>
+      </string>
+      <string key="Read Private Message">
+        <tr lang="ru"> Просмотр личного сообщения </tr>
+      </string>
+      <string key="Reply">
+        <tr lang="ru"> Ответить </tr>
+      </string>
+      <string key="Approve selected">
+        <tr lang="ru"> Одобрить выбранное </tr>
+      </string>
+      <string key="Reject selected">
+        <tr lang="ru"> Отклонить выбранные </tr>
+      </string>
+      <string key="Pending">
+        <tr lang="ru"> В Ожидании </tr>
+      </string>
+      <string key="Approved">
+        <tr lang="ru"> Одобрено </tr>
+      </string>
+      <string key="Rejected">
+        <tr lang="ru"> Отказано </tr>
+      </string>
+      <string key="Select Job Posting">
+        <tr lang="ru"> Выбрать объявление о работе </tr>
+      </string>
+      <string key="All Jobs">
+        <tr lang="ru"> Все работы </tr>
+      </string>
+      <string key="Delete profile">
+        <tr lang="ru"> Удалить профиль </tr>
+      </string>
+      <string key="Back">
+        <tr lang="ru"> Назад </tr>
+      </string>
+      <string key="Enable">
+        <tr lang="ru"> Включить </tr>
+      </string>
+      <string key="E-mail frequency">
+        <tr lang="ru"> Периодичность рассылки </tr>
+      </string>
+      <string key="You have">
+        <tr lang="ru"> У Вас осталось </tr>
+      </string>
+      <string key="jobs left to post out of">
+        <tr lang="ru"> вакансий из </tr>
+      </string>
+      <string key="resumes left to post out of">
+        <tr lang="ru"> резюме из </tr>
+      </string>
+      <string key="originally available">
+        <tr lang="ru"> возможных </tr>
+      </string>
+      <string key="You&apos;re currently subscribed to">
+        <tr lang="ru"> Сейчас Вы подписаны на </tr>
+      </string>
+      <string key="plan.">
+        <tr lang="ru"> план. </tr>
+      </string>
+      <string key="Subscription date">
+        <tr lang="ru"> Дата подписки </tr>
+      </string>
+      <string key="Subscription expiration date">
+        <tr lang="ru"> Дата истечения подписки </tr>
+      </string>
+      <string key="s left to post out of">
+        <tr lang="ru"> &amp;nbsp;из </tr>
+      </string>
+      <string key="To change your current subscription please chose new plan below.">
+        <tr lang="ru"> Чтобы изменить свою подписку, пожалуйста выберите новый план ниже. </tr>
+      </string>
+      <string key="job">
+        <tr lang="ru"> вакансий </tr>
+      </string>
+      <string key="Not Available Anymore">
+        <tr lang="ru"> Недоступно </tr>
+      </string>
+      <string key="Search job title only">
+        <tr lang="ru"> Искать только в заголовках работ </tr>
+      </string>
+      <string key="Edit notes">
+        <tr lang="ru"> Редактировать заметку </tr>
+      </string>
+      <string key="Add notes">
+        <tr lang="ru"> Добавить заметку </tr>
+      </string>
+      <string key="Close">
+        <tr lang="ru"> Закрыть </tr>
+      </string>
+      <string key="My notes">
+        <tr lang="ru"> Мои заметки </tr>
+      </string>
+      <string key="Search resume title only">
+        <tr lang="ru"> Искать только в заголовках резюме </tr>
+      </string>
+      <string key="Search by title">
+        <tr lang="ru"> Искать только в заголовках </tr>
+      </string>
+      <string key="Match exact phrase">
+        <tr lang="ru"> Точное совпадение запроса </tr>
+      </string>
+      <string key="Match all words">
+        <tr lang="ru"> Совпадение всех слов </tr>
+      </string>
+      <string key="Match any words">
+        <tr lang="ru"> Совпадение любых слов </tr>
+      </string>
+      <string key="Boolean">
+        <tr lang="ru"> Логический поиск </tr>
+      </string>
+      <string key="   Boolean search description">
+        <tr lang="ru"> Описание логического поиска </tr>
+      </string>
+      <string key="Please choose new subscription plan">
+        <tr lang="ru"> Пожалуйста, выберите новую подписку </tr>
+      </string>
+      <string key="You&apos;ve reached the limit of number of listings allowed by your plan">
+        <tr lang="ru"> Вы достигли лимита количества объявлений на подписанном Вами плане </tr>
+      </string>
+      <string key="Boolean search descripion">
+        <tr lang="ru"> Описание логического поиска </tr>
+      </string>
+      <string key="Search title only">
+        <tr lang="ru"> Искать только в заголовках </tr>
+      </string>
+      <string key="Terms of use">
+        <tr lang="ru"> Пользовательское соглашение </tr>
+      </string>
+      <string key="Test URL">
+        <tr lang="ru"> Проверка URL </tr>
+      </string>
+      <string key="Go Search">
+        <tr lang="ru"> Искать </tr>
+      </string>
+      <string key="Applicant’s resume">
+        <tr lang="ru"> Резюме кандидата </tr>
+      </string>
+      <string key="Total">
+        <tr lang="ru"> Всего </tr>
+      </string>
+      <string key="Boolean search description">
+        <tr lang="ru"> Описание логического поиска </tr>
+      </string>
+      <string key="Employers List">
+        <tr lang="ru"> Список Компаний </tr>
+      </string>
+      <string key="Selected Emloyers">
+        <tr lang="ru"> Выбранные Компании </tr>
+      </string>
+      <string key="* Use CTRL key to select two or more employers">
+        <tr lang="ru"> * Пожалуйста используйте кнопку &quot;Control&quot; для выбора двух или более опций. </tr>
+      </string>
+      <string key="Loading">
+        <tr lang="ru"> Загрузка </tr>
+      </string>
+      <string key="Currency">
+        <tr lang="ru"> Валюты </tr>
+      </string>
+      <string key="Deselect all">
+        <tr lang="ru"> Отменить выделенное </tr>
+      </string>
+      <string key="You can not subscribe to this plan twice">
+        <tr lang="ru"> Вы не можете подписаться на этот план дважды. Вы уже подписаны на этот план. </tr>
+      </string>
+      <string key="Posted Within">
+        <tr lang="ru"> Выводить объявления за </tr>
+      </string>
+      <string key="No avaiable subscriptions">
+        <tr lang="ru"> Нет доступных подписок </tr>
+      </string>
+      <string key="Please choose exl or csv file">
+        <tr lang="ru"> Пожалуйста выберите exl или csv файл </tr>
+      </string>
+      <string key="Please, enter your email in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="ru"> Пожалуйста введите свой адрес электронной почты и мы вышлем вам ссылку, где вы сможете поменять свой пароль </tr>
+      </string>
+      <string key="You specified wrong email">
+        <tr lang="ru"> Вы указали не верный email </tr>
+      </string>
+      <string key="Your username is">
+        <tr lang="ru"> Ваш username </tr>
+      </string>
+      <string key="Recurring">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="You are going to sign up for a recurring Subscription. Once in $product_info_subscription_period days period a charge in the amount of $product_info_price will automatically be placed on your credit card to renew your subscription.">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Your recurring subscription to the &quot;$cancelMembershipPlanName&quot; plan has been canceled.">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Your payment was successfully completed. Recurring Subscription activation may take some time. Once subscription is activated it will appear in the table below.">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Notify on My Jobs Activation">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Notify on My Resumes Activation">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="jobs">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="resumes">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="currently online">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Post jobs">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Blog Posts">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="You are currently logged in as">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="News">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Sub Accounts">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Saved Resumes">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Screening Questionnaires">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Bulk job import from exl/csv file">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Current Search">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Refine Results">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="show brief">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="show detailed">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Post Job">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Send applications to this e-mail">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Score">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Not passed">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Actions With Selected">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Create New Questionnaire">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Send Auto-Reply email to candidates whose score is">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Question">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Answer Type">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Questions">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Edit Questionnaire">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Edit Questions">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Order">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Name">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Required">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="My account">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="No">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Yes">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Add Answer">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Username">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Sub-user Profile">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Permissions">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Add new listings">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Manage listings and applications of other sub users">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="View and update subscription">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="years">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Save Resume Alert">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Data Import">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Please review the file examples below and ascertain that your file is up to sample">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Job import EXL file example">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Job import CSV file example">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="View All News">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="read more">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Text">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Yes/No">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="List of answers with multiple choice">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="List of answers with single choice">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Errors">
+        <tr lang="ru"> Ошибки </tr>
+      </string>
+      <string key="Order Information">
+        <tr lang="ru"> Информация о платеже </tr>
+      </string>
+      <string key="Invoice Number">
+        <tr lang="ru"> Номер платежа </tr>
+      </string>
+      <string key="Credit Card Information">
+        <tr lang="ru"> Информация о кредитной карте </tr>
+      </string>
+      <string key="Card Number">
+        <tr lang="ru"> Номер кредитной карты </tr>
+      </string>
+      <string key="enter number without spaces or dashes">
+        <tr lang="ru"> введите номер без пробелов и дефисов </tr>
+      </string>
+      <string key="Expiration Date">
+        <tr lang="ru"> Дата окончания </tr>
+      </string>
+      <string key="mmyy">
+        <tr lang="ru"> ммгг </tr>
+      </string>
+      <string key="Billing Information">
+        <tr lang="ru"> Информация о платеже </tr>
+      </string>
+      <string key="Reset">
+        <tr lang="ru"> Сброс </tr>
+      </string>
+      <string key="Anonymous User">
+        <tr lang="ru"> Анонимный пользователь </tr>
+      </string>
+      <string key="News Categories">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Powered by">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Sitemap">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="message">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Notify on My Subscriptions Expiration">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Notify on New Private Messages">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Notify on My Subscriptions Activation">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Remind about My Subscriptions expiration">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Remind about My Listings expiration">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Days before">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Subscription name">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Subscription expiration / Renewal Date">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Never Expire">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Free">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Save Job Alert">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Flag This Job">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="1. General Information">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="2. Education">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Fill in the fields below to provide Employers with a general information about yourself&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="3. Work Experience">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your education. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your work experience. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Listing Owner">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Post a Job">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Enter Security code">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Security code is not valid">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your Job below&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="View Questionaire">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="View Questionnaire">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Answer">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Sub-users">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Create New Account">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Edit sub-user">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Sub-user">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Sub-user registration">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Cancel">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Answers">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Questions of">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="No of jobs">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Flag This Resume">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Рowered by">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="There was an error while sending your application.">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Passed">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Your IP address was banned by site administrator. Please contact at $adminEmail for any questions.">
+        <tr lang="ru"> Ваш IP был заблокирован администратором. По всем вопросам обращайтесть по адресу $adminEmail </tr>
+      </string>
+      <string key="Please select a Package">
+        <tr lang="ru"> Пожалуйста выберите пакет </tr>
+      </string>
+      <string key="You are going to sign up for a recurring Subscription. Once in $product_info_subscription_period days period a charge in the amount of $currency_sign $product_info_price will automatically be placed on your credit card to renew your subscription.">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="This Resume is no longer available">
+        <tr lang="ru"> Это Резюме временно недоступно </tr>
+      </string>
+      <string key="This Job is no longer available">
+        <tr lang="ru"> Эта Работа временно недоступна </tr>
+      </string>
+      <string key="Cash Payment">
+        <tr lang="ru">  </tr>
+      </string>
+    </page>
+    <page key="Property_email_frequency">
+      <string key="Daily">
+        <tr lang="ru"> Ежедневно </tr>
+      </string>
+      <string key="Weekly">
+        <tr lang="ru"> Еженедельно </tr>
+      </string>
+      <string key="Monthly">
+        <tr lang="ru"> Ежемесячно </tr>
+      </string>
+    </page>
+    <page key="FormFieldCaptions">
+      <string key="status">
+        <tr lang="ru"> Статус </tr>
+      </string>
+      <string key="Make">
+        <tr lang="ru"> Марка </tr>
+      </string>
+      <string key="Model">
+        <tr lang="ru"> Модель </tr>
+      </string>
+      <string key="Search Within">
+        <tr lang="ru"> В радиусе </tr>
+      </string>
+      <string key="Body Style">
+        <tr lang="ru"> Тип кузова </tr>
+      </string>
+      <string key="of Zip">
+        <tr lang="ru"> от Zip </tr>
+      </string>
+      <string key="Username">
+        <tr lang="ru"> Имя пользователя </tr>
+      </string>
+      <string key="Password">
+        <tr lang="ru"> Пароль </tr>
+      </string>
+      <string key="Year">
+        <tr lang="ru"> Год </tr>
+      </string>
+      <string key="Price">
+        <tr lang="ru"> Цена </tr>
+      </string>
+      <string key="Mileage">
+        <tr lang="ru"> Пробег </tr>
+      </string>
+      <string key="Zip Code">
+        <tr lang="ru"> Индекс </tr>
+      </string>
+      <string key="Exterior Color">
+        <tr lang="ru"> Цвет кузова </tr>
+      </string>
+      <string key="Interior Color">
+        <tr lang="ru"> Цвет салона </tr>
+      </string>
+      <string key="Doors">
+        <tr lang="ru"> Кол. дверей </tr>
+      </string>
+      <string key="Engine">
+        <tr lang="ru"> Двигатель </tr>
+      </string>
+      <string key="Transmission">
+        <tr lang="ru"> Коробка передач </tr>
+      </string>
+      <string key="Fuel Type">
+        <tr lang="ru"> Тип топлива </tr>
+      </string>
+      <string key="Drive Type">
+        <tr lang="ru"> Тип привода </tr>
+      </string>
+      <string key="VIN">
+        <tr lang="ru"> VIN </tr>
+      </string>
+      <string key="Driver Air Bag">
+        <tr lang="ru"> Водительская подушка безопасности </tr>
+      </string>
+      <string key="Passenger Air Bag">
+        <tr lang="ru"> Пассажирская подушка безопасности </tr>
+      </string>
+      <string key="Side Air Bag">
+        <tr lang="ru"> Боковая подушка безопасности </tr>
+      </string>
+      <string key="Anti-Lock Brakes">
+        <tr lang="ru"> АБС </tr>
+      </string>
+      <string key="Power Windows">
+        <tr lang="ru"> Электро-пакет </tr>
+      </string>
+      <string key="Rear Window Defroster">
+        <tr lang="ru"> Подогрев стекол </tr>
+      </string>
+      <string key="Tinted Glass">
+        <tr lang="ru"> Тонированные стекла </tr>
+      </string>
+      <string key="Air Conditioning">
+        <tr lang="ru"> Кондиционер </tr>
+      </string>
+      <string key="Power Steering">
+        <tr lang="ru"> Усилитель руля </tr>
+      </string>
+      <string key="Cruise Control">
+        <tr lang="ru"> Круиз контроль </tr>
+      </string>
+      <string key="Leather Seats">
+        <tr lang="ru"> Кожаный салон </tr>
+      </string>
+      <string key="Power Seats">
+        <tr lang="ru"> Сиденья с электро приводом </tr>
+      </string>
+      <string key="Child Seat">
+        <tr lang="ru"> Детское сидение </tr>
+      </string>
+      <string key="AM/FM Radio">
+        <tr lang="ru"> Радио </tr>
+      </string>
+      <string key="AM/FM Stereo Tape">
+        <tr lang="ru"> Кассетный проигрыватель </tr>
+      </string>
+      <string key="Compact Disc Player">
+        <tr lang="ru"> CD плэйер </tr>
+      </string>
+      <string key="Compact Disc Changer">
+        <tr lang="ru"> CD Changer </tr>
+      </string>
+      <string key="Alloy Wheels">
+        <tr lang="ru"> Легкосплавные диски </tr>
+      </string>
+      <string key="Power Door Locks">
+        <tr lang="ru"> Центральный замок </tr>
+      </string>
+      <string key="Power Mirrors">
+        <tr lang="ru"> Электро привод зеркал </tr>
+      </string>
+      <string key="Sunroof/Moonroof">
+        <tr lang="ru"> Люк </tr>
+      </string>
+      <string key="Seller Comments">
+        <tr lang="ru"> Комментарии продавца </tr>
+      </string>
+      <string key="Listing ID">
+        <tr lang="ru"> Объявление № </tr>
+      </string>
+      <string key="Listing Views">
+        <tr lang="ru"> Кол. просмотров </tr>
+      </string>
+      <string key="Keywords">
+        <tr lang="ru"> Ключевые слова </tr>
+      </string>
+      <string key="With pictures">
+        <tr lang="ru"> Только с картинками </tr>
+      </string>
+      <string key="Tilt Wheel">
+        <tr lang="ru"> Регулировка руля </tr>
+      </string>
+      <string key="User name">
+        <tr lang="ru"> Имя пользователя </tr>
+      </string>
+      <string key="Phone Number">
+        <tr lang="ru"> Телефон </tr>
+      </string>
+      <string key="Last Name">
+        <tr lang="ru"> Фамилия </tr>
+      </string>
+      <string key="First Name">
+        <tr lang="ru"> Имя </tr>
+      </string>
+      <string key="Display Your E-mail">
+        <tr lang="ru"> Показывать E-mail </tr>
+      </string>
+      <string key="E-mail">
+        <tr lang="ru"> E-mail </tr>
+      </string>
+      <string key="Dealership Name">
+        <tr lang="ru"> Название </tr>
+      </string>
+      <string key="Address">
+        <tr lang="ru"> Адрес </tr>
+      </string>
+      <string key="City">
+        <tr lang="ru"> Город </tr>
+      </string>
+      <string key="State">
+        <tr lang="ru"> Штат </tr>
+      </string>
+      <string key="Dealership Website">
+        <tr lang="ru"> Веб сайт </tr>
+      </string>
+      <string key="Dealership Logo">
+        <tr lang="ru"> Лого </tr>
+      </string>
+      <string key="Make/Model">
+        <tr lang="ru"> Марка/Модель </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="ru"> Добавлено </tr>
+      </string>
+      <string key="Photos">
+        <tr lang="ru"> Фото </tr>
+      </string>
+      <string key="ID">
+        <tr lang="ru"> № </tr>
+      </string>
+      <string key="Activation Date">
+        <tr lang="ru"> Дата активации </tr>
+      </string>
+      <string key="Video">
+        <tr lang="ru"> Видео </tr>
+      </string>
+      <string key="Experience">
+        <tr lang="ru"> Опыт работы </tr>
+      </string>
+      <string key="Name">
+        <tr lang="ru"> Имя </tr>
+      </string>
+      <string key="Resumes ID">
+        <tr lang="ru"> ID Резюме </tr>
+      </string>
+      <string key="Email">
+        <tr lang="ru"> E-Mail </tr>
+      </string>
+      <string key="Objective">
+        <tr lang="ru"> Цель </tr>
+      </string>
+      <string key="Work Experience">
+        <tr lang="ru"> Опыт работы </tr>
+      </string>
+      <string key="Resumes Views">
+        <tr lang="ru"> Просмотров резюме </tr>
+      </string>
+      <string key="Total Years Experience">
+        <tr lang="ru"> Общий стаж работы </tr>
+      </string>
+      <string key="Education">
+        <tr lang="ru"> Образование </tr>
+      </string>
+      <string key="Skills">
+        <tr lang="ru"> Навыки </tr>
+      </string>
+      <string key="Resume">
+        <tr lang="ru"> Резюме </tr>
+      </string>
+      <string key="Category">
+        <tr lang="ru"> Раздел </tr>
+      </string>
+      <string key="Country">
+        <tr lang="ru"> Страна </tr>
+      </string>
+      <string key="Company Name">
+        <tr lang="ru"> Название Компании </tr>
+      </string>
+      <string key="Contact Name">
+        <tr lang="ru"> Контактное имя </tr>
+      </string>
+      <string key="Web Site">
+        <tr lang="ru"> Веб-сайт </tr>
+      </string>
+      <string key="Logo">
+        <tr lang="ru"> Логотип </tr>
+      </string>
+      <string key="Salary">
+        <tr lang="ru"> Заработная плата </tr>
+      </string>
+      <string key="Salary Type">
+        <tr lang="ru"> Тип заработной платы </tr>
+      </string>
+      <string key="Employment Type">
+        <tr lang="ru"> Вид занятости </tr>
+      </string>
+      <string key="Title">
+        <tr lang="ru"> Заголовок </tr>
+      </string>
+      <string key="Company">
+        <tr lang="ru"> Компания </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="ru"> Телефон </tr>
+      </string>
+      <string key="Job Views">
+        <tr lang="ru"> Просмотров вакансии </tr>
+      </string>
+      <string key="Job ID">
+        <tr lang="ru"> ID Вакансии </tr>
+      </string>
+      <string key="Job Category">
+        <tr lang="ru"> Раздел </tr>
+      </string>
+      <string key="Job Description">
+        <tr lang="ru"> Описание работы </tr>
+      </string>
+      <string key="Job Requirements">
+        <tr lang="ru"> Требования </tr>
+      </string>
+      <string key="Job Type">
+        <tr lang="ru"> Вид занятости </tr>
+      </string>
+      <string key="Desired Salary">
+        <tr lang="ru"> Оклад </tr>
+      </string>
+      <string key="Zip code">
+        <tr lang="ru"> Индекс </tr>
+      </string>
+      <string key="Web">
+        <tr lang="ru"> Web </tr>
+      </string>
+      <string key="Don&apos;t send mailings">
+        <tr lang="ru"> Не отправлять сообщений </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="ru"> Введите код с картинки </tr>
+      </string>
+      <string key="Number of Views">
+        <tr lang="ru"> Число просмотров </tr>
+      </string>
+      <string key="Occupations">
+        <tr lang="ru"> Род деятельности </tr>
+      </string>
+      <string key="Company Description">
+        <tr lang="ru"> Описание компании </tr>
+      </string>
+      <string key="Anonymous Resume">
+        <tr lang="ru"> Анонимное резюме </tr>
+      </string>
+      <string key="Application Settings">
+        <tr lang="ru"> Настройки формы </tr>
+      </string>
+      <string key="Applications">
+        <tr lang="ru"> Заявления </tr>
+      </string>
+      <string key="Resume ID">
+        <tr lang="ru"> ИН Резюме </tr>
+      </string>
+      <string key="Approval Status">
+        <tr lang="ru"> Статус </tr>
+      </string>
+      <string key="Resume Visible To">
+        <tr lang="ru"> Просмотр резюме доступен </tr>
+      </string>
+      <string key="Location">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Screening Questionnaire">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Passing Score">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="equal or more than passing score">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="less than passing score">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Email text to candidates whose score is equal or more than passing score">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Email text to candidates whose score is less than passing score">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Entrance Date">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Institution Name">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Major">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Degree Level">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Start Date">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="End Date">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Industry">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Description">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Graduation Date">
+        <tr lang="ru">  </tr>
+      </string>
+    </page>
+    <page key="Property_Occupations">
+      <string key="Accounting-Finance">
+        <tr lang="ru">  </tr>
+      </string>
+      <string key="Bookkeeping">
+        <tr lang="ru"> Бухгалтерское дело </tr>
+      </string>
+      <string key="Claims Review and Adjusting">
+        <tr lang="ru"> Правка и оценка претензий </tr>
+      </string>
+      <string key="Collections">
+        <tr lang="ru"> Сборы </tr>
+      </string>
+      <string key="Corporate Accounting">
+        <tr lang="ru"> Корпоративный учет </tr>
+      </string>
+      <string key="Corporate Finance">
+        <tr lang="ru"> Корпоративные финансы </tr>
+      </string>
+      <string key="Credit Review-Analysis">
+        <tr lang="ru"> Кредитный обзор и анализ </tr>
+      </string>
+      <string key="Financial Analysis-Research-Reporting">
+        <tr lang="ru"> Анализ финансово-исследовательский отчетности </tr>
+      </string>
+      <string key="Financial Control">
+        <tr lang="ru"> Финансовый контроль </tr>
+      </string>
+      <string key="Financial Planning-Advising">
+        <tr lang="ru"> Финансовое планирование-консультирование </tr>
+      </string>
+      <string key="Financial Products Sales-Brokerage">
+        <tr lang="ru"> Продажа финансовой Продукции-брокерство </tr>
+      </string>
+      <string key="Fund Accounting">
+        <tr lang="ru"> Фондовая финансовая отчетность </tr>
+      </string>
+      <string key="General-Other: Accounting-Finance">
+        <tr lang="ru"> Прочее: Бухгалтерия-Финансы </tr>
+      </string>
+      <string key="Investment Management">
+        <tr lang="ru"> Инвестиционный менеджмент </tr>
+      </string>
+      <string key="Policy Underwriting">
+        <tr lang="ru"> Андеррайтинг политики </tr>
+      </string>
+      <string key="Real Estate Appraisal">
+        <tr lang="ru"> Оценка недвижимости </tr>
+      </string>
+      <string key="Real Estate Leasing-Acquisition">
+        <tr lang="ru"> Приобретение и лизниг недвижимости </tr>
+      </string>
+      <string key="Risk Management-Compliance">
+        <tr lang="ru"> Риск менеджмент и соответствие нормам </tr>
+      </string>
+      <string key="Securities Analysis-Research">
+        <tr lang="ru"> Анализ и исследование ценных бумаг </tr>
+      </string>
+      <string key="Tax Accounting">
+        <tr lang="ru"> Налоговый учет </tr>
+      </string>
+      <string key="Tax Assessment and Collections">
+        <tr lang="ru"> Налогообложение </tr>
+      </string>
+      <string key="Administrative-Clerical">
+        <tr lang="ru"> Административно-конторская работа </tr>
+      </string>
+      <string key="Administrative Support">
+        <tr lang="ru"> Административная поддержка </tr>
+      </string>
+      <string key="Claims Processing">
+        <tr lang="ru"> Обработка запросов </tr>
+      </string>
+      <string key="Data Entry-Order Processing">
+        <tr lang="ru"> Обработка и введение данных </tr>
+      </string>
+      <string key="Executive Support">
+        <tr lang="ru"> Административная поддержка </tr>
+      </string>
+      <string key="Filing-Records Management">
+        <tr lang="ru"> Менеджмент регистрационных процессов </tr>
+      </string>
+      <string key="General-Other: Administrative-Clerical">
+        <tr lang="ru"> Прочее: менеджмент </tr>
+      </string>
+      <string key="Office Management">
+        <tr lang="ru"> Офис менеджер </tr>
+      </string>
+      <string key="Property Management">
+        <tr lang="ru"> Менеджмено недвижимости </tr>
+      </string>
+      <string key="Reception-Switchboard">
+        <tr lang="ru"> Ресепшен </tr>
+      </string>
+      <string key="Secretary-Executive Assistant">
+        <tr lang="ru"> Секретарь- ассистент исполняющего обязанности </tr>
+      </string>
+      <string key="Transcription">
+        <tr lang="ru"> Копирайтер </tr>
+      </string>
+      <string key="Banking-Mortgage Professionals">
+        <tr lang="ru"> Специалисты по банковское ипотеке </tr>
+      </string>
+      <string key="Bank Teller">
+        <tr lang="ru"> Банковский кассир </tr>
+      </string>
+      <string key="Credit Manager">
+        <tr lang="ru"> Менеджер по кредитованию </tr>
+      </string>
+      <string key="Escrow Officer-Manager">
+        <tr lang="ru"> Менеджер по условному депонированию </tr>
+      </string>
+      <string key="Loan Officer-Originator">
+        <tr lang="ru"> Представитель учереждения выдяющего ссуду </tr>
+      </string>
+      <string key="Mortgage Broker">
+        <tr lang="ru"> Ипотечный брокер </tr>
+      </string>
+      <string key="Store-Branch Management">
+        <tr lang="ru"> Менеджмент филиалов </tr>
+      </string>
+      <string key="Title Officer-Closer">
+        <tr lang="ru"> Главноупраляющий </tr>
+      </string>
+      <string key="Underwriter">
+        <tr lang="ru"> Страховщик </tr>
+      </string>
+      <string key="Biotech-R&amp;D-Science">
+        <tr lang="ru"> Биотехнтческие разработки и исследования </tr>
+      </string>
+      <string key="Biological-Chemical Research">
+        <tr lang="ru"> Биохимические исселедования </tr>
+      </string>
+      <string key="Clinical Research">
+        <tr lang="ru"> Клинические исследования </tr>
+      </string>
+      <string key="Environmental-Geological Testing &amp; Analysis">
+        <tr lang="ru"> Экологические и геолоические тестирования и анализ </tr>
+      </string>
+      <string key="General-Other: R&amp;D-Science">
+        <tr lang="ru"> Прчие разработки и исследования </tr>
+      </string>
+      <string key="Materials-Physical Research ">
+        <tr lang="ru"> Испытания материалов и физические исследования </tr>
+      </string>
+      <string key="Mathematical-Statistical Research">
+        <tr lang="ru"> Математические и статистические исследования </tr>
+      </string>
+      <string key="New Product R&amp;D">
+        <tr lang="ru"> Разработка и исследования новых продуктов </tr>
+      </string>
+      <string key="Pharmaceutical Research">
+        <tr lang="ru"> Фармацевтические исселования </tr>
+      </string>
+      <string key="Building Construction">
+        <tr lang="ru"> Строительство </tr>
+      </string>
+      <string key="CAD-Drafting">
+        <tr lang="ru"> Система автоматизированного проектирования </tr>
+      </string>
+      <string key="Carpentry-Framing">
+        <tr lang="ru"> Плотничное дело </tr>
+      </string>
+      <string key="Concrete and Masonry">
+        <tr lang="ru"> Бетонная и каменная кладка </tr>
+      </string>
+      <string key="Electrician">
+        <tr lang="ru"> Электрик </tr>
+      </string>
+      <string key="Flooring-Tiling-Painting-Wallpapering">
+        <tr lang="ru"> Настил полов-черепицы-малярное дело-накоейка обоев </tr>
+      </string>
+      <string key="General-Other: Construction-Skilled Trades">
+        <tr lang="ru"> Прочее: Строительство </tr>
+      </string>
+      <string key="Heavy Equipment Operation">
+        <tr lang="ru"> Тяжелое машиностроение </tr>
+      </string>
+      <string key="HVAC">
+        <tr lang="ru"> нагревание, вентиляция и кондиционирование воздуха </tr>
+      </string>
+      <string key="Ironwork-Metal Fabrication">
+        <tr lang="ru"> Металлургическое производство </tr>
+      </string>
+      <string key="Plumbing-Pipefitting">
+        <tr lang="ru"> Водопроводное дело </tr>
+      </string>
+      <string key="Roofing">
+        <tr lang="ru"> Кровельное дело </tr>
+      </string>
+      <string key="Sheetrock-Plastering">
+        <tr lang="ru"> Штукатурный работы </tr>
+      </string>
+      <string key="Site Superintendent">
+        <tr lang="ru"> Прораб </tr>
+      </string>
+      <string key="Surveying">
+        <tr lang="ru"> Топографическая съемка </tr>
+      </string>
+      <string key="Business-Strategic Management">
+        <tr lang="ru"> Стратегический бизнес менеджмент </tr>
+      </string>
+      <string key="Business Analysis-Research">
+        <tr lang="ru"> Бизнес анализ и исследования </tr>
+      </string>
+      <string key="Business Unit Management">
+        <tr lang="ru"> Бизнес-группа управления </tr>
+      </string>
+      <string key="Franchise-Business Ownership">
+        <tr lang="ru"> Предпринимательство </tr>
+      </string>
+      <string key="General-Other: Business-Strategic Management">
+        <tr lang="ru"> Прочее: Стратегический бизнес менеджмент </tr>
+      </string>
+      <string key="Hospital-Clinic Administration">
+        <tr lang="ru"> Управление госпиталей и больниц </tr>
+      </string>
+      <string key="Hotel-Lodging Management">
+        <tr lang="ru"> Гостиничный менеджемент </tr>
+      </string>
+      <string key="Managerial Consulting">
+        <tr lang="ru"> Управленческий консалтинг </tr>
+      </string>
+      <string key="Mergers and Acquisitions">
+        <tr lang="ru"> Слияния и поглощения </tr>
+      </string>
+      <string key="President-Top Executive">
+        <tr lang="ru"> Исполнительный директор </tr>
+      </string>
+      <string key="Public Health Administration">
+        <tr lang="ru"> Управление здравоохранения </tr>
+      </string>
+      <string key="Restaurant Management">
+        <tr lang="ru"> Ресторанный менеджмент </tr>
+      </string>
+      <string key="School-College Administration">
+        <tr lang="ru"> Управление учебных заведений </tr>
+      </string>
+      <string key="Strategic Planning-Intelligence">
+        <tr lang="ru"> Стратегическое планирование </tr>
+      </string>
+      <string key="Town-City Planning">
+        <tr lang="ru"> Планировка городов </tr>
+      </string>
+      <string key="Creative-Design">
+        <tr lang="ru"> Креативный дизайн </tr>
+      </string>
+      <string key="Advertising Writing (Creative)">
+        <tr lang="ru"> Реклама (Креатив) </tr>
+      </string>
+      <string key="Architecture-Interior Design">
+        <tr lang="ru"> Дизайн интерьера </tr>
+      </string>
+      <string key="Computer Animation &amp; Multimedia">
+        <tr lang="ru"> Компьютерная анимация и мультимедиа </tr>
+      </string>
+      <string key="Creative Direction-Lead">
+        <tr lang="ru"> Креативный директор </tr>
+      </string>
+      <string key="Fashion &amp; Accessories Design">
+        <tr lang="ru"> Дизайн одежды и аксессуаров </tr>
+      </string>
+      <string key="General-Other: Creative-Design">
+        <tr lang="ru"> Прочее: Креативный дизайн </tr>
+      </string>
+      <string key="Graphic Arts-Illustration">
+        <tr lang="ru"> Изобразительное искусство - Иллюстрация </tr>
+      </string>
+      <string key="Industrial Design">
+        <tr lang="ru"> Промышленный дизайн </tr>
+      </string>
+      <string key="Photography and Videography">
+        <tr lang="ru"> Фотография и видеосъемка </tr>
+      </string>
+      <string key="Web-UI-UX Design">
+        <tr lang="ru"> Дизайн Вэб-интерфейсов </tr>
+      </string>
+      <string key="Customer Support">
+        <tr lang="ru"> Служба поддержки </tr>
+      </string>
+      <string key="Account Management (Non-Commissioned)">
+        <tr lang="ru"> Ведение счетов </tr>
+      </string>
+      <string key="Call Center">
+        <tr lang="ru"> Call Center </tr>
+      </string>
+      <string key="Customer Training">
+        <tr lang="ru"> Ознакомление закачиков </tr>
+      </string>
+      <string key="Flight Attendant">
+        <tr lang="ru"> Бортпроводник </tr>
+      </string>
+      <string key="General-Other: Customer Support-Client Care">
+        <tr lang="ru"> Прочее: </tr>
+      </string>
+      <string key="Hair Cutting-Styling">
+        <tr lang="ru"> Парикмахер-стайлинг </tr>
+      </string>
+      <string key="Reservations-Ticketing">
+        <tr lang="ru"> Бронирование билетов </tr>
+      </string>
+      <string key="Retail Customer Service">
+        <tr lang="ru"> Служба розничной торговли </tr>
+      </string>
+      <string key="Technical Customer Service">
+        <tr lang="ru"> Служба техобслуживания </tr>
+      </string>
+      <string key="Editorial Writing">
+        <tr lang="ru"> Написание редакторских статей </tr>
+      </string>
+      <string key="Digital Content Development">
+        <tr lang="ru"> Разработка цифрового контента </tr>
+      </string>
+      <string key="Documentation-Technical Writing">
+        <tr lang="ru"> Написание технической документации </tr>
+      </string>
+      <string key="Editing &amp; Proofreading">
+        <tr lang="ru"> Редактирование и корректура </tr>
+      </string>
+      <string key="General-Other: Editorial-Writing">
+        <tr lang="ru"> Прочее: </tr>
+      </string>
+      <string key="Journalism">
+        <tr lang="ru"> Журналистика </tr>
+      </string>
+      <string key="Translation-Interpretation">
+        <tr lang="ru"> Устный перевод </tr>
+      </string>
+      <string key="Education">
+        <tr lang="ru"> Обучение </tr>
+      </string>
+      <string key="Classroom Teaching">
+        <tr lang="ru"> Преподавание в классе </tr>
+      </string>
+      <string key="Continuing-Adult ">
+        <tr lang="ru"> Высшее образование </tr>
+      </string>
+      <string key="Corporate Development and Training">
+        <tr lang="ru"> Корпоративное развитие и подготовка кадров </tr>
+      </string>
+      <string key="Early Childhood Care &amp; Development">
+        <tr lang="ru"> Уход за маленькими детьми </tr>
+      </string>
+      <string key="Elementary School">
+        <tr lang="ru"> Учитель начальной школы </tr>
+      </string>
+      <string key="Fitness &amp; Sports Training-Instruction">
+        <tr lang="ru"> Тренер по фитнессу/Спортивный тренер </tr>
+      </string>
+      <string key="General-Other: Training-Instruction">
+        <tr lang="ru"> Прочее: Тренер </tr>
+      </string>
+      <string key="Junior-High School">
+        <tr lang="ru"> Учитель средней школы </tr>
+      </string>
+      <string key="Software-Web Training">
+        <tr lang="ru"> Веб и програмные тренинги </tr>
+      </string>
+      <string key="Special Education">
+        <tr lang="ru"> Специальное обучение </tr>
+      </string>
+      <string key="University ">
+        <tr lang="ru"> Преподавание в университете </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="ru"> Приборостроение </tr>
+      </string>
+      <string key="Aeronautic-Avionic Engineering">
+        <tr lang="ru"> Авиоинженерия </tr>
+      </string>
+      <string key="Bio-Engineering">
+        <tr lang="ru"> Биоинженерия </tr>
+      </string>
+      <string key="Chemical Engineering">
+        <tr lang="ru"> Химическая инженерия </tr>
+      </string>
+      <string key="Civil &amp; Structural Engineering">
+        <tr lang="ru"> Струтурная инженерия </tr>
+      </string>
+      <string key="Electrical-Electronics Engineering">
+        <tr lang="ru"> Электроинженерия </tr>
+      </string>
+      <string key="Energy-Nuclear Engineering">
+        <tr lang="ru"> Строительство атомных электростанций </tr>
+      </string>
+      <string key="Environmental and Geological Engineering">
+        <tr lang="ru"> Геологическая инженерия </tr>
+      </string>
+      <string key="General-Other: Engineering">
+        <tr lang="ru"> Прочее: инженерия </tr>
+      </string>
+      <string key="Industrial-Manufacturing Engineering">
+        <tr lang="ru"> Промышленная инженерия </tr>
+      </string>
+      <string key="Mechanical Engineering">
+        <tr lang="ru"> Механическая инженерия </tr>
+      </string>
+      <string key="Naval Architecture-Marine Engineering">
+        <tr lang="ru"> Военно-морская архитектура и инженерия водных сооружений </tr>
+      </string>
+      <string key="RF-Wireless Engineering">
+        <tr lang="ru"> Бесповодная инженерния </tr>
+      </string>
+      <string key="Systems-Process Engineering">
+        <tr lang="ru"> Инеженер системных процессов </tr>
+      </string>
+      <string key="Food Services-Hospitality">
+        <tr lang="ru"> Обсдуживание </tr>
+      </string>
+      <string key="Food &amp; Beverage Serving">
+        <tr lang="ru"> Обслуживание </tr>
+      </string>
+      <string key="Food Preparation-Cooking">
+        <tr lang="ru"> Приготовление пищи </tr>
+      </string>
+      <string key="Front Desk-Reception">
+        <tr lang="ru"> Приемная </tr>
+      </string>
+      <string key="General-Other: Food Services">
+        <tr lang="ru"> Прочее в сфере  питания </tr>
+      </string>
+      <string key="Guest Services-Concierge">
+        <tr lang="ru"> Консьерж </tr>
+      </string>
+      <string key="Guide (Tour) ">
+        <tr lang="ru"> Гид </tr>
+      </string>
+      <string key="Host-Hostess">
+        <tr lang="ru"> Управляющий гостинницей </tr>
+      </string>
+      <string key="Wine Steward (Sommelier)">
+        <tr lang="ru"> Сомелье </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="ru"> Управление персоналом </tr>
+      </string>
+      <string key="Academic Admissions and Advising">
+        <tr lang="ru"> Академический прием и консультирование </tr>
+      </string>
+      <string key="Compensation-Benefits Policy">
+        <tr lang="ru"> Компенсационная политика </tr>
+      </string>
+      <string key="Diversity Management-EEO-Compliance">
+        <tr lang="ru"> Соблюдение ВРВТ </tr>
+      </string>
+      <string key="General-Other: Human Resources">
+        <tr lang="ru"> Прочее:  Управление персоналом </tr>
+      </string>
+      <string key="HR Systems Administration">
+        <tr lang="ru"> Сиситему управления человеческими ресурсами </tr>
+      </string>
+      <string key="Payroll and Benefits Administration">
+        <tr lang="ru"> Управление начисления заработной платы и пособий </tr>
+      </string>
+      <string key="Recruiting-Sourcing ">
+        <tr lang="ru"> Подбор персонала </tr>
+      </string>
+      <string key="Installation-Maintenance-Repair">
+        <tr lang="ru"> Монтаж-обслуживание-ремонт </tr>
+      </string>
+      <string key="Computer-Electronics-Telecomm Install-Maintain-Repair">
+        <tr lang="ru"> Монтаж-обслуживание-ремонт компьютеров, электроники и телекоммуникация </tr>
+      </string>
+      <string key="Equipment Install-Maintain-Repair">
+        <tr lang="ru"> Монтаж-обслуживание-ремонт оборудования </tr>
+      </string>
+      <string key="Facilities Management-Maintenance">
+        <tr lang="ru"> Менеджмент оборудования </tr>
+      </string>
+      <string key="General-Other: Installation-Maintenance-Repair">
+        <tr lang="ru"> Прочее: Монтаж-обслуживание-ремонт </tr>
+      </string>
+      <string key="Janitorial &amp; Cleaning ">
+        <tr lang="ru"> Уборка </tr>
+      </string>
+      <string key="Landscaping">
+        <tr lang="ru"> Озеленение </tr>
+      </string>
+      <string key="Locksmith">
+        <tr lang="ru"> Слесарные работы </tr>
+      </string>
+      <string key="Oil Rig &amp; Pipeline Install-Maintain-Repair">
+        <tr lang="ru"> Монтаж-обслуживание-ремонт нефтяных вышек и нефтепроводов </tr>
+      </string>
+      <string key="Vehicle Repair and Maintenance">
+        <tr lang="ru"> Ремонт и обслуживание автотранспортных средств </tr>
+      </string>
+      <string key="Wire and Cable Install-Maintain-Repair">
+        <tr lang="ru"> Монтаж-обслуживание-ремонт </tr>
+      </string>
+      <string key="IT-Software Development">
+        <tr lang="ru"> ИТ-разработка программного обеспечения </tr>
+      </string>
+      <string key="Computer-Network Security">
+        <tr lang="ru"> Безопастность компьютерных сетей </tr>
+      </string>
+      <string key="Database Development-Administration">
+        <tr lang="ru"> Разработка и администрирование БД </tr>
+      </string>
+      <string key="Desktop Service and Support">
+        <tr lang="ru"> Обслуживание и поддержка ПК </tr>
+      </string>
+      <string key="Enterprise Software Implementation &amp; Consulting">
+        <tr lang="ru"> Внедрение корпортаиного погорманого обеспечения </tr>
+      </string>
+      <string key="General-Other: IT-Software Development">
+        <tr lang="ru"> Прочее в сфере разработки программного обеспечения </tr>
+      </string>
+      <string key="IT Project Management">
+        <tr lang="ru"> Менеджемент IT-проектов </tr>
+      </string>
+      <string key="Network and Server Administration">
+        <tr lang="ru"> Администрирование сетей и серверов </tr>
+      </string>
+      <string key="Software-System Architecture">
+        <tr lang="ru"> Архитектра прогрманого обеспечения </tr>
+      </string>
+      <string key="Software-Web Development">
+        <tr lang="ru"> Программное обеспечение и  Веб-Разработка </tr>
+      </string>
+      <string key="Systems Analysis - IT">
+        <tr lang="ru"> Системный анализ ИТ </tr>
+      </string>
+      <string key="Telecommunications Administration-Management">
+        <tr lang="ru"> Управление  телекоммуникациями </tr>
+      </string>
+      <string key="Usability-Information Architecture">
+        <tr lang="ru"> Информационная архитектура </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="ru"> Юридические услуги </tr>
+      </string>
+      <string key="Attorney">
+        <tr lang="ru"> Прокурор </tr>
+      </string>
+      <string key="Contracts Administration">
+        <tr lang="ru"> Управленте контрактами </tr>
+      </string>
+      <string key="General-Other: Legal">
+        <tr lang="ru"> Прочее в юридической сфере </tr>
+      </string>
+      <string key="Labor &amp; Employment Law">
+        <tr lang="ru"> Закон о Труде </tr>
+      </string>
+      <string key="Paralegal &amp; Legal Secretary">
+        <tr lang="ru"> Асиистет секретаря и секретарь по правовым вопросам </tr>
+      </string>
+      <string key="Patent-IP Law">
+        <tr lang="ru"> Закон об ителлектуально собственности и патентированию </tr>
+      </string>
+      <string key="Real Estate Law">
+        <tr lang="ru"> Закон о недвижимости </tr>
+      </string>
+      <string key="Regulatory-Compliance Law">
+        <tr lang="ru"> Нормативное право </tr>
+      </string>
+      <string key="Tax Law">
+        <tr lang="ru"> Налоговое право </tr>
+      </string>
+      <string key="Logistics-Transportation">
+        <tr lang="ru"> Транспортировака-Логистика </tr>
+      </string>
+      <string key="Car, Van and Bus Driving">
+        <tr lang="ru"> Вождение автомобилей и автобусов </tr>
+      </string>
+      <string key="Cargo and Baggage Handling">
+        <tr lang="ru"> Управление и менеджмент грузов </tr>
+      </string>
+      <string key="Cost Estimating">
+        <tr lang="ru"> Оценка стоимости </tr>
+      </string>
+      <string key="Equipment-Forklift-Crane Operation">
+        <tr lang="ru"> Оборудование-Форклифт-Кран операции </tr>
+      </string>
+      <string key="General-Other: Logistics-Transportation">
+        <tr lang="ru"> Прочее в сфере транспортировки и логистики </tr>
+      </string>
+      <string key="Hazardous Materials Handling">
+        <tr lang="ru"> Менеджмент взрывоопасных материалов </tr>
+      </string>
+      <string key="Import-Export Administration">
+        <tr lang="ru"> Администрирование импорта и экспорта </tr>
+      </string>
+      <string key="Inventory Planning and Management">
+        <tr lang="ru"> Планирование и управление инвентаризацией </tr>
+      </string>
+      <string key="Merchandise Planning and Buying">
+        <tr lang="ru"> Планирование закупок </tr>
+      </string>
+      <string key="Messenger-Courier">
+        <tr lang="ru"> Курьер, посыльный </tr>
+      </string>
+      <string key="Piloting: Air and Marine">
+        <tr lang="ru"> Управление возднымс, воздушным  и морским транспортом </tr>
+      </string>
+      <string key="Purchasing">
+        <tr lang="ru"> Покупка </tr>
+      </string>
+      <string key="Shipping and Receiving-Warehousing">
+        <tr lang="ru"> Доставка, прием и складирование </tr>
+      </string>
+      <string key="Supplier Management-Vendor Management">
+        <tr lang="ru"> Менеджмент поставок и поставщиков </tr>
+      </string>
+      <string key="Train or Rail Operator">
+        <tr lang="ru"> Железнодорожный оператор </tr>
+      </string>
+      <string key="Truck Driving">
+        <tr lang="ru"> Вождение автомобиля </tr>
+      </string>
+      <string key="Vehicle Dispatch, Routing and Scheduling">
+        <tr lang="ru"> Отправка транспортного средства, маршрутизация и планирование </tr>
+      </string>
+      <string key="Manufacturing-Production">
+        <tr lang="ru"> Серийное прооизводство </tr>
+      </string>
+      <string key="Assembly-Assembly Line">
+        <tr lang="ru"> Специалист по сборка -сборочному  конвейеру </tr>
+      </string>
+      <string key="Audio-Video Broadcast &amp; Postproduction">
+        <tr lang="ru"> Аудио-Видео трансляция и постпродукция </tr>
+      </string>
+      <string key="Equipment Operations">
+        <tr lang="ru"> Специалист по оборудованию </tr>
+      </string>
+      <string key="General-Other: Production-Operations">
+        <tr lang="ru"> Прочее в сфере производственных операций </tr>
+      </string>
+      <string key="Laundry and Dry-Cleaning Operations">
+        <tr lang="ru"> Прачечная и химчистка </tr>
+      </string>
+      <string key="Layout, Prepress, Printing, &amp; Binding Operations">
+        <tr lang="ru"> Верстка, подготовка, печать и переплет </tr>
+      </string>
+      <string key="Machining-CNC">
+        <tr lang="ru"> Механическая-КЧПУ </tr>
+      </string>
+      <string key="Metal Fabrication and Welding ">
+        <tr lang="ru"> Производство металлов и сварка </tr>
+      </string>
+      <string key="Moldmaking-Casting">
+        <tr lang="ru"> Моделирование-Литье </tr>
+      </string>
+      <string key="Operations-Plant Management">
+        <tr lang="ru"> Управлению заводом </tr>
+      </string>
+      <string key="Production-Operations Planning">
+        <tr lang="ru"> Планирование производства </tr>
+      </string>
+      <string key="Scientific-Technical Production">
+        <tr lang="ru"> Научно-техническая продукция </tr>
+      </string>
+      <string key="Sewing and Tailoring">
+        <tr lang="ru"> Пошив </tr>
+      </string>
+      <string key="Waste Pick-up and Removal">
+        <tr lang="ru"> Удаление отходов </tr>
+      </string>
+      <string key="Marketing-Product">
+        <tr lang="ru"> Маркетинг Продукта </tr>
+      </string>
+      <string key="Brand-Product Marketing">
+        <tr lang="ru"> Маркетинг бренда </tr>
+      </string>
+      <string key="Copy Writing-Editing">
+        <tr lang="ru"> Копирайтинг и редактирование </tr>
+      </string>
+      <string key="Direct Marketing (CRM)">
+        <tr lang="ru"> Прямой маркетинг (СУВ) </tr>
+      </string>
+      <string key="Events-Promotional Marketing">
+        <tr lang="ru"> Событийный маркетинг </tr>
+      </string>
+      <string key="General-Other: Marketing-Product">
+        <tr lang="ru"> Прочее в сфере  маркетинга продукции </tr>
+      </string>
+      <string key="Investor and Public-Media Relations">
+        <tr lang="ru"> Специалист по связям с инвесторами и общественными СМИ </tr>
+      </string>
+      <string key="Market Research">
+        <tr lang="ru"> Исследования рынка </tr>
+      </string>
+      <string key="Marketing Communications">
+        <tr lang="ru"> Маркетинговый коммуникации </tr>
+      </string>
+      <string key="Marketing Production-Traffic">
+        <tr lang="ru"> Маркетинг  и продвижение продукции </tr>
+      </string>
+      <string key="Media Planning and Buying">
+        <tr lang="ru"> Медиа-планирование и приобретение </tr>
+      </string>
+      <string key="Product Management">
+        <tr lang="ru"> Управлению продуктами </tr>
+      </string>
+      <string key="Telemarketing">
+        <tr lang="ru"> Телемаркетинг </tr>
+      </string>
+      <string key="Visual-Display Merchandising">
+        <tr lang="ru"> Визуальный мерчендайзинг </tr>
+      </string>
+      <string key="Medical-Health">
+        <tr lang="ru"> Медицина-Здоровье </tr>
+      </string>
+      <string key="Dental Assistant-Hygienist">
+        <tr lang="ru"> Помощник стоматолога -гигиенист </tr>
+      </string>
+      <string key="Dental Practitioner">
+        <tr lang="ru"> Стоматолог </tr>
+      </string>
+      <string key="EMT-Paramedic">
+        <tr lang="ru"> Фельдшера </tr>
+      </string>
+      <string key="General-Other: Medical-Health">
+        <tr lang="ru"> Прочее: Медицина-Здоровье </tr>
+      </string>
+      <string key="Healthcare Aid">
+        <tr lang="ru"> Оказание помощи по заботе о здоровье </tr>
+      </string>
+      <string key="Laboratory-Pathology">
+        <tr lang="ru"> Специалист по патологии </tr>
+      </string>
+      <string key="Medical Imaging">
+        <tr lang="ru"> Рентгенография </tr>
+      </string>
+      <string key="Medical Practitioner">
+        <tr lang="ru"> Врач </tr>
+      </string>
+      <string key="Medical Therapy-Rehab Services">
+        <tr lang="ru"> Медикаментозная терапия - услуги по реабилитации </tr>
+      </string>
+      <string key="Mental Health">
+        <tr lang="ru"> Специалист по психическому здоровью </tr>
+      </string>
+      <string key="Nursing">
+        <tr lang="ru"> Персонал по уходу за больными </tr>
+      </string>
+      <string key="Nutrition and Diet">
+        <tr lang="ru"> Специалист по питание и диетологии </tr>
+      </string>
+      <string key="Optical">
+        <tr lang="ru"> Специалист пл оптике </tr>
+      </string>
+      <string key="Pharmacy">
+        <tr lang="ru"> Аптекарь, фармацевт </tr>
+      </string>
+      <string key="Physicians Assistant-Nurse Practitioner">
+        <tr lang="ru"> Ассистент врача - медсестра, медбрат </tr>
+      </string>
+      <string key="Social Service">
+        <tr lang="ru"> Социальные службы </tr>
+      </string>
+      <string key="Sports Medicine">
+        <tr lang="ru"> Спортивная медицина </tr>
+      </string>
+      <string key="Veterinary-Animal Care">
+        <tr lang="ru"> Ветеринар </tr>
+      </string>
+      <string key="Other">
+        <tr lang="ru"> Прочее </tr>
+      </string>
+      <string key="Career Fair">
+        <tr lang="ru"> Ярмарка карьеры </tr>
+      </string>
+      <string key="Work at Home">
+        <tr lang="ru"> Работа на дому </tr>
+      </string>
+      <string key="Project-Program Management">
+        <tr lang="ru"> Координирования программ и проектов </tr>
+      </string>
+      <string key="Event Planning-Coordination">
+        <tr lang="ru"> Событийный менеджмент </tr>
+      </string>
+      <string key="General-Other: Project-Program Management">
+        <tr lang="ru"> Прочее в сфере управления проектами. </tr>
+      </string>
+      <string key="Program Management">
+        <tr lang="ru"> Координирования программ </tr>
+      </string>
+      <string key="Project Management">
+        <tr lang="ru"> Координирование проектов </tr>
+      </string>
+      <string key="Quality Assurance-Safety">
+        <tr lang="ru"> Служба проверки качества и безопасности </tr>
+      </string>
+      <string key="Building-Construction Inspection">
+        <tr lang="ru"> Строительная инспекция </tr>
+      </string>
+      <string key="Environmental Protection-Conservation">
+        <tr lang="ru"> Охрана окружающей среды </tr>
+      </string>
+      <string key="Food Safety and Inspection">
+        <tr lang="ru"> Продовольственная  инспекция </tr>
+      </string>
+      <string key="Fraud Investigation">
+        <tr lang="ru"> Выявление  мошенничества </tr>
+      </string>
+      <string key="General-Other: Quality Assurance-Safety">
+        <tr lang="ru"> Прочее: Качество безопасности </tr>
+      </string>
+      <string key="ISO Certification">
+        <tr lang="ru"> Сертификация по  МОС </tr>
+      </string>
+      <string key="Occupational Health and Safety">
+        <tr lang="ru"> Охрана труда </tr>
+      </string>
+      <string key="Production Quality Assurance">
+        <tr lang="ru"> Охрана по качеству производства </tr>
+      </string>
+      <string key="Six Sigma-Black Belt-TQM">
+        <tr lang="ru"> ГУК </tr>
+      </string>
+      <string key="Software Quality Assurance">
+        <tr lang="ru"> Обеспечения качества прогрманого обеспечения </tr>
+      </string>
+      <string key="Vehicle Inspection">
+        <tr lang="ru"> Техосмотр </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="ru"> Недвижимость </tr>
+      </string>
+      <string key="Real Estate Agent-Broker">
+        <tr lang="ru"> Агент по недвижимости </tr>
+      </string>
+      <string key="Sales-Retail">
+        <tr lang="ru"> Розничные продажи </tr>
+      </string>
+      <string key="Account Management Commissioned">
+        <tr lang="ru"> Управление учетныси записями </tr>
+      </string>
+      <string key="Business Development-New Accounts">
+        <tr lang="ru"> Развитие бизнеса </tr>
+      </string>
+      <string key="Field Sales">
+        <tr lang="ru"> Сбыт на местах (локальные продажи) </tr>
+      </string>
+      <string key="Fundraising">
+        <tr lang="ru"> Фандрайзинг </tr>
+      </string>
+      <string key="General-Other: Sales-Business Development">
+        <tr lang="ru"> Генерал-прочее: в продаже бизнес-развития </tr>
+      </string>
+      <string key="Insurance Agent-Broker">
+        <tr lang="ru"> Страховой агент-Брокер </tr>
+      </string>
+      <string key="International Sales">
+        <tr lang="ru"> Специалист по международным продажам </tr>
+      </string>
+      <string key="Media and Advertising Sales">
+        <tr lang="ru"> Специалист по рекламе и продажам в СМИ </tr>
+      </string>
+      <string key="Retail-Counter Sales and Cashier">
+        <tr lang="ru"> Кассир </tr>
+      </string>
+      <string key="Sales Support-Assistance">
+        <tr lang="ru"> Менеджер по продажам и поддержке клиетов </tr>
+      </string>
+      <string key="Technical Presales Support &amp; Technical Sales">
+        <tr lang="ru"> Предпроджаная техническая поддержка   и службы сбыта </tr>
+      </string>
+      <string key="Telesales">
+        <tr lang="ru"> Спейиалист по телефонным продажам </tr>
+      </string>
+      <string key="Travel Agent-Ticket Sales">
+        <tr lang="ru"> Агент бюро путешествий- продажа билетов </tr>
+      </string>
+      <string key="Wholesale-Reselling Sales">
+        <tr lang="ru"> Оптовая продажа и перепродажа </tr>
+      </string>
+      <string key="Security-Protective Services">
+        <tr lang="ru"> Услуги службы безопасности </tr>
+      </string>
+      <string key="Airport Security and Screening">
+        <tr lang="ru"> Служба безопастности аэропорта </tr>
+      </string>
+      <string key="Correctional Officer">
+        <tr lang="ru"> Сотрудник исправительного учереждения </tr>
+      </string>
+      <string key="Customs-Immigration">
+        <tr lang="ru"> Таможенно-иммиграционная служба </tr>
+      </string>
+      <string key="Firefighting and Rescue">
+        <tr lang="ru"> Пожарно-спасательная служба </tr>
+      </string>
+      <string key="General-Other: Security-Protective Services">
+        <tr lang="ru"> Прочее в сфере обеспечения безопасности. </tr>
+      </string>
+      <string key="Military Combat">
+        <tr lang="ru"> Военный отряд </tr>
+      </string>
+      <string key="Police-Law Enforcement">
+        <tr lang="ru"> Полиции правопорядка </tr>
+      </string>
+      <string key="Security Guard">
+        <tr lang="ru"> Охранник </tr>
+      </string>
+      <string key="Security Intelligence &amp; Analysis">
+        <tr lang="ru"> Безопасностьи разведка </tr>
+      </string>
+      <string key="Store Security-Loss Prevention">
+        <tr lang="ru"> Служба безопасности торговых центров </tr>
+      </string>
+    </page>
+    <page key="Miscellaneous">
+      <string key="$30 for 30 days ad">
+        <tr lang="ru"> $30 за размещение в течение 30 дней </tr>
+      </string>
+      <string key="$20 for 21 days ad">
+        <tr lang="ru"> $20 за размещение в течение 21 дня </tr>
+      </string>
+      <string key="Free for 14 days ad">
+        <tr lang="ru"> Бесплатное размещение в течение 14 дней бесплатно </tr>
+      </string>
+      <string key="Basic">
+        <tr lang="ru"> Базовый </tr>
+      </string>
+      <string key="Standard">
+        <tr lang="ru"> Стандартный </tr>
+      </string>
+      <string key="Enhanced">
+        <tr lang="ru"> Продвинутый </tr>
+      </string>
+      <string key="Any Distance">
+        <tr lang="ru"> Любой радиус </tr>
+      </string>
+      <string key="Select">
+        <tr lang="ru"> Выбор </tr>
+      </string>
+      <string key="Any">
+        <tr lang="ru"> Любой(ая) </tr>
+      </string>
+      <string key="Within">
+        <tr lang="ru"> - </tr>
+      </string>
+      <string key="miles">
+        <tr lang="ru"> миль </tr>
+      </string>
+      <string key="kilometers">
+        <tr lang="ru"> километров </tr>
+      </string>
+      <string key="Dealer">
+        <tr lang="ru"> Дилер </tr>
+      </string>
+      <string key="Private Seller">
+        <tr lang="ru"> Частное лицо </tr>
+      </string>
+      <string key="Payment for subscription to &quot;For Dealers&quot; plan">
+        <tr lang="ru"> Платеж за подписку на план &quot;Диллер&quot; </tr>
+      </string>
+      <string key="Car">
+        <tr lang="ru"> Автомобиль </tr>
+      </string>
+      <string key="PackageTempDealer">
+        <tr lang="ru"> Фиктивный пакет для Дилеров </tr>
+      </string>
+      <string key="Test">
+        <tr lang="ru"> Тестовый </tr>
+      </string>
+      <string key="10 days">
+        <tr lang="ru"> 10 дней </tr>
+      </string>
+      <string key="20 days">
+        <tr lang="ru"> 20 дней </tr>
+      </string>
+      <string key="30 days">
+        <tr lang="ru"> 30 дней </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="ru"> Работодатель </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="ru"> Соискатель </tr>
+      </string>
+      <string key="Priority Ad">
+        <tr lang="ru"> Приоритетный </tr>
+      </string>
+      <string key="Your posting will be shown above the average search results and will be marked by different background color">
+        <tr lang="ru"> Ваше объявление будет размещено выше остальных в результатах поиска и будет выделяться другим цветом. </tr>
+      </string>
+      <string key="30 days priority resume">
+        <tr lang="ru"> 30-ти дневное приоритетное резюме </tr>
+      </string>
+      <string key="Your Resume will be shown above the average search results and will be marked by different background color">
+        <tr lang="ru"> Ваше резюме будет отображаться вверху списка результатов и будет выделено другим цветом. </tr>
+      </string>
+    </page>
+    <page key="Property_status">
+      <string key="Pending">
+        <tr lang="ru"> Ожидание </tr>
+      </string>
+      <string key="Failed">
+        <tr lang="ru"> Отказ </tr>
+      </string>
+      <string key="Completed">
+        <tr lang="ru"> Завершен </tr>
+      </string>
+      <string key="Everyone">
+        <tr lang="ru"> Всем </tr>
+      </string>
+    </page>
+    <page key="Property_access_type">
+      <string key="Everyone">
+        <tr lang="ru"> Всем </tr>
+      </string>
+      <string key="No one">
+        <tr lang="ru"> Никому </tr>
+      </string>
+      <string key="Only selected employers">
+        <tr lang="ru"> Только выбранным компаниям </tr>
+      </string>
+      <string key="Everyone except selected employers">
+        <tr lang="ru"> Всем, кроме выбранных компаний </tr>
+      </string>
+    </page>
+    <page key="Property_MakeModel">
+      <string key="Holden">
+        <tr lang="ru">  </tr>
+      </string>
+    </page>
+    <page key="Property_DesiredSalaryType">
+      <string key="per month">
+        <tr lang="ru"> в месяц </tr>
+      </string>
+      <string key="per year">
+        <tr lang="ru"> в год </tr>
+      </string>
+    </page>
+    <page key="Membership Plan">
+      <string key="Price">
+        <tr lang="ru"> Цена </tr>
+      </string>
+      <string key="Name">
+        <tr lang="ru"> Имя </tr>
+      </string>
+      <string key="Description">
+        <tr lang="ru"> Описание </tr>
+      </string>
+      <string key="Expiration Period">
+        <tr lang="ru"> Период окончания </tr>
+      </string>
+      <string key="Subscription Price">
+        <tr lang="ru"> Стоимость подписки </tr>
+      </string>
+    </page>
+    <page key="Property_EmploymentType">
+      <string key="Full time">
+        <tr lang="ru"> На полное время </tr>
+      </string>
+      <string key="Contractor">
+        <tr lang="ru"> Контракт </tr>
+      </string>
+      <string key="Seasonal">
+        <tr lang="ru"> Сезонная </tr>
+      </string>
+      <string key="Part time">
+        <tr lang="ru"> Частичная занятость </tr>
+      </string>
+      <string key="Intern">
+        <tr lang="ru"> Стажер </tr>
+      </string>
+    </page>
+    <page key="Property_JobType">
+      <string key="full time">
+        <tr lang="ru"> Полная занятость </tr>
+      </string>
+      <string key="part time">
+        <tr lang="ru"> Частичная занятость </tr>
+      </string>
+      <string key="intern">
+        <tr lang="ru"> Стажер </tr>
+      </string>
+      <string key="seasonal">
+        <tr lang="ru"> Сезонная </tr>
+      </string>
+      <string key="contractor">
+        <tr lang="ru"> Контракт </tr>
+      </string>
+    </page>
+    <page key="Property_SalaryType">
+      <string key="per hour">
+        <tr lang="ru"> в час </tr>
+      </string>
+      <string key="per week">
+        <tr lang="ru"> в неделю </tr>
+      </string>
+      <string key="per month">
+        <tr lang="ru"> в месяц </tr>
+      </string>
+      <string key="per year">
+        <tr lang="ru"> в год </tr>
+      </string>
+    </page>
+    <page key="Property_JobCategory">
+      <string key="Finance">
+        <tr lang="ru"> Финансы </tr>
+      </string>
+      <string key="Sales">
+        <tr lang="ru"> Продажи </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="ru"> Недвижимость </tr>
+      </string>
+      <string key="Design">
+        <tr lang="ru"> Дизайн </tr>
+      </string>
+      <string key="Government">
+        <tr lang="ru"> Государственная служба </tr>
+      </string>
+      <string key="Other">
+        <tr lang="ru"> Прочее </tr>
+      </string>
+      <string key="Transportation">
+        <tr lang="ru"> Транспорт </tr>
+      </string>
+      <string key="Telecommunications">
+        <tr lang="ru"> Телекоммуникации </tr>
+      </string>
+      <string key="Science">
+        <tr lang="ru"> Наука </tr>
+      </string>
+      <string key="Consultant">
+        <tr lang="ru"> Консалтинг </tr>
+      </string>
+      <string key="Accounting">
+        <tr lang="ru"> Бухгалтерский учет </tr>
+      </string>
+      <string key="Automotive">
+        <tr lang="ru"> Автомобили </tr>
+      </string>
+      <string key="Admin-Clerical">
+        <tr lang="ru"> Администрация </tr>
+      </string>
+      <string key="Banking">
+        <tr lang="ru"> Банковское дело </tr>
+      </string>
+      <string key="Biotech">
+        <tr lang="ru"> Биотехнологии </tr>
+      </string>
+      <string key="Construction">
+        <tr lang="ru"> Строительство </tr>
+      </string>
+      <string key="Customer Service">
+        <tr lang="ru"> Обслуживающий персонал </tr>
+      </string>
+      <string key="Education">
+        <tr lang="ru"> Образование </tr>
+      </string>
+      <string key="Pharmaceutical">
+        <tr lang="ru"> Фармацевтика </tr>
+      </string>
+      <string key="Nurse">
+        <tr lang="ru"> Медсестра </tr>
+      </string>
+      <string key="Marketing">
+        <tr lang="ru"> Маркетинг </tr>
+      </string>
+      <string key="Information Technology">
+        <tr lang="ru"> Информационные технологии </tr>
+      </string>
+      <string key="Retail">
+        <tr lang="ru"> Розничные продажи </tr>
+      </string>
+      <string key="Executive">
+        <tr lang="ru"> Руководитель </tr>
+      </string>
+      <string key="Insurance">
+        <tr lang="ru"> Страхование </tr>
+      </string>
+      <string key="Management">
+        <tr lang="ru"> Менеджмент </tr>
+      </string>
+      <string key="Media-Journalism">
+        <tr lang="ru"> СМИ, медиа </tr>
+      </string>
+      <string key="Restaurant-Food Service">
+        <tr lang="ru"> Рестораны, питание </tr>
+      </string>
+      <string key="Veterinary Services">
+        <tr lang="ru"> Ветеринарные услуги </tr>
+      </string>
+      <string key="Warehouse">
+        <tr lang="ru"> Складское дело </tr>
+      </string>
+      <string key="Distribution-Shipping">
+        <tr lang="ru"> Дистрибуция </tr>
+      </string>
+      <string key="Franchise">
+        <tr lang="ru"> Франчайзинг </tr>
+      </string>
+      <string key="Grocery">
+        <tr lang="ru"> Торговля </tr>
+      </string>
+      <string key="Health Care">
+        <tr lang="ru"> Здравоохранение </tr>
+      </string>
+      <string key="Hospitality-Hotel">
+        <tr lang="ru"> Гостиничный бизнес </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="ru"> Юридические услуги </tr>
+      </string>
+      <string key="Training">
+        <tr lang="ru"> Тренинг </tr>
+      </string>
+      <string key="Research">
+        <tr lang="ru"> Научные исследования </tr>
+      </string>
+      <string key="Purchasing-Procurement">
+        <tr lang="ru"> Маркетология </tr>
+      </string>
+      <string key="Professional Services">
+        <tr lang="ru"> Профессиональные услуги </tr>
+      </string>
+      <string key="Inventory">
+        <tr lang="ru"> Складское дело </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="ru"> Управление персоналом </tr>
+      </string>
+      <string key="Supply Chain">
+        <tr lang="ru"> Логистика </tr>
+      </string>
+      <string key="Manufacturing">
+        <tr lang="ru"> Промышленность, производство </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="ru"> Приборостроение </tr>
+      </string>
+      <string key="Business Development">
+        <tr lang="ru"> Бизнес развитие </tr>
+      </string>
+      <string key="Installation-Maint-Repair">
+        <tr lang="ru"> Поддержка </tr>
+      </string>
+      <string key="General Business">
+        <tr lang="ru"> Бизнес </tr>
+      </string>
+      <string key="Strategy-Planning">
+        <tr lang="ru"> Стратегическое планирование </tr>
+      </string>
+      <string key="Skilled Labor">
+        <tr lang="ru"> Квалифицированный персонал </tr>
+      </string>
+      <string key="Nonprofit-Social Services">
+        <tr lang="ru"> Неправительственные организации (НПО) </tr>
+      </string>
+      <string key="General Labor">
+        <tr lang="ru"> Персонал </tr>
+      </string>
+      <string key="QA-Quality Control">
+        <tr lang="ru"> Контроль качества </tr>
+      </string>
+      <string key="Entry Level">
+        <tr lang="ru"> Стажер </tr>
+      </string>
+    </page>
+    <page key="Property_PostedWithin">
+      <string key="Posted Within">
+        <tr lang="ru"> Выводить объявления за </tr>
+      </string>
+      <string key="Last 30 days">
+        <tr lang="ru"> Последние 30 дней </tr>
+      </string>
+      <string key="Last 7 days">
+        <tr lang="ru"> Последние 7 дней </tr>
+      </string>
+      <string key="Last 3 days">
+        <tr lang="ru"> Последние 3 дня </tr>
+      </string>
+      <string key="Since Yesterday">
+        <tr lang="ru"> Последние 2 дня </tr>
+      </string>
+    </page>
+    <page key="Property_Category">
+    </page>
+    <page key="Property_from">
+    </page>
+    <page key="Property_to">
+    </page>
+    <page key="Property_GraduatedIn">
+    </page>
+    <page key="Property_DegreeLevel">
+    </page>
+    <page key="Property_Industry">
+    </page>
+    <page key="Property_Country">
+      <string key="Nicaragua">
+        <tr lang="ru">  </tr>
+      </string>
+    </page>
+    <page key="Property_asd">
+    </page>
+    <page key="Property_testmultilist">
+    </page>
+    <page key="Property_test">
+    </page>
+    <page key="Property_billingCountry">
+    </page>
+    <page key="Property_billingState">
+    </page>
+    <page key="Property_ApplyNowBtnChoice">
+    </page>
+    <page key="Property_billingInformationCheckbox">
+    </page>
+    <page key="Property_State">
+    </page>
+    <page key="Property_1">
+    </page>
+  </pages>
+</translation2>

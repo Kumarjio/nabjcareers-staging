@@ -1,0 +1,215 @@
+<?php
+
+class SJB_Backup
+{
+	public static function dump($name, $backupDir) {
+		
+		global $affectedRows;
+		$fp = fopen($backupDir.$name, "w");
+	       			
+		$tables = array();
+	    $result = SJB_DB::query("SHOW TABLES");
+	
+	    foreach ($result as $row){
+	   		$tables[] = array_pop($row);
+	    }
+	
+	    $tabinfo[0] = 0;
+		$result = SJB_DB::query("SHOW TABLE STATUS");
+		foreach ($result as $item){
+			if(in_array($item['Name'], $tables)) {
+				$item['Rows'] = empty($item['Rows']) ? 0 : $item['Rows'];
+				$tabinfo[$item['Name']] = $item['Rows'];
+			}
+		}
+		
+		foreach ($tables AS $table){
+			$result = SJB_DB::query("SHOW CREATE TABLE `{$table}`");
+			$tab = array_pop($result);	
+			$tab = preg_replace('/(default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP|DEFAULT CHARSET=\w+|COLLATE=\w+|character set \w+|collate \w+)/i', '/*!40101 \\1 */', $tab);
+
+			fwrite($fp, "DROP TABLE IF EXISTS `{$table}`;\n{$tab['Create Table']};\n\n");
+			$result = SJB_DB::query("SHOW COLUMNS FROM `{$table}`");
+			$field = 0;
+			$NumericColumn = array();
+			
+			foreach ($result as $col) {
+				$col = array_values($col);
+				$NumericColumn[$field++] = preg_match("/^(\w*int|year)/", $col[1]) ? 1 : 0;
+			}
+			
+			$fields = $field;
+			$from = 0;
+			$limit = $tabinfo[$table];
+			$limit2 = round($limit / 3);
+			if ($tabinfo[$table] > 0) {
+				$i = 0;
+				fwrite($fp, "INSERT INTO `{$table}` VALUES");
+				$result = SJB_DB::query("SELECT * FROM `{$table}` LIMIT {$from}, {$limit}");
+				$total = $affectedRows;
+				
+				foreach ($result as $k => $row) {
+					$row = array_values($row);
+					foreach ($row as $key => $value) {
+				        if ($NumericColumn[$key])
+	               		    $row[$key] = ($value !== '' && $value !== NULL) ? $value : "NULL";
+	               		else
+	               			$row[$key] = ($value !== '' && $value !== NULL) ? "'" . mysql_escape_string($value) . "'" : "NULL";
+					}
+               		fwrite($fp, ($k == 0 ? "" : ",") . "\n(" . implode(", ", $row) . ")");
+					
+				}
+      			fwrite($fp, ";\n\n");
+			}
+    	}
+		fclose($fp);
+	}
+	
+	public static function archive($name, $listFilesAndFolders, $export_files_dir, $export_files_dir_name, $backupName, $move=false) 
+	{
+		require_once "Archive/Tar.php";
+		
+		if (empty($export_files_dir)) return;
+		
+		$dir_separator 	= DIRECTORY_SEPARATOR;
+		
+		$archive_file_path 	  = SJB_Path::combine($export_files_dir_name,$backupName);	
+	
+		$old_path = getcwd();						
+		chdir($export_files_dir);
+		$tar = new Archive_Tar($backupName, 'gz');
+		$tar->create($listFilesAndFolders);
+		
+		chdir($old_path);
+		
+		if ($move) {
+			$dir_separator 	= DIRECTORY_SEPARATOR;
+			$to = "../backup".$dir_separator.$backupName;
+			copy($archive_file_path, $to);
+			$filePath =$archive_file_path;
+		}
+		else {
+			$filePath = SJB_Path::combine($export_files_dir_name,$name);
+		}	
+		SJB_Filesystem::delete($filePath);
+	}
+	
+	public static function sendArchiveFile($backupName, $archive_file_path) {
+		
+		header("Content-type: application/octet-stream");  
+		header("Content-disposition: attachment; filename={$backupName}");  
+		header("Content-Length: " . filesize($archive_file_path));
+		
+		$fp = fopen($archive_file_path,"rb");
+		fpassthru($fp);	
+		fclose($fp);
+		exit();
+	}
+	public static function restore_base_tables($file)
+	{
+		$sql_file = @fopen ($file, "r");
+		$sql_query = fread ($sql_file, filesize ($file));
+		fclose ($sql_file);
+		$commands = array ();
+		self::set_character_set_cc('utf8');
+		self::PMA_splitSqlFile ($commands, $sql_query);
+		foreach ($commands as $command) {
+			if ($command['empty'] || empty ($command['query']))
+				continue;
+			$command['query'] = trim ($command['query']);
+			if (!SJB_DB::query($command['query'])) {
+				return false;
+			}
+		}
+		return true;
+	}
+	
+	public static function set_character_set_cc($charset)
+	{
+		$sql = "set names '".mysql_real_escape_string($charset)."';";
+		if(!SJB_DB::query($sql))
+			return false;
+		return true;
+	}
+	public static function PMA_splitSqlFile(&$ret, $sql, $release = 3)
+	{
+	    $sql          = rtrim($sql, "\n\r");
+	    $sql_len      = strlen($sql);
+	    $char         = '';
+	    $string_start = '';
+	    $in_string    = FALSE;
+	    $nothing      = TRUE;
+	    $time0        = time();
+
+	    for ($i = 0; $i < $sql_len; ++$i) {
+	        $char = $sql[$i];
+	        if ($in_string) {
+	            for (;;) {
+	                $i         = strpos($sql, $string_start, $i);
+	                if (!$i) {
+	                    $ret[] = array('query' => $sql, 'empty' => $nothing);
+	                    return TRUE;
+	                }
+	                else if ($string_start == '`' || $sql[$i-1] != '\\') {
+	                    $string_start      = '';
+	                    $in_string         = FALSE;
+	                    break;
+	                }
+	                else {
+	                    $j                     = 2;
+	                    $escaped_backslash     = FALSE;
+	                    while ($i-$j > 0 && $sql[$i-$j] == '\\') {
+	                        $escaped_backslash = !$escaped_backslash;
+	                        $j++;
+	                    }
+	                    if ($escaped_backslash) {
+	                        $string_start  = '';
+	                        $in_string     = FALSE;
+	                        break;
+	                    }
+	                    else {
+	                        $i++;
+	                    }
+	                } 
+	            }
+	        } 
+	        else if (($char == '-' && $sql_len > $i + 2 && $sql[$i + 1] == '-' && $sql[$i + 2] <= ' ') || $char == '#' || ($char == '/' && $sql_len > $i + 1 && $sql[$i + 1] == '*')) {
+	            $i = strpos($sql, $char == '/' ? '*/' : "\n", $i);
+	            if ($i === FALSE) {
+	                break;
+	            }
+	            if ($char == '/') $i++;
+	        }
+	        else if ($char == ';') {
+	            $ret[]      = array('query' => substr($sql, 0, $i), 'empty' => $nothing);
+	            $nothing    = TRUE;
+	            $sql        = ltrim(substr($sql, min($i + 1, $sql_len)));
+	            $sql_len    = strlen($sql);
+	            if ($sql_len) {
+	                $i      = -1;
+	            } else {
+	                return TRUE;
+	            }
+	        } 
+	        else if (($char == '"') || ($char == '\'') || ($char == '`')) {
+	            $in_string    = TRUE;
+	            $nothing      = FALSE;
+	            $string_start = $char;
+	        } 
+	        elseif ($nothing) {
+	            $nothing = FALSE;
+	        }
+	        $time1     = time();
+	        if ($time1 >= $time0 + 30) {
+	            $time0 = $time1;
+	            header('X-pmaPing: Pong');
+	        }
+	    }
+
+	    if (!empty($sql) && preg_match('@[^[:space:]]+@', $sql)) {
+	        $ret[] = array('query' => $sql, 'empty' => $nothing);
+	    }
+
+	    return TRUE;
+	}
+}

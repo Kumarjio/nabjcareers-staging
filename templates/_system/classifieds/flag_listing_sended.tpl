@@ -1,0 +1,1 @@
+<p class="green">[[Your information was successfully sent]]</p>

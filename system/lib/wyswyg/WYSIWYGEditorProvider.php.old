@@ -1,0 +1,193 @@
+<?php
+
+
+/**
+ * WYSIWYGEditorprovider - wrapper for using different
+ * WYSIWYG editor with the same interface
+ */
+
+class SJB_WYSIWYGEditorProvider {
+
+	var $editor;
+	var $editorsInfo;
+
+	/**
+	 * Set the specific editor type from available editors list
+	 * or set default editor
+	 */
+	function SJB_WYSIWYGEditorProvider($type) {
+		$this->editorsInfo = new SJB_WYSIWYGEditorsInfo();
+
+		if ( array_key_exists($type, $fullEditorsInfo = $this->editorsInfo->getAvailableEditorsFullInfo() ) ) {
+			$this->editor = new $fullEditorsInfo[$type]['class_name'];
+		} else
+		{
+			$defaultEditor = $this->editorsInfo->getDefaultEditor();
+			$this->editor = new $defaultEditor;
+		}
+	}
+
+	/**
+	 * return HTML code due to specific editor type and
+	 * function parameters
+	 */
+	function getEditorHTML($name, $content='', $height = 200, $width = '100%', $conf = nill, $params = null) {
+		return $this->editor->getHTML($name, $content, $height, $width, $conf, $params);
+	}
+
+}
+
+
+class SJB_WYSIWYGEditorsInfo {
+
+	var $defaultEditor;
+	var $availableEditors;
+
+	function getAvailableEditorsList() {
+		$result = array();
+		foreach ($this->availableEditors as $type => $editor) {
+			$result[$type] = $editor['name'];
+		}
+		return $result;
+	}
+
+	function getDefaultEditor() {
+		return $this->defaultEditor;
+	}
+
+	function getAvailableEditorsFullInfo() {
+		return $this->availableEditors;
+	}
+
+	function SJB_WYSIWYGEditorsInfo() {
+		$this->defaultEditor = 'tinymceWrapper';
+
+		$this->availableEditors = array(
+			'fckeditor'	=> array(
+				'name' 			=> 'FCKEditor',
+				'class_name'	=> 'SJB_fckeditorWrapper'
+				),
+			'none'		=> array(
+				'name' 			=> 'Simple TextArea',
+				'class_name'	=> 'SJB_textareaWrapper'
+				),
+			'tinymce'	=> array(
+				'name' 			=> 'TinyMCE',
+				'class_name'	=> 'SJB_tinymceWrapper'
+				),
+			);
+	}
+
+}
+
+
+/**
+ * Parent class for different WYSWYG Editors
+ */
+
+class SJB_WYSIWYGWrapper {
+
+	var $editorDir;	//Directory with editor package files
+
+	function SJB_WYSIWYGWrapper() {
+		$this->editorDir = SJB_System::getSystemSettings('EXTERNAL_COMPONENTS_DIR');
+	}
+
+	function requireInitFile($initFile) {
+		require_once($this->editorDir.$initFile);
+	}
+
+	function setEditorPath($relativeEditorPath) {
+		$this->editorDir .= $relativeEditorPath;
+	}
+
+	/**
+	 * return path from current URL to
+	 * document root directory
+	 */
+	function correctPath() {
+		return SJB_System::getSystemSettings("SITE_URL") . "/";
+	}
+}
+
+
+/**
+ * Type of WYSIWYG editor, displays simple textarea
+ * with specific name and content from function arguments
+ */
+
+class SJB_textareaWrapper {
+
+	function getHTML($name, $content, $height,  $width, $conf = null, $params = null) {
+		if (strpos($width, '%') === false && strpos($width, 'px') === false) {
+			$width .= 'px';
+		}
+		if (strpos($height, '%') === false && strpos($height, 'px') === false) {
+			$height .= 'px';
+		}
+        $class = !empty($params['class']) ? $params['class'] : '';
+		return "<textarea name='{$name}' style='width:{$width}; height:{$height}' class='{$class}'>"
+			.$content."</textarea>";
+	}
+}
+
+
+/**
+ * Type of WYSIWYG editor, has reach features for font formatting,
+ * hasn't functions for form elements edititing, no support for textarea,
+ * has html source filtering, at HTML source is displayed as textarea with specific class,
+ * use JavaScript for initializing
+ */
+
+class SJB_tinymceWrapper extends SJB_WYSIWYGWrapper {
+
+	/**
+	 * Indentifier which determine this WYSIWYG editor
+	 * from simple textarea
+	 */
+	var $editorSelector;
+
+	function SJB_tinymceWrapper() {
+		$this->SJB_WYSIWYGWrapper();
+		$this->editorSelector 	= 'tinymce';
+		$this->setEditorPath('tinymce/');
+		$this->requireInitFile('init_tinymce.php');
+		init_tinymce ($this->correctPath().$this->editorDir, $this->editorSelector);
+	}
+
+	function getHTML($name, $content, $height, $width, $conf = null) {
+		return "<textarea name='".$name."' style='width:".$width."; height: ".$height."px;'"
+			." class='{$this->editorSelector}'>{$content}</textarea>";
+	}
+}
+
+
+/**
+ * Type of WYSIWYG editor, support form elements,
+ * it's displayed at HTML source as frame
+ */
+
+class SJB_fckeditorWrapper extends SJB_WYSIWYGWrapper
+{
+	function SJB_fckeditorWrapper()
+    {
+		$this->SJB_WYSIWYGWrapper();
+		$this->setEditorPath('fckeditor/');
+		$this->requireInitFile('fckeditor.php');
+	}
+
+	function getHTML($name, $content, $height, $width, $conf = null) {
+		
+		$oFCKeditor = new FCKeditor($name) ;
+		$oFCKeditor->BasePath = $this->correctPath().$this->editorDir ;
+		$oFCKeditor->Width = $width;
+		$oFCKeditor->Height = $height;
+		$oFCKeditor->Value = $content ;
+		$oFCKeditor->ToolbarSet = $conf ;
+		$oFCKeditor->Config['SkinPath'] = 'skins/office2003/';
+		
+		return $oFCKeditor->Create() ;
+
+	}
+}
+

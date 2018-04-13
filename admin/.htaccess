@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /admin/
+
+RewriteCond %{REQUEST_URI} .*/kcfinder/(.*)
+RewriteCond %{REQUEST_URI} !.*/kcfinder/(browse.*|upload.*)
+RewriteRule .* ../system/ext/kcfinder/%1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* ./index.php
+
+RewriteCond %{SERVER_PORT} ^80$
+RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]

@@ -1,0 +1,128 @@
+/* r.a.d.menu Custom skin for YM Public Menu */
+
+.RadMenu_YMPublic 
+{
+/*	background: #ececec;
+	border-top: solid 1px #e5e5e5;
+	border-right: solid 1px #e5e5e5;
+	border-bottom: solid 1px #bbbbbb;
+	border-left: solid 1px #bbbbbb; */
+}
+
+.RadMenu_YMPublic_Context
+{
+	background:none;
+	border:none 0px;
+}
+
+.RadMenu_YMPublic .link
+{
+/*	line-height: 20px;
+	text-decoration:none;
+	color: #666;
+	background: #ececec;
+	border-left: solid 1px #fff;
+	border-right: solid 1px #d6d6d6; */
+}
+
+.RadMenu_YMPublic .link:hover,
+.RadMenu_YMPublic .focused,
+.RadMenu_YMPublic .expanded
+{
+/*	color: #000; */
+	cursor:hand;
+}
+
+.RadMenu_YMPublic .text
+{
+/*	padding-left: 10px;	
+	padding-right: 36px; */
+}
+
+.RadMenu_YMPublic .group
+{
+/*	border:solid 1px #444444;
+	border-right:none 0px;
+	border-bottom:none 0px;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='444444', Direction=135, Strength=4); */
+}
+
+.RadMenu_YMPublic .group .link
+{
+/*	background:#f7f7f7;
+	border:none 0px;
+	border-top:solid 1px White;
+	border-bottom:solid 1px #d7d7d7;
+	text-align:left; */
+}
+
+.RadMenu_YMPublic .group .link:hover,
+.RadMenu_YMPublic .group .focused,
+.RadMenu_YMPublic .group .expanded
+{
+/*	background:Black;
+	border-bottom-color:#d7d7d7; */
+}
+
+.RadMenu_YMPublic .leftArrow,
+.RadMenu_YMPublic .rightArrow,
+.RadMenu_YMPublic .topArrow,
+.RadMenu_YMPublic .bottomArrow,
+.RadMenu_YMPublic .leftArrowDisabled,
+.RadMenu_YMPublic .rightArrowDisabled,
+.RadMenu_YMPublic .topArrowDisabled,
+.RadMenu_YMPublic .bottomArrowDisabled
+{
+	background:transparent url(../../../../../graphics/menu/left.gif) center center no-repeat;
+	width:15px;
+}
+
+.RadMenu_YMPublic .topArrow,
+.RadMenu_YMPublic .topArrowDisabled
+{
+	background-image:url(../../../../../graphics/menu/top.gif);
+	width:100%;
+}
+
+.RadMenu_YMPublic .bottomArrow,
+.RadMenu_YMPublic .bottomArrowDisabled
+{
+	background-image:url(../../../../../graphics/menu/bottom.gif);
+	width:100%;
+}
+
+.RadMenu_YMPublic .rightArrow,
+.RadMenu_YMPublic .leftArrow
+{
+	height:100%;
+}
+
+.RadMenu_YMPublic .rightArrow,
+.RadMenu_YMPublic .rightArrowDisabled
+{
+	background-image:url(../../../../../graphics/menu/right.gif);
+}
+
+.RadMenu_YMPublic .vertical .separator .text
+{
+	padding-top:2px;
+	background:#cccccc;
+	font-size:1px;
+}
+
+.RadMenu_YMPublic .expandLeft,
+.RadMenu_YMPublic .expandRight
+{
+	background:transparent url(../../../../../graphics/menu/groupImage.gif) right center no-repeat;
+/*	margin-right:4px; */
+}
+
+.RadMenu_YMPublic .link:hover .expandLeft,
+.RadMenu_YMPublic .link:hover .expandRight,
+.RadMenu_YMPublic .focused .expandLeft,
+.RadMenu_YMPublic .focused .expandRight,
+.RadMenu_YMPublic .expanded .expandLeft,
+.RadMenu_YMPublic .expanded .expandRight
+{
+	background:transparent url(../../../../../graphics/menu/invertedGroupImage.gif) right center no-repeat;
+}

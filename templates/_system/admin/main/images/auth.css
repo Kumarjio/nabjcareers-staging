@@ -1,0 +1,93 @@
+body {
+	font-size: 13px;		font-family: Arial,Helvetica,sans-serif;
+	margin: 0;		padding: 0;
+}
+.clr {clear: both;}
+
+#loginForm {
+	background: url(loginFormBg.png) no-repeat;
+	width: 645px;			height: 393px;
+	margin: -240px 0 0 -330px;
+	position:absolute;
+	left: 50%;		top: 50%;
+}
+#authLogo {
+	background: url(authLogo.png) no-repeat;
+	width: 272px;			height: 63px;
+	margin: 15px 0 0 15px;
+	float: left;
+}
+#sjbVersion {
+	float: right;
+	margin: 45px 15px 0 0;
+	color: white;
+}
+#loginFormBg {
+	background: url(loginForm.png) no-repeat;
+	width: 619px;			height: 223px;
+	margin: 0 15px 0;
+	clear: both;
+}
+#loginFormBg fieldset {
+	border: 0;
+	margin: 15px 0;
+}
+#loginFormBg form {
+	margin: 0 auto;		padding: 1px 0 0;
+	width: 400px;
+}
+#loginFormBg span {
+	width: 120px;
+	display: block;		float: left;
+	text-transform: uppercase;
+	font-size: 18px;		font-weight: normal;
+	padding: 7px 0 0 0;
+}
+#loginFormBg fieldset input {
+	background: url(inputBg.png) repeat-x;
+	border: 1px solid #cacaca;
+	width: 250px;		float: right;
+	padding: 8px 2px;
+}
+fieldset#errorAuth {
+	margin: 0;		padding: 5px 0 0 0;
+	color: red;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/*** BUTTON ***********************************/
+#loginButton {
+	background: url(loginButton.png) #669230 no-repeat;
+	width: 129px;			height: 54px;
+	text-align: center;
+	border: 0;
+	display: block;		float: right;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+/*** END BUTTON  ******************************/
+
+
+
+/*** KEY  **************************************/
+span#key {
+	background: url(key.png) no-repeat;
+	width: 135px;			height: 35px;
+	display: block;		float: right;
+	margin: 5px 10px 0 0;
+}
+/*** END KEY  **********************************/
+
+
+
+/*** COPYRIGHT *******************************/
+span#copyright {
+	display: block;		clear: both;
+	text-align: center;
+	font-size: 12px;		color: #7f7f7f;
+	margin: 17px 0 0 0;
+}
+/*** END COPYRIGHT  ***************************/

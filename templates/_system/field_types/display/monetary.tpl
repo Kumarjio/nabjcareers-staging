@@ -1,0 +1,1 @@
+{if is_numeric($value.value)}{foreach from=$list_currency item="list_currency_item" key="list_currency_key"}{if $list_currency_item.sid == $value.currency}{$list_currency_item.currency_sign}{/if}{/foreach}{tr type="float"}{$value.value}{/tr}{else}{$value.value}{/if}

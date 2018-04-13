@@ -1,0 +1,3987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE translation2 [
+<!ELEMENT translation2 (languages,pages)>
+<!ELEMENT languages (lang*)>
+<!ELEMENT lang (name?,meta?,error_text?,encoding?)>
+<!ATTLIST lang id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT meta (#PCDATA)>
+<!ELEMENT error_text (#PCDATA)>
+<!ELEMENT encoding (#PCDATA)>
+<!ELEMENT pages (page*)>
+<!ELEMENT page (string*)>
+<!ATTLIST page key CDATA #REQUIRED>
+<!ELEMENT string (tr*)>
+<!ATTLIST string key CDATA #REQUIRED>
+<!ELEMENT tr (#PCDATA)>
+<!ATTLIST tr lang IDREF #REQUIRED>
+]>
+
+<translation2>
+  <languages>
+    <lang id="rs">
+      <name> Српски </name>
+      <meta> a:8:{s:6:"active";s:1:"0";s:10:"is_default";b:0;s:5:"theme";s:0:"";s:11:"date_format";s:8:"%m.%d.%Y";s:17:"decimal_separator";s:1:".";s:19:"thousands_separator";s:1:",";s:8:"decimals";s:1:"2";s:11:"rightToLeft";s:1:"0";} </meta>
+      <error_text></error_text>
+      <encoding> utf-8 </encoding>
+    </lang>
+  </languages>
+  <pages>
+    <page key="PhrasesInTemplates">
+      <string key="Job Search">
+        <tr lang="rs"> Претрага Посла </tr>
+      </string>
+      <string key="Find">
+        <tr lang="rs"> Претрага </tr>
+      </string>
+      <string key="Advanced search">
+        <tr lang="rs"> Напредна Претрага </tr>
+      </string>
+      <string key="Home">
+        <tr lang="rs"> Почетна </tr>
+      </string>
+      <string key="Register">
+        <tr lang="rs"> Регистрација </tr>
+      </string>
+      <string key="Sign In">
+        <tr lang="rs"> Пријава </tr>
+      </string>
+      <string key="My Account">
+        <tr lang="rs"> Мој Налог </tr>
+      </string>
+      <string key="Find Jobs">
+        <tr lang="rs"> Пронађите Посао </tr>
+      </string>
+      <string key="Post Resumes">
+        <tr lang="rs"> Пошаљите Биографију </tr>
+      </string>
+      <string key="Search Resumes">
+        <tr lang="rs"> Претражите Биографије </tr>
+      </string>
+      <string key="Post Jobs">
+        <tr lang="rs"> Објавите Послове </tr>
+      </string>
+      <string key="Contact">
+        <tr lang="rs"> Контакт </tr>
+      </string>
+      <string key="Choose language">
+        <tr lang="rs"> Одаберите Језик </tr>
+      </string>
+      <string key="Jobs by Category">
+        <tr lang="rs"> Послови по Категорији </tr>
+      </string>
+      <string key="Jobs by City">
+        <tr lang="rs"> Послови по Граду </tr>
+      </string>
+      <string key="Featured Jobs">
+        <tr lang="rs"> Истакнути Послови </tr>
+      </string>
+      <string key="Employers">
+        <tr lang="rs"> Запослени </tr>
+      </string>
+      <string key="Post a job">
+        <tr lang="rs"> Објавите Посао </tr>
+      </string>
+      <string key="Search resumes">
+        <tr lang="rs"> Претражите резимее </tr>
+      </string>
+      <string key="Job Seekers">
+        <tr lang="rs"> Кандидат </tr>
+      </string>
+      <string key="Post resumes">
+        <tr lang="rs"> Објави Биографију </tr>
+      </string>
+      <string key="Find jobs">
+        <tr lang="rs"> Пронађи послове </tr>
+      </string>
+      <string key="RSS Feed">
+        <tr lang="rs"> RSS Feed </tr>
+      </string>
+      <string key="Latest Jobs">
+        <tr lang="rs"> Најновији Послови </tr>
+      </string>
+      <string key="powered by">
+        <tr lang="rs"> powered by </tr>
+      </string>
+      <string key="Keep me signed in">
+        <tr lang="rs"> Запамти ме </tr>
+      </string>
+      <string key="Login">
+        <tr lang="rs"> Пријава </tr>
+      </string>
+      <string key="Forgot Your Password?">
+        <tr lang="rs"> Заборавили сте Шифру? </tr>
+      </string>
+      <string key="Registration">
+        <tr lang="rs"> Регистрација </tr>
+      </string>
+      <string key="Salutation First and Last Name">
+        <tr lang="rs"> Име и Презиме </tr>
+      </string>
+      <string key="Email">
+        <tr lang="rs"> E-mail </tr>
+      </string>
+      <string key="Comments">
+        <tr lang="rs"> Коментари </tr>
+      </string>
+      <string key="Submit">
+        <tr lang="rs"> Пошаљи </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we\&apos;ll send you a link to a page where you can change your password">
+        <tr lang="rs"> Молимо вас да унесете ваше корисничко име у поље испод а ми ћемо вам послати линк ка страни на којој ћете моћи да промените вашу шифру. </tr>
+      </string>
+      <string key="Please select the appropriate user group">
+        <tr lang="rs"> Молимо вас одаберите прикладну групу </tr>
+      </string>
+      <string key="Confirm Password">
+        <tr lang="rs"> Потврдите Шифру </tr>
+      </string>
+      <string key="You have successfully registered in our site">
+        <tr lang="rs"> Успешно сте се регистровали на наш сајт. </tr>
+      </string>
+      <string key="Add a New Listing">
+        <tr lang="rs"> Додајте Нов Унос </tr>
+      </string>
+      <string key="You specified wrong username">
+        <tr lang="rs"> Унели сте погрешно корисничко име </tr>
+      </string>
+      <string key="The system cannot proceed as Listing ID not specified">
+        <tr lang="rs"> Не можемо да испунимо ваш захтев без валидног Броја Уноса. </tr>
+      </string>
+      <string key="Invalid payment ID is specified">
+        <tr lang="rs"> Наведен је погрешан Број рачуна </tr>
+      </string>
+      <string key="No such user">
+        <tr lang="rs"> Корисник не постоји </tr>
+      </string>
+      <string key="Search">
+        <tr lang="rs"> Претрага </tr>
+      </string>
+      <string key="No logged in user found">
+        <tr lang="rs"> Нема улогованих корисника </tr>
+      </string>
+      <string key="My Jobs">
+        <tr lang="rs"> Моји Послови </tr>
+      </string>
+      <string key="My Profile">
+        <tr lang="rs"> Мој Профил </tr>
+      </string>
+      <string key="Saved Searches">
+        <tr lang="rs"> Снимљене Претраге </tr>
+      </string>
+      <string key="Saved Listings">
+        <tr lang="rs"> Снимљени Листинзи </tr>
+      </string>
+      <string key="Subscriptions">
+        <tr lang="rs"> Претплате </tr>
+      </string>
+      <string key="My Notifications">
+        <tr lang="rs"> Моја Обавештења </tr>
+      </string>
+      <string key="Billing History">
+        <tr lang="rs"> Историја Плаћања </tr>
+      </string>
+      <string key="Logout">
+        <tr lang="rs"> Одјава </tr>
+      </string>
+      <string key="My Listings">
+        <tr lang="rs"> Моји Листинзи </tr>
+      </string>
+      <string key="Filter">
+        <tr lang="rs"> Филтер </tr>
+      </string>
+      <string key="Choose subscription">
+        <tr lang="rs"> Одаберите претплату </tr>
+      </string>
+      <string key="unlimited">
+        <tr lang="rs"> Неограничено </tr>
+      </string>
+      <string key="Next">
+        <tr lang="rs"> Даље </tr>
+      </string>
+      <string key="Edit Listing">
+        <tr lang="rs"> Измените Унос </tr>
+      </string>
+      <string key="Edit Pictures">
+        <tr lang="rs"> Измените Фотографије </tr>
+      </string>
+      <string key="Upgrade to Featured">
+        <tr lang="rs"> Истакни </tr>
+      </string>
+      <string key="You have successfully changed your membership plan">
+        <tr lang="rs"> Успешно сте изменили чланарину </tr>
+      </string>
+      <string key="You have already subscribed">
+        <tr lang="rs"> Већ сте пријављени </tr>
+      </string>
+      <string key="You do not have permissions to post  listings.">
+        <tr lang="rs"> Немате дозволу за објављујете уносе. </tr>
+      </string>
+      <string key="No listings found.">
+        <tr lang="rs"> Нема пронађених уноса. </tr>
+      </string>
+      <string key="Listing ID is not defined">
+        <tr lang="rs"> Број Уноса није дефинисан </tr>
+      </string>
+      <string key="Save">
+        <tr lang="rs"> Сачувај </tr>
+      </string>
+      <string key="image format is not supported">
+        <tr lang="rs"> тип слике није подржан </tr>
+      </string>
+      <string key="You have successfully changed your profile info!">
+        <tr lang="rs"> Успешно сте изменили информације на профилу! </tr>
+      </string>
+      <string key="Delete">
+        <tr lang="rs"> Обриши </tr>
+      </string>
+      <string key="File deleted successfully">
+        <tr lang="rs"> Датотека успешно обрисана </tr>
+      </string>
+      <string key="Back to edit profile">
+        <tr lang="rs"> Назад ка измени профила </tr>
+      </string>
+      <string key="You have not saved any searches yet.">
+        <tr lang="rs"> Нисте снимили ни једну претрагу. </tr>
+      </string>
+      <string key="ID">
+        <tr lang="rs"> Број </tr>
+      </string>
+      <string key="Period">
+        <tr lang="rs"> Период </tr>
+      </string>
+      <string key="State">
+        <tr lang="rs"> Држава </tr>
+      </string>
+      <string key="from">
+        <tr lang="rs"> од </tr>
+      </string>
+      <string key="to">
+        <tr lang="rs"> до </tr>
+      </string>
+      <string key="Date">
+        <tr lang="rs"> Датум </tr>
+      </string>
+      <string key="Description">
+        <tr lang="rs"> Опис </tr>
+      </string>
+      <string key="Amount">
+        <tr lang="rs"> Количина </tr>
+      </string>
+      <string key="Action">
+        <tr lang="rs"> Акција </tr>
+      </string>
+      <string key="Total Amount">
+        <tr lang="rs"> Укупан Износ </tr>
+      </string>
+      <string key="There are no saved listings">
+        <tr lang="rs"> Нема сачуваних уноса </tr>
+      </string>
+      <string key="Notify on Listing Activation">
+        <tr lang="rs"> Обавести ме када Унос буде Активиран </tr>
+      </string>
+      <string key="Notify on Listing Expiration">
+        <tr lang="rs"> Обавести ме када Унос Истекне </tr>
+      </string>
+      <string key="Notify on Contract Expiration">
+        <tr lang="rs"> Обавести ме када Уговор Истекне </tr>
+      </string>
+      <string key="Modify search">
+        <tr lang="rs"> Измени претрагу </tr>
+      </string>
+      <string key="Save this search">
+        <tr lang="rs"> Сачувај ову претрагу </tr>
+      </string>
+      <string key="Saved jobs">
+        <tr lang="rs"> Сачувани послови </tr>
+      </string>
+      <string key="Saved searches">
+        <tr lang="rs"> Сачуване претраге </tr>
+      </string>
+      <string key="Results: {$listings_number} Jobs">
+        <tr lang="rs"> Укупно: {$listings_number} Послова </tr>
+      </string>
+      <string key="Number of jobs per page">
+        <tr lang="rs"> Број послова по страни </tr>
+      </string>
+      <string key="Previous">
+        <tr lang="rs"> Назад </tr>
+      </string>
+      <string key="Save Your Search">
+        <tr lang="rs"> Сачувај ову Претрагу </tr>
+      </string>
+      <string key="Search Name">
+        <tr lang="rs"> Тражи по Имену </tr>
+      </string>
+      <string key="Your search has been saved.">
+        <tr lang="rs"> Ваша претрага је сачувана. </tr>
+      </string>
+      <string key="You may close this window now.">
+        <tr lang="rs"> Сада можете затворити овај прозор. </tr>
+      </string>
+      <string key="Save ad">
+        <tr lang="rs"> Сачувај оглас </tr>
+      </string>
+      <string key="View job details">
+        <tr lang="rs"> Погледај детаље о послу </tr>
+      </string>
+      <string key="Rate this job">
+        <tr lang="rs"> Оцените овај посао </tr>
+      </string>
+      <string key="Please, Vote!">
+        <tr lang="rs"> Молимо Вас да дате своју оцену! </tr>
+      </string>
+      <string key="Watch a video">
+        <tr lang="rs"> Покрени видео </tr>
+      </string>
+      <string key="Save this Job">
+        <tr lang="rs"> Сачувај овај Посао </tr>
+      </string>
+      <string key="View Saved Jobs">
+        <tr lang="rs"> Погледај Сачуване Послове </tr>
+      </string>
+      <string key="Tell a Friend">
+        <tr lang="rs"> Препоручи Пријатељу </tr>
+      </string>
+      <string key="Print This Ad">
+        <tr lang="rs"> Одштампај Оглас </tr>
+      </string>
+      <string key="View Map">
+        <tr lang="rs"> Погледај Карту </tr>
+      </string>
+      <string key="Back to Results">
+        <tr lang="rs"> Назад на Резултате </tr>
+      </string>
+      <string key="Modify Search">
+        <tr lang="rs"> Измени Претрагу </tr>
+      </string>
+      <string key="Rate This Job">
+        <tr lang="rs"> Оцени овај Посао </tr>
+      </string>
+      <string key="User Info">
+        <tr lang="rs"> Подаци о Кориснику </tr>
+      </string>
+      <string key="All jobs by this company">
+        <tr lang="rs"> Сви послови ове компаније </tr>
+      </string>
+      <string key="Video">
+        <tr lang="rs"> Видео </tr>
+      </string>
+      <string key="Photos">
+        <tr lang="rs"> Фотографије </tr>
+      </string>
+      <string key="Apply now">
+        <tr lang="rs"> Пријави се Сада </tr>
+      </string>
+      <string key="Location">
+        <tr lang="rs"> Локација </tr>
+      </string>
+      <string key="Please, wait ...">
+        <tr lang="rs"> Молимо вас сачекајте... </tr>
+      </string>
+      <string key="Add your comment">
+        <tr lang="rs"> Унесите ваш коментар </tr>
+      </string>
+      <string key="Add">
+        <tr lang="rs"> Додај </tr>
+      </string>
+      <string key="Listing has been saved">
+        <tr lang="rs"> Сачували сте Унос </tr>
+      </string>
+      <string key="View details">
+        <tr lang="rs"> Погледај детаље </tr>
+      </string>
+      <string key="Recommend listing with ID">
+        <tr lang="rs"> Препоручи унос Број </tr>
+      </string>
+      <string key="Your name">
+        <tr lang="rs"> Ваше име </tr>
+      </string>
+      <string key="Your friend\&apos;s name">
+        <tr lang="rs"> Име Вашег пријатеља </tr>
+      </string>
+      <string key="Your friend\&apos;s e-mail address">
+        <tr lang="rs"> e-mail адреса Вашег пријатеља </tr>
+      </string>
+      <string key="Your comment (will be send with the recomendation)">
+        <tr lang="rs"> Ваш коментар (биће прослеђен заједно са препоруком) </tr>
+      </string>
+      <string key="Send">
+        <tr lang="rs"> Пошаљи </tr>
+      </string>
+      <string key="Cannot send letter">
+        <tr lang="rs"> Писмо није послато </tr>
+      </string>
+      <string key="Company Info">
+        <tr lang="rs"> Назив Компаније </tr>
+      </string>
+      <string key="You\&apos;ve already voted">
+        <tr lang="rs"> Већ сте гласали </tr>
+      </string>
+      <string key="Author">
+        <tr lang="rs"> Аутор </tr>
+      </string>
+      <string key="Your e-mail">
+        <tr lang="rs"> Ваша e-mail адреса </tr>
+      </string>
+      <string key="Your request">
+        <tr lang="rs"> Ваш захтев </tr>
+      </string>
+      <string key="Attach your resume">
+        <tr lang="rs"> Додајте ваш резиме </tr>
+      </string>
+      <string key="Cannot send your message">
+        <tr lang="rs"> Тренутно нисмо у могућности да пошаљемо вашу поруку </tr>
+      </string>
+      <string key="You do not have permissions to post Resume listings.">
+        <tr lang="rs"> Немате дозволу да објављујете листу резимеа. </tr>
+      </string>
+      <string key="Results: {$listings_number} Resumes">
+        <tr lang="rs"> Укупно: {$listings_number} Резимеа </tr>
+      </string>
+      <string key="Number of resumes per page">
+        <tr lang="rs"> Број Резимеа по страни </tr>
+      </string>
+      <string key="Enter Your Ad Information">
+        <tr lang="rs"> Унесите текст огласа </tr>
+      </string>
+      <string key="Add Pictures">
+        <tr lang="rs"> Додај Слике </tr>
+      </string>
+      <string key="is empty">
+        <tr lang="rs"> је празан </tr>
+      </string>
+      <string key="could not convert video file">
+        <tr lang="rs"> Нисмо у могућности да променимо тип видео записа </tr>
+      </string>
+      <string key="is unknown">
+        <tr lang="rs"> је непознат </tr>
+      </string>
+      <string key="Manage Listing">
+        <tr lang="rs"> Управљај Уносом </tr>
+      </string>
+      <string key="Preview Listing">
+        <tr lang="rs"> Прегледајте Унос </tr>
+      </string>
+      <string key="Manage Listing Pictures">
+        <tr lang="rs"> Управљајте Сликама </tr>
+      </string>
+      <string key="Go to Manage Listing">
+        <tr lang="rs"> Иди на Управљање Уноса </tr>
+      </string>
+      <string key="Add Picture">
+        <tr lang="rs"> Додајте Слику </tr>
+      </string>
+      <string key="Caption">
+        <tr lang="rs"> Наслов </tr>
+      </string>
+      <string key="Thumbnail">
+        <tr lang="rs"> Мала Слика (thumbnail) </tr>
+      </string>
+      <string key="Actions">
+        <tr lang="rs"> Акције </tr>
+      </string>
+      <string key="Are you sure?">
+        <tr lang="rs"> Да ли сте сигурни? </tr>
+      </string>
+      <string key="Edit Picture">
+        <tr lang="rs"> Измените слику </tr>
+      </string>
+      <string key="Picture">
+        <tr lang="rs"> Слика </tr>
+      </string>
+      <string key="Please specify a valid email address.">
+        <tr lang="rs"> Молимо вас да унесете исправну интернет адресу (email). </tr>
+      </string>
+      <string key="Please provide your full name.">
+        <tr lang="rs"> Молимо вас унесите Име и Презиме. </tr>
+      </string>
+      <string key="Please include your comments.">
+        <tr lang="rs"> Молимо вас унесите ваш коментар. </tr>
+      </string>
+      <string key="Thank you very much for your message. We will respond to you as soon as possible.">
+        <tr lang="rs"> Много вам хвала на поруци. Ускоро ћемо вам се јавити. </tr>
+      </string>
+      <string key="Invalid password">
+        <tr lang="rs"> Погрешна шифра </tr>
+      </string>
+      <string key="Login error">
+        <tr lang="rs"> Корисничко име и/или шифра нису исправни </tr>
+      </string>
+      <string key="Browse by category">
+        <tr lang="rs"> Тражи по категорији </tr>
+      </string>
+      <string key="There are no listings with requested parameters in the system.">
+        <tr lang="rs"> Нема уноса по задатом критеријуму у систему. </tr>
+      </string>
+      <string key="Browse by city">
+        <tr lang="rs"> Тражи по граду </tr>
+      </string>
+      <string key="My Resumes">
+        <tr lang="rs"> Мој Резиме </tr>
+      </string>
+      <string key="Saved Jobs">
+        <tr lang="rs"> Сачувани Послови </tr>
+      </string>
+      <string key="Job Alerts">
+        <tr lang="rs"> Обавештења о Послу </tr>
+      </string>
+      <string key="Jobs by {$companyName}">
+        <tr lang="rs"> Послови компаније: {$companyName} </tr>
+      </string>
+      <string key="$select_box_field_distance of Zip $input_text_field_location">
+        <tr lang="rs"> $select_box_field_distance Поштанског броја $input_text_field_location </tr>
+      </string>
+      <string key="$input_text_field_from to $input_text_field_to">
+        <tr lang="rs"> $input_text_field_from до $input_text_field_to </tr>
+      </string>
+      <string key="not confirmed">
+        <tr lang="rs"> није потврђено </tr>
+      </string>
+      <string key="this value is already used in the system">
+        <tr lang="rs"> ова вредност је већ употребљена у систему </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="rs"> Молимо вас да унесете ваше корисничко име у поље испод а ми ћемо вам послати линк ка страни на којој ћете моћи да промените вашу шифру. </tr>
+      </string>
+      <string key="Check all">
+        <tr lang="rs"> Означи све </tr>
+      </string>
+      <string key="Uncheck all">
+        <tr lang="rs"> Искључи све </tr>
+      </string>
+      <string key="Actions with Selected">
+        <tr lang="rs"> Радње са Одабраним </tr>
+      </string>
+      <string key="Number of listings per page">
+        <tr lang="rs"> Број уноса по страни </tr>
+      </string>
+      <string key="Rating">
+        <tr lang="rs"> Оцена </tr>
+      </string>
+      <string key="Deactivate">
+        <tr lang="rs"> Деактивирај </tr>
+      </string>
+      <string key="Activate">
+        <tr lang="rs"> Активирај </tr>
+      </string>
+      <string key="Your listing is successfully activated">
+        <tr lang="rs"> Ваш унос је успешно активиран </tr>
+      </string>
+      <string key="Back to My Listings">
+        <tr lang="rs"> Назад на Моје Уносе </tr>
+      </string>
+      <string key="Sort by">
+        <tr lang="rs"> Сортирај по </tr>
+      </string>
+      <string key="Edit">
+        <tr lang="rs"> Измени </tr>
+      </string>
+      <string key="View Details">
+        <tr lang="rs"> Види Детаље </tr>
+      </string>
+      <string key="Enable Auto notify">
+        <tr lang="rs"> Омогући Аутоматска обавештења </tr>
+      </string>
+      <string key="Disable Auto notify">
+        <tr lang="rs"> Онемогући Аутоматска обавештења </tr>
+      </string>
+      <string key="Results: $listings_number Jobs">
+        <tr lang="rs"> Укупно: $listings_number Послова </tr>
+      </string>
+      <string key="Jobs by $companyName">
+        <tr lang="rs"> Послови: $companyName </tr>
+      </string>
+      <string key="Results: $listings_number Resumes">
+        <tr lang="rs"> Укупно: $listings_number Резимеа </tr>
+      </string>
+      <string key="Rate this resume">
+        <tr lang="rs"> Оцени резиме </tr>
+      </string>
+      <string key="View resume details">
+        <tr lang="rs"> Погледај резиме </tr>
+      </string>
+      <string key="All resumes by this user">
+        <tr lang="rs"> Сви резимеи корисника </tr>
+      </string>
+      <string key="Rate This Resume">
+        <tr lang="rs"> Оцени Резиме </tr>
+      </string>
+      <string key="View Saved Resumes">
+        <tr lang="rs"> Погледај сачуване резимее </tr>
+      </string>
+      <string key="Save this Resume">
+        <tr lang="rs"> Сачувај Резиме </tr>
+      </string>
+      <string key="Resumes by $firstName $lastName">
+        <tr lang="rs"> $firstName $lastName, Резимеи </tr>
+      </string>
+      <string key="Select a Package">
+        <tr lang="rs"> Одаберите Пакет </tr>
+      </string>
+      <string key="is not an integer value">
+        <tr lang="rs"> није цео број </tr>
+      </string>
+      <string key="You&apos;ve got a limit of the allowed number of picture">
+        <tr lang="rs"> Имате ограничен број слика које можете да сачувате. </tr>
+      </string>
+      <string key="limit exceeded">
+        <tr lang="rs"> прекорачено ограничење </tr>
+      </string>
+      <string key="You don&apos;t have permissions to access this page.">
+        <tr lang="rs"> Немате дозволу за приступ овој страници. </tr>
+      </string>
+      <string key="Resume search is accessible only for subscribed Employers.">
+        <tr lang="rs"> Претрага резимеа је доступна само претплаћеним Послодавцима. </tr>
+      </string>
+      <string key="Your friend&apos;s name">
+        <tr lang="rs"> Име Вашег пријатеља </tr>
+      </string>
+      <string key="Your friend&apos;s e-mail address">
+        <tr lang="rs"> Интернет адреса (e-mail) Вашег пријатеља </tr>
+      </string>
+      <string key="Dear customer!">
+        <tr lang="rs"> Поштовани купци </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for &lt;b&gt;$product_info_name&lt;/b&gt;.">
+        <tr lang="rs"> Молимо вас да уплатите $currency_sign $product_info_price за &lt;b&gt;$product_info_name&lt;/b&gt;. </tr>
+      </string>
+      <string key="Please choose from the following payment methods:">
+        <tr lang="rs"> Молимо Вас да одаберете неки од следећих начина плаћања: </tr>
+      </string>
+      <string key="Wire Transfer">
+        <tr lang="rs"> Wire Transfer </tr>
+      </string>
+      <string key="Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for $item_name&lt;br /&gt;Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you!">
+        <tr lang="rs"> Поштовани $username, &lt;br /&gt;&lt;br /&gt;Молимо Вас да уплатите $amount за $item_name&lt;br /&gt; Број трансакције је $payment_id. &lt;br /&gt;&lt;br /&gt;Хвала вам! </tr>
+      </string>
+      <string key="There is no listing in the system with the specified ID">
+        <tr lang="rs"> Нема уноса у систему под задатим бројем </tr>
+      </string>
+      <string key="Anonymous User Info">
+        <tr lang="rs"> Информације о анонимном кориснику </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for">
+        <tr lang="rs"> Молимо Вас да уплатите $currency_sign $product_info_price за </tr>
+      </string>
+      <string key="Welcome">
+        <tr lang="rs"> Добродошли </tr>
+      </string>
+      <string key="Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for">
+        <tr lang="rs"> Поштовани $username, &lt;br /&gt;&lt;br /&gt;Молимо вас да уплатите $amount за </tr>
+      </string>
+      <string key="Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you!">
+        <tr lang="rs"> Број трансакције је $payment_id. &lt;br /&gt;&lt;br /&gt;Хвала вам! </tr>
+      </string>
+      <string key="Please log in to access this page. If you do not have an account, please">
+        <tr lang="rs"> Молимо вас да се улогујете да бисте имали приступ овој страни. Уколико не поседујете налог, молимо вас </tr>
+      </string>
+      <string key="Featured Companies">
+        <tr lang="rs"> Истакнуте Компаније </tr>
+      </string>
+      <string key="Get resumes by email">
+        <tr lang="rs"> Преузмите резимее путем интернет поште (e-mail) </tr>
+      </string>
+      <string key="Get jobs by email">
+        <tr lang="rs"> Преузмите послове путем интернет поште (e-mail) </tr>
+      </string>
+      <string key="Please use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="rs"> Молимо Вас да користите &quot;Ctrl&quot; тастер да бисте одабрали две или више опција </tr>
+      </string>
+      <string key="Confirm E-mail">
+        <tr lang="rs"> Потврдите интернет адресу (е-mail) </tr>
+      </string>
+      <string key="Reload Image">
+        <tr lang="rs"> Замени Слику </tr>
+      </string>
+      <string key="Accept terms of use">
+        <tr lang="rs"> Прихватам услове коришћења </tr>
+      </string>
+      <string key="Read terms of use">
+        <tr lang="rs"> Прочитајте услове коришћења </tr>
+      </string>
+      <string key="Resume Alerts">
+        <tr lang="rs"> Обавештења о Биографији </tr>
+      </string>
+      <string key="Application Tracking">
+        <tr lang="rs"> Апликација за праћење </tr>
+      </string>
+      <string key="Resume Alert Name">
+        <tr lang="rs"> Назив Обавештења о Биографији </tr>
+      </string>
+      <string key="Add new resume alert">
+        <tr lang="rs"> Додај ново обавештење о Биографији </tr>
+      </string>
+      <string key="Disable">
+        <tr lang="rs"> Онемогући </tr>
+      </string>
+      <string key="Preview Search Results">
+        <tr lang="rs"> Прегледај резултате претраге </tr>
+      </string>
+      <string key="Add resume alert">
+        <tr lang="rs"> Додај обавештење о резимеу </tr>
+      </string>
+      <string key="Alert Name">
+        <tr lang="rs"> Назив обавештења </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="rs"> Наслов Посла </tr>
+      </string>
+      <string key="Date Applied">
+        <tr lang="rs"> Додај Датум </tr>
+      </string>
+      <string key="Status">
+        <tr lang="rs"> Стање </tr>
+      </string>
+      <string key="Attached Resume">
+        <tr lang="rs"> У прилогу додатак </tr>
+      </string>
+      <string key="Applicant’s Name">
+        <tr lang="rs"> Назив подносиоца захтева </tr>
+      </string>
+      <string key="User comments">
+        <tr lang="rs"> Коментари корисника </tr>
+      </string>
+      <string key="View Attached File">
+        <tr lang="rs"> Погледај приложен фајл </tr>
+      </string>
+      <string key="Jobs Search Results">
+        <tr lang="rs"> Резултати претаге послова </tr>
+      </string>
+      <string key="Save this Search / Job Alert">
+        <tr lang="rs"> Сачувај претрагу / Обавештење о Послу </tr>
+      </string>
+      <string key="Company Profile">
+        <tr lang="rs"> Профил компаније </tr>
+      </string>
+      <string key="Sign in">
+        <tr lang="rs"> Пријава </tr>
+      </string>
+      <string key="You have no listings now. Click">
+        <tr lang="rs"> Тренутно немате ни један унос. Кликните </tr>
+      </string>
+      <string key="here">
+        <tr lang="rs"> овде </tr>
+      </string>
+      <string key="to add a new listing.">
+        <tr lang="rs"> Да додате нов унос. </tr>
+      </string>
+      <string key="Fields marked with an asterisk (">
+        <tr lang="rs"> Поља означена звездицом ( </tr>
+      </string>
+      <string key=") are mandatory">
+        <tr lang="rs"> ) су обавезна </tr>
+      </string>
+      <string key="Please log in to place a listing. If you do not have an account, please">
+        <tr lang="rs"> Молимо Вас да се пријавите да бисте били у могућности да направите нов унос. Уколико немате налог, молимо Вас </tr>
+      </string>
+      <string key="within $radius $radius_search_unit of $location">
+        <tr lang="rs"> У Пречнику од $radius $radius_search_unit  $location </tr>
+      </string>
+      <string key="kilometers">
+        <tr lang="rs"> километара </tr>
+      </string>
+      <string key="Apply to job">
+        <tr lang="rs"> Пријавите се за посао </tr>
+      </string>
+      <string key="Cover letter (optional)">
+        <tr lang="rs"> Пропратно писмо (није обавезно) </tr>
+      </string>
+      <string key="Please">
+        <tr lang="rs"> Молимо Вас </tr>
+      </string>
+      <string key="sign in ">
+        <tr lang="rs"> пријавите се </tr>
+      </string>
+      <string key="to add comments!">
+        <tr lang="rs"> да оставите коментар! </tr>
+      </string>
+      <string key="You applied successfully">
+        <tr lang="rs"> Успештно сте се пријавили </tr>
+      </string>
+      <string key="Please log in to place a new posting. If you do not have an account, please">
+        <tr lang="rs"> Молимо Вас да се пријавите да бисте били у могућности да направите нов унос. Уколико немате налог, молимо Вас </tr>
+      </string>
+      <string key="Register.">
+        <tr lang="rs"> Регистрација. </tr>
+      </string>
+      <string key="Search by Company">
+        <tr lang="rs"> Претрага по Компанији </tr>
+      </string>
+      <string key="Clone">
+        <tr lang="rs"> Клонирај </tr>
+      </string>
+      <string key="My Job Preview">
+        <tr lang="rs"> Преглед Посла </tr>
+      </string>
+      <string key="Click to select">
+        <tr lang="rs"> Кликни да би одабрао </tr>
+      </string>
+      <string key="Redirect to this URL">
+        <tr lang="rs"> Преусмери на овау интернет страну (УРЛ) </tr>
+      </string>
+      <string key="Use the following format:">
+        <tr lang="rs"> Користи следећи формат: </tr>
+      </string>
+      <string key="Your changes were successfully saved">
+        <tr lang="rs"> Ваше измене су успешно сачуване </tr>
+      </string>
+      <string key="Manage Pictures">
+        <tr lang="rs"> Управљај Сликама </tr>
+      </string>
+      <string key="Clone this job posting">
+        <tr lang="rs"> Дуплирај овај оглас за посао </tr>
+      </string>
+      <string key="Clone Job">
+        <tr lang="rs"> Дуплирај Посао </tr>
+      </string>
+      <string key="Company">
+        <tr lang="rs"> Компанија </tr>
+      </string>
+      <string key="My Applications">
+        <tr lang="rs"> Моје Пријаве </tr>
+      </string>
+      <string key="Select your resume">
+        <tr lang="rs"> Одаберите Ваш резиме </tr>
+      </string>
+      <string key="Enter Job Information">
+        <tr lang="rs"> Унесите опис посла </tr>
+      </string>
+      <string key="My Postings">
+        <tr lang="rs"> Моји Послови </tr>
+      </string>
+      <string key="Private messages">
+        <tr lang="rs"> Приватне поруке </tr>
+      </string>
+      <string key="Inbox">
+        <tr lang="rs"> Примљено </tr>
+      </string>
+      <string key="Outbox">
+        <tr lang="rs"> Послате Поруке </tr>
+      </string>
+      <string key="Edit Saved Search">
+        <tr lang="rs"> Измени Сачувану Претрагу </tr>
+      </string>
+      <string key="Saved Searches Name">
+        <tr lang="rs"> Назив Сачуване Претраге </tr>
+      </string>
+      <string key="Notify on My Jobs Expiration">
+        <tr lang="rs"> Обавести ме о истеку посла </tr>
+      </string>
+      <string key="Notify on My Contract Expiration">
+        <tr lang="rs"> Обавести ме о истеку уговора </tr>
+      </string>
+      <string key="Notify on new private message">
+        <tr lang="rs"> Обавести ме о новим порукама </tr>
+      </string>
+      <string key="Cover Letter">
+        <tr lang="rs"> Пропратно писмо </tr>
+      </string>
+      <string key="My Billings">
+        <tr lang="rs"> Моји Рачуни </tr>
+      </string>
+      <string key="Compose Message">
+        <tr lang="rs"> Састави Нову Поруку </tr>
+      </string>
+      <string key="From">
+        <tr lang="rs"> Од </tr>
+      </string>
+      <string key="Subject">
+        <tr lang="rs"> Тема </tr>
+      </string>
+      <string key="To">
+        <tr lang="rs"> Ка </tr>
+      </string>
+      <string key="Message to">
+        <tr lang="rs"> Поруку прима </tr>
+      </string>
+      <string key="Message">
+        <tr lang="rs"> Порука </tr>
+      </string>
+      <string key="Save to outbox">
+        <tr lang="rs"> Сачувај у послатим порукама </tr>
+      </string>
+      <string key="Send private message">
+        <tr lang="rs"> Пошаљите приватну поруку </tr>
+      </string>
+      <string key="You are logged in already">
+        <tr lang="rs"> Већ сте пријављени </tr>
+      </string>
+      <string key="You&apos;re not allowed to open this page">
+        <tr lang="rs"> Немате дозволу да видите садржај ове странице </tr>
+      </string>
+      <string key="Send Private Message">
+        <tr lang="rs"> Пошаљите Приватну Поруку </tr>
+      </string>
+      <string key="Save this Search / Resume Alert">
+        <tr lang="rs"> Сачувајте ову Претрагу / Обавештење о Резимеу </tr>
+      </string>
+      <string key="Resume has been saved">
+        <tr lang="rs"> Резиме је сачуван </tr>
+      </string>
+      <string key="Contact User">
+        <tr lang="rs"> Контактирајте Корисника </tr>
+      </string>
+      <string key="Send applications online via web site">
+        <tr lang="rs"> Шаљите пријаве путем веб сајта </tr>
+      </string>
+      <string key="Notify on My Resumes Approve Or Reject">
+        <tr lang="rs"> Обавести ме уколико ми резиме буде Прихваћен или Одбијен </tr>
+      </string>
+      <string key="Notify on My Resumes Expiration">
+        <tr lang="rs"> Обавести ме о истеку Резимеа </tr>
+      </string>
+      <string key="Job Alert Name">
+        <tr lang="rs"> Назив Обавештења о послу </tr>
+      </string>
+      <string key="Add new job alert">
+        <tr lang="rs"> Додај ново обавештење о послу </tr>
+      </string>
+      <string key="Jobs Applied">
+        <tr lang="rs"> Аплицирани послови </tr>
+      </string>
+      <string key="Enter Your Resume Information">
+        <tr lang="rs"> Унесите информације о вашем резимеу </tr>
+      </string>
+      <string key="Company name">
+        <tr lang="rs"> Назив компаније </tr>
+      </string>
+      <string key="Company Search Results">
+        <tr lang="rs"> Резултат претраге компаније </tr>
+      </string>
+      <string key="Results: $usersCount Company">
+        <tr lang="rs"> Укупно: $usersCount Компанија </tr>
+      </string>
+      <string key="Number of company per page">
+        <tr lang="rs"> Број компанија по страници </tr>
+      </string>
+      <string key="Mark as Read">
+        <tr lang="rs"> Прочитано </tr>
+      </string>
+      <string key="Message from">
+        <tr lang="rs"> Порука од </tr>
+      </string>
+      <string key="Read Private Message">
+        <tr lang="rs"> Прочитајте приватну поруку </tr>
+      </string>
+      <string key="Reply">
+        <tr lang="rs"> Одговори </tr>
+      </string>
+      <string key="Approve selected">
+        <tr lang="rs"> Одобри одабрано </tr>
+      </string>
+      <string key="Reject selected">
+        <tr lang="rs"> Одби одабрано </tr>
+      </string>
+      <string key="Pending">
+        <tr lang="rs"> У току </tr>
+      </string>
+      <string key="Approved">
+        <tr lang="rs"> Одобрено </tr>
+      </string>
+      <string key="Rejected">
+        <tr lang="rs"> Одбијено </tr>
+      </string>
+      <string key="Select Job Posting">
+        <tr lang="rs"> Одаберите Посао </tr>
+      </string>
+      <string key="All Jobs">
+        <tr lang="rs"> Сви послови </tr>
+      </string>
+      <string key="Delete profile">
+        <tr lang="rs"> Обришите профил </tr>
+      </string>
+      <string key="Back">
+        <tr lang="rs"> Назад </tr>
+      </string>
+      <string key="Enable">
+        <tr lang="rs"> Омогући </tr>
+      </string>
+      <string key="E-mail frequency">
+        <tr lang="rs"> Учесталост електронске поште(и-мејл) </tr>
+      </string>
+      <string key="You have">
+        <tr lang="rs"> Имате </tr>
+      </string>
+      <string key="jobs left to post out of">
+        <tr lang="rs"> послова да објавите од </tr>
+      </string>
+      <string key="resumes left to post out of">
+        <tr lang="rs"> резимеа да објавите од </tr>
+      </string>
+      <string key="originally available">
+        <tr lang="rs"> првобитно на располагању </tr>
+      </string>
+      <string key="You&apos;re currently subscribed to">
+        <tr lang="rs"> тренутно сте претплаћени на </tr>
+      </string>
+      <string key="plan.">
+        <tr lang="rs"> план. </tr>
+      </string>
+      <string key="Subscription date">
+        <tr lang="rs"> Датум пријављивања </tr>
+      </string>
+      <string key="Subscription expiration date">
+        <tr lang="rs"> Датум истицања претплате </tr>
+      </string>
+      <string key="s left to post out of">
+        <tr lang="rs"> s left to post out of </tr>
+      </string>
+      <string key="To change your current subscription please chose new plan below.">
+        <tr lang="rs"> Да бисте променили претплату, молимо Вас да одаберете неки од понуђених планова испод. </tr>
+      </string>
+      <string key="job">
+        <tr lang="rs"> посао </tr>
+      </string>
+      <string key="Not Available Anymore">
+        <tr lang="rs"> Више није доступно </tr>
+      </string>
+      <string key="home">
+        <tr lang="rs"> почетак </tr>
+      </string>
+      <string key="Search job title only">
+        <tr lang="rs"> Претражите само наслов посла </tr>
+      </string>
+      <string key="Edit notes">
+        <tr lang="rs"> Измени белешке </tr>
+      </string>
+      <string key="Add notes">
+        <tr lang="rs"> Додај белешку </tr>
+      </string>
+      <string key="Close">
+        <tr lang="rs"> Затвори </tr>
+      </string>
+      <string key="My notes">
+        <tr lang="rs"> Моје белешке </tr>
+      </string>
+      <string key="Search resume title only">
+        <tr lang="rs"> Претражите само наслов резимеа </tr>
+      </string>
+      <string key="Search by title">
+        <tr lang="rs"> Претражите по наслову </tr>
+      </string>
+      <string key="Match exact phrase">
+        <tr lang="rs"> Пронађи фразу </tr>
+      </string>
+      <string key="Match all words">
+        <tr lang="rs"> Пронађи све речи </tr>
+      </string>
+      <string key="Match any words">
+        <tr lang="rs"> Пронађи било коју реч </tr>
+      </string>
+      <string key="Boolean">
+        <tr lang="rs"> Булова </tr>
+      </string>
+      <string key="   Boolean search description">
+        <tr lang="rs"> Булова претрага описа </tr>
+      </string>
+      <string key="Please choose new subscription plan">
+        <tr lang="rs"> Молимо вас да одаберете другу претплату </tr>
+      </string>
+      <string key="You&apos;ve reached the limit of number of listings allowed by your plan">
+        <tr lang="rs"> Достигли сте максимум огласа које вам ваша претплата дозвољава. </tr>
+      </string>
+      <string key="Boolean search descripion">
+        <tr lang="rs"> Булова претрага описа </tr>
+      </string>
+      <string key="Search title only">
+        <tr lang="rs"> Претрага наслова </tr>
+      </string>
+      <string key="Terms of use">
+        <tr lang="rs"> Услови коришћења </tr>
+      </string>
+      <string key="Test URL">
+        <tr lang="rs"> Проверите веб адресу (УРЛ) </tr>
+      </string>
+      <string key="Go Search">
+        <tr lang="rs"> Започни претрагу </tr>
+      </string>
+      <string key="Applicant’s resume">
+        <tr lang="rs"> Резиме подносиоца захтева </tr>
+      </string>
+      <string key="Total">
+        <tr lang="rs"> Укупно </tr>
+      </string>
+      <string key="Boolean search description">
+        <tr lang="rs"> Булова претрага описа </tr>
+      </string>
+      <string key="Employers List">
+        <tr lang="rs"> Списак послодаваца </tr>
+      </string>
+      <string key="Selected Emloyers">
+        <tr lang="rs"> Одабрани послодавци </tr>
+      </string>
+      <string key="* Use CTRL key to select two or more employers">
+        <tr lang="rs"> * Користите тастер ЦТРЛ (CTRL) да одаберете два или више послодавца </tr>
+      </string>
+      <string key="Loading">
+        <tr lang="rs"> Учитавам </tr>
+      </string>
+      <string key="Currency">
+        <tr lang="rs"> Валута </tr>
+      </string>
+      <string key="Deselect all">
+        <tr lang="rs"> Поништите све </tr>
+      </string>
+      <string key="You can not subscribe to this plan twice">
+        <tr lang="rs"> Не можете се претплатити на овај пакет два пута. Тренутно сте претплаћени на овај пакет. </tr>
+      </string>
+      <string key="You IP address was banned by site administrator. Please contact at YourEmail@mail.box for any questions.">
+        <tr lang="rs"> Ваша ИП Адреса је забрањена од стране администратора. Молимо Вас да нас контактирате на YourEmail@mail.box за било каква питања. </tr>
+      </string>
+      <string key="No avaiable subscriptions">
+        <tr lang="rs"> Нема претплата на располагању </tr>
+      </string>
+      <string key="Please choose exl or csv file">
+        <tr lang="rs"> Молимо вас да одаберете &quot;exl&quot; или &quot;csv&quot; фајл </tr>
+      </string>
+      <string key="You specified wrong email">
+        <tr lang="rs"> Унели сте погрешну интернет пошту (e-mail) </tr>
+      </string>
+      <string key="Your username is">
+        <tr lang="rs"> Ваше корисничко име је </tr>
+      </string>
+      <string key="Recurring">
+        <tr lang="rs"> Периодично </tr>
+      </string>
+      <string key="You are going to sign up for a recurring Subscription. Once in $product_info_subscription_period days period a charge in the amount of $product_info_price will automatically be placed on your credit card to renew your subscription.">
+        <tr lang="rs"> Пријављујете се за периодичну претплату. Када дођете у $product_info_subscription_period  период, са вашег рачуна ће аутоматски бити скинуто $product_info_price ради обнављања претплате. </tr>
+      </string>
+      <string key="Your recurring subscription to the &quot;$cancelMembershipPlanName&quot; plan has been canceled.">
+        <tr lang="rs"> Ваша периодична претплата на &quot;$cancelMembershipPlanName&quot; пакет је поништена. </tr>
+      </string>
+      <string key="Your payment was successfully completed. Recurring Subscription activation may take some time. Once subscription is activated it will appear in the table below.">
+        <tr lang="rs"> Ваша уплата је успешно обављена. Активација Периодичне претплате би могла да потраје неко време. Када се буде претплата буде активирана, појавиће се у табели испод. </tr>
+      </string>
+      <string key="Notify on My Jobs Activation">
+        <tr lang="rs"> Обавештења о Активацији мојих послова </tr>
+      </string>
+      <string key="Notify on My Resumes Activation">
+        <tr lang="rs"> Обавештења о Активацији мојих резимеа </tr>
+      </string>
+      <string key="jobs">
+        <tr lang="rs"> послова </tr>
+      </string>
+      <string key="resumes">
+        <tr lang="rs"> резимеа </tr>
+      </string>
+      <string key="currently online">
+        <tr lang="rs"> пријављених </tr>
+      </string>
+      <string key="Post jobs">
+        <tr lang="rs"> Објави послове </tr>
+      </string>
+      <string key="Blog Posts">
+        <tr lang="rs"> Блог </tr>
+      </string>
+      <string key="You are currently logged in as">
+        <tr lang="rs"> Тренутно сте пријављени као </tr>
+      </string>
+      <string key="News">
+        <tr lang="rs"> вести </tr>
+      </string>
+      <string key="Sub Accounts">
+        <tr lang="rs"> Под-налози </tr>
+      </string>
+      <string key="Saved Resumes">
+        <tr lang="rs"> Сачувани резимеи </tr>
+      </string>
+      <string key="Screening Questionnaires">
+        <tr lang="rs"> Приказивање упитника </tr>
+      </string>
+      <string key="Bulk job import from exl/csv file">
+        <tr lang="rs"> Груни унос послова из exl/csv фајла </tr>
+      </string>
+      <string key="Your listing succesfully upgraded to featured">
+        <tr lang="rs"> Ваш оглас је успешно истакнут </tr>
+      </string>
+      <string key="Listing is already featured">
+        <tr lang="rs"> Оглас је већ истакнут </tr>
+      </string>
+      <string key="Current Search">
+        <tr lang="rs"> Тренутна Претрага </tr>
+      </string>
+      <string key="Refine Results">
+        <tr lang="rs"> Прецизирај Претрагу </tr>
+      </string>
+      <string key="show brief">
+        <tr lang="rs"> прикажи укратко </tr>
+      </string>
+      <string key="show detailed">
+        <tr lang="rs"> прикажи детаљно </tr>
+      </string>
+      <string key="Post Job">
+        <tr lang="rs"> Објави Посао </tr>
+      </string>
+      <string key="Send applications to this e-mail">
+        <tr lang="rs"> Пошаљи пријаве на ову интернет пошту (e-mail) </tr>
+      </string>
+      <string key="Score">
+        <tr lang="rs"> Резултат </tr>
+      </string>
+      <string key="Not passed">
+        <tr lang="rs"> Није прошло </tr>
+      </string>
+      <string key="Actions With Selected">
+        <tr lang="rs"> Радње са Одабраним </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="rs"> Назив Анкете </tr>
+      </string>
+      <string key="Create New Questionnaire">
+        <tr lang="rs"> Направи Нову Анкету </tr>
+      </string>
+      <string key="Send Auto-Reply email to candidates whose score is">
+        <tr lang="rs"> Пошаљи аутоматски одговор на интернет пошту (е-маил) кандидата чији је скор </tr>
+      </string>
+      <string key="Question">
+        <tr lang="rs"> Питање </tr>
+      </string>
+      <string key="Answer Type">
+        <tr lang="rs"> Тип одговора </tr>
+      </string>
+      <string key="Questions">
+        <tr lang="rs"> Питања </tr>
+      </string>
+      <string key="Edit Questionnaire">
+        <tr lang="rs"> Измени Анкету </tr>
+      </string>
+      <string key="Edit Questions">
+        <tr lang="rs"> Измени Питања </tr>
+      </string>
+      <string key="Order">
+        <tr lang="rs"> Редослед </tr>
+      </string>
+      <string key="Name">
+        <tr lang="rs"> Назив </tr>
+      </string>
+      <string key="Required">
+        <tr lang="rs"> Обавезно </tr>
+      </string>
+      <string key="My account">
+        <tr lang="rs"> Мој налог </tr>
+      </string>
+      <string key="No">
+        <tr lang="rs"> Не </tr>
+      </string>
+      <string key="Yes">
+        <tr lang="rs"> Да </tr>
+      </string>
+      <string key="Add Answer">
+        <tr lang="rs"> Додај Одговор </tr>
+      </string>
+      <string key="Complete">
+        <tr lang="rs"> Готово </tr>
+      </string>
+      <string key="Username">
+        <tr lang="rs"> Корисничко име </tr>
+      </string>
+      <string key="Sub-user Profile">
+        <tr lang="rs"> Под-корисников Профил </tr>
+      </string>
+      <string key="Permissions">
+        <tr lang="rs"> Дозволе </tr>
+      </string>
+      <string key="Add new listings">
+        <tr lang="rs"> Додај нов оглас </tr>
+      </string>
+      <string key="Manage listings and applications of other sub users">
+        <tr lang="rs"> Управљајте огласима и пријавама под-корисника </tr>
+      </string>
+      <string key="View and update subscription">
+        <tr lang="rs"> Погледај и промени претплату </tr>
+      </string>
+      <string key="years">
+        <tr lang="rs"> године </tr>
+      </string>
+      <string key="Save this Search">
+        <tr lang="rs"> Сачувај ову Претрагу </tr>
+      </string>
+      <string key="Save Resume Alert">
+        <tr lang="rs"> Додај у Обавештења Резиме </tr>
+      </string>
+      <string key="Resume Search Results">
+        <tr lang="rs"> Резултати Претраге Резимеа </tr>
+      </string>
+      <string key="Saved resumes">
+        <tr lang="rs"> Сачувани резимеи </tr>
+      </string>
+      <string key="Data Import">
+        <tr lang="rs"> Увоз података </tr>
+      </string>
+      <string key="Please review the file examples below and ascertain that your file is up to sample">
+        <tr lang="rs"> Молимо вас да погледате примере фајла испод, и уверите се да је ваш фајл исправан </tr>
+      </string>
+      <string key="Job import EXL file example">
+        <tr lang="rs"> Пример (EXL) фајла за увоз послова </tr>
+      </string>
+      <string key="Job import CSV file example">
+        <tr lang="rs"> Пример (CSV) фајла за увоз послова </tr>
+      </string>
+      <string key="View All News">
+        <tr lang="rs"> Погледај све вести </tr>
+      </string>
+      <string key="read more">
+        <tr lang="rs"> више о томе </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="rs"> Објављено </tr>
+      </string>
+      <string key="Text">
+        <tr lang="rs"> Текст </tr>
+      </string>
+      <string key="Yes/No">
+        <tr lang="rs"> Да/Не </tr>
+      </string>
+      <string key="List of answers with multiple choice">
+        <tr lang="rs"> Списак одговора са више избора </tr>
+      </string>
+      <string key="List of answers with single choice">
+        <tr lang="rs"> Списак одговора са једним избором </tr>
+      </string>
+      <string key="Errors">
+        <tr lang="rs"> Грешке </tr>
+      </string>
+      <string key="Order Information">
+        <tr lang="rs"> Информације о Редоследу </tr>
+      </string>
+      <string key="Invoice Number">
+        <tr lang="rs"> Број Фактуре </tr>
+      </string>
+      <string key="Credit Card Information">
+        <tr lang="rs"> Информације о Кредитној Картици </tr>
+      </string>
+      <string key="Card Number">
+        <tr lang="rs"> Број Кредитне Картице </tr>
+      </string>
+      <string key="enter number without spaces or dashes">
+        <tr lang="rs"> Унесите број беѕ цртица, зареза или празног простора </tr>
+      </string>
+      <string key="Expiration Date">
+        <tr lang="rs"> Датум Истека </tr>
+      </string>
+      <string key="mmyy">
+        <tr lang="rs"> ммгг </tr>
+      </string>
+      <string key="Billing Information">
+        <tr lang="rs"> Информације о Наплати </tr>
+      </string>
+      <string key="Reset">
+        <tr lang="rs"> Ресетовање </tr>
+      </string>
+      <string key="Anonymous User">
+        <tr lang="rs"> Анонимни Корисник </tr>
+      </string>
+      <string key="News Categories">
+        <tr lang="rs"> Категорије Вести </tr>
+      </string>
+      <string key="Powered by">
+        <tr lang="rs"> Powered by </tr>
+      </string>
+      <string key="About Us">
+        <tr lang="rs"> О Нама </tr>
+      </string>
+      <string key="Sitemap">
+        <tr lang="rs"> Мапа Сајта </tr>
+      </string>
+      <string key="message">
+        <tr lang="rs"> Порука </tr>
+      </string>
+      <string key="Edit Profile">
+        <tr lang="rs"> Измени Профил </tr>
+      </string>
+      <string key="Notify on My Subscriptions Expiration">
+        <tr lang="rs"> Обавести ме о истеку мојих претплата </tr>
+      </string>
+      <string key="Notify on New Private Messages">
+        <tr lang="rs"> Обавести ме о новим приватним порукама </tr>
+      </string>
+      <string key="Notify on My Subscriptions Activation">
+        <tr lang="rs"> Обавести ме о Активацији мојих Претплата </tr>
+      </string>
+      <string key="Remind about My Subscriptions expiration">
+        <tr lang="rs"> Подсети ме о истеку мојих Претплата </tr>
+      </string>
+      <string key="Remind about My Listings expiration">
+        <tr lang="rs"> Обавести ме о истеку мојих Огласа </tr>
+      </string>
+      <string key="Days before">
+        <tr lang="rs"> Дана пре </tr>
+      </string>
+      <string key="Subscription name">
+        <tr lang="rs"> Назив претплате </tr>
+      </string>
+      <string key="Subscription expiration / Renewal Date">
+        <tr lang="rs"> крај претплате / датум обнављања </tr>
+      </string>
+      <string key="Never Expire">
+        <tr lang="rs"> Никад не истиче </tr>
+      </string>
+      <string key="Free">
+        <tr lang="rs"> Бесплатно </tr>
+      </string>
+      <string key="Save Job Alert">
+        <tr lang="rs"> Сачувај Обавештење о Послу </tr>
+      </string>
+      <string key="Flag This Job">
+        <tr lang="rs"> Означи овај Посао </tr>
+      </string>
+      <string key="Your comment (will be send with the recommendation)">
+        <tr lang="rs"> Ваш коментар (ће бити послат заједно са препоруком) </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="rs"> Унесите шифру са слике </tr>
+      </string>
+      <string key="1. General Information">
+        <tr lang="rs"> 1. Опште информације </tr>
+      </string>
+      <string key="2. Education">
+        <tr lang="rs"> 2. Образовање </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Fill in the fields below to provide Employers with a general information about yourself&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="rs"> Попуните поља испод да би послодавцу обезбедили основне информације о себи. </tr>
+      </string>
+      <string key="Use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="rs"> Користите ЦТРЛ (CTRL) тастер да би одабрали две или више опција </tr>
+      </string>
+      <string key="3. Work Experience">
+        <tr lang="rs"> 3. Радно Искуство </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your education. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="rs"> Унесите податке о вашем образовању. Користите  &quot;Додај&quot; дугме да направите нов блок поља за унос. </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your work experience. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="rs"> Унесите податке о вашем радном искуству. Користите &quot;Додај&quot; дугме да направите нов блок поља за унос. </tr>
+      </string>
+      <string key="Listing Owner">
+        <tr lang="rs"> Власник Огласа </tr>
+      </string>
+      <string key="Post a Job">
+        <tr lang="rs"> Објави Посао </tr>
+      </string>
+      <string key="Enter Security code">
+        <tr lang="rs"> Унесите Сигурносну шифру </tr>
+      </string>
+      <string key="file not specified">
+        <tr lang="rs"> Фајл није унет </tr>
+      </string>
+      <string key="Security code is not valid">
+        <tr lang="rs"> Сигурносна шифа није исправна </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your Job below&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="rs"> Унесите податке о вапем послу испод. </tr>
+      </string>
+      <string key="View Questionaire">
+        <tr lang="rs"> Погледајте Анкету </tr>
+      </string>
+      <string key="View Questionnaire">
+        <tr lang="rs"> Погледајте Анкету </tr>
+      </string>
+      <string key="Answer">
+        <tr lang="rs"> Одговор </tr>
+      </string>
+      <string key="Sub-users">
+        <tr lang="rs"> Под-корисници </tr>
+      </string>
+      <string key="Create New Account">
+        <tr lang="rs"> Направите нов налог </tr>
+      </string>
+      <string key="Edit sub-user">
+        <tr lang="rs"> Измените под-корисника </tr>
+      </string>
+      <string key="Sub-user">
+        <tr lang="rs"> Под-корисник </tr>
+      </string>
+      <string key="Sub-user registration">
+        <tr lang="rs"> Регистрација под-корисника </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="rs"> Телефон </tr>
+      </string>
+      <string key="Fax">
+        <tr lang="rs"> Факс </tr>
+      </string>
+      <string key="Cancel">
+        <tr lang="rs"> Одустани </tr>
+      </string>
+      <string key="Answers">
+        <tr lang="rs"> Одговори </tr>
+      </string>
+      <string key="Questions of">
+        <tr lang="rs"> Питања </tr>
+      </string>
+      <string key="No of jobs">
+        <tr lang="rs"> Број послова </tr>
+      </string>
+      <string key="Please, enter your email in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="rs"> Молимо вас да унесете вашу интернет пошту (e-mail) у поље испод и ми ћемо вам послати линк ка страници на којој ћете моћи да измените шифру </tr>
+      </string>
+      <string key="Flag This Resume">
+        <tr lang="rs"> Означи Овај Резиме </tr>
+      </string>
+      <string key="Рowered by">
+        <tr lang="rs"> Рowered by </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="rs"> Кандидат </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="rs"> Послодавац </tr>
+      </string>
+      <string key="There was an error while sending your application.">
+        <tr lang="rs"> Дошло је до грешке у току слања ваше пријаве. </tr>
+      </string>
+      <string key="Passed">
+        <tr lang="rs"> Прошло </tr>
+      </string>
+      <string key="This Resume is no longer available">
+        <tr lang="rs">  </tr>
+      </string>
+      <string key="This Job is no longer available">
+        <tr lang="rs">  </tr>
+      </string>
+      <string key="Cash Payment">
+        <tr lang="rs">  </tr>
+      </string>
+    </page>
+    <page key="FormFieldCaptions">
+      <string key="Keywords">
+        <tr lang="rs"> Кључне речи </tr>
+      </string>
+      <string key="State">
+        <tr lang="rs"> Државе </tr>
+      </string>
+      <string key="Category">
+        <tr lang="rs"> Категорије </tr>
+      </string>
+      <string key="City">
+        <tr lang="rs"> Град </tr>
+      </string>
+      <string key="Username">
+        <tr lang="rs"> Корисничко име </tr>
+      </string>
+      <string key="Password">
+        <tr lang="rs"> Шифра </tr>
+      </string>
+      <string key="User name">
+        <tr lang="rs"> Име корисника </tr>
+      </string>
+      <string key="E-mail">
+        <tr lang="rs"> Интернет пошта (E-mail) </tr>
+      </string>
+      <string key="First Name">
+        <tr lang="rs"> Име </tr>
+      </string>
+      <string key="Last Name">
+        <tr lang="rs"> Презиме </tr>
+      </string>
+      <string key="Country">
+        <tr lang="rs"> Земља </tr>
+      </string>
+      <string key="Address">
+        <tr lang="rs"> Адреса </tr>
+      </string>
+      <string key="Zip Code">
+        <tr lang="rs"> Поштански Број </tr>
+      </string>
+      <string key="Phone Number">
+        <tr lang="rs"> Број телефона </tr>
+      </string>
+      <string key="Company Name">
+        <tr lang="rs"> Назив компаније </tr>
+      </string>
+      <string key="Contact Name">
+        <tr lang="rs"> Име за контакт </tr>
+      </string>
+      <string key="Web Site">
+        <tr lang="rs"> веб сајт </tr>
+      </string>
+      <string key="Zip code">
+        <tr lang="rs"> Поштански број </tr>
+      </string>
+      <string key="Logo">
+        <tr lang="rs"> Лого </tr>
+      </string>
+      <string key="Search Within">
+        <tr lang="rs"> Тражи у оквиру </tr>
+      </string>
+      <string key="Salary">
+        <tr lang="rs"> Плата </tr>
+      </string>
+      <string key="Salary Type">
+        <tr lang="rs"> Тип плате </tr>
+      </string>
+      <string key="Employment Type">
+        <tr lang="rs"> Тип запослења </tr>
+      </string>
+      <string key="ID">
+        <tr lang="rs"> Број </tr>
+      </string>
+      <string key="Activation Date">
+        <tr lang="rs"> Датум активације </tr>
+      </string>
+      <string key="Title">
+        <tr lang="rs"> Наслов </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="rs"> Објављено </tr>
+      </string>
+      <string key="Company">
+        <tr lang="rs"> Компанија </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="rs"> Телефон </tr>
+      </string>
+      <string key="Web">
+        <tr lang="rs"> Мрежа </tr>
+      </string>
+      <string key="Job Views">
+        <tr lang="rs"> Број посета </tr>
+      </string>
+      <string key="Job ID">
+        <tr lang="rs"> Број посла </tr>
+      </string>
+      <string key="Job Category">
+        <tr lang="rs"> Категорија посла </tr>
+      </string>
+      <string key="Job Description">
+        <tr lang="rs"> Опис посла </tr>
+      </string>
+      <string key="Job Requirements">
+        <tr lang="rs"> Услови посла </tr>
+      </string>
+      <string key="Job Type">
+        <tr lang="rs"> Тип посла </tr>
+      </string>
+      <string key="Desired Salary">
+        <tr lang="rs"> Жељена Плата </tr>
+      </string>
+      <string key="Video">
+        <tr lang="rs"> Видео </tr>
+      </string>
+      <string key="Experience">
+        <tr lang="rs"> Искуство </tr>
+      </string>
+      <string key="Name">
+        <tr lang="rs"> Име </tr>
+      </string>
+      <string key="Resumes ID">
+        <tr lang="rs"> Број Резимеа </tr>
+      </string>
+      <string key="Email">
+        <tr lang="rs"> Интернет пошта (е-mail) </tr>
+      </string>
+      <string key="Objective">
+        <tr lang="rs"> Циљ </tr>
+      </string>
+      <string key="Work Experience">
+        <tr lang="rs"> Искуство у послу </tr>
+      </string>
+      <string key="Resumes Views">
+        <tr lang="rs"> Број посета </tr>
+      </string>
+      <string key="Total Years Experience">
+        <tr lang="rs"> Укупно година искуства </tr>
+      </string>
+      <string key="Education">
+        <tr lang="rs"> Образовање </tr>
+      </string>
+      <string key="Skills">
+        <tr lang="rs"> Вештине </tr>
+      </string>
+      <string key="Resume">
+        <tr lang="rs"> Резиме </tr>
+      </string>
+      <string key="Don&apos;t send mailings">
+        <tr lang="rs"> Не желим да примам поруке </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="rs"> Унесите шифру са слике </tr>
+      </string>
+      <string key="Number of Views">
+        <tr lang="rs"> Број Погледа </tr>
+      </string>
+      <string key="Occupations">
+        <tr lang="rs"> Занимања </tr>
+      </string>
+      <string key="Company Description">
+        <tr lang="rs"> Опис Компаније </tr>
+      </string>
+      <string key="Anonymous Resume">
+        <tr lang="rs"> Анонимни резиме </tr>
+      </string>
+      <string key="Application Settings">
+        <tr lang="rs"> Подешавања апликације </tr>
+      </string>
+      <string key="Applications">
+        <tr lang="rs"> Апликације </tr>
+      </string>
+      <string key="Resume ID">
+        <tr lang="rs"> Број Резимеа </tr>
+      </string>
+      <string key="Approval Status">
+        <tr lang="rs"> Статус Одобрења </tr>
+      </string>
+      <string key="Resume Visible To">
+        <tr lang="rs"> Резиме је видљив за </tr>
+      </string>
+      <string key="Location">
+        <tr lang="rs"> Локација </tr>
+      </string>
+      <string key="Screening Questionnaire">
+        <tr lang="rs"> Прикажи Анкету </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="rs"> Назив Анкете </tr>
+      </string>
+      <string key="Passing Score">
+        <tr lang="rs"> Број бодова неопходан за пролазак </tr>
+      </string>
+      <string key="equal or more than passing score">
+        <tr lang="rs"> једнак или већи број бодова од минималног броја бодова за пролазак </tr>
+      </string>
+      <string key="less than passing score">
+        <tr lang="rs"> мање од неопходног броја бодова за пролазак </tr>
+      </string>
+      <string key="Email text to candidates whose score is equal or more than passing score">
+        <tr lang="rs"> Пошаљи текст на интернет пошту (Email) кандидатима чији је број бодова једнак или већи од минималног за пролазак. </tr>
+      </string>
+      <string key="Email text to candidates whose score is less than passing score">
+        <tr lang="rs"> Пошаљи текст на интернет пошту (Email) кандидатима чији је број бодова мањи од минималног за пролазак. </tr>
+      </string>
+      <string key="Entrance Date">
+        <tr lang="rs"> Датум приступа </tr>
+      </string>
+      <string key="Institution Name">
+        <tr lang="rs"> Назив институције </tr>
+      </string>
+      <string key="Major">
+        <tr lang="rs"> Примарни </tr>
+      </string>
+      <string key="Degree Level">
+        <tr lang="rs"> Ниво образовања </tr>
+      </string>
+      <string key="Start Date">
+        <tr lang="rs"> Почетни датум </tr>
+      </string>
+      <string key="End Date">
+        <tr lang="rs"> Крајњи датум </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="rs"> Назив посла </tr>
+      </string>
+      <string key="Industry">
+        <tr lang="rs"> Индустрија </tr>
+      </string>
+      <string key="Description">
+        <tr lang="rs"> Опис </tr>
+      </string>
+      <string key="Graduation Date">
+        <tr lang="rs"> Датум дипломирања </tr>
+      </string>
+    </page>
+    <page key="Miscellaneous">
+      <string key="Any">
+        <tr lang="rs"> Све: </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="rs"> Кандидат </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="rs"> Послодавац </tr>
+      </string>
+      <string key="Select">
+        <tr lang="rs"> Одаберите: </tr>
+      </string>
+      <string key="Any Distance">
+        <tr lang="rs"> Било која удаљеност </tr>
+      </string>
+      <string key="Within">
+        <tr lang="rs"> У пречнику од </tr>
+      </string>
+      <string key="miles">
+        <tr lang="rs"> миља </tr>
+      </string>
+      <string key="10 days">
+        <tr lang="rs"> 10 дана </tr>
+      </string>
+      <string key="20 days">
+        <tr lang="rs"> 20 дана </tr>
+      </string>
+      <string key="30 days">
+        <tr lang="rs"> 30 дана </tr>
+      </string>
+      <string key="Priority Ad">
+        <tr lang="rs"> Приоритет огласа </tr>
+      </string>
+      <string key="Your posting will be shown above the average search results and will be marked by different background color">
+        <tr lang="rs"> Ваш оглас ће бити приказан изнад већине резултата и позадина ће бити обојена другом бојом. </tr>
+      </string>
+      <string key="30 days priority resume">
+        <tr lang="rs"> Постави резиме као приоритет 30 дана </tr>
+      </string>
+      <string key="Your Resume will be shown above the average search results and will be marked by different background color">
+        <tr lang="rs"> Ваш Резиме ће бити приказан изнад осредњих резултата претраге, и позадина ће бити обојена другом бојом. </tr>
+      </string>
+    </page>
+    <page key="Property_Occupations">
+      <string key="Accounting-Finance">
+        <tr lang="rs"> Рачуноводство-Финансије </tr>
+      </string>
+      <string key="Bookkeeping">
+        <tr lang="rs"> Књиговодство </tr>
+      </string>
+      <string key="Claims Review and Adjusting">
+        <tr lang="rs"> Провера и Кориговање Потражње </tr>
+      </string>
+      <string key="Collections">
+        <tr lang="rs"> Колекције </tr>
+      </string>
+      <string key="Corporate Accounting">
+        <tr lang="rs"> Корпоративно Рачуноводство </tr>
+      </string>
+      <string key="Corporate Finance">
+        <tr lang="rs"> Корпоративне Финансије </tr>
+      </string>
+      <string key="Credit Review-Analysis">
+        <tr lang="rs"> Преглед-Анализа кредита </tr>
+      </string>
+      <string key="Financial Analysis-Research-Reporting">
+        <tr lang="rs"> Анализа-Истраживање-Извештаји финансија </tr>
+      </string>
+      <string key="Financial Control">
+        <tr lang="rs"> Контрола финансија </tr>
+      </string>
+      <string key="Financial Planning-Advising">
+        <tr lang="rs"> Планирање-Саветовање у вези Финансија </tr>
+      </string>
+      <string key="Financial Products Sales-Brokerage">
+        <tr lang="rs"> Продаја финансијских производа-Брокер </tr>
+      </string>
+      <string key="Fund Accounting">
+        <tr lang="rs"> Фонд за рачуноводство </tr>
+      </string>
+      <string key="General-Other: Accounting-Finance">
+        <tr lang="rs"> Опште-Остало: Рачуноводство-Финансије </tr>
+      </string>
+      <string key="Investment Management">
+        <tr lang="rs"> Управљање Инвестицијама </tr>
+      </string>
+      <string key="Policy Underwriting">
+        <tr lang="rs"> Policy Underwriting </tr>
+      </string>
+      <string key="Real Estate Appraisal">
+        <tr lang="rs"> Процена Некретнина </tr>
+      </string>
+      <string key="Real Estate Leasing-Acquisition">
+        <tr lang="rs"> Аквизиција-Изнајмљивање Некретнина </tr>
+      </string>
+      <string key="Risk Management-Compliance">
+        <tr lang="rs"> Управљање Ризицима-Регулисање у складу са правилима </tr>
+      </string>
+      <string key="Securities Analysis-Research">
+        <tr lang="rs"> Анализа-Истраживање Обвезнице </tr>
+      </string>
+      <string key="Tax Accounting">
+        <tr lang="rs"> Пореско Рачуноводство </tr>
+      </string>
+      <string key="Tax Assessment and Collections">
+        <tr lang="rs"> Процена и Прикупљање Таксе </tr>
+      </string>
+      <string key="Administrative-Clerical">
+        <tr lang="rs"> Административни и послови уноса-обраде података </tr>
+      </string>
+      <string key="Administrative Support">
+        <tr lang="rs"> Административна подршка </tr>
+      </string>
+      <string key="Claims Processing">
+        <tr lang="rs"> Обрада Захтева </tr>
+      </string>
+      <string key="Data Entry-Order Processing">
+        <tr lang="rs"> Унос података-Обрада Захтева </tr>
+      </string>
+      <string key="Executive Support">
+        <tr lang="rs"> Извршна подршка </tr>
+      </string>
+      <string key="Filing-Records Management">
+        <tr lang="rs"> Попуњавање-Обрада Евиденција </tr>
+      </string>
+      <string key="General-Other: Administrative-Clerical">
+        <tr lang="rs"> Опште-Остало: Административни и послови уноса-обраде података </tr>
+      </string>
+      <string key="Office Management">
+        <tr lang="rs"> Управљање канцеларијом </tr>
+      </string>
+      <string key="Property Management">
+        <tr lang="rs"> Управљање Имовином </tr>
+      </string>
+      <string key="Reception-Switchboard">
+        <tr lang="rs"> Рецепција-Централа </tr>
+      </string>
+      <string key="Secretary-Executive Assistant">
+        <tr lang="rs"> Секретар-Извршни Асистент </tr>
+      </string>
+      <string key="Transcription">
+        <tr lang="rs"> Транскрипција </tr>
+      </string>
+      <string key="Banking-Mortgage Professionals">
+        <tr lang="rs"> Банкарство-хипотеке Професионалци </tr>
+      </string>
+      <string key="Bank Teller">
+        <tr lang="rs"> Шалтерски Радник у Банци </tr>
+      </string>
+      <string key="Credit Manager">
+        <tr lang="rs"> Кредитни Менаџер </tr>
+      </string>
+      <string key="Escrow Officer-Manager">
+        <tr lang="rs"> Сениор Менаџер задужен за (Escrow) питања </tr>
+      </string>
+      <string key="Loan Officer-Originator">
+        <tr lang="rs"> Сениор Службеник задужен за Позајмице </tr>
+      </string>
+      <string key="Mortgage Broker">
+        <tr lang="rs"> Хипотекарни Брокер </tr>
+      </string>
+      <string key="Store-Branch Management">
+        <tr lang="rs"> Менаџер филијале-Продавнице </tr>
+      </string>
+      <string key="Title Officer-Closer">
+        <tr lang="rs"> Адвокат (Title Officer-Closer) </tr>
+      </string>
+      <string key="Underwriter">
+        <tr lang="rs"> Адвокат (Underwriter) </tr>
+      </string>
+      <string key="Biotech-R&amp;D-Science">
+        <tr lang="rs"> Истраживање Био-технологије и Развој Науке </tr>
+      </string>
+      <string key="Biological-Chemical Research">
+        <tr lang="rs"> Биолошко-Хемијско Истраживање </tr>
+      </string>
+      <string key="Clinical Research">
+        <tr lang="rs"> Клиничка Истраживања </tr>
+      </string>
+      <string key="Environmental-Geological Testing &amp; Analysis">
+        <tr lang="rs"> Природни-Геолошка Тестирања и Анализе </tr>
+      </string>
+      <string key="General-Other: R&amp;D-Science">
+        <tr lang="rs"> Опште-Остало: Истраживање и Развој Науке </tr>
+      </string>
+      <string key="Materials-Physical Research ">
+        <tr lang="rs"> Материјали-Физичка Истраживања </tr>
+      </string>
+      <string key="Mathematical-Statistical Research">
+        <tr lang="rs"> Математичко-Статистичка Истраживања </tr>
+      </string>
+      <string key="New Product R&amp;D">
+        <tr lang="rs"> Нов производ - Развој и Истраживање </tr>
+      </string>
+      <string key="Pharmaceutical Research">
+        <tr lang="rs"> Фармацеутска Истраживања </tr>
+      </string>
+      <string key="Building Construction">
+        <tr lang="rs"> Грађевинарство </tr>
+      </string>
+      <string key="CAD-Drafting">
+        <tr lang="rs"> Компјутерски Навођено Дизајнирање и Израда </tr>
+      </string>
+      <string key="Carpentry-Framing">
+        <tr lang="rs"> Столарија-Урамљивање </tr>
+      </string>
+      <string key="Concrete and Masonry">
+        <tr lang="rs"> Бетонирање и Зидарство </tr>
+      </string>
+      <string key="Electrician">
+        <tr lang="rs"> Електричар </tr>
+      </string>
+      <string key="Flooring-Tiling-Painting-Wallpapering">
+        <tr lang="rs"> Постављање Подова-Поплочавање-Осликавање-Постављање Тапета </tr>
+      </string>
+      <string key="General-Other: Construction-Skilled Trades">
+        <tr lang="rs"> Опште-Остало: Грађевинарство-Квалификовани Занати </tr>
+      </string>
+      <string key="Heavy Equipment Operation">
+        <tr lang="rs"> Рад са тешком Опремом </tr>
+      </string>
+      <string key="HVAC">
+        <tr lang="rs"> Грејање-Вентилација-Ваздушни Системи </tr>
+      </string>
+      <string key="Ironwork-Metal Fabrication">
+        <tr lang="rs"> Рад са Гвожђем-Израда Металних Предмета </tr>
+      </string>
+      <string key="Plumbing-Pipefitting">
+        <tr lang="rs"> Водовод-Уградња Поправке </tr>
+      </string>
+      <string key="Roofing">
+        <tr lang="rs"> Израда Кровова </tr>
+      </string>
+      <string key="Sheetrock-Plastering">
+        <tr lang="rs"> Ригипс-Малтерисање </tr>
+      </string>
+      <string key="Site Superintendent">
+        <tr lang="rs"> Надзорник </tr>
+      </string>
+      <string key="Surveying">
+        <tr lang="rs"> Мерење </tr>
+      </string>
+      <string key="Business-Strategic Management">
+        <tr lang="rs"> Пословно-Стратешки Менаџмент </tr>
+      </string>
+      <string key="Business Analysis-Research">
+        <tr lang="rs"> Пословне Анализе-Истраживања </tr>
+      </string>
+      <string key="Business Unit Management">
+        <tr lang="rs"> Управљање Пословном јединицом </tr>
+      </string>
+      <string key="Franchise-Business Ownership">
+        <tr lang="rs"> Власништво Франшизе-Бизниса </tr>
+      </string>
+      <string key="General-Other: Business-Strategic Management">
+        <tr lang="rs"> Опште-остало: Пословно-Стратешки Менаџмент </tr>
+      </string>
+      <string key="Hospital-Clinic Administration">
+        <tr lang="rs"> Администрација Болнице-Клинике </tr>
+      </string>
+      <string key="Hotel-Lodging Management">
+        <tr lang="rs"> Управљање Хотелом-Смештајем </tr>
+      </string>
+      <string key="Managerial Consulting">
+        <tr lang="rs"> Менаџерски Консалтинг </tr>
+      </string>
+      <string key="Mergers and Acquisitions">
+        <tr lang="rs"> Спајања и Аквизиције </tr>
+      </string>
+      <string key="President-Top Executive">
+        <tr lang="rs"> Генерални Директор-Извршни Директор </tr>
+      </string>
+      <string key="Public Health Administration">
+        <tr lang="rs"> Администрација Јавне Здравствене Установе </tr>
+      </string>
+      <string key="Restaurant Management">
+        <tr lang="rs"> Управљање Рестораном </tr>
+      </string>
+      <string key="School-College Administration">
+        <tr lang="rs"> Администрација Школе-Факултета </tr>
+      </string>
+      <string key="Strategic Planning-Intelligence">
+        <tr lang="rs"> Стратешко Планирање-Извиђање </tr>
+      </string>
+      <string key="Town-City Planning">
+        <tr lang="rs"> Урбанизам </tr>
+      </string>
+      <string key="Creative-Design">
+        <tr lang="rs"> Креативни-Дизајн </tr>
+      </string>
+      <string key="Advertising Writing (Creative)">
+        <tr lang="rs"> Писање Огласа (Креативно) </tr>
+      </string>
+      <string key="Architecture-Interior Design">
+        <tr lang="rs"> Архитектура-Дизајн Интериора </tr>
+      </string>
+      <string key="Computer Animation &amp; Multimedia">
+        <tr lang="rs"> Компјутерска анимација и мултимедија </tr>
+      </string>
+      <string key="Creative Direction-Lead">
+        <tr lang="rs"> Креативни Директор-Вођа </tr>
+      </string>
+      <string key="Fashion &amp; Accessories Design">
+        <tr lang="rs"> Модни Дизајнер - Дизајн Пратеће Опреме (Accessories) </tr>
+      </string>
+      <string key="General-Other: Creative-Design">
+        <tr lang="rs"> Опште-Остало: Креативни-Дизајн </tr>
+      </string>
+      <string key="Graphic Arts-Illustration">
+        <tr lang="rs"> Графички радови-Илустрације </tr>
+      </string>
+      <string key="Industrial Design">
+        <tr lang="rs"> Индустријски Дизајн </tr>
+      </string>
+      <string key="Photography and Videography">
+        <tr lang="rs"> Фотографија и Видеографија </tr>
+      </string>
+      <string key="Web-UI-UX Design">
+        <tr lang="rs"> Веб-Кориснички Интерфејс(UI)-Корисничко Искуство(UX) Дизајн </tr>
+      </string>
+      <string key="Customer Support">
+        <tr lang="rs"> Корисничка Подршка </tr>
+      </string>
+      <string key="Account Management (Non-Commissioned)">
+        <tr lang="rs"> Рачуновођа (Месечно) </tr>
+      </string>
+      <string key="Call Center">
+        <tr lang="rs"> Контакт Центар </tr>
+      </string>
+      <string key="Customer Training">
+        <tr lang="rs"> Обука Корисника </tr>
+      </string>
+      <string key="Flight Attendant">
+        <tr lang="rs"> Стјуардеса </tr>
+      </string>
+      <string key="General-Other: Customer Support-Client Care">
+        <tr lang="rs"> Опште-Остали: Подршка корисницима-Брига о Клијентима </tr>
+      </string>
+      <string key="Hair Cutting-Styling">
+        <tr lang="rs"> Шишање-Фризирање </tr>
+      </string>
+      <string key="Reservations-Ticketing">
+        <tr lang="rs"> Резервације-Продаја Карата </tr>
+      </string>
+      <string key="Retail Customer Service">
+        <tr lang="rs"> Кориснички Сервис - Малопродаја </tr>
+      </string>
+      <string key="Technical Customer Service">
+        <tr lang="rs"> Технички Кориснички Сервис </tr>
+      </string>
+      <string key="Editorial Writing">
+        <tr lang="rs"> Сређивање текста </tr>
+      </string>
+      <string key="Digital Content Development">
+        <tr lang="rs"> Развој Дигиталног садржаја </tr>
+      </string>
+      <string key="Documentation-Technical Writing">
+        <tr lang="rs"> Документација-Техничко Писање </tr>
+      </string>
+      <string key="Editing &amp; Proofreading">
+        <tr lang="rs"> Уређивање и Лектура </tr>
+      </string>
+      <string key="General-Other: Editorial-Writing">
+        <tr lang="rs"> Опште-Остало: сређивање текста-Писање </tr>
+      </string>
+      <string key="Journalism">
+        <tr lang="rs"> Журнализам </tr>
+      </string>
+      <string key="Translation-Interpretation">
+        <tr lang="rs"> Превод-Тумачење </tr>
+      </string>
+      <string key="Education">
+        <tr lang="rs"> Образовање </tr>
+      </string>
+      <string key="Classroom Teaching">
+        <tr lang="rs"> Предавач </tr>
+      </string>
+      <string key="Continuing-Adult ">
+        <tr lang="rs"> Едукација Старијих Лица </tr>
+      </string>
+      <string key="Corporate Development and Training">
+        <tr lang="rs"> Корпоративни развој и Обука </tr>
+      </string>
+      <string key="Early Childhood Care &amp; Development">
+        <tr lang="rs"> Предшколско Васпитање и Развој </tr>
+      </string>
+      <string key="Elementary School">
+        <tr lang="rs"> Основна Школа </tr>
+      </string>
+      <string key="Fitness &amp; Sports Training-Instruction">
+        <tr lang="rs"> Фитнес и Спортске Активности-Обука </tr>
+      </string>
+      <string key="General-Other: Training-Instruction">
+        <tr lang="rs"> Опште-Остало: Обука-Упуство </tr>
+      </string>
+      <string key="Junior-High School">
+        <tr lang="rs"> Јуниор-Средња Школа </tr>
+      </string>
+      <string key="Software-Web Training">
+        <tr lang="rs"> Софтвер-Веб Обука </tr>
+      </string>
+      <string key="Special Education">
+        <tr lang="rs"> Специјална Едукација </tr>
+      </string>
+      <string key="University ">
+        <tr lang="rs"> Универзитет </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="rs"> Инжењеринг </tr>
+      </string>
+      <string key="Aeronautic-Avionic Engineering">
+        <tr lang="rs"> Аеронаутички-Авиоелектронски Инжењеринг </tr>
+      </string>
+      <string key="Bio-Engineering">
+        <tr lang="rs"> Био-Инжењеринг </tr>
+      </string>
+      <string key="Chemical Engineering">
+        <tr lang="rs"> Хемијски Инжењеринг </tr>
+      </string>
+      <string key="Civil &amp; Structural Engineering">
+        <tr lang="rs"> Цивилни и Структурни Инжењеринг </tr>
+      </string>
+      <string key="Electrical-Electronics Engineering">
+        <tr lang="rs"> Елетрични-Електронски Инжењеринг </tr>
+      </string>
+      <string key="Energy-Nuclear Engineering">
+        <tr lang="rs"> Енергетски-Нуклеарни Инжењеринг </tr>
+      </string>
+      <string key="Environmental and Geological Engineering">
+        <tr lang="rs"> Природни и Геолошки Инжењеринг </tr>
+      </string>
+      <string key="General-Other: Engineering">
+        <tr lang="rs"> Општи-Остали: Инжењеринг </tr>
+      </string>
+      <string key="Industrial-Manufacturing Engineering">
+        <tr lang="rs"> Индустријска-Производња Инжењеринг </tr>
+      </string>
+      <string key="Mechanical Engineering">
+        <tr lang="rs"> Механички Инжењеринг </tr>
+      </string>
+      <string key="Naval Architecture-Marine Engineering">
+        <tr lang="rs"> Бродоградња-Лучки Инжењеринг </tr>
+      </string>
+      <string key="RF-Wireless Engineering">
+        <tr lang="rs"> РФ-Бежични Инжењеринг </tr>
+      </string>
+      <string key="Systems-Process Engineering">
+        <tr lang="rs"> Инжењер Организације Система-Процеса </tr>
+      </string>
+      <string key="Food Services-Hospitality">
+        <tr lang="rs"> Угоститељске Услуге-Гостопримство </tr>
+      </string>
+      <string key="Food &amp; Beverage Serving">
+        <tr lang="rs"> Сервирање Хране и Пића </tr>
+      </string>
+      <string key="Food Preparation-Cooking">
+        <tr lang="rs"> Припрема хране-Кување </tr>
+      </string>
+      <string key="Front Desk-Reception">
+        <tr lang="rs"> Рецепција-Главни Улаз </tr>
+      </string>
+      <string key="General-Other: Food Services">
+        <tr lang="rs"> Опште-Остало: Прехрамбене Услуге </tr>
+      </string>
+      <string key="Guest Services-Concierge">
+        <tr lang="rs"> Кућепазитељ-Домар-Подршка Гостима </tr>
+      </string>
+      <string key="Guide (Tour) ">
+        <tr lang="rs"> Водич (Туре) </tr>
+      </string>
+      <string key="Host-Hostess">
+        <tr lang="rs"> Хостесе(Мушке-Женске) </tr>
+      </string>
+      <string key="Wine Steward (Sommelier)">
+        <tr lang="rs"> Вински Стјуард (Сомелијер) </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="rs"> Људски Ресурси </tr>
+      </string>
+      <string key="Academic Admissions and Advising">
+        <tr lang="rs"> Академски Пријеми и Саветовања </tr>
+      </string>
+      <string key="Compensation-Benefits Policy">
+        <tr lang="rs"> Компензација-Полисе Доприноса </tr>
+      </string>
+      <string key="Diversity Management-EEO-Compliance">
+        <tr lang="rs"> Diversity Management-EEO-Compliance </tr>
+      </string>
+      <string key="General-Other: Human Resources">
+        <tr lang="rs"> Опште-Остало: Људски Ресурси </tr>
+      </string>
+      <string key="HR Systems Administration">
+        <tr lang="rs"> Систем Администрације Људских Ресурса </tr>
+      </string>
+      <string key="Payroll and Benefits Administration">
+        <tr lang="rs"> Администрација Плата и Доприноса </tr>
+      </string>
+      <string key="Recruiting-Sourcing ">
+        <tr lang="rs"> Регрутовање-Порекло </tr>
+      </string>
+      <string key="Installation-Maintenance-Repair">
+        <tr lang="rs"> Уградња-Одржавање-Поправке </tr>
+      </string>
+      <string key="Computer-Electronics-Telecomm Install-Maintain-Repair">
+        <tr lang="rs"> Компјутери-Електроника-Уградња Телекомуникација-Одржавање-Поправке </tr>
+      </string>
+      <string key="Equipment Install-Maintain-Repair">
+        <tr lang="rs"> Уградња Опреме-Одржавање-Поправке </tr>
+      </string>
+      <string key="Facilities Management-Maintenance">
+        <tr lang="rs"> Управљање Установама-Одржавање </tr>
+      </string>
+      <string key="General-Other: Installation-Maintenance-Repair">
+        <tr lang="rs"> Опште-Остало: Уградња-Одржавање-Поправке </tr>
+      </string>
+      <string key="Janitorial &amp; Cleaning ">
+        <tr lang="rs"> Домар и Чишћење </tr>
+      </string>
+      <string key="Landscaping">
+        <tr lang="rs"> Архитектура-Уређење природе </tr>
+      </string>
+      <string key="Locksmith">
+        <tr lang="rs"> Бравар </tr>
+      </string>
+      <string key="Oil Rig &amp; Pipeline Install-Maintain-Repair">
+        <tr lang="rs"> Платформе за Подморско Бушење и Уградња Цеви-Одржавање-Поправке </tr>
+      </string>
+      <string key="Vehicle Repair and Maintenance">
+        <tr lang="rs"> Поправке и Одржавање Возила </tr>
+      </string>
+      <string key="Wire and Cable Install-Maintain-Repair">
+        <tr lang="rs"> Уградња Жица и Каблова-Одржавање-Поправке </tr>
+      </string>
+      <string key="IT-Software Development">
+        <tr lang="rs"> ИТ-Развој Софтвера </tr>
+      </string>
+      <string key="Computer-Network Security">
+        <tr lang="rs"> Сигурност компјутерских мрежа </tr>
+      </string>
+      <string key="Database Development-Administration">
+        <tr lang="rs"> Развој База - Администрација </tr>
+      </string>
+      <string key="Desktop Service and Support">
+        <tr lang="rs"> Техничка подршка </tr>
+      </string>
+      <string key="Enterprise Software Implementation &amp; Consulting">
+        <tr lang="rs"> Имплементација Софтвера за предузећа и Консултације </tr>
+      </string>
+      <string key="General-Other: IT-Software Development">
+        <tr lang="rs"> Опште-Остало: ИТ - Развој Софтвера </tr>
+      </string>
+      <string key="IT Project Management">
+        <tr lang="rs"> ИТ Вођа Пројекта </tr>
+      </string>
+      <string key="Network and Server Administration">
+        <tr lang="rs"> Мрежни и Сервер Администратор </tr>
+      </string>
+      <string key="Software-System Architecture">
+        <tr lang="rs"> Софтверска-Системска Архитектура </tr>
+      </string>
+      <string key="Software-Web Development">
+        <tr lang="rs"> Развој Софтвера-Веб-а </tr>
+      </string>
+      <string key="Systems Analysis - IT">
+        <tr lang="rs"> Анализе Система - ИТ </tr>
+      </string>
+      <string key="Telecommunications Administration-Management">
+        <tr lang="rs"> Администрација Телекомуникација-Управљање </tr>
+      </string>
+      <string key="Usability-Information Architecture">
+        <tr lang="rs"> Употребљивост-Структура Информационог система </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="rs"> Права </tr>
+      </string>
+      <string key="Attorney">
+        <tr lang="rs"> Адвокат </tr>
+      </string>
+      <string key="Contracts Administration">
+        <tr lang="rs"> Администрација Уговора </tr>
+      </string>
+      <string key="General-Other: Legal">
+        <tr lang="rs"> Опште-Остало: Права </tr>
+      </string>
+      <string key="Labor &amp; Employment Law">
+        <tr lang="rs"> Закон о раду и Запошљавању </tr>
+      </string>
+      <string key="Paralegal &amp; Legal Secretary">
+        <tr lang="rs"> Правни Секретар и Помоћни Секретар (Асистент) </tr>
+      </string>
+      <string key="Patent-IP Law">
+        <tr lang="rs"> Закон за патенте и Интелектуалну својину </tr>
+      </string>
+      <string key="Real Estate Law">
+        <tr lang="rs"> Закон о Некретнинама </tr>
+      </string>
+      <string key="Regulatory-Compliance Law">
+        <tr lang="rs"> Поштовање закона и законских регулатива </tr>
+      </string>
+      <string key="Tax Law">
+        <tr lang="rs"> Закон о таксама </tr>
+      </string>
+      <string key="Logistics-Transportation">
+        <tr lang="rs"> Логистика-Транспорт </tr>
+      </string>
+      <string key="Car, Van and Bus Driving">
+        <tr lang="rs"> Вожња Аутомобила, Комбија и Аутобуса </tr>
+      </string>
+      <string key="Cargo and Baggage Handling">
+        <tr lang="rs"> Управљање пртљагом и теретом </tr>
+      </string>
+      <string key="Cost Estimating">
+        <tr lang="rs"> Процена Вредности </tr>
+      </string>
+      <string key="Equipment-Forklift-Crane Operation">
+        <tr lang="rs"> Руковање Опремом-Виљуњкарима-Крановима </tr>
+      </string>
+      <string key="General-Other: Logistics-Transportation">
+        <tr lang="rs"> Опште-Остало: Логистика-Превоз </tr>
+      </string>
+      <string key="Hazardous Materials Handling">
+        <tr lang="rs"> Руковање Опасним Материјалима </tr>
+      </string>
+      <string key="Import-Export Administration">
+        <tr lang="rs"> Увоз-Извоз Администрација </tr>
+      </string>
+      <string key="Inventory Planning and Management">
+        <tr lang="rs"> Планирање и Управљање Инвентаром </tr>
+      </string>
+      <string key="Merchandise Planning and Buying">
+        <tr lang="rs"> Планирање и Куповина Робе </tr>
+      </string>
+      <string key="Messenger-Courier">
+        <tr lang="rs"> Гласник-Курир </tr>
+      </string>
+      <string key="Piloting: Air and Marine">
+        <tr lang="rs"> Пилот-Навигатор Ваздух-Вода </tr>
+      </string>
+      <string key="Purchasing">
+        <tr lang="rs"> Куповина </tr>
+      </string>
+      <string key="Shipping and Receiving-Warehousing">
+        <tr lang="rs"> Достава и Пријем-Складиштење </tr>
+      </string>
+      <string key="Supplier Management-Vendor Management">
+        <tr lang="rs"> Менаџер Набавке-Менаџер Продаје </tr>
+      </string>
+      <string key="Train or Rail Operator">
+        <tr lang="rs"> Машиновође </tr>
+      </string>
+      <string key="Truck Driving">
+        <tr lang="rs"> Возач Камиона </tr>
+      </string>
+      <string key="Vehicle Dispatch, Routing and Scheduling">
+        <tr lang="rs"> Отпрема Возила, Усмеравање и Планирање </tr>
+      </string>
+      <string key="Manufacturing-Production">
+        <tr lang="rs"> Производња </tr>
+      </string>
+      <string key="Assembly-Assembly Line">
+        <tr lang="rs"> Монтажа-Монтажна Линија </tr>
+      </string>
+      <string key="Audio-Video Broadcast &amp; Postproduction">
+        <tr lang="rs"> Емитовање и постпродукција Аудио-Видео </tr>
+      </string>
+      <string key="Equipment Operations">
+        <tr lang="rs"> Управљање Опремом </tr>
+      </string>
+      <string key="General-Other: Production-Operations">
+        <tr lang="rs"> Опште-Остало: Производња-Управљање </tr>
+      </string>
+      <string key="Laundry and Dry-Cleaning Operations">
+        <tr lang="rs"> Вођење Перионице и хемијског чишћења </tr>
+      </string>
+      <string key="Layout, Prepress, Printing, &amp; Binding Operations">
+        <tr lang="rs"> Распоред, Припрема за Штампу, Штампа, Повез </tr>
+      </string>
+      <string key="Machining-CNC">
+        <tr lang="rs"> Машинска Обрада </tr>
+      </string>
+      <string key="Metal Fabrication and Welding ">
+        <tr lang="rs"> Рад са Металом и Заваривање </tr>
+      </string>
+      <string key="Moldmaking-Casting">
+        <tr lang="rs"> Израда Калупа - Ливење </tr>
+      </string>
+      <string key="Operations-Plant Management">
+        <tr lang="rs"> Управљање-Руковање Постројењем </tr>
+      </string>
+      <string key="Production-Operations Planning">
+        <tr lang="rs"> Производња-Управљање Планирање </tr>
+      </string>
+      <string key="Scientific-Technical Production">
+        <tr lang="rs"> Научно-Техничка Производња </tr>
+      </string>
+      <string key="Sewing and Tailoring">
+        <tr lang="rs"> Шивење и Кројење </tr>
+      </string>
+      <string key="Waste Pick-up and Removal">
+        <tr lang="rs"> Комуналне услуге </tr>
+      </string>
+      <string key="Marketing-Product">
+        <tr lang="rs"> Маркетинг Приозвода </tr>
+      </string>
+      <string key="Brand-Product Marketing">
+        <tr lang="rs"> Маркетинг Бренда-Производа </tr>
+      </string>
+      <string key="Copy Writing-Editing">
+        <tr lang="rs"> Едитовање-Писање Копирајтер (Copy Writing) </tr>
+      </string>
+      <string key="Direct Marketing (CRM)">
+        <tr lang="rs"> Директан Маркетинг (Customer relationship management) </tr>
+      </string>
+      <string key="Events-Promotional Marketing">
+        <tr lang="rs"> Маркетинг Промоција-Догађаја </tr>
+      </string>
+      <string key="General-Other: Marketing-Product">
+        <tr lang="rs"> Опште-Остало: Маркетинг Производа </tr>
+      </string>
+      <string key="Investor and Public-Media Relations">
+        <tr lang="rs"> Инвеститор и Однос са јавношћу-Медијима </tr>
+      </string>
+      <string key="Market Research">
+        <tr lang="rs"> Истраживање Тржишта </tr>
+      </string>
+      <string key="Marketing Communications">
+        <tr lang="rs"> Маркетинг Комуникација </tr>
+      </string>
+      <string key="Marketing Production-Traffic">
+        <tr lang="rs"> Маркетинг Производње-Саобраћаја </tr>
+      </string>
+      <string key="Media Planning and Buying">
+        <tr lang="rs"> Планирање и Куповина Медија </tr>
+      </string>
+      <string key="Product Management">
+        <tr lang="rs"> Управљање Производима </tr>
+      </string>
+      <string key="Telemarketing">
+        <tr lang="rs"> Продаја и рекламирање преко Телефона </tr>
+      </string>
+      <string key="Visual-Display Merchandising">
+        <tr lang="rs"> Аранжер Ентеријера (Visual Merchandising) </tr>
+      </string>
+      <string key="Medical-Health">
+        <tr lang="rs"> Медицина-Здравље </tr>
+      </string>
+      <string key="Dental Assistant-Hygienist">
+        <tr lang="rs"> Стоматолошки Асистент-Хигијеничар </tr>
+      </string>
+      <string key="Dental Practitioner">
+        <tr lang="rs"> Стоматолошка Пракса </tr>
+      </string>
+      <string key="EMT-Paramedic">
+        <tr lang="rs"> Хитна Помоћ-Болничар </tr>
+      </string>
+      <string key="General-Other: Medical-Health">
+        <tr lang="rs"> Опште-Остало: Медицина-Здравље </tr>
+      </string>
+      <string key="Healthcare Aid">
+        <tr lang="rs"> Здравствена Помоћ </tr>
+      </string>
+      <string key="Laboratory-Pathology">
+        <tr lang="rs"> Лабораторија-Патологија </tr>
+      </string>
+      <string key="Medical Imaging">
+        <tr lang="rs"> Медицински Снимци </tr>
+      </string>
+      <string key="Medical Practitioner">
+        <tr lang="rs"> Лекар </tr>
+      </string>
+      <string key="Medical Therapy-Rehab Services">
+        <tr lang="rs"> Терапије-Рехабилитације </tr>
+      </string>
+      <string key="Mental Health">
+        <tr lang="rs"> Ментално Здравље </tr>
+      </string>
+      <string key="Nursing">
+        <tr lang="rs"> Нега Болесника </tr>
+      </string>
+      <string key="Nutrition and Diet">
+        <tr lang="rs"> Исхрана и Дијета </tr>
+      </string>
+      <string key="Optical">
+        <tr lang="rs"> Очни </tr>
+      </string>
+      <string key="Pharmacy">
+        <tr lang="rs"> Апотека </tr>
+      </string>
+      <string key="Physicians Assistant-Nurse Practitioner">
+        <tr lang="rs"> Асистент Лекара-Медицинска Сестра </tr>
+      </string>
+      <string key="Social Service">
+        <tr lang="rs"> Социјална Служба </tr>
+      </string>
+      <string key="Sports Medicine">
+        <tr lang="rs"> Спортска Медицина </tr>
+      </string>
+      <string key="Veterinary-Animal Care">
+        <tr lang="rs"> Ветеринарски </tr>
+      </string>
+      <string key="Other">
+        <tr lang="rs"> Други </tr>
+      </string>
+      <string key="Career Fair">
+        <tr lang="rs"> Сајам Запослења </tr>
+      </string>
+      <string key="Work at Home">
+        <tr lang="rs"> Посао од Куће </tr>
+      </string>
+      <string key="Project-Program Management">
+        <tr lang="rs"> Пројект-Програм Менаџмент </tr>
+      </string>
+      <string key="Event Planning-Coordination">
+        <tr lang="rs"> Планирање-Координација Догађаја </tr>
+      </string>
+      <string key="General-Other: Project-Program Management">
+        <tr lang="rs"> Опште-Остало: Пројект-Програм Менаџмент </tr>
+      </string>
+      <string key="Program Management">
+        <tr lang="rs"> Управљање Програмом (више пројеката) </tr>
+      </string>
+      <string key="Project Management">
+        <tr lang="rs"> Вођа Пројекта </tr>
+      </string>
+      <string key="Quality Assurance-Safety">
+        <tr lang="rs"> Контрола Квалитета-Сигурности </tr>
+      </string>
+      <string key="Building-Construction Inspection">
+        <tr lang="rs"> Грађевинска Инспекција </tr>
+      </string>
+      <string key="Environmental Protection-Conservation">
+        <tr lang="rs"> Заштита-Очување Природне Средине </tr>
+      </string>
+      <string key="Food Safety and Inspection">
+        <tr lang="rs"> Сигурност Хране - Инспекција </tr>
+      </string>
+      <string key="Fraud Investigation">
+        <tr lang="rs"> Истрага Превара </tr>
+      </string>
+      <string key="General-Other: Quality Assurance-Safety">
+        <tr lang="rs"> Опште-Остало: Контрола Квалитета-Сигурности </tr>
+      </string>
+      <string key="ISO Certification">
+        <tr lang="rs"> ИСО Сертификат </tr>
+      </string>
+      <string key="Occupational Health and Safety">
+        <tr lang="rs"> Здравље и Безбедност Запослених </tr>
+      </string>
+      <string key="Production Quality Assurance">
+        <tr lang="rs"> Уверење о Квалитету Производње </tr>
+      </string>
+      <string key="Six Sigma-Black Belt-TQM">
+        <tr lang="rs"> Six Sigma-Black Belt-TQM </tr>
+      </string>
+      <string key="Software Quality Assurance">
+        <tr lang="rs"> Уверење о Квалитету Софтвера </tr>
+      </string>
+      <string key="Vehicle Inspection">
+        <tr lang="rs"> Инспекција Возила </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="rs"> Некретнине </tr>
+      </string>
+      <string key="Real Estate Agent-Broker">
+        <tr lang="rs"> Агент-Брокер за Некретнине </tr>
+      </string>
+      <string key="Sales-Retail">
+        <tr lang="rs"> Продаја-Малопродаја </tr>
+      </string>
+      <string key="Account Management Commissioned">
+        <tr lang="rs"> Рачуновођа По Послу </tr>
+      </string>
+      <string key="Business Development-New Accounts">
+        <tr lang="rs"> Развој Посла-Нови Рачуни </tr>
+      </string>
+      <string key="Field Sales">
+        <tr lang="rs"> Теренска Продаја </tr>
+      </string>
+      <string key="Fundraising">
+        <tr lang="rs"> Прикупљање Средстава </tr>
+      </string>
+      <string key="General-Other: Sales-Business Development">
+        <tr lang="rs"> Опште-Остало: Развој Посла-Продаје </tr>
+      </string>
+      <string key="Insurance Agent-Broker">
+        <tr lang="rs"> Агент за осигурање-Брокер </tr>
+      </string>
+      <string key="International Sales">
+        <tr lang="rs"> Интернационалне Продаје </tr>
+      </string>
+      <string key="Media and Advertising Sales">
+        <tr lang="rs"> Продаја Медија и Огласа </tr>
+      </string>
+      <string key="Retail-Counter Sales and Cashier">
+        <tr lang="rs"> Малопродаја-Магационер-Секретар-Продаја и Касир </tr>
+      </string>
+      <string key="Sales Support-Assistance">
+        <tr lang="rs"> Подршка у Продаји-Испомоћ </tr>
+      </string>
+      <string key="Technical Presales Support &amp; Technical Sales">
+        <tr lang="rs"> Подршка у Претпродаји и Продаји </tr>
+      </string>
+      <string key="Telesales">
+        <tr lang="rs"> Телефонска Продаја </tr>
+      </string>
+      <string key="Travel Agent-Ticket Sales">
+        <tr lang="rs"> Туристички Агент-Продаја Карата </tr>
+      </string>
+      <string key="Wholesale-Reselling Sales">
+        <tr lang="rs"> Велепродаја-Препродаја </tr>
+      </string>
+      <string key="Security-Protective Services">
+        <tr lang="rs"> Услуге Сигурности и Заштите </tr>
+      </string>
+      <string key="Airport Security and Screening">
+        <tr lang="rs"> Аеродромска Сигурност и Мониторинг </tr>
+      </string>
+      <string key="Correctional Officer">
+        <tr lang="rs"> Особље у Затворима и Сличним Инститцијама (Чувари) </tr>
+      </string>
+      <string key="Customs-Immigration">
+        <tr lang="rs"> Царина-Имиграција </tr>
+      </string>
+      <string key="Firefighting and Rescue">
+        <tr lang="rs"> Ватрогасци и Спасиоци </tr>
+      </string>
+      <string key="General-Other: Security-Protective Services">
+        <tr lang="rs"> Опште-Остало: Услуге Сигурности-Заштите </tr>
+      </string>
+      <string key="Military Combat">
+        <tr lang="rs"> Војно Искуство </tr>
+      </string>
+      <string key="Police-Law Enforcement">
+        <tr lang="rs"> Полиција </tr>
+      </string>
+      <string key="Security Guard">
+        <tr lang="rs"> Обезбеђење </tr>
+      </string>
+      <string key="Security Intelligence &amp; Analysis">
+        <tr lang="rs"> Безбедностно-информативне Анализе </tr>
+      </string>
+      <string key="Store Security-Loss Prevention">
+        <tr lang="rs"> Обезбеђење Објеката-Спречавање Губитака </tr>
+      </string>
+    </page>
+    <page key="Property_State">
+      <string key="Alabama">
+        <tr lang="rs"> Alabama </tr>
+      </string>
+      <string key="Alaska">
+        <tr lang="rs"> Alaska </tr>
+      </string>
+      <string key="Alberta">
+        <tr lang="rs"> Alberta </tr>
+      </string>
+      <string key="Arizona">
+        <tr lang="rs"> Arizona </tr>
+      </string>
+      <string key="Arkansas">
+        <tr lang="rs"> Arkansas </tr>
+      </string>
+      <string key="British Columbia">
+        <tr lang="rs"> British Columbia </tr>
+      </string>
+      <string key="California">
+        <tr lang="rs"> California </tr>
+      </string>
+      <string key="Colorado">
+        <tr lang="rs"> Colorado </tr>
+      </string>
+      <string key="Connecticut">
+        <tr lang="rs"> Connecticut </tr>
+      </string>
+      <string key="Delaware">
+        <tr lang="rs"> Delaware </tr>
+      </string>
+      <string key="District of Columbia">
+        <tr lang="rs"> District of Columbia </tr>
+      </string>
+      <string key="Florida">
+        <tr lang="rs"> Florida </tr>
+      </string>
+      <string key="Georgia">
+        <tr lang="rs"> Georgia </tr>
+      </string>
+      <string key="Guam">
+        <tr lang="rs"> Guam </tr>
+      </string>
+      <string key="Hawaii">
+        <tr lang="rs"> Hawaii </tr>
+      </string>
+      <string key="Idaho">
+        <tr lang="rs"> Idaho </tr>
+      </string>
+      <string key="Illinois">
+        <tr lang="rs"> Illinois </tr>
+      </string>
+      <string key="Indiana">
+        <tr lang="rs"> Indiana </tr>
+      </string>
+      <string key="Iowa">
+        <tr lang="rs"> Iowa </tr>
+      </string>
+      <string key="Kansas">
+        <tr lang="rs"> Kansas </tr>
+      </string>
+      <string key="Kentucky">
+        <tr lang="rs"> Kentucky </tr>
+      </string>
+      <string key="Louisiana">
+        <tr lang="rs"> Louisiana </tr>
+      </string>
+      <string key="Maine">
+        <tr lang="rs"> Maine </tr>
+      </string>
+      <string key="Manitoba">
+        <tr lang="rs"> Manitoba </tr>
+      </string>
+      <string key="Maryland">
+        <tr lang="rs"> Maryland </tr>
+      </string>
+      <string key="Massachusetts">
+        <tr lang="rs"> Massachusetts </tr>
+      </string>
+      <string key="Michigan">
+        <tr lang="rs"> Michigan </tr>
+      </string>
+      <string key="Minnesota">
+        <tr lang="rs"> Minnesota </tr>
+      </string>
+      <string key="Mississippi">
+        <tr lang="rs"> Mississippi </tr>
+      </string>
+      <string key="Missouri">
+        <tr lang="rs"> Missouri </tr>
+      </string>
+      <string key="Montana">
+        <tr lang="rs"> Montana </tr>
+      </string>
+      <string key="Nebraska">
+        <tr lang="rs"> Nebraska </tr>
+      </string>
+      <string key="Nevada">
+        <tr lang="rs"> Nevada </tr>
+      </string>
+      <string key="New Hampshire">
+        <tr lang="rs"> New Hampshire </tr>
+      </string>
+      <string key="New Jersey">
+        <tr lang="rs"> New Jersey </tr>
+      </string>
+      <string key="New Mexico">
+        <tr lang="rs"> New Mexico </tr>
+      </string>
+      <string key="New York">
+        <tr lang="rs"> New York </tr>
+      </string>
+      <string key="North Carolina">
+        <tr lang="rs"> North Carolina </tr>
+      </string>
+      <string key="North Dakota">
+        <tr lang="rs"> North Dakota </tr>
+      </string>
+      <string key="Ohio">
+        <tr lang="rs"> Ohio </tr>
+      </string>
+      <string key="Oklahoma">
+        <tr lang="rs"> Oklahoma </tr>
+      </string>
+      <string key="Ontario">
+        <tr lang="rs"> Ontario </tr>
+      </string>
+      <string key="Oregon">
+        <tr lang="rs"> Oregon </tr>
+      </string>
+      <string key="Pennsylvania">
+        <tr lang="rs"> Pennsylvania </tr>
+      </string>
+      <string key="Puerto Rico">
+        <tr lang="rs"> Puerto Rico </tr>
+      </string>
+      <string key="Rhode Island">
+        <tr lang="rs"> Rhode Island </tr>
+      </string>
+      <string key="South Carolina">
+        <tr lang="rs"> South Carolina </tr>
+      </string>
+      <string key="South Dakota">
+        <tr lang="rs"> South Dakota </tr>
+      </string>
+      <string key="Tennessee">
+        <tr lang="rs"> Tennessee </tr>
+      </string>
+      <string key="Texas">
+        <tr lang="rs"> Texas </tr>
+      </string>
+      <string key="Utah">
+        <tr lang="rs"> Utah </tr>
+      </string>
+      <string key="Vermont">
+        <tr lang="rs"> Vermont </tr>
+      </string>
+      <string key="Virgin Islands">
+        <tr lang="rs"> Virgin Islands </tr>
+      </string>
+      <string key="Virginia">
+        <tr lang="rs"> Virginia </tr>
+      </string>
+      <string key="Washington">
+        <tr lang="rs"> Washington </tr>
+      </string>
+      <string key="West Virginia">
+        <tr lang="rs"> West Virginia </tr>
+      </string>
+      <string key="Wisconsin">
+        <tr lang="rs"> Wisconsin </tr>
+      </string>
+      <string key="Wyoming">
+        <tr lang="rs"> Wyoming </tr>
+      </string>
+      <string key="Outside US">
+        <tr lang="rs"> Изван US </tr>
+      </string>
+    </page>
+    <page key="Property_JobCategory">
+      <string key="Accounting">
+        <tr lang="rs"> Рачуновођство </tr>
+      </string>
+      <string key="Admin-Clerical">
+        <tr lang="rs"> Канцеларијска Администрација </tr>
+      </string>
+      <string key="Automotive">
+        <tr lang="rs"> Аутомобилска Индустрија </tr>
+      </string>
+      <string key="Banking">
+        <tr lang="rs"> Банкарство </tr>
+      </string>
+      <string key="Biotech">
+        <tr lang="rs"> Био-технологија </tr>
+      </string>
+      <string key="Business Development">
+        <tr lang="rs"> Развој Бизниса </tr>
+      </string>
+      <string key="Construction">
+        <tr lang="rs"> Грађевинарство </tr>
+      </string>
+      <string key="Consultant">
+        <tr lang="rs"> Саветник </tr>
+      </string>
+      <string key="Customer Service">
+        <tr lang="rs"> Корисничка Подршка </tr>
+      </string>
+      <string key="Design">
+        <tr lang="rs"> Дизајн </tr>
+      </string>
+      <string key="Distribution-Shipping">
+        <tr lang="rs"> Дистрибуција-Достава </tr>
+      </string>
+      <string key="Education">
+        <tr lang="rs"> Образовање </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="rs"> Инжењеринг </tr>
+      </string>
+      <string key="Entry Level">
+        <tr lang="rs"> Унос Података </tr>
+      </string>
+      <string key="Executive">
+        <tr lang="rs"> Извршни </tr>
+      </string>
+      <string key="Facilities">
+        <tr lang="rs"> Постројења </tr>
+      </string>
+      <string key="Finance">
+        <tr lang="rs"> Финансије </tr>
+      </string>
+      <string key="Franchise">
+        <tr lang="rs"> Франшиза </tr>
+      </string>
+      <string key="General Business">
+        <tr lang="rs"> Генерални Посао </tr>
+      </string>
+      <string key="General Labor">
+        <tr lang="rs"> Генерална Радна снага </tr>
+      </string>
+      <string key="Government">
+        <tr lang="rs"> Влада </tr>
+      </string>
+      <string key="Grocery">
+        <tr lang="rs"> Бакалница </tr>
+      </string>
+      <string key="Health Care">
+        <tr lang="rs"> Здравствена Нега </tr>
+      </string>
+      <string key="Hospitality-Hotel">
+        <tr lang="rs"> Угоститељство-Хотелијерство </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="rs"> Људски Ресурси </tr>
+      </string>
+      <string key="Information Technology">
+        <tr lang="rs"> Информационе Технологије </tr>
+      </string>
+      <string key="Installation-Maint-Repair">
+        <tr lang="rs"> Уградња-Одржавање-Поправке </tr>
+      </string>
+      <string key="Insurance">
+        <tr lang="rs"> Осигурање </tr>
+      </string>
+      <string key="Inventory">
+        <tr lang="rs"> Инвентар </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="rs"> Права </tr>
+      </string>
+      <string key="Management">
+        <tr lang="rs"> Управљање </tr>
+      </string>
+      <string key="Manufacturing">
+        <tr lang="rs"> Производња </tr>
+      </string>
+      <string key="Marketing">
+        <tr lang="rs"> Маркетинг </tr>
+      </string>
+      <string key="Media-Journalism">
+        <tr lang="rs"> Медиа-Журнализам </tr>
+      </string>
+      <string key="Nonprofit-Social Services">
+        <tr lang="rs"> Непрофитне-Социјалне Услуге </tr>
+      </string>
+      <string key="Nurse">
+        <tr lang="rs"> Нега </tr>
+      </string>
+      <string key="Other">
+        <tr lang="rs"> Остало </tr>
+      </string>
+      <string key="Pharmaceutical">
+        <tr lang="rs"> Фармацеутски </tr>
+      </string>
+      <string key="Professional Services">
+        <tr lang="rs"> Професионалне Услуге </tr>
+      </string>
+      <string key="Purchasing-Procurement">
+        <tr lang="rs"> Куповина-Набавке </tr>
+      </string>
+      <string key="QA-Quality Control">
+        <tr lang="rs"> QA-Контрола Квалитета </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="rs"> Некретнине </tr>
+      </string>
+      <string key="Research">
+        <tr lang="rs"> Истраживање </tr>
+      </string>
+      <string key="Restaurant-Food Service">
+        <tr lang="rs"> Ресторани-Угоститељство </tr>
+      </string>
+      <string key="Retail">
+        <tr lang="rs"> Малопродаја </tr>
+      </string>
+      <string key="Sales">
+        <tr lang="rs"> Продаја </tr>
+      </string>
+      <string key="Science">
+        <tr lang="rs"> Наука </tr>
+      </string>
+      <string key="Skilled Labor">
+        <tr lang="rs"> КВ Радна Снага </tr>
+      </string>
+      <string key="Strategy-Planning">
+        <tr lang="rs"> Стратегија-Планирање </tr>
+      </string>
+      <string key="Supply Chain">
+        <tr lang="rs"> Ланас Снабдевања </tr>
+      </string>
+      <string key="Telecommunications">
+        <tr lang="rs"> Телекомуникације </tr>
+      </string>
+      <string key="Training">
+        <tr lang="rs"> Тренинг </tr>
+      </string>
+      <string key="Transportation">
+        <tr lang="rs"> Транспорт </tr>
+      </string>
+      <string key="Veterinary Services">
+        <tr lang="rs"> Ветеринарске Услуге </tr>
+      </string>
+      <string key="Warehouse">
+        <tr lang="rs"> Складиштење </tr>
+      </string>
+    </page>
+    <page key="Property_email_frequency">
+      <string key="Daily">
+        <tr lang="rs"> Дневно </tr>
+      </string>
+      <string key="Weekly">
+        <tr lang="rs"> Недељно </tr>
+      </string>
+      <string key="Monthly">
+        <tr lang="rs"> Месечно </tr>
+      </string>
+    </page>
+    <page key="Property_Country">
+      <string key="United States">
+        <tr lang="rs"> United States </tr>
+      </string>
+      <string key="Afghanistan">
+        <tr lang="rs"> Afghanistan </tr>
+      </string>
+      <string key="Albania">
+        <tr lang="rs"> Albania </tr>
+      </string>
+      <string key="Algeria">
+        <tr lang="rs"> Algeria </tr>
+      </string>
+      <string key="American Samoa">
+        <tr lang="rs"> American Samoa </tr>
+      </string>
+      <string key="Andorra">
+        <tr lang="rs"> Andorra </tr>
+      </string>
+      <string key="Angola">
+        <tr lang="rs"> Angola </tr>
+      </string>
+      <string key="Anguilla">
+        <tr lang="rs"> Anguilla </tr>
+      </string>
+      <string key="Antarctica">
+        <tr lang="rs"> Antarctica </tr>
+      </string>
+      <string key="Antigua and Barbuda">
+        <tr lang="rs"> Antigua and Barbuda </tr>
+      </string>
+      <string key="Argentina">
+        <tr lang="rs"> Argentina </tr>
+      </string>
+      <string key="Armenia">
+        <tr lang="rs"> Armenia </tr>
+      </string>
+      <string key="Aruba">
+        <tr lang="rs"> Aruba </tr>
+      </string>
+      <string key="Ascension Island">
+        <tr lang="rs"> Ascension Island </tr>
+      </string>
+      <string key="Australia">
+        <tr lang="rs"> Australia </tr>
+      </string>
+      <string key="Austria">
+        <tr lang="rs"> Austria </tr>
+      </string>
+      <string key="Azerbaijan">
+        <tr lang="rs"> Azerbaijan </tr>
+      </string>
+      <string key="Bahamas">
+        <tr lang="rs"> Bahamas </tr>
+      </string>
+      <string key="Bahrain">
+        <tr lang="rs"> Bahrain </tr>
+      </string>
+      <string key="Bangladesh">
+        <tr lang="rs"> Bangladesh </tr>
+      </string>
+      <string key="Barbados">
+        <tr lang="rs"> Barbados </tr>
+      </string>
+      <string key="Belarus">
+        <tr lang="rs"> Belarus </tr>
+      </string>
+      <string key="Belgium">
+        <tr lang="rs"> Belgium </tr>
+      </string>
+      <string key="Belize">
+        <tr lang="rs"> Belize </tr>
+      </string>
+      <string key="Benin">
+        <tr lang="rs"> Benin </tr>
+      </string>
+      <string key="Bermuda">
+        <tr lang="rs"> Bermuda </tr>
+      </string>
+      <string key="Bhutan">
+        <tr lang="rs"> Bhutan </tr>
+      </string>
+      <string key="Bolivia">
+        <tr lang="rs"> Bolivia </tr>
+      </string>
+      <string key="Bosnia and Herzegovina">
+        <tr lang="rs"> Bosnia and Herzegovina </tr>
+      </string>
+      <string key="Botswana">
+        <tr lang="rs"> Botswana </tr>
+      </string>
+      <string key="Bouvet Island">
+        <tr lang="rs"> Bouvet Island </tr>
+      </string>
+      <string key="Brazil">
+        <tr lang="rs"> Brazil </tr>
+      </string>
+      <string key="British Indian Ocean Territory">
+        <tr lang="rs"> British Indian Ocean Territory </tr>
+      </string>
+      <string key="Brunei Darussalam">
+        <tr lang="rs"> Brunei Darussalam </tr>
+      </string>
+      <string key="Bulgaria">
+        <tr lang="rs"> Bulgaria </tr>
+      </string>
+      <string key="Burkina Faso">
+        <tr lang="rs"> Burkina Faso </tr>
+      </string>
+      <string key="Burundi">
+        <tr lang="rs"> Burundi </tr>
+      </string>
+      <string key="Cambodia">
+        <tr lang="rs"> Cambodia </tr>
+      </string>
+      <string key="Cameroon">
+        <tr lang="rs"> Cameroon </tr>
+      </string>
+      <string key="Canada">
+        <tr lang="rs"> Canada </tr>
+      </string>
+      <string key="Cape Verde">
+        <tr lang="rs"> Cape Verde </tr>
+      </string>
+      <string key="Cayman Islands">
+        <tr lang="rs"> Cayman Islands </tr>
+      </string>
+      <string key="Central African Republic">
+        <tr lang="rs"> Central African Republic </tr>
+      </string>
+      <string key="Chad">
+        <tr lang="rs"> Chad </tr>
+      </string>
+      <string key="Chile">
+        <tr lang="rs"> Chile </tr>
+      </string>
+      <string key="China">
+        <tr lang="rs"> China </tr>
+      </string>
+      <string key="Christmas Island">
+        <tr lang="rs"> Christmas Island </tr>
+      </string>
+      <string key="CocoS (Keeling) Islands">
+        <tr lang="rs"> CocoS (Keeling) Islands </tr>
+      </string>
+      <string key="Colombia">
+        <tr lang="rs"> Colombia </tr>
+      </string>
+      <string key="Comoros">
+        <tr lang="rs"> Comoros </tr>
+      </string>
+      <string key="Democratic Republic of the Congo (Kinshasa)">
+        <tr lang="rs"> Democratic Republic of the Congo (Kinshasa) </tr>
+      </string>
+      <string key="Congo, Republic of (Brazzaville)">
+        <tr lang="rs"> Congo, Republic of (Brazzaville) </tr>
+      </string>
+      <string key="Cook Islands">
+        <tr lang="rs"> Cook Islands </tr>
+      </string>
+      <string key="Costa Rica">
+        <tr lang="rs"> Costa Rica </tr>
+      </string>
+      <string key="Ivory Coast">
+        <tr lang="rs"> Ivory Coast </tr>
+      </string>
+      <string key="Croatia">
+        <tr lang="rs"> Croatia </tr>
+      </string>
+      <string key="Cuba">
+        <tr lang="rs"> Cuba </tr>
+      </string>
+      <string key="Cyprus">
+        <tr lang="rs"> Cyprus </tr>
+      </string>
+      <string key="Czech Republic">
+        <tr lang="rs"> Czech Republic </tr>
+      </string>
+      <string key="Denmark">
+        <tr lang="rs"> Denmark </tr>
+      </string>
+      <string key="Djibouti">
+        <tr lang="rs"> Djibouti </tr>
+      </string>
+      <string key="Dominica">
+        <tr lang="rs"> Dominica </tr>
+      </string>
+      <string key="Dominican Republic">
+        <tr lang="rs"> Dominican Republic </tr>
+      </string>
+      <string key="East Timor Timor-Leste">
+        <tr lang="rs"> East Timor Timor-Leste </tr>
+      </string>
+      <string key="Ecuador">
+        <tr lang="rs"> Ecuador </tr>
+      </string>
+      <string key="Egypt">
+        <tr lang="rs"> Egypt </tr>
+      </string>
+      <string key="El Salvador">
+        <tr lang="rs"> El Salvador </tr>
+      </string>
+      <string key="Equatorial Guinea">
+        <tr lang="rs"> Equatorial Guinea </tr>
+      </string>
+      <string key="Eritrea">
+        <tr lang="rs"> Eritrea </tr>
+      </string>
+      <string key="Estonia">
+        <tr lang="rs"> Estonia </tr>
+      </string>
+      <string key="Ethiopia">
+        <tr lang="rs"> Ethiopia </tr>
+      </string>
+      <string key="Falkland Islands">
+        <tr lang="rs"> Falkland Islands </tr>
+      </string>
+      <string key="Faroe Islands">
+        <tr lang="rs"> Faroe Islands </tr>
+      </string>
+      <string key="Fiji">
+        <tr lang="rs"> Fiji </tr>
+      </string>
+      <string key="Finland">
+        <tr lang="rs"> Finland </tr>
+      </string>
+      <string key="France">
+        <tr lang="rs"> France </tr>
+      </string>
+      <string key="French Guiana">
+        <tr lang="rs"> French Guiana </tr>
+      </string>
+      <string key="French Metropolitan">
+        <tr lang="rs"> French Metropolitan </tr>
+      </string>
+      <string key="French Polynesia">
+        <tr lang="rs"> French Polynesia </tr>
+      </string>
+      <string key="French Southern Territories">
+        <tr lang="rs"> French Southern Territories </tr>
+      </string>
+      <string key="Gabon">
+        <tr lang="rs"> Gabon </tr>
+      </string>
+      <string key="Gambia">
+        <tr lang="rs"> Gambia </tr>
+      </string>
+      <string key="Georgia">
+        <tr lang="rs"> Georgia </tr>
+      </string>
+      <string key="Germany">
+        <tr lang="rs"> Germany </tr>
+      </string>
+      <string key="Ghana">
+        <tr lang="rs"> Ghana </tr>
+      </string>
+      <string key="Gibraltar">
+        <tr lang="rs"> Gibraltar </tr>
+      </string>
+      <string key="Great Britain">
+        <tr lang="rs"> Great Britain </tr>
+      </string>
+      <string key="Greece">
+        <tr lang="rs"> Greece </tr>
+      </string>
+      <string key="Greenland">
+        <tr lang="rs"> Greenland </tr>
+      </string>
+      <string key="Grenada">
+        <tr lang="rs"> Grenada </tr>
+      </string>
+      <string key="Guadeloupe">
+        <tr lang="rs"> Guadeloupe </tr>
+      </string>
+      <string key="Guam">
+        <tr lang="rs"> Guam </tr>
+      </string>
+      <string key="Guatemala">
+        <tr lang="rs"> Guatemala </tr>
+      </string>
+      <string key="Guernsey">
+        <tr lang="rs"> Guernsey </tr>
+      </string>
+      <string key="Guinea">
+        <tr lang="rs"> Guinea </tr>
+      </string>
+      <string key="Guinea-Bissau">
+        <tr lang="rs"> Guinea-Bissau </tr>
+      </string>
+      <string key="Guyana">
+        <tr lang="rs"> Guyana </tr>
+      </string>
+      <string key="Haiti">
+        <tr lang="rs"> Haiti </tr>
+      </string>
+      <string key="Heard and Mc Donald Islands">
+        <tr lang="rs"> Heard and Mc Donald Islands </tr>
+      </string>
+      <string key="Holy See">
+        <tr lang="rs"> Holy See </tr>
+      </string>
+      <string key="Honduras">
+        <tr lang="rs"> Honduras </tr>
+      </string>
+      <string key="Hong Kong">
+        <tr lang="rs"> Hong Kong </tr>
+      </string>
+      <string key="Hungary">
+        <tr lang="rs"> Hungary </tr>
+      </string>
+      <string key="Iceland">
+        <tr lang="rs"> Iceland </tr>
+      </string>
+      <string key="India">
+        <tr lang="rs"> India </tr>
+      </string>
+      <string key="Indonesia">
+        <tr lang="rs"> Indonesia </tr>
+      </string>
+      <string key="Iran (Islamic Republic of)">
+        <tr lang="rs"> Iran (Islamic Republic of) </tr>
+      </string>
+      <string key="Iraq">
+        <tr lang="rs"> Iraq </tr>
+      </string>
+      <string key="Ireland">
+        <tr lang="rs"> Ireland </tr>
+      </string>
+      <string key="Isle of Man">
+        <tr lang="rs"> Isle of Man </tr>
+      </string>
+      <string key="Israel">
+        <tr lang="rs"> Israel </tr>
+      </string>
+      <string key="Italy">
+        <tr lang="rs"> Italy </tr>
+      </string>
+      <string key="Jamaica">
+        <tr lang="rs"> Jamaica </tr>
+      </string>
+      <string key="Japan">
+        <tr lang="rs"> Japan </tr>
+      </string>
+      <string key="Jersey">
+        <tr lang="rs"> Jersey </tr>
+      </string>
+      <string key="Jordan">
+        <tr lang="rs"> Jordan </tr>
+      </string>
+      <string key="Kazakhstan">
+        <tr lang="rs"> Kazakhstan </tr>
+      </string>
+      <string key="Kenya">
+        <tr lang="rs"> Kenya </tr>
+      </string>
+      <string key="Kiribati">
+        <tr lang="rs"> Kiribati </tr>
+      </string>
+      <string key="Korea, Republic of (South Korea)">
+        <tr lang="rs"> Korea, Republic of (South Korea) </tr>
+      </string>
+      <string key="Kuwait">
+        <tr lang="rs"> Kuwait </tr>
+      </string>
+      <string key="Kyrgyzstan">
+        <tr lang="rs"> Kyrgyzstan </tr>
+      </string>
+      <string key="Lao">
+        <tr lang="rs"> Lao </tr>
+      </string>
+      <string key="Latvia">
+        <tr lang="rs"> Latvia </tr>
+      </string>
+      <string key="Lebanon">
+        <tr lang="rs"> Lebanon </tr>
+      </string>
+      <string key="Lesotho">
+        <tr lang="rs"> Lesotho </tr>
+      </string>
+      <string key="Liberia">
+        <tr lang="rs"> Liberia </tr>
+      </string>
+      <string key="Libya">
+        <tr lang="rs"> Libya </tr>
+      </string>
+      <string key="Liechtenstein">
+        <tr lang="rs"> Liechtenstein </tr>
+      </string>
+      <string key="Lithuania">
+        <tr lang="rs"> Lithuania </tr>
+      </string>
+      <string key="Luxembourg">
+        <tr lang="rs"> Luxembourg </tr>
+      </string>
+      <string key="Macau">
+        <tr lang="rs"> Macau </tr>
+      </string>
+      <string key="Macedonia">
+        <tr lang="rs"> Macedonia </tr>
+      </string>
+      <string key="Madagascar">
+        <tr lang="rs"> Madagascar </tr>
+      </string>
+      <string key="Malawi">
+        <tr lang="rs"> Malawi </tr>
+      </string>
+      <string key="Malaysia">
+        <tr lang="rs"> Malaysia </tr>
+      </string>
+      <string key="Maldives">
+        <tr lang="rs"> Maldives </tr>
+      </string>
+      <string key="Mali">
+        <tr lang="rs"> Mali </tr>
+      </string>
+      <string key="Malta">
+        <tr lang="rs"> Malta </tr>
+      </string>
+      <string key="Marshall Islands">
+        <tr lang="rs"> Marshall Islands </tr>
+      </string>
+      <string key="Martinique">
+        <tr lang="rs"> Martinique </tr>
+      </string>
+      <string key="Mauritania">
+        <tr lang="rs"> Mauritania </tr>
+      </string>
+      <string key="Mauritius">
+        <tr lang="rs"> Mauritius </tr>
+      </string>
+      <string key="Mayotte">
+        <tr lang="rs"> Mayotte </tr>
+      </string>
+      <string key="Mexico">
+        <tr lang="rs"> Mexico </tr>
+      </string>
+      <string key="Micronesia, Federal States of">
+        <tr lang="rs"> Micronesia, Federal States of </tr>
+      </string>
+      <string key="Moldova, Republic of">
+        <tr lang="rs"> Moldova, Republic of </tr>
+      </string>
+      <string key="Monaco">
+        <tr lang="rs"> Monaco </tr>
+      </string>
+      <string key="Mongolia">
+        <tr lang="rs"> Mongolia </tr>
+      </string>
+      <string key="Montenegro">
+        <tr lang="rs"> Montenegro </tr>
+      </string>
+      <string key="Montserrat">
+        <tr lang="rs"> Montserrat </tr>
+      </string>
+      <string key="Morocco">
+        <tr lang="rs"> Morocco </tr>
+      </string>
+      <string key="Mozambique">
+        <tr lang="rs"> Mozambique </tr>
+      </string>
+      <string key="Myanmar, Burma">
+        <tr lang="rs"> Myanmar, Burma </tr>
+      </string>
+      <string key="Namibia">
+        <tr lang="rs"> Namibia </tr>
+      </string>
+      <string key="Nauru">
+        <tr lang="rs"> Nauru </tr>
+      </string>
+      <string key="Nepal">
+        <tr lang="rs"> Nepal </tr>
+      </string>
+      <string key="Netherlands">
+        <tr lang="rs"> Netherlands </tr>
+      </string>
+      <string key="Netherlands Antilles">
+        <tr lang="rs"> Netherlands Antilles </tr>
+      </string>
+      <string key="New Caledonia">
+        <tr lang="rs"> New Caledonia </tr>
+      </string>
+      <string key="New Zealand">
+        <tr lang="rs"> New Zealand </tr>
+      </string>
+      <string key="Nicaragua">
+        <tr lang="rs"> Nicaragua </tr>
+      </string>
+      <string key="Niger">
+        <tr lang="rs"> Niger </tr>
+      </string>
+      <string key="Nigeria">
+        <tr lang="rs"> Nigeria </tr>
+      </string>
+      <string key="Niue">
+        <tr lang="rs"> Niue </tr>
+      </string>
+      <string key="Norfolk Island">
+        <tr lang="rs"> Norfolk Island </tr>
+      </string>
+      <string key="North Korea">
+        <tr lang="rs"> North Korea </tr>
+      </string>
+      <string key="Northern Mariana Islands">
+        <tr lang="rs"> Northern Mariana Islands </tr>
+      </string>
+      <string key="Norway">
+        <tr lang="rs"> Norway </tr>
+      </string>
+      <string key="Oman">
+        <tr lang="rs"> Oman </tr>
+      </string>
+      <string key="Pakistan">
+        <tr lang="rs"> Pakistan </tr>
+      </string>
+      <string key="Palau">
+        <tr lang="rs"> Palau </tr>
+      </string>
+      <string key="Palestinian National Authority">
+        <tr lang="rs"> Palestinian National Authority </tr>
+      </string>
+      <string key="Panama">
+        <tr lang="rs"> Panama </tr>
+      </string>
+      <string key="Papua New Guinea">
+        <tr lang="rs"> Papua New Guinea </tr>
+      </string>
+      <string key="Paraguay">
+        <tr lang="rs"> Paraguay </tr>
+      </string>
+      <string key="Peru">
+        <tr lang="rs"> Peru </tr>
+      </string>
+      <string key="Philippines">
+        <tr lang="rs"> Philippines </tr>
+      </string>
+      <string key="Pitcairn Island">
+        <tr lang="rs"> Pitcairn Island </tr>
+      </string>
+      <string key="Poland">
+        <tr lang="rs"> Poland </tr>
+      </string>
+      <string key="Portugal">
+        <tr lang="rs"> Portugal </tr>
+      </string>
+      <string key="Puerto Rico">
+        <tr lang="rs"> Puerto Rico </tr>
+      </string>
+      <string key="Qatar">
+        <tr lang="rs"> Qatar </tr>
+      </string>
+      <string key="Reunion Island">
+        <tr lang="rs"> Reunion Island </tr>
+      </string>
+      <string key="Romania">
+        <tr lang="rs"> Romania </tr>
+      </string>
+      <string key="Russian Federation">
+        <tr lang="rs"> Russian Federation </tr>
+      </string>
+      <string key="Rwanda">
+        <tr lang="rs"> Rwanda </tr>
+      </string>
+      <string key="Saint Kitts and Nevis">
+        <tr lang="rs"> Saint Kitts and Nevis </tr>
+      </string>
+      <string key="Saint Lucia">
+        <tr lang="rs"> Saint Lucia </tr>
+      </string>
+      <string key="Saint Vincent and the Grenadines">
+        <tr lang="rs"> Saint Vincent and the Grenadines </tr>
+      </string>
+      <string key="Samoa">
+        <tr lang="rs"> Samoa </tr>
+      </string>
+      <string key="San Marino">
+        <tr lang="rs"> San Marino </tr>
+      </string>
+      <string key="Sao Tome and Prncipe">
+        <tr lang="rs"> Sao Tome and Prncipe </tr>
+      </string>
+      <string key="Saudi Arabia">
+        <tr lang="rs"> Saudi Arabia </tr>
+      </string>
+      <string key="Senegal">
+        <tr lang="rs"> Senegal </tr>
+      </string>
+      <string key="Serbia">
+        <tr lang="rs"> Serbia </tr>
+      </string>
+      <string key="Seychelles">
+        <tr lang="rs"> Seychelles </tr>
+      </string>
+      <string key="Sierra Leone">
+        <tr lang="rs"> Sierra Leone </tr>
+      </string>
+      <string key="Singapore">
+        <tr lang="rs"> Singapore </tr>
+      </string>
+      <string key="Slovakia (Slovak Republic)">
+        <tr lang="rs"> Slovakia (Slovak Republic) </tr>
+      </string>
+      <string key="Slovenia">
+        <tr lang="rs"> Slovenia </tr>
+      </string>
+      <string key="Solomon Islands">
+        <tr lang="rs"> Solomon Islands </tr>
+      </string>
+      <string key="Somalia">
+        <tr lang="rs"> Somalia </tr>
+      </string>
+      <string key="South Africa">
+        <tr lang="rs"> South Africa </tr>
+      </string>
+      <string key="South Georgia and South Sandwich Islands">
+        <tr lang="rs"> South Georgia and South Sandwich Islands </tr>
+      </string>
+      <string key="Spain">
+        <tr lang="rs"> Spain </tr>
+      </string>
+      <string key="Sri Lanka">
+        <tr lang="rs"> Sri Lanka </tr>
+      </string>
+      <string key="Saint Helena">
+        <tr lang="rs"> Saint Helena </tr>
+      </string>
+      <string key="St. Pierre and Miquelon">
+        <tr lang="rs"> St. Pierre and Miquelon </tr>
+      </string>
+      <string key="Sudan">
+        <tr lang="rs"> Sudan </tr>
+      </string>
+      <string key="Suriname">
+        <tr lang="rs"> Suriname </tr>
+      </string>
+      <string key="Svalbard and Jan Mayen Islands">
+        <tr lang="rs"> Svalbard and Jan Mayen Islands </tr>
+      </string>
+      <string key="Swaziland">
+        <tr lang="rs"> Swaziland </tr>
+      </string>
+      <string key="Sweden">
+        <tr lang="rs"> Sweden </tr>
+      </string>
+      <string key="Switzerland">
+        <tr lang="rs"> Switzerland </tr>
+      </string>
+      <string key="Syria, Syrian Arab Republic">
+        <tr lang="rs"> Syria, Syrian Arab Republic </tr>
+      </string>
+      <string key="Taiwan (Republic of China)">
+        <tr lang="rs"> Taiwan (Republic of China) </tr>
+      </string>
+      <string key="Tajikistan">
+        <tr lang="rs"> Tajikistan </tr>
+      </string>
+      <string key="Tanzania">
+        <tr lang="rs"> Tanzania </tr>
+      </string>
+      <string key="Thailand">
+        <tr lang="rs"> Thailand </tr>
+      </string>
+      <string key="Tibet">
+        <tr lang="rs"> Tibet </tr>
+      </string>
+      <string key="Timor-Leste (East Timor)">
+        <tr lang="rs"> Timor-Leste (East Timor) </tr>
+      </string>
+      <string key="Togo">
+        <tr lang="rs"> Togo </tr>
+      </string>
+      <string key="Tokelau">
+        <tr lang="rs"> Tokelau </tr>
+      </string>
+      <string key="Tonga">
+        <tr lang="rs"> Tonga </tr>
+      </string>
+      <string key="Trinidad and Tobago">
+        <tr lang="rs"> Trinidad and Tobago </tr>
+      </string>
+      <string key="Tunisia">
+        <tr lang="rs"> Tunisia </tr>
+      </string>
+      <string key="Turkey">
+        <tr lang="rs"> Turkey </tr>
+      </string>
+      <string key="Turkmenistan">
+        <tr lang="rs"> Turkmenistan </tr>
+      </string>
+      <string key="Turks and Caicos Islands">
+        <tr lang="rs"> Turks and Caicos Islands </tr>
+      </string>
+      <string key="Tuvalu">
+        <tr lang="rs"> Tuvalu </tr>
+      </string>
+      <string key="Uganda">
+        <tr lang="rs"> Uganda </tr>
+      </string>
+      <string key="Ukraine">
+        <tr lang="rs"> Ukraine </tr>
+      </string>
+      <string key="United Arab Emirates">
+        <tr lang="rs"> United Arab Emirates </tr>
+      </string>
+      <string key="United Kingdom">
+        <tr lang="rs"> United Kingdom </tr>
+      </string>
+      <string key="U.S. Minor Outlying Islands">
+        <tr lang="rs"> U.S. Minor Outlying Islands </tr>
+      </string>
+      <string key="Uruguay">
+        <tr lang="rs"> Uruguay </tr>
+      </string>
+      <string key="Uzbekistan">
+        <tr lang="rs"> Uzbekistan </tr>
+      </string>
+      <string key="Vanuatu">
+        <tr lang="rs"> Vanuatu </tr>
+      </string>
+      <string key="Vatican City State (Holy See)">
+        <tr lang="rs"> Vatican City State (Holy See) </tr>
+      </string>
+      <string key="Venezuela">
+        <tr lang="rs"> Venezuela </tr>
+      </string>
+      <string key="Vietnam">
+        <tr lang="rs"> Vietnam </tr>
+      </string>
+      <string key="Virgin IslandS (British)">
+        <tr lang="rs"> Virgin IslandS (British) </tr>
+      </string>
+      <string key="Virgin IslandS (U.S.)">
+        <tr lang="rs"> Virgin IslandS (U.S.) </tr>
+      </string>
+      <string key="Wallis and Futuna Islands">
+        <tr lang="rs"> Wallis and Futuna Islands </tr>
+      </string>
+      <string key="Western Sahara">
+        <tr lang="rs"> Western Sahara </tr>
+      </string>
+      <string key="Yemen">
+        <tr lang="rs"> Yemen </tr>
+      </string>
+      <string key="Zaire">
+        <tr lang="rs"> Zaire </tr>
+      </string>
+      <string key="Zambia">
+        <tr lang="rs"> Zambia </tr>
+      </string>
+      <string key="Zimbabwe">
+        <tr lang="rs"> Zimbabwe </tr>
+      </string>
+      <string key="Sao Tome and Pr?ncipe">
+        <tr lang="rs"> Sao Tome and Pr?ncipe </tr>
+      </string>
+    </page>
+    <page key="Property_SalaryType">
+      <string key="per hour">
+        <tr lang="rs"> на сат </tr>
+      </string>
+      <string key="per week">
+        <tr lang="rs"> недељно </tr>
+      </string>
+      <string key="per month">
+        <tr lang="rs"> месечно </tr>
+      </string>
+      <string key="per year">
+        <tr lang="rs"> годишње </tr>
+      </string>
+    </page>
+    <page key="Property_EmploymentType">
+      <string key="Full time">
+        <tr lang="rs"> Пуно радно време </tr>
+      </string>
+      <string key="Part time">
+        <tr lang="rs"> Скраћено радно време </tr>
+      </string>
+      <string key="Contractor">
+        <tr lang="rs"> Извођач радова </tr>
+      </string>
+      <string key="Intern">
+        <tr lang="rs"> Стажирање </tr>
+      </string>
+      <string key="Seasonal">
+        <tr lang="rs"> Сезонски </tr>
+      </string>
+    </page>
+    <page key="Membership Plan">
+      <string key="Name">
+        <tr lang="rs"> Име </tr>
+      </string>
+      <string key="Description">
+        <tr lang="rs"> Опис </tr>
+      </string>
+      <string key="Price">
+        <tr lang="rs"> Цена </tr>
+      </string>
+      <string key="Expiration Period">
+        <tr lang="rs"> Истиче </tr>
+      </string>
+      <string key="Subscription Price">
+        <tr lang="rs"> Цена Претплате </tr>
+      </string>
+    </page>
+    <page key="Property_status">
+      <string key="Pending">
+        <tr lang="rs"> У Току </tr>
+      </string>
+      <string key="Failed">
+        <tr lang="rs"> Није Успело </tr>
+      </string>
+      <string key="Completed">
+        <tr lang="rs"> Завршено </tr>
+      </string>
+      <string key="Everyone">
+        <tr lang="rs"> Сви </tr>
+      </string>
+    </page>
+    <page key="Property_access_type">
+      <string key="Everyone">
+        <tr lang="rs"> Сви </tr>
+      </string>
+      <string key="No one">
+        <tr lang="rs"> Нико </tr>
+      </string>
+      <string key="Only selected employers">
+        <tr lang="rs"> Само одабрани послодавци </tr>
+      </string>
+      <string key="Everyone except selected employers">
+        <tr lang="rs"> Сви осим одабраних послодаваца </tr>
+      </string>
+    </page>
+    <page key="Property_JobType">
+      <string key="full time">
+        <tr lang="rs"> пуно радно време </tr>
+      </string>
+      <string key="part time">
+        <tr lang="rs"> скраћено радно време </tr>
+      </string>
+      <string key="contractor">
+        <tr lang="rs"> извођач радова </tr>
+      </string>
+      <string key="intern">
+        <tr lang="rs"> стажирање </tr>
+      </string>
+      <string key="seasonal">
+        <tr lang="rs"> сезонски </tr>
+      </string>
+    </page>
+    <page key="Property_DesiredSalaryType">
+      <string key="per month">
+        <tr lang="rs"> месечно </tr>
+      </string>
+      <string key="per year">
+        <tr lang="rs"> годишње </tr>
+      </string>
+    </page>
+    <page key="Property_PostedWithin">
+      <string key="Posted Within">
+        <tr lang="rs"> Објављено </tr>
+      </string>
+      <string key="Last 30 days">
+        <tr lang="rs"> Задњих 30 дана </tr>
+      </string>
+      <string key="Last 7 days">
+        <tr lang="rs"> Задњих 7 дана </tr>
+      </string>
+      <string key="Last 3 days">
+        <tr lang="rs"> Задњих 3 дана </tr>
+      </string>
+      <string key="Since Yesterday">
+        <tr lang="rs"> Од Јуче </tr>
+      </string>
+    </page>
+    <page key="Property_Category">
+    </page>
+    <page key="Property_from">
+    </page>
+    <page key="Property_to">
+    </page>
+    <page key="Property_GraduatedIn">
+    </page>
+    <page key="Property_DegreeLevel">
+    </page>
+    <page key="Property_Industry">
+    </page>
+    <page key="Property_testmultilist">
+    </page>
+    <page key="Property_test">
+    </page>
+    <page key="Property_billingCountry">
+    </page>
+    <page key="Property_billingState">
+    </page>
+    <page key="Property_ApplyNowBtnChoice">
+    </page>
+    <page key="Property_billingInformationCheckbox">
+    </page>
+    <page key="Property_1">
+    </page>
+  </pages>
+</translation2>

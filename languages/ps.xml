@@ -1,0 +1,4016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE translation2 [
+<!ELEMENT translation2 (languages,pages)>
+<!ELEMENT languages (lang*)>
+<!ELEMENT lang (name?,meta?,error_text?,encoding?)>
+<!ATTLIST lang id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT meta (#PCDATA)>
+<!ELEMENT error_text (#PCDATA)>
+<!ELEMENT encoding (#PCDATA)>
+<!ELEMENT pages (page*)>
+<!ELEMENT page (string*)>
+<!ATTLIST page key CDATA #REQUIRED>
+<!ELEMENT string (tr*)>
+<!ATTLIST string key CDATA #REQUIRED>
+<!ELEMENT tr (#PCDATA)>
+<!ATTLIST tr lang IDREF #REQUIRED>
+]>
+
+<translation2>
+  <languages>
+    <lang id="ps">
+      <name> پښتو </name>
+      <meta> a:8:{s:6:"active";s:1:"0";s:10:"is_default";b:0;s:5:"theme";N;s:11:"date_format";s:8:"%Y.%m.%d";s:17:"decimal_separator";s:1:".";s:19:"thousands_separator";s:1:",";s:8:"decimals";s:1:"1";s:11:"rightToLeft";s:1:"1";} </meta>
+      <error_text></error_text>
+      <encoding> utf-8 </encoding>
+    </lang>
+  </languages>
+  <pages>
+    <page key="PhrasesInTemplates">
+      <string key="Job Search">
+        <tr lang="ps"> دنده لټون </tr>
+      </string>
+      <string key="Find">
+        <tr lang="ps"> لټون </tr>
+      </string>
+      <string key="Advanced search">
+        <tr lang="ps"> پرمختللي لتون </tr>
+      </string>
+      <string key="Home">
+        <tr lang="ps"> منځنى مخ </tr>
+      </string>
+      <string key="Register">
+        <tr lang="ps"> راجستر </tr>
+      </string>
+      <string key="Sign In">
+        <tr lang="ps"> سيستم ته داخل کيدل </tr>
+      </string>
+      <string key="My Account">
+        <tr lang="ps"> زما حساب </tr>
+      </string>
+      <string key="Find Jobs">
+        <tr lang="ps"> دنده موندل </tr>
+      </string>
+      <string key="Post Resumes">
+        <tr lang="ps"> سوانح تسليم کول </tr>
+      </string>
+      <string key="Search Resumes">
+        <tr lang="ps"> سوانح لټو ن </tr>
+      </string>
+      <string key="Post Jobs">
+        <tr lang="ps"> دندى اعلان کول </tr>
+      </string>
+      <string key="Contact">
+        <tr lang="ps"> اړيکى </tr>
+      </string>
+      <string key="Choose language">
+        <tr lang="ps"> ژبه غوره کول </tr>
+      </string>
+      <string key="Jobs by Category">
+        <tr lang="ps"> دندى طبقه بندى له مخى </tr>
+      </string>
+      <string key="Jobs by City">
+        <tr lang="ps"> دندى د ښارونو له مخى </tr>
+      </string>
+      <string key="Featured Jobs">
+        <tr lang="ps"> بيل شوى دندى </tr>
+      </string>
+      <string key="Employers">
+        <tr lang="ps"> کارکوونکى </tr>
+      </string>
+      <string key="Post a job">
+        <tr lang="ps"> دنده اعلان کول </tr>
+      </string>
+      <string key="Search resumes">
+        <tr lang="ps"> سوانح لټون </tr>
+      </string>
+      <string key="Job Seekers">
+        <tr lang="ps"> دندى لټوونګى </tr>
+      </string>
+      <string key="Post resumes">
+        <tr lang="ps"> سوانح تسليم کول </tr>
+      </string>
+      <string key="Find jobs">
+        <tr lang="ps"> دندى موندنه </tr>
+      </string>
+      <string key="RSS Feed">
+        <tr lang="ps"> RSS Feed </tr>
+      </string>
+      <string key="Latest Jobs">
+        <tr lang="ps"> تازه اعلان شوى دندى </tr>
+      </string>
+      <string key="powered by">
+        <tr lang="ps"> powered by </tr>
+      </string>
+      <string key="Keep me signed in">
+        <tr lang="ps"> سيستم کى مى داخل وساته </tr>
+      </string>
+      <string key="Login">
+        <tr lang="ps"> سيستم ته داخل کيدل </tr>
+      </string>
+      <string key="Forgot Your Password?">
+        <tr lang="ps"> رمز مو هير کړى </tr>
+      </string>
+      <string key="Registration">
+        <tr lang="ps"> راجسترشن </tr>
+      </string>
+      <string key="Salutation First and Last Name">
+        <tr lang="ps"> مکمل نوم </tr>
+      </string>
+      <string key="Email">
+        <tr lang="ps"> بريښناليک </tr>
+      </string>
+      <string key="Comments">
+        <tr lang="ps"> تبصرى </tr>
+      </string>
+      <string key="Submit">
+        <tr lang="ps"> سپارل </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we\&apos;ll send you a link to a page where you can change your password">
+        <tr lang="ps"> لطفاُ خپل غړيتوب نوم لاندى ساحه کى داخل کړى مونږ به تاسو ته د يو صفحى اړيکه وليږو چه هغى په ذريعه تاسو خپل رمز بدل کولى شى </tr>
+      </string>
+      <string key="Please select the appropriate user group">
+        <tr lang="ps"> مهربانى وکړى مشخص غړى ګروپ غوره کړى </tr>
+      </string>
+      <string key="Confirm Password">
+        <tr lang="ps"> رمز تايًيد کول </tr>
+      </string>
+      <string key="You have successfully registered in our site">
+        <tr lang="ps"> برياليتوب سره غړيتوب مو تر لاسه کړ </tr>
+      </string>
+      <string key="Add a New Listing">
+        <tr lang="ps"> نوي لست اضافه کول </tr>
+      </string>
+      <string key="You specified wrong username">
+        <tr lang="ps"> غړيتوب نوم مو اشتباه کړى </tr>
+      </string>
+      <string key="The system cannot proceed as Listing ID not specified">
+        <tr lang="ps"> بيغير د لست اى دى مشخص کولو څخه سيستم مخکى نه ځى </tr>
+      </string>
+      <string key="Invalid payment ID is specified">
+        <tr lang="ps"> د پيسى ورکوولو مشخص شوى اى دى باطل ده </tr>
+      </string>
+      <string key="No such user">
+        <tr lang="ps"> په دي نوم هيڅ غړيتوب وجود نه لرى </tr>
+      </string>
+      <string key="Search">
+        <tr lang="ps"> لټون </tr>
+      </string>
+      <string key="No logged in user found">
+        <tr lang="ps"> داخل شوى غړى سيستم کى وجود نه لرى </tr>
+      </string>
+      <string key="My Jobs">
+        <tr lang="ps"> زما دندى </tr>
+      </string>
+      <string key="My Profile">
+        <tr lang="ps"> زما پيژندنه </tr>
+      </string>
+      <string key="Saved Searches">
+        <tr lang="ps"> خوندى شوى پلټنى </tr>
+      </string>
+      <string key="Saved Listings">
+        <tr lang="ps"> خوندى شوى لستونه </tr>
+      </string>
+      <string key="Subscriptions">
+        <tr lang="ps"> ونډه اخستل </tr>
+      </string>
+      <string key="My Notifications">
+        <tr lang="ps"> زما خبرتياوى </tr>
+      </string>
+      <string key="Billing History">
+        <tr lang="ps"> رسيدونو تاريخچه </tr>
+      </string>
+      <string key="Logout">
+        <tr lang="ps"> سيستم څخه وتل </tr>
+      </string>
+      <string key="My Listings">
+        <tr lang="ps"> زما لستونه </tr>
+      </string>
+      <string key="Filter">
+        <tr lang="ps"> رڼول </tr>
+      </string>
+      <string key="Choose subscription">
+        <tr lang="ps"> ونډه غوره  کړي </tr>
+      </string>
+      <string key="unlimited">
+        <tr lang="ps"> بى بنديزه </tr>
+      </string>
+      <string key="Next">
+        <tr lang="ps"> بل </tr>
+      </string>
+      <string key="Edit Listing">
+        <tr lang="ps"> بدلول د لستونو </tr>
+      </string>
+      <string key="Edit Pictures">
+        <tr lang="ps"> انځور ته بدلون ورکول </tr>
+      </string>
+      <string key="Upgrade to Featured">
+        <tr lang="ps"> ترقى ورکوونه </tr>
+      </string>
+      <string key="You have successfully changed your membership plan">
+        <tr lang="ps"> تاسو خپل دغړيتوب پلان په برياليتوب سره سمبال کړ </tr>
+      </string>
+      <string key="You have already subscribed">
+        <tr lang="ps"> تاسو مخکي نه مونږ سره غړيتوب لرى </tr>
+      </string>
+      <string key="You do not have permissions to post  listings.">
+        <tr lang="ps"> تاسو لست جوړولو اجازه نه لرى </tr>
+      </string>
+      <string key="No listings found.">
+        <tr lang="ps"> هيڅ لست پيدا نشو </tr>
+      </string>
+      <string key="Listing ID is not defined">
+        <tr lang="ps"> لست اى دى نه ده مشخص شوى </tr>
+      </string>
+      <string key="Save">
+        <tr lang="ps"> خوندى کول </tr>
+      </string>
+      <string key="image format is not supported">
+        <tr lang="ps"> انځور جوړښت قبول وړ نه دى </tr>
+      </string>
+      <string key="You have successfully changed your profile info!">
+        <tr lang="ps"> تاسو برياليتوب سره خپل پيژندنه وګړه </tr>
+      </string>
+      <string key="Delete">
+        <tr lang="ps"> ړنګول </tr>
+      </string>
+      <string key="File deleted successfully">
+        <tr lang="ps"> برياليتوب سره فايل ړنګ شو </tr>
+      </string>
+      <string key="Back to edit profile">
+        <tr lang="ps"> بيرته تک پيژند پاڼى معلوماتو بدلون ته </tr>
+      </string>
+      <string key="You have not saved any searches yet.">
+        <tr lang="ps"> تراوسه مو کوم پاڼه نه ده خوندى کړى </tr>
+      </string>
+      <string key="ID">
+        <tr lang="ps"> اى دى </tr>
+      </string>
+      <string key="Period">
+        <tr lang="ps"> موده </tr>
+      </string>
+      <string key="State">
+        <tr lang="ps"> ايالت </tr>
+      </string>
+      <string key="from">
+        <tr lang="ps"> له طرفه </tr>
+      </string>
+      <string key="to">
+        <tr lang="ps"> ته </tr>
+      </string>
+      <string key="Date">
+        <tr lang="ps"> تاريخ </tr>
+      </string>
+      <string key="Description">
+        <tr lang="ps"> تشريح </tr>
+      </string>
+      <string key="Amount">
+        <tr lang="ps"> مقدار </tr>
+      </string>
+      <string key="Action">
+        <tr lang="ps"> فعاليت </tr>
+      </string>
+      <string key="Total Amount">
+        <tr lang="ps"> مقدار مجموعه </tr>
+      </string>
+      <string key="There are no saved listings">
+        <tr lang="ps"> هيڅ خوندى شوى لست نشته </tr>
+      </string>
+      <string key="Notify on Listing Activation">
+        <tr lang="ps"> لست په فعال کيدو خبر راکړه </tr>
+      </string>
+      <string key="Notify on Listing Expiration">
+        <tr lang="ps"> لست په ختم کيدو خبر راکړه </tr>
+      </string>
+      <string key="Notify on Contract Expiration">
+        <tr lang="ps"> قرارداد په ختم کيدو خبر راکړه </tr>
+      </string>
+      <string key="Modify search">
+        <tr lang="ps"> لټون کي بدلون </tr>
+      </string>
+      <string key="Save this search">
+        <tr lang="ps"> پلټنه خوندى کړه </tr>
+      </string>
+      <string key="Saved jobs">
+        <tr lang="ps"> خوندى شوى دندى </tr>
+      </string>
+      <string key="Saved searches">
+        <tr lang="ps"> خوندى شوى پلټنى </tr>
+      </string>
+      <string key="Results: {$listings_number} Jobs">
+        <tr lang="ps"> نتايج{$listings_number}دندۍ </tr>
+      </string>
+      <string key="Number of jobs per page">
+        <tr lang="ps"> دندى شمير پر صفحه </tr>
+      </string>
+      <string key="Previous">
+        <tr lang="ps"> وړاندينى </tr>
+      </string>
+      <string key="Save Your Search">
+        <tr lang="ps"> پلټنه خوندى کړه </tr>
+      </string>
+      <string key="Search Name">
+        <tr lang="ps"> نوم لټون </tr>
+      </string>
+      <string key="Your search has been saved.">
+        <tr lang="ps"> ستاسو لټون خوندى شو </tr>
+      </string>
+      <string key="You may close this window now.">
+        <tr lang="ps"> تاسو کولى شى دا ويندو بنده کړى </tr>
+      </string>
+      <string key="Save ad">
+        <tr lang="ps"> اعلان خوندى کول </tr>
+      </string>
+      <string key="View job details">
+        <tr lang="ps"> د دنده تفصيل کتنه </tr>
+      </string>
+      <string key="Rate this job">
+        <tr lang="ps"> درجه ورکړل دنده ته </tr>
+      </string>
+      <string key="Please, Vote!">
+        <tr lang="ps"> لطفاً را يه ورکړى </tr>
+      </string>
+      <string key="Watch a video">
+        <tr lang="ps"> فلم کتل </tr>
+      </string>
+      <string key="Save this Job">
+        <tr lang="ps"> دنده خوندى کړى </tr>
+      </string>
+      <string key="View Saved Jobs">
+        <tr lang="ps"> خوندى شوى دندو کتنه </tr>
+      </string>
+      <string key="Tell a Friend">
+        <tr lang="ps"> ملګرى ته ويل </tr>
+      </string>
+      <string key="Print This Ad">
+        <tr lang="ps"> اعلان چاپ کول </tr>
+      </string>
+      <string key="View Map">
+        <tr lang="ps"> نقشه کتنه </tr>
+      </string>
+      <string key="Back to Results">
+        <tr lang="ps"> بيرته تک نتايجو ته </tr>
+      </string>
+      <string key="Modify Search">
+        <tr lang="ps"> لټون کي بدلون </tr>
+      </string>
+      <string key="Rate This Job">
+        <tr lang="ps"> درجه ورکول دي دنده ته </tr>
+      </string>
+      <string key="User Info">
+        <tr lang="ps"> غړى معلومات </tr>
+      </string>
+      <string key="All jobs by this company">
+        <tr lang="ps"> ټول دندى د دى کمپنى څخه </tr>
+      </string>
+      <string key="Video">
+        <tr lang="ps"> فلم </tr>
+      </string>
+      <string key="Photos">
+        <tr lang="ps"> انځورونه </tr>
+      </string>
+      <string key="Apply now">
+        <tr lang="ps"> درخواست کول </tr>
+      </string>
+      <string key="Location">
+        <tr lang="ps"> موقعيت </tr>
+      </string>
+      <string key="Please, wait ...">
+        <tr lang="ps"> لطفاً صبر وکړى </tr>
+      </string>
+      <string key="Add your comment">
+        <tr lang="ps"> خپل نظر وړاندى کړى </tr>
+      </string>
+      <string key="Add">
+        <tr lang="ps"> اضافه کول </tr>
+      </string>
+      <string key="Listing has been saved">
+        <tr lang="ps"> لست خوندى شو </tr>
+      </string>
+      <string key="View details">
+        <tr lang="ps"> تفصيل کتنه </tr>
+      </string>
+      <string key="Recommend listing with ID">
+        <tr lang="ps"> ستايل لست اى دى سره </tr>
+      </string>
+      <string key="Your name">
+        <tr lang="ps"> ستاسو نوم </tr>
+      </string>
+      <string key="Your friend\&apos;s name">
+        <tr lang="ps"> ستاسو دملګرى نوم </tr>
+      </string>
+      <string key="Your friend\&apos;s e-mail address">
+        <tr lang="ps"> ستاسو د ملکرى بريښناليک </tr>
+      </string>
+      <string key="Your comment (will be send with the recomendation)">
+        <tr lang="ps"> ستاسو تبصره :استول د سپارښتنه سره </tr>
+      </string>
+      <string key="Send">
+        <tr lang="ps"> استول </tr>
+      </string>
+      <string key="Cannot send letter">
+        <tr lang="ps"> خط وانستول شو </tr>
+      </string>
+      <string key="Company Info">
+        <tr lang="ps"> کمپنى پيژندنه </tr>
+      </string>
+      <string key="You\&apos;ve already voted">
+        <tr lang="ps"> تاسو مخکى نه رايه ورکړى </tr>
+      </string>
+      <string key="Author">
+        <tr lang="ps"> ليکوونکى </tr>
+      </string>
+      <string key="Your e-mail">
+        <tr lang="ps"> ستلسو بريښنا ليک </tr>
+      </string>
+      <string key="Your request">
+        <tr lang="ps"> ستاسو غوښتنه </tr>
+      </string>
+      <string key="Attach your resume">
+        <tr lang="ps"> سوانح په کوته کړى </tr>
+      </string>
+      <string key="Cannot send your message">
+        <tr lang="ps"> ستاسو پيغام و نه ليږل شو </tr>
+      </string>
+      <string key="You do not have permissions to post Resume listings.">
+        <tr lang="ps"> تاسو اجازه نه لرى چه سوانح لست جوړ کړى </tr>
+      </string>
+      <string key="Results: {$listings_number} Resumes">
+        <tr lang="ps"> نتايج{$listings_number} سوانح </tr>
+      </string>
+      <string key="Number of resumes per page">
+        <tr lang="ps"> سوانح شمير پر صفحه </tr>
+      </string>
+      <string key="Enter Your Ad Information">
+        <tr lang="ps"> خپل د اعلان معلومات داخل کړۍ </tr>
+      </string>
+      <string key="Add Pictures">
+        <tr lang="ps"> انځورونو اضافه کول </tr>
+      </string>
+      <string key="is empty">
+        <tr lang="ps"> خالي دي </tr>
+      </string>
+      <string key="could not convert video file">
+        <tr lang="ps"> فلم نه اړول کيږى </tr>
+      </string>
+      <string key="is unknown">
+        <tr lang="ps"> نا معلوم دي </tr>
+      </string>
+      <string key="Manage Listing">
+        <tr lang="ps"> لستونو منظم کول </tr>
+      </string>
+      <string key="Preview Listing">
+        <tr lang="ps"> د لست د مخه ليدل </tr>
+      </string>
+      <string key="Manage Listing Pictures">
+        <tr lang="ps"> منظم کول دلستونو انځورونه </tr>
+      </string>
+      <string key="Go to Manage Listing">
+        <tr lang="ps"> لستونو منظم کولو ت تک </tr>
+      </string>
+      <string key="Add Picture">
+        <tr lang="ps"> انځور اضافه کول </tr>
+      </string>
+      <string key="Caption">
+        <tr lang="ps"> عنوان </tr>
+      </string>
+      <string key="Thumbnail">
+        <tr lang="ps"> وړوکى </tr>
+      </string>
+      <string key="Actions">
+        <tr lang="ps"> فعاليتونه </tr>
+      </string>
+      <string key="Are you sure?">
+        <tr lang="ps"> تاسو مطمعين ياستى؟ </tr>
+      </string>
+      <string key="Edit Picture">
+        <tr lang="ps"> انځور بدلون </tr>
+      </string>
+      <string key="Picture">
+        <tr lang="ps"> انځور </tr>
+      </string>
+      <string key="Please specify a valid email address.">
+        <tr lang="ps"> لطفاً صحى بريښناليک مشخص کړى </tr>
+      </string>
+      <string key="Please provide your full name.">
+        <tr lang="ps"> لطفاً خپل مکمل نوم مشخض کړى </tr>
+      </string>
+      <string key="Please include your comments.">
+        <tr lang="ps"> لطفاً خپل تبصرى شامل کړى </tr>
+      </string>
+      <string key="Thank you very much for your message. We will respond to you as soon as possible.">
+        <tr lang="ps"> مننه ستاسو د پيغام څخه مونږ به ډير زر تاسو ته جواب ووايو </tr>
+      </string>
+      <string key="Invalid password">
+        <tr lang="ps"> باطل رمز </tr>
+      </string>
+      <string key="Login error">
+        <tr lang="ps"> سيستم ته داخل کيدلو مشکل </tr>
+      </string>
+      <string key="Browse by category">
+        <tr lang="ps"> څريدل د طبقه بندى له مخى </tr>
+      </string>
+      <string key="There are no listings with requested parameters in the system.">
+        <tr lang="ps"> داسى هيچ ليست په سيستم کى موجود نه لرى </tr>
+      </string>
+      <string key="Browse by city">
+        <tr lang="ps"> څريدل د ښارونو له مخى </tr>
+      </string>
+      <string key="My Resumes">
+        <tr lang="ps"> زما سوانح </tr>
+      </string>
+      <string key="Saved Jobs">
+        <tr lang="ps"> خوندى شوى دندى </tr>
+      </string>
+      <string key="Job Alerts">
+        <tr lang="ps"> دنده خبرتياوى </tr>
+      </string>
+      <string key="Jobs by {$companyName}">
+        <tr lang="ps"> {$companyName} دندى له </tr>
+      </string>
+      <string key="$select_box_field_distance of Zip $input_text_field_location">
+        <tr lang="ps"> $select_box_field_distance د زيب $input_text_field_location </tr>
+      </string>
+      <string key="$input_text_field_from to $input_text_field_to">
+        <tr lang="ps"> $input_text_field_from ته $input_text_field_to </tr>
+      </string>
+      <string key="not confirmed">
+        <tr lang="ps"> تايُيد شوى نه دى </tr>
+      </string>
+      <string key="this value is already used in the system">
+        <tr lang="ps"> دا حروف سيستم کى مخکى نه استعمال شوى </tr>
+      </string>
+      <string key="Please, enter your username in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="ps"> لطفاُ خپل غړيتوب نوم لاندى ساحه کى داخل کړى مونږ به تاسو ته د يو صفحى اړيکه وليږو چه هغى په ذريعه تاسو خپل رمز بدل کولى شى </tr>
+      </string>
+      <string key="Check all">
+        <tr lang="ps"> ټول انتخاب کړى </tr>
+      </string>
+      <string key="Uncheck all">
+        <tr lang="ps"> ټول مه انتخاب کوى </tr>
+      </string>
+      <string key="Actions with Selected">
+        <tr lang="ps"> په انتخاب شوو فعاليت وکړى </tr>
+      </string>
+      <string key="Number of listings per page">
+        <tr lang="ps"> د لستونو شمير پر صفحه </tr>
+      </string>
+      <string key="Rating">
+        <tr lang="ps"> درجه ورکول </tr>
+      </string>
+      <string key="Deactivate">
+        <tr lang="ps"> غير فعال کول </tr>
+      </string>
+      <string key="Activate">
+        <tr lang="ps"> فعال کول </tr>
+      </string>
+      <string key="Your listing is successfully activated">
+        <tr lang="ps"> ستاسو لست برياليتوپ سره فعال شو </tr>
+      </string>
+      <string key="Back to My Listings">
+        <tr lang="ps"> بيرته تګ لستونو ته </tr>
+      </string>
+      <string key="Sort by">
+        <tr lang="ps"> منظم کول په </tr>
+      </string>
+      <string key="Edit">
+        <tr lang="ps"> تغيرکوول </tr>
+      </string>
+      <string key="View Details">
+        <tr lang="ps"> تفصيل کتنه </tr>
+      </string>
+      <string key="Enable Auto notify">
+        <tr lang="ps"> اتومات خبر ورکولو فعال کول </tr>
+      </string>
+      <string key="Disable Auto notify">
+        <tr lang="ps"> اتومات خبرورکولو غير فعال کول </tr>
+      </string>
+      <string key="Results: $listings_number Jobs">
+        <tr lang="ps"> نتايج $listings_number دندى </tr>
+      </string>
+      <string key="Jobs by $companyName">
+        <tr lang="ps"> $companyName دندى له </tr>
+      </string>
+      <string key="Results: $listings_number Resumes">
+        <tr lang="ps"> نتايج $listings_number سوانح </tr>
+      </string>
+      <string key="Rate this resume">
+        <tr lang="ps"> سوانح ته درجه ورکوول </tr>
+      </string>
+      <string key="View resume details">
+        <tr lang="ps"> سوانح تفصيل کتنه </tr>
+      </string>
+      <string key="All resumes by this user">
+        <tr lang="ps"> ددى غړى ټول سوانح کتل </tr>
+      </string>
+      <string key="Rate This Resume">
+        <tr lang="ps"> سوانح ته درجه ورکوول </tr>
+      </string>
+      <string key="View Saved Resumes">
+        <tr lang="ps"> خوندى شوى سوانح کتنه </tr>
+      </string>
+      <string key="Save this Resume">
+        <tr lang="ps"> سوانح خوندي کول </tr>
+      </string>
+      <string key="Resumes by $firstName $lastName">
+        <tr lang="ps"> $firstName $lastName  سوانح په </tr>
+      </string>
+      <string key="Select a Package">
+        <tr lang="ps"> غوره کول د ګيډي </tr>
+      </string>
+      <string key="is not an integer value">
+        <tr lang="ps"> دايوصحي عدد نه دي </tr>
+      </string>
+      <string key="You&apos;ve got a limit of the allowed number of picture">
+        <tr lang="ps"> تاسوانځورونولپاره حد لري </tr>
+      </string>
+      <string key="limit exceeded">
+        <tr lang="ps"> حد څخه تيرکيدل </tr>
+      </string>
+      <string key="You don&apos;t have permissions to access this page.">
+        <tr lang="ps"> اجازه نلري چه دا پاڼه وګوري </tr>
+      </string>
+      <string key="Resume search is accessible only for subscribed Employers.">
+        <tr lang="ps"> هغه چا لپاره دسوانح لټون اجازه شته چه مونږسره يي ونډه اخيستي وي </tr>
+      </string>
+      <string key="Your friend&apos;s name">
+        <tr lang="ps"> ستاسو د ملګري نوم </tr>
+      </string>
+      <string key="Your friend&apos;s e-mail address">
+        <tr lang="ps"> ستاسو د ملګري بريښنا ليک پته </tr>
+      </string>
+      <string key="Dear customer!">
+        <tr lang="ps"> ګرانه پيرو دونکى </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for &lt;b&gt;$product_info_name&lt;/b&gt;.">
+        <tr lang="ps"> مهربانى وکړى پيسى  $currency_sign $product_info_price لپاره &lt;b&gt;$product_info_name&lt;/b&gt;. </tr>
+      </string>
+      <string key="Please choose from the following payment methods:">
+        <tr lang="ps"> مهربانى وکړى د لاندينى پيسى ورکولو طريقه څخه غوره کړى </tr>
+      </string>
+      <string key="Wire Transfer">
+        <tr lang="ps"> تيلګرام په ذريعه ليږدونه </tr>
+      </string>
+      <string key="Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for $item_name&lt;br /&gt;Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you!">
+        <tr lang="ps"> ګرانه $username, &lt;br /&gt;&lt;br /&gt;مهربانى وکړه خپل پيسى په $amount لپاره $item_name&lt;br /&gt;ستاسو  د معامله مربوطه نمبر دى$payment_id. &lt;br /&gt;&lt;br /&gt;مننه </tr>
+      </string>
+      <string key="There is no listing in the system with the specified ID">
+        <tr lang="ps"> هيڅ لست موجود نه لرى په دى مشخص شوى اى دى باندى </tr>
+      </string>
+      <string key="Anonymous User Info">
+        <tr lang="ps"> نامعلوم غړى معلومات </tr>
+      </string>
+      <string key="Please make a payment in the amount of $currency_sign $product_info_price for">
+        <tr lang="ps"> مهربانى وکړى خپل پيسى په $currency_sign $product_info_price لپاره </tr>
+      </string>
+      <string key="Welcome">
+        <tr lang="ps"> ښه راغلاست </tr>
+      </string>
+      <string key="Dear $username, &lt;br /&gt;&lt;br /&gt;Please send us a payment in the amount of $amount for">
+        <tr lang="ps"> ګرانه$username, &lt;br /&gt;&lt;br /&gt;خپل پيسى وليږه په $amount for </tr>
+      </string>
+      <string key="Your transaction reference number is $payment_id. &lt;br /&gt;&lt;br /&gt;Thank you!">
+        <tr lang="ps"> ستاسو مربوطه د معاملى نمبر دى $payment_id. &lt;br /&gt;&lt;br /&gt;مننه </tr>
+      </string>
+      <string key="Please log in to access this page. If you do not have an account, please">
+        <tr lang="ps"> مهربانى وکړى سيستم ته داخل شى ددى پاڼى کتلو لپاره که چيرته تاسو حساب نه لرى لطفاً </tr>
+      </string>
+      <string key="Featured Companies">
+        <tr lang="ps"> ځلانده کمپني </tr>
+      </string>
+      <string key="Get resumes by email">
+        <tr lang="ps"> سوانح تر لاسه کول په بريښنا ليک </tr>
+      </string>
+      <string key="Get jobs by email">
+        <tr lang="ps"> دندو تر لاسه کول په بريښناليک </tr>
+      </string>
+      <string key="Please use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="ps"> تڼى ته فشار ورکړى که يو څخه ډير انتخاب کول غواړى CTRL لطفاً </tr>
+      </string>
+      <string key="Confirm E-mail">
+        <tr lang="ps"> بريښنا ليک تائيد کول </tr>
+      </string>
+      <string key="Reload Image">
+        <tr lang="ps"> بيا راوړل د انځور </tr>
+      </string>
+      <string key="Accept terms of use">
+        <tr lang="ps"> وصول او مقرراتو قبلول </tr>
+      </string>
+      <string key="Read terms of use">
+        <tr lang="ps"> وصول او مقرراتو لوستل </tr>
+      </string>
+      <string key="Resume Alerts">
+        <tr lang="ps"> سوانح خبرتياوى </tr>
+      </string>
+      <string key="Application Tracking">
+        <tr lang="ps"> درخواست مرحله </tr>
+      </string>
+      <string key="Resume Alert Name">
+        <tr lang="ps"> سوانح خبروني نوم </tr>
+      </string>
+      <string key="Add new resume alert">
+        <tr lang="ps"> سوانح خبروني اضافه کول </tr>
+      </string>
+      <string key="Disable">
+        <tr lang="ps"> غيرفعال کول </tr>
+      </string>
+      <string key="Preview Search Results">
+        <tr lang="ps"> نتايجو لټون کتنه </tr>
+      </string>
+      <string key="Add resume alert">
+        <tr lang="ps"> سوانح خبروني اضافه کول </tr>
+      </string>
+      <string key="Alert Name">
+        <tr lang="ps"> خبرونى نوم </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="ps"> دنده عنوان </tr>
+      </string>
+      <string key="Date Applied">
+        <tr lang="ps"> درخواست تاريخ </tr>
+      </string>
+      <string key="Status">
+        <tr lang="ps"> حالت </tr>
+      </string>
+      <string key="Attached Resume">
+        <tr lang="ps"> سوانح په ګوته کول </tr>
+      </string>
+      <string key="Applicant’s Name">
+        <tr lang="ps"> درخواست کوونکى نوم </tr>
+      </string>
+      <string key="User comments">
+        <tr lang="ps"> غړى تبصره </tr>
+      </string>
+      <string key="View Attached File">
+        <tr lang="ps"> نښلول شوي فايل کتنه </tr>
+      </string>
+      <string key="Jobs Search Results">
+        <tr lang="ps"> دندي نتا يج </tr>
+      </string>
+      <string key="Save this Search / Job Alert">
+        <tr lang="ps"> لتون خوندي کول/ دندي خبرونه </tr>
+      </string>
+      <string key="Company Profile">
+        <tr lang="ps"> کمپني پيژند پاڼه </tr>
+      </string>
+      <string key="Sign in">
+        <tr lang="ps"> سيستم ته داخل کيدل </tr>
+      </string>
+      <string key="You have no listings now. Click">
+        <tr lang="ps"> تاسو لست نه لرۍ. اوس کليک کړۍ </tr>
+      </string>
+      <string key="here">
+        <tr lang="ps"> دلته </tr>
+      </string>
+      <string key="to add a new listing.">
+        <tr lang="ps"> نوي لست اضافه کول </tr>
+      </string>
+      <string key="Fields marked with an asterisk (">
+        <tr lang="ps"> نشانى شوى ساحه د * سره( </tr>
+      </string>
+      <string key=") are mandatory">
+        <tr lang="ps"> اجبارى ده ) </tr>
+      </string>
+      <string key="Please log in to place a listing. If you do not have an account, please">
+        <tr lang="ps"> مهربانى وکړى سيستم ته داخل شى د لست ځاى په ځاى کولو لپاره. که مونږ سره حساب نه لرى، لطفاُ </tr>
+      </string>
+      <string key="within $radius $radius_search_unit of $location">
+        <tr lang="ps"> په حدود $radius $radius_search_unit په$location </tr>
+      </string>
+      <string key="kilometers">
+        <tr lang="ps"> کيلو متر </tr>
+      </string>
+      <string key="Apply to job">
+        <tr lang="ps"> درخواست کول دندي ته </tr>
+      </string>
+      <string key="Cover letter (optional)">
+        <tr lang="ps"> ليک لمړي مخ </tr>
+      </string>
+      <string key="Please">
+        <tr lang="ps"> لطفاُ </tr>
+      </string>
+      <string key="sign in ">
+        <tr lang="ps"> سيستم ته داخل کيدل </tr>
+      </string>
+      <string key="to add comments!">
+        <tr lang="ps"> خپل نظر وړاندي کول </tr>
+      </string>
+      <string key="You applied successfully">
+        <tr lang="ps"> برياليتوب سره مودرخواست وکړ </tr>
+      </string>
+      <string key="Please log in to place a new posting. If you do not have an account, please">
+        <tr lang="ps"> نشر کولو لپاره سيستم ته داخل شى که مونږ سره حساب نه لرى لطفاً </tr>
+      </string>
+      <string key="Register.">
+        <tr lang="ps"> راجستر </tr>
+      </string>
+      <string key="Search by Company">
+        <tr lang="ps"> لټون د کمپني له مخي </tr>
+      </string>
+      <string key="Clone">
+        <tr lang="ps"> غبرګ کول </tr>
+      </string>
+      <string key="My Job Preview">
+        <tr lang="ps"> زما دنده دمخه کتنه </tr>
+      </string>
+      <string key="Click to select">
+        <tr lang="ps"> غوره کولولياره کليک کړي </tr>
+      </string>
+      <string key="Redirect to this URL">
+        <tr lang="ps"> بيرته راتلل دي اړيکي ته </tr>
+      </string>
+      <string key="Use the following format:">
+        <tr lang="ps"> لاندي جوړښت استعمال کړۍ </tr>
+      </string>
+      <string key="Your changes were successfully saved">
+        <tr lang="ps"> ستاسو بدلون خوندي شو </tr>
+      </string>
+      <string key="Manage Pictures">
+        <tr lang="ps"> منظم کول د انځورونو </tr>
+      </string>
+      <string key="Clone this job posting">
+        <tr lang="ps"> غبرګ کول د دندى سپارنه </tr>
+      </string>
+      <string key="Clone Job">
+        <tr lang="ps"> غبرګ کول د دندى </tr>
+      </string>
+      <string key="Company">
+        <tr lang="ps"> کمپني </tr>
+      </string>
+      <string key="My Applications">
+        <tr lang="ps"> زما درخواستونه </tr>
+      </string>
+      <string key="Select your resume">
+        <tr lang="ps"> خپل سوانح غوره کړى </tr>
+      </string>
+      <string key="Enter Job Information">
+        <tr lang="ps"> دنده معلومات داخل کړۍ </tr>
+      </string>
+      <string key="My Postings">
+        <tr lang="ps"> زما نشرات </tr>
+      </string>
+      <string key="Private messages">
+        <tr lang="ps"> شخصى پيغام </tr>
+      </string>
+      <string key="Inbox">
+        <tr lang="ps"> ان بکس </tr>
+      </string>
+      <string key="Outbox">
+        <tr lang="ps"> اوت بکس </tr>
+      </string>
+      <string key="Edit Saved Search">
+        <tr lang="ps"> بدلون راوستل په خوندي شوي لټونونو کي </tr>
+      </string>
+      <string key="Saved Searches Name">
+        <tr lang="ps"> خوندى شوى لټونو نوم </tr>
+      </string>
+      <string key="Notify on My Jobs Expiration">
+        <tr lang="ps"> زما دنده په ختم کيدو ماته خبر راکړه </tr>
+      </string>
+      <string key="Notify on My Contract Expiration">
+        <tr lang="ps"> ماته خبر راکړه زما د قرارداد په ختم کيدو باندي </tr>
+      </string>
+      <string key="Notify on new private message">
+        <tr lang="ps"> په نوي شخصي پيغام ماته خبرراکړه </tr>
+      </string>
+      <string key="Cover Letter">
+        <tr lang="ps"> ليک لمړى مخ </tr>
+      </string>
+      <string key="My Billings">
+        <tr lang="ps"> زما رسيدونه </tr>
+      </string>
+      <string key="Compose Message">
+        <tr lang="ps"> ترکيبول د پيغام </tr>
+      </string>
+      <string key="From">
+        <tr lang="ps"> له طرفه </tr>
+      </string>
+      <string key="Subject">
+        <tr lang="ps"> موضوع </tr>
+      </string>
+      <string key="To">
+        <tr lang="ps"> ته </tr>
+      </string>
+      <string key="Message to">
+        <tr lang="ps"> پيغام ته </tr>
+      </string>
+      <string key="Message">
+        <tr lang="ps"> پيغام </tr>
+      </string>
+      <string key="Save to outbox">
+        <tr lang="ps"> خوندي کول په اوت بکس کى </tr>
+      </string>
+      <string key="Send private message">
+        <tr lang="ps"> شخصى پيغام استونه </tr>
+      </string>
+      <string key="You are logged in already">
+        <tr lang="ps"> تاسو وخته نه سيستم کى داخل هستى </tr>
+      </string>
+      <string key="You&apos;re not allowed to open this page">
+        <tr lang="ps"> تاسو اجازه نه لرى چه دا پاڼه خلاصه کړى </tr>
+      </string>
+      <string key="Send Private Message">
+        <tr lang="ps"> شخصى پيغام استونه </tr>
+      </string>
+      <string key="Save this Search / Resume Alert">
+        <tr lang="ps"> خوندي کول ددي لټون/سوانح خبرونه </tr>
+      </string>
+      <string key="Resume has been saved">
+        <tr lang="ps"> سوانح خوندي شوله </tr>
+      </string>
+      <string key="Contact User">
+        <tr lang="ps"> اړيکه نيول غړى سره </tr>
+      </string>
+      <string key="Send applications online via web site">
+        <tr lang="ps"> استول درخواستونه انلاين
+د انټرنټ پانى په ذريعه </tr>
+      </string>
+      <string key="Notify on My Resumes Approve Or Reject">
+        <tr lang="ps"> دسوانخ په قبول کيدو يا رد کيدوماته خبرراکړه </tr>
+      </string>
+      <string key="Notify on My Resumes Expiration">
+        <tr lang="ps"> زما سوانح په ختم کيدو ماته خبر راکړه </tr>
+      </string>
+      <string key="Job Alert Name">
+        <tr lang="ps"> دنده خبرتيا نوم </tr>
+      </string>
+      <string key="Add new job alert">
+        <tr lang="ps"> دنده خبرتيا </tr>
+      </string>
+      <string key="Jobs Applied">
+        <tr lang="ps"> دندى ته ورکړل شوى درخواستونه </tr>
+      </string>
+      <string key="Enter Your Resume Information">
+        <tr lang="ps"> خپل سوانح معلومات داخل کړى </tr>
+      </string>
+      <string key="Company name">
+        <tr lang="ps"> کمپنى نوم </tr>
+      </string>
+      <string key="Company Search Results">
+        <tr lang="ps"> کمپني لټون نتايج </tr>
+      </string>
+      <string key="Results: $usersCount Company">
+        <tr lang="ps"> تنايج: $usersCount کمپنى </tr>
+      </string>
+      <string key="Number of company per page">
+        <tr lang="ps"> کمپنۍ شمير پر پانى </tr>
+      </string>
+      <string key="Mark as Read">
+        <tr lang="ps"> نښه کړي چه لوستل شوي </tr>
+      </string>
+      <string key="Message from">
+        <tr lang="ps"> پيغام له طرفه </tr>
+      </string>
+      <string key="Read Private Message">
+        <tr lang="ps"> شخصى پيغام لوستل </tr>
+      </string>
+      <string key="Reply">
+        <tr lang="ps"> ځواب ورکول </tr>
+      </string>
+      <string key="Approve selected">
+        <tr lang="ps"> غوره شوي قبول کول </tr>
+      </string>
+      <string key="Reject selected">
+        <tr lang="ps"> غوره شوي ردکول </tr>
+      </string>
+      <string key="Pending">
+        <tr lang="ps"> نا تمام </tr>
+      </string>
+      <string key="Approved">
+        <tr lang="ps"> قبول شوې </tr>
+      </string>
+      <string key="Rejected">
+        <tr lang="ps"> رد شوى </tr>
+      </string>
+      <string key="Select Job Posting">
+        <tr lang="ps"> غوره کول د دنده سپارل </tr>
+      </string>
+      <string key="All Jobs">
+        <tr lang="ps"> ټولى دندي </tr>
+      </string>
+      <string key="Delete profile">
+        <tr lang="ps"> پيژندن پاڼي د منځه وړل </tr>
+      </string>
+      <string key="Back">
+        <tr lang="ps"> بيرته تګ </tr>
+      </string>
+      <string key="Enable">
+        <tr lang="ps"> فعال کول </tr>
+      </string>
+      <string key="E-mail frequency">
+        <tr lang="ps"> بريښناليک فريکونسي </tr>
+      </string>
+      <string key="You have">
+        <tr lang="ps"> تاسو لري </tr>
+      </string>
+      <string key="jobs left to post out of">
+        <tr lang="ps"> دندي پاتي دنشرکولونه </tr>
+      </string>
+      <string key="resumes left to post out of">
+        <tr lang="ps"> سوانح نشر نه پاتي له </tr>
+      </string>
+      <string key="originally available">
+        <tr lang="ps"> اصلي موجود دي </tr>
+      </string>
+      <string key="You&apos;re currently subscribed to">
+        <tr lang="ps"> تاسوونډه واخستله ته </tr>
+      </string>
+      <string key="plan.">
+        <tr lang="ps"> پلان </tr>
+      </string>
+      <string key="Subscription date">
+        <tr lang="ps"> دګدون تاريخ </tr>
+      </string>
+      <string key="Subscription expiration date">
+        <tr lang="ps"> دګدون دختم کيدو تاريخ </tr>
+      </string>
+      <string key="s left to post out of">
+        <tr lang="ps"> پاتى له نشره له </tr>
+      </string>
+      <string key="To change your current subscription please chose new plan below.">
+        <tr lang="ps"> خپل دونډي بدلون لپاره لاندي پلان څخه انتخا ب کړي </tr>
+      </string>
+      <string key="job">
+        <tr lang="ps"> دنده </tr>
+      </string>
+      <string key="Not Available Anymore">
+        <tr lang="ps"> نور موجود نه دي </tr>
+      </string>
+      <string key="home">
+        <tr lang="ps"> لمړۍ پاڼه </tr>
+      </string>
+      <string key="Search job title only">
+        <tr lang="ps"> لټون دنده عنوانونه صرف </tr>
+      </string>
+      <string key="Edit notes">
+        <tr lang="ps"> ياد ګيرونو بدلون </tr>
+      </string>
+      <string key="Add notes">
+        <tr lang="ps"> نوټ کول </tr>
+      </string>
+      <string key="Close">
+        <tr lang="ps"> بند کول </tr>
+      </string>
+      <string key="My notes">
+        <tr lang="ps"> زما يادګيرنه </tr>
+      </string>
+      <string key="Search resume title only">
+        <tr lang="ps"> لټون سوانح عنوانونه صرف </tr>
+      </string>
+      <string key="Search by title">
+        <tr lang="ps"> لټو  ن دعنوانوپه قاعده </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="ps"> د انځور څخه کود داخل کوول </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="ps"> دنده پلټوونکى </tr>
+      </string>
+      <string key="Edit Profile">
+        <tr lang="ps"> زما پيژندى کى بدلون </tr>
+      </string>
+      <string key="Add job alert">
+        <tr lang="ps"> اضافه کوول د دندى خبرتيا </tr>
+      </string>
+      <string key="You have no Applications now">
+        <tr lang="ps"> تاسو هيڅ درخواست نه لرى اوس </tr>
+      </string>
+      <string key="Resume Search Results">
+        <tr lang="ps"> سوانح لټون نتايج </tr>
+      </string>
+      <string key="Saved resumes">
+        <tr lang="ps"> خوندى شوى سوانح </tr>
+      </string>
+      <string key="You do not have permissions to post Job listings.">
+        <tr lang="ps"> تاسو اجازه نه لرى څه دنده لست نشر کړى </tr>
+      </string>
+      <string key="Everyone">
+        <tr lang="ps"> هر يو </tr>
+      </string>
+      <string key="The message was sent successfully">
+        <tr lang="ps"> برياليتوب سره پيغام واستول شو </tr>
+      </string>
+      <string key="No one">
+        <tr lang="ps"> هيڅ يو </tr>
+      </string>
+      <string key="Only Selected employers">
+        <tr lang="ps"> صرف غوره شوى غړى </tr>
+      </string>
+      <string key="Everyone except selected employers">
+        <tr lang="ps"> هر يو بدون د غوره شوى نه </tr>
+      </string>
+      <string key="Match exact phrase">
+        <tr lang="ps"> دقیق عبارت ولتوی </tr>
+      </string>
+      <string key="Match all words">
+        <tr lang="ps"> تول لغاتونه ولتوی </tr>
+      </string>
+      <string key="Match any words">
+        <tr lang="ps"> هر لغت ولتوی </tr>
+      </string>
+      <string key="Boolean">
+        <tr lang="ps"> بولیین </tr>
+      </string>
+      <string key="Biotech-R&amp;D-Science">
+        <tr lang="ps"> بيالوژى او سايسن څيړنى او پرمختګ </tr>
+      </string>
+      <string key="You&apos;ve reached the limit of number of listings allowed by your plan">
+        <tr lang="ps"> تاسو د لستونو نشر کولو حد ته ورسیدلی </tr>
+      </string>
+      <string key="Please choose new subscription plan">
+        <tr lang="ps"> مهربانی وکړی خپل نوی د کدون پلان غوره کړی </tr>
+      </string>
+      <string key="Boolean search description">
+        <tr lang="ps"> د بولیین پلتنی شرح </tr>
+      </string>
+      <string key="Search title only">
+        <tr lang="ps"> صرف د عنوان پلتنه </tr>
+      </string>
+      <string key="Terms of use">
+        <tr lang="ps"> استعمال قوانین </tr>
+      </string>
+      <string key="Test URL">
+        <tr lang="ps"> url امتحان </tr>
+      </string>
+      <string key="Go Search">
+        <tr lang="ps"> پلتنی ته تک </tr>
+      </string>
+      <string key="Applicant’s resume">
+        <tr lang="ps"> درخواست کوونکی سوانح </tr>
+      </string>
+      <string key="Total">
+        <tr lang="ps"> مجموع </tr>
+      </string>
+      <string key="* Use CTRL key to select two or more employers">
+        <tr lang="ps"> کنترول کلید ته فشار ورکړی د یو څخه زیات انتخاب کولو لپاره </tr>
+      </string>
+      <string key="Employers List">
+        <tr lang="ps"> کارکوونکی لست </tr>
+      </string>
+      <string key="Currency">
+        <tr lang="ps"> رایجی پیسی </tr>
+      </string>
+      <string key="Deselect all">
+        <tr lang="ps"> نه انتخاب کول د تولو </tr>
+      </string>
+      <string key="You can not subscribe to this plan twice">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Posted Within">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="No avaiable subscriptions">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Please choose exl or csv file">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Please, enter your email in the field below and we&apos;ll send you a link to a page where you can change your password">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="You specified wrong email">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Your username is">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Recurring">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="You are going to sign up for a recurring Subscription. Once in $product_info_subscription_period days period a charge in the amount of $product_info_price will automatically be placed on your credit card to renew your subscription.">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Your recurring subscription to the &quot;$cancelMembershipPlanName&quot; plan has been canceled.">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Your payment was successfully completed. Recurring Subscription activation may take some time. Once subscription is activated it will appear in the table below.">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Notify on My Jobs Activation">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Notify on My Resumes Activation">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="jobs">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="resumes">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="currently online">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Post jobs">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Blog Posts">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="You are currently logged in as">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="News">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Sub Accounts">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Saved Resumes">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Screening Questionnaires">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Bulk job import from exl/csv file">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Your listing succesfully upgraded to featured">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Listing is already featured">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Current Search">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Refine Results">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="show brief">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="show detailed">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Post Job">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Send applications to this e-mail">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Score">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Not passed">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Actions With Selected">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Create New Questionnaire">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Send Auto-Reply email to candidates whose score is">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Question">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Answer Type">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Questions">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Edit Questionnaire">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Edit Questions">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Order">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Name">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Required">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="My account">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="No">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Yes">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Add Answer">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Complete">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Username">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Sub-user Profile">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Permissions">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Add new listings">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Manage listings and applications of other sub users">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="View and update subscription">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="years">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Save this Search">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Save Resume Alert">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Data Import">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Please review the file examples below and ascertain that your file is up to sample">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Job import EXL file example">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Job import CSV file example">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="View All News">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="read more">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Text">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Yes/No">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="List of answers with multiple choice">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="List of answers with single choice">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Errors">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Order Information">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Invoice Number">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Credit Card Information">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Card Number">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="enter number without spaces or dashes">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Expiration Date">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="mmyy">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Billing Information">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Reset">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Anonymous User">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="News Categories">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Powered by">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="About Us">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Sitemap">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="message">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Notify on My Subscriptions Expiration">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Notify on New Private Messages">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Notify on My Subscriptions Activation">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Remind about My Subscriptions expiration">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Remind about My Listings expiration">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Days before">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Subscription name">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Subscription expiration / Renewal Date">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Never Expire">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Free">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Save Job Alert">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Flag This Job">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Your comment (will be send with the recommendation)">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="1. General Information">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="2. Education">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Fill in the fields below to provide Employers with a general information about yourself&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Use the &quot;Control&quot; key to choose two or more options">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="3. Work Experience">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your education. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your work experience. Use the &amp;quot;Add&amp;quot; icon to add another block of fields. &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Listing Owner">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Post a Job">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Enter Security code">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="file not specified">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Security code is not valid">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="&lt;p&gt;&lt;em&gt;Enter information about your Job below&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="View Questionaire">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="View Questionnaire">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Answer">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Sub-users">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Create New Account">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Edit sub-user">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Sub-user">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Sub-user registration">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Fax">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Cancel">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Answers">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Questions of">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="No of jobs">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Flag This Resume">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Рowered by">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="There was an error while sending your application.">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Passed">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Your IP address was banned by site administrator. Please contact at $adminEmail for any questions.">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Please select a Package">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="You are going to sign up for a recurring Subscription. Once in $product_info_subscription_period days period a charge in the amount of $currency_sign $product_info_price will automatically be placed on your credit card to renew your subscription.">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="This Resume is no longer available">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="This Job is no longer available">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Cash Payment">
+        <tr lang="ps">  </tr>
+      </string>
+    </page>
+    <page key="FormFieldCaptions">
+      <string key="Keywords">
+        <tr lang="ps"> لارښود لفظونه </tr>
+      </string>
+      <string key="State">
+        <tr lang="ps"> ايالت </tr>
+      </string>
+      <string key="Category">
+        <tr lang="ps"> طبقي </tr>
+      </string>
+      <string key="City">
+        <tr lang="ps"> ښار </tr>
+      </string>
+      <string key="Username">
+        <tr lang="ps"> غړيتوب نوم </tr>
+      </string>
+      <string key="Password">
+        <tr lang="ps"> رمز </tr>
+      </string>
+      <string key="User name">
+        <tr lang="ps"> غړي نوم </tr>
+      </string>
+      <string key="E-mail">
+        <tr lang="ps"> بريښنا ليک </tr>
+      </string>
+      <string key="First Name">
+        <tr lang="ps"> نوم </tr>
+      </string>
+      <string key="Last Name">
+        <tr lang="ps"> تخلص </tr>
+      </string>
+      <string key="Country">
+        <tr lang="ps"> مملکت </tr>
+      </string>
+      <string key="Address">
+        <tr lang="ps"> ادرس </tr>
+      </string>
+      <string key="Zip Code">
+        <tr lang="ps"> زيب کود </tr>
+      </string>
+      <string key="Phone Number">
+        <tr lang="ps"> کرځنده شميرى </tr>
+      </string>
+      <string key="Company Name">
+        <tr lang="ps"> کمپنى نوم </tr>
+      </string>
+      <string key="Contact Name">
+        <tr lang="ps"> اړيکه نيوونکى نوم </tr>
+      </string>
+      <string key="Web Site">
+        <tr lang="ps"> ويب پاڼه </tr>
+      </string>
+      <string key="Zip code">
+        <tr lang="ps"> زيب کود </tr>
+      </string>
+      <string key="Logo">
+        <tr lang="ps"> انځورى سمبول </tr>
+      </string>
+      <string key="Search Within">
+        <tr lang="ps"> لټون دننه </tr>
+      </string>
+      <string key="Salary">
+        <tr lang="ps"> معاش </tr>
+      </string>
+      <string key="Salary Type">
+        <tr lang="ps"> معاش نوع </tr>
+      </string>
+      <string key="Employment Type">
+        <tr lang="ps"> وظيفي نوع </tr>
+      </string>
+      <string key="ID">
+        <tr lang="ps"> اي ډي </tr>
+      </string>
+      <string key="Activation Date">
+        <tr lang="ps"> فعال کيدو تاريخ </tr>
+      </string>
+      <string key="Title">
+        <tr lang="ps"> عنوان </tr>
+      </string>
+      <string key="Posted">
+        <tr lang="ps"> نشر شوي </tr>
+      </string>
+      <string key="Company">
+        <tr lang="ps"> کمپنى </tr>
+      </string>
+      <string key="Phone">
+        <tr lang="ps"> تيليفون </tr>
+      </string>
+      <string key="Web">
+        <tr lang="ps"> ويب </tr>
+      </string>
+      <string key="Job Views">
+        <tr lang="ps"> دنده کتنه </tr>
+      </string>
+      <string key="Job ID">
+        <tr lang="ps"> دنده اى دى </tr>
+      </string>
+      <string key="Job Category">
+        <tr lang="ps"> دنده طبقي </tr>
+      </string>
+      <string key="Job Description">
+        <tr lang="ps"> دنده تفصيل </tr>
+      </string>
+      <string key="Job Requirements">
+        <tr lang="ps"> دنده شرايط </tr>
+      </string>
+      <string key="Job Type">
+        <tr lang="ps"> دنده نوغ </tr>
+      </string>
+      <string key="Desired Salary">
+        <tr lang="ps"> معاش تقا ضا </tr>
+      </string>
+      <string key="Video">
+        <tr lang="ps"> فلم </tr>
+      </string>
+      <string key="Experience">
+        <tr lang="ps"> تجربه </tr>
+      </string>
+      <string key="Name">
+        <tr lang="ps"> نوم </tr>
+      </string>
+      <string key="Resumes ID">
+        <tr lang="ps"> سوانح اي دي </tr>
+      </string>
+      <string key="Email">
+        <tr lang="ps"> بريښنا ليک </tr>
+      </string>
+      <string key="Objective">
+        <tr lang="ps"> مقصد </tr>
+      </string>
+      <string key="Work Experience">
+        <tr lang="ps"> کارى تجربه </tr>
+      </string>
+      <string key="Resumes Views">
+        <tr lang="ps"> سوانح کتنه </tr>
+      </string>
+      <string key="Total Years Experience">
+        <tr lang="ps"> کال په حساب کاري تجربه </tr>
+      </string>
+      <string key="Education">
+        <tr lang="ps"> تعليم </tr>
+      </string>
+      <string key="Skills">
+        <tr lang="ps"> مهارتونه </tr>
+      </string>
+      <string key="Resume">
+        <tr lang="ps"> سوانح </tr>
+      </string>
+      <string key="Don&apos;t send mailings">
+        <tr lang="ps"> بريښناليک مه استوى </tr>
+      </string>
+      <string key="Enter code from image">
+        <tr lang="ps"> انځور څخه کود داخل کړي </tr>
+      </string>
+      <string key="Number of Views">
+        <tr lang="ps"> کتنو شمير </tr>
+      </string>
+      <string key="Occupations">
+        <tr lang="ps"> شغل </tr>
+      </string>
+      <string key="Company Description">
+        <tr lang="ps"> کمپنى تفصيل </tr>
+      </string>
+      <string key="Anonymous Resume">
+        <tr lang="ps"> نا معلوم سوانح </tr>
+      </string>
+      <string key="Application Settings">
+        <tr lang="ps"> ددرخواستنوستنګ </tr>
+      </string>
+      <string key="Applications">
+        <tr lang="ps"> درخواستونه </tr>
+      </string>
+      <string key="Resume ID">
+        <tr lang="ps"> سوانح اي دي </tr>
+      </string>
+      <string key="Approval Status">
+        <tr lang="ps"> موافقه حالت </tr>
+      </string>
+      <string key="Resume Visible To">
+        <tr lang="ps"> سوانح ښکاره </tr>
+      </string>
+      <string key="Location">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Screening Questionnaire">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Questionnaire Name">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Passing Score">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="equal or more than passing score">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="less than passing score">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Email text to candidates whose score is equal or more than passing score">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Email text to candidates whose score is less than passing score">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Entrance Date">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Institution Name">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Major">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Degree Level">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Start Date">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="End Date">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Job Title">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Industry">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Description">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Graduation Date">
+        <tr lang="ps">  </tr>
+      </string>
+    </page>
+    <page key="Miscellaneous">
+      <string key="Any">
+        <tr lang="ps"> هر </tr>
+      </string>
+      <string key="Job Seeker">
+        <tr lang="ps"> دنده پلټونکي </tr>
+      </string>
+      <string key="Employer">
+        <tr lang="ps"> کارکوونکي </tr>
+      </string>
+      <string key="Select">
+        <tr lang="ps"> ټاکنه </tr>
+      </string>
+      <string key="Any Distance">
+        <tr lang="ps"> هره فاصله </tr>
+      </string>
+      <string key="Within">
+        <tr lang="ps"> دننه </tr>
+      </string>
+      <string key="miles">
+        <tr lang="ps"> مايل </tr>
+      </string>
+      <string key="10 days">
+        <tr lang="ps"> ١٠ ورځى </tr>
+      </string>
+      <string key="20 days">
+        <tr lang="ps"> ٢٠ ورځى </tr>
+      </string>
+      <string key="30 days">
+        <tr lang="ps"> ٣٠ ورځى </tr>
+      </string>
+      <string key="Priority Ad">
+        <tr lang="ps"> ړومبي توب د اعلان </tr>
+      </string>
+      <string key="Your posting will be shown above the average search results and will be marked by different background color">
+        <tr lang="ps"> ستاسو اعلان په پورته د متوسط لټون نتايجو دپاسه په مختلفو رنګونو ښکاره کيږى </tr>
+      </string>
+      <string key="30 days priority resume">
+        <tr lang="ps"> ٣٠ ورځو غوره سوانح </tr>
+      </string>
+      <string key="Your Resume will be shown above the average search results and will be marked by different background color">
+        <tr lang="ps"> ستاسو سوانح په پورته د متوسطو لټون نتايجو د پاسه په مختلفو رنګونو ښکاره کيږى </tr>
+      </string>
+    </page>
+    <page key="Property_Occupations">
+      <string key="Accounting-Finance">
+        <tr lang="ps"> مالي محاسبات </tr>
+      </string>
+      <string key="Bookkeeping">
+        <tr lang="ps"> دفترى کارونه </tr>
+      </string>
+      <string key="Claims Review and Adjusting">
+        <tr lang="ps"> بيا کتنه او نظم د ادعا </tr>
+      </string>
+      <string key="Collections">
+        <tr lang="ps"> وصول </tr>
+      </string>
+      <string key="Corporate Accounting">
+        <tr lang="ps"> شراکت محاسبه </tr>
+      </string>
+      <string key="Corporate Finance">
+        <tr lang="ps"> شراکت ماليات </tr>
+      </string>
+      <string key="Credit Review-Analysis">
+        <tr lang="ps"> اعتبار بيا کتنه - تحليل </tr>
+      </string>
+      <string key="Financial Analysis-Research-Reporting">
+        <tr lang="ps"> مالى تحليل - پلټنى - راپور </tr>
+      </string>
+      <string key="Financial Control">
+        <tr lang="ps"> مالى کنترول </tr>
+      </string>
+      <string key="Financial Planning-Advising">
+        <tr lang="ps"> مالى پلان - مشاور </tr>
+      </string>
+      <string key="Financial Products Sales-Brokerage">
+        <tr lang="ps"> (دمالي توليداتو دخرڅلاوو دفتر (مالي صرافي </tr>
+      </string>
+      <string key="Fund Accounting">
+        <tr lang="ps"> سرمايي محاسبه </tr>
+      </string>
+      <string key="General-Other: Accounting-Finance">
+        <tr lang="ps"> عمومى - نور - محاسبه - مالى </tr>
+      </string>
+      <string key="Investment Management">
+        <tr lang="ps"> پانګه اچونى ادراه </tr>
+      </string>
+      <string key="Policy Underwriting">
+        <tr lang="ps"> بيمى تک لاره </tr>
+      </string>
+      <string key="Real Estate Appraisal">
+        <tr lang="ps"> حقيقى ملکيت قيمت ټاکنه </tr>
+      </string>
+      <string key="Real Estate Leasing-Acquisition">
+        <tr lang="ps"> درهنما معاملات دلاره دکرايي ملکيت لاسته واړنه </tr>
+      </string>
+      <string key="Risk Management-Compliance">
+        <tr lang="ps"> خطر اداره- اجرا کوونه </tr>
+      </string>
+      <string key="Securities Analysis-Research">
+        <tr lang="ps"> امنيت تحليل - تحقيق </tr>
+      </string>
+      <string key="Tax Accounting">
+        <tr lang="ps"> ټيکس محاسبه </tr>
+      </string>
+      <string key="Tax Assessment and Collections">
+        <tr lang="ps"> دمالياتو ټاکنه او راغونډونه </tr>
+      </string>
+      <string key="Administrative-Clerical">
+        <tr lang="ps"> ادارى- دفترى </tr>
+      </string>
+      <string key="Administrative Support">
+        <tr lang="ps"> ادارى ملاټړ </tr>
+      </string>
+      <string key="Claims Processing">
+        <tr lang="ps"> تقاضا جريان </tr>
+      </string>
+      <string key="Data Entry-Order Processing">
+        <tr lang="ps"> دابتدايي معلوماتو په اساس طرفي اړول </tr>
+      </string>
+      <string key="Executive Support">
+        <tr lang="ps"> اجرايه ملاټړ </tr>
+      </string>
+      <string key="Filing-Records Management">
+        <tr lang="ps"> فايل سيستم - سوانح تنظيم </tr>
+      </string>
+      <string key="General-Other: Administrative-Clerical">
+        <tr lang="ps"> عمومى - نور - ادارى - ميرزايي </tr>
+      </string>
+      <string key="Office Management">
+        <tr lang="ps"> دفتر مديريت </tr>
+      </string>
+      <string key="Property Management">
+        <tr lang="ps"> ملکيت اداره </tr>
+      </string>
+      <string key="Reception-Switchboard">
+        <tr lang="ps"> پذيرايي </tr>
+      </string>
+      <string key="Secretary-Executive Assistant">
+        <tr lang="ps"> منشى - اجرايه مرستيال </tr>
+      </string>
+      <string key="Transcription">
+        <tr lang="ps"> نقلونه د ياداشتونو </tr>
+      </string>
+      <string key="Banking-Mortgage Professionals">
+        <tr lang="ps"> دبانک دګروپ څانګي مسلکيان </tr>
+      </string>
+      <string key="Bank Teller">
+        <tr lang="ps"> بانک تحويلدار </tr>
+      </string>
+      <string key="Credit Manager">
+        <tr lang="ps"> اعتبار مدير منتظم </tr>
+      </string>
+      <string key="Escrow Officer-Manager">
+        <tr lang="ps"> قراردات افسر - مدير منتظم </tr>
+      </string>
+      <string key="Loan Officer-Originator">
+        <tr lang="ps"> پور ورکول افسر - ايجادونکى </tr>
+      </string>
+      <string key="Mortgage Broker">
+        <tr lang="ps"> دګروپي معاملاتو دلال </tr>
+      </string>
+      <string key="Store-Branch Management">
+        <tr lang="ps"> ګدام - څانګه اداره </tr>
+      </string>
+      <string key="Title Officer-Closer">
+        <tr lang="ps"> مامور د عنوان </tr>
+      </string>
+      <string key="Underwriter">
+        <tr lang="ps"> بيمه وال </tr>
+      </string>
+      <string key="Biotech-R&amp;D-Science">
+        <tr lang="ps"> بيالوژى او ساينس </tr>
+      </string>
+      <string key="Biological-Chemical Research">
+        <tr lang="ps"> بيالوژى - کيمياوى پلټنى </tr>
+      </string>
+      <string key="Clinical Research">
+        <tr lang="ps"> کلينکى پلتڼى </tr>
+      </string>
+      <string key="Environmental-Geological Testing &amp; Analysis">
+        <tr lang="ps"> چاپيريال - جفرافيايى پلټنى او تحليل </tr>
+      </string>
+      <string key="General-Other: R&amp;D-Science">
+        <tr lang="ps"> عمومى - نور:ساينس </tr>
+      </string>
+      <string key="Materials-Physical Research ">
+        <tr lang="ps"> موادو - فزيکى پلټنى </tr>
+      </string>
+      <string key="Mathematical-Statistical Research">
+        <tr lang="ps"> رياضيوى - احسايوى پلټنى </tr>
+      </string>
+      <string key="New Product R&amp;D">
+        <tr lang="ps"> نوى توليداتو پلټنى </tr>
+      </string>
+      <string key="Pharmaceutical Research">
+        <tr lang="ps"> په در ملو پورى اړه لرونكى پلټنى </tr>
+      </string>
+      <string key="Building Construction">
+        <tr lang="ps"> تعمير معمارى </tr>
+      </string>
+      <string key="CAD-Drafting">
+        <tr lang="ps"> کمپيوترى انجينرى ديزاين </tr>
+      </string>
+      <string key="Carpentry-Framing">
+        <tr lang="ps"> نجارى -  کرنه </tr>
+      </string>
+      <string key="Concrete and Masonry">
+        <tr lang="ps"> کانکريت او خټکارى </tr>
+      </string>
+      <string key="Electrician">
+        <tr lang="ps"> برقى </tr>
+      </string>
+      <string key="Flooring-Tiling-Painting-Wallpapering">
+        <tr lang="ps"> فرش - کاشى - رنګمالى </tr>
+      </string>
+      <string key="General-Other: Construction-Skilled Trades">
+        <tr lang="ps"> عمومى - نور - ساختمانى - ماهروى کاروبار </tr>
+      </string>
+      <string key="Heavy Equipment Operation">
+        <tr lang="ps"> درانده اسبابو اداره </tr>
+      </string>
+      <string key="HVAC">
+        <tr lang="ps"> HVAC </tr>
+      </string>
+      <string key="Ironwork-Metal Fabrication">
+        <tr lang="ps"> فلزى کارونه </tr>
+      </string>
+      <string key="Plumbing-Pipefitting">
+        <tr lang="ps"> نل دوانى </tr>
+      </string>
+      <string key="Roofing">
+        <tr lang="ps"> بام پوښنه </tr>
+      </string>
+      <string key="Sheetrock-Plastering">
+        <tr lang="ps"> پلستر </tr>
+      </string>
+      <string key="Site Superintendent">
+        <tr lang="ps"> محل چلوونکى </tr>
+      </string>
+      <string key="Surveying">
+        <tr lang="ps"> سروى </tr>
+      </string>
+      <string key="Business-Strategic Management">
+        <tr lang="ps"> د کاروبار ستراتيژيک تنظيم او اداره </tr>
+      </string>
+      <string key="Business Analysis-Research">
+        <tr lang="ps"> کاروبار تحليل - پلټنى </tr>
+      </string>
+      <string key="Business Unit Management">
+        <tr lang="ps"> تجارت شبعه مديريت </tr>
+      </string>
+      <string key="Franchise-Business Ownership">
+        <tr lang="ps"> امتياز - تجارت ملکيت </tr>
+      </string>
+      <string key="General-Other: Business-Strategic Management">
+        <tr lang="ps"> عمومى - نور: کاروبار ستراتيژى اداره </tr>
+      </string>
+      <string key="Hospital-Clinic Administration">
+        <tr lang="ps"> شفاخانه - کلينيک مديريت </tr>
+      </string>
+      <string key="Hotel-Lodging Management">
+        <tr lang="ps"> هوتل - موقتى مديريت </tr>
+      </string>
+      <string key="Managerial Consulting">
+        <tr lang="ps"> مديريت مشاور </tr>
+      </string>
+      <string key="Mergers and Acquisitions">
+        <tr lang="ps"> ائتلاف او مالکيت </tr>
+      </string>
+      <string key="President-Top Executive">
+        <tr lang="ps"> ريًس- اجرايه مشر </tr>
+      </string>
+      <string key="Public Health Administration">
+        <tr lang="ps"> صحت عامه مديريت </tr>
+      </string>
+      <string key="Restaurant Management">
+        <tr lang="ps"> رستورانت مديريت </tr>
+      </string>
+      <string key="School-College Administration">
+        <tr lang="ps"> مکتب - کالج مديريت </tr>
+      </string>
+      <string key="Strategic Planning-Intelligence">
+        <tr lang="ps"> ستراتيژى پلان - استخبارات </tr>
+      </string>
+      <string key="Town-City Planning">
+        <tr lang="ps"> ښار تدبير </tr>
+      </string>
+      <string key="Creative-Design">
+        <tr lang="ps"> جوړښت - ډيزاين </tr>
+      </string>
+      <string key="Advertising Writing (Creative)">
+        <tr lang="ps"> اعلان جوړونکى </tr>
+      </string>
+      <string key="Architecture-Interior Design">
+        <tr lang="ps"> مهندسى - داخلى ډيزاين </tr>
+      </string>
+      <string key="Computer Animation &amp; Multimedia">
+        <tr lang="ps"> کمپيوتر انيميشن - ملتى ميډيا </tr>
+      </string>
+      <string key="Creative Direction-Lead">
+        <tr lang="ps"> جوړښت لارښوونه </tr>
+      </string>
+      <string key="Fashion &amp; Accessories Design">
+        <tr lang="ps"> فيشن ډيزاين </tr>
+      </string>
+      <string key="General-Other: Creative-Design">
+        <tr lang="ps"> عمومى - نور - جوړښت - ډيزاين </tr>
+      </string>
+      <string key="Graphic Arts-Illustration">
+        <tr lang="ps"> ګرافيک - ارت - تصوير </tr>
+      </string>
+      <string key="Industrial Design">
+        <tr lang="ps"> صنعتى ډيزاين </tr>
+      </string>
+      <string key="Photography and Videography">
+        <tr lang="ps"> عکاسى او فلمبردارى </tr>
+      </string>
+      <string key="Web-UI-UX Design">
+        <tr lang="ps"> انترنيتى ديزاين </tr>
+      </string>
+      <string key="Customer Support">
+        <tr lang="ps"> پيرودونکى خدمتونه </tr>
+      </string>
+      <string key="Account Management (Non-Commissioned)">
+        <tr lang="ps"> حسابونو مديريت </tr>
+      </string>
+      <string key="Call Center">
+        <tr lang="ps"> تيليفون مرکز </tr>
+      </string>
+      <string key="Customer Training">
+        <tr lang="ps"> پيرودونکو روزنه </tr>
+      </string>
+      <string key="Flight Attendant">
+        <tr lang="ps"> الوتنو نماينده </tr>
+      </string>
+      <string key="General-Other: Customer Support-Client Care">
+        <tr lang="ps"> عموى - نور:پيرودونکى خدمتونه </tr>
+      </string>
+      <string key="Hair Cutting-Styling">
+        <tr lang="ps"> آرايشکاه </tr>
+      </string>
+      <string key="Reservations-Ticketing">
+        <tr lang="ps"> تکت </tr>
+      </string>
+      <string key="Retail Customer Service">
+        <tr lang="ps"> پرچون پيرودونکو خدمتونه </tr>
+      </string>
+      <string key="Technical Customer Service">
+        <tr lang="ps"> تخنيکى پيرودونکى خدمتونه </tr>
+      </string>
+      <string key="Editorial Writing">
+        <tr lang="ps"> مقاله ليکوونکى </tr>
+      </string>
+      <string key="Digital Content Development">
+        <tr lang="ps"> پرمختگ د عددى معلوماتو </tr>
+      </string>
+      <string key="Documentation-Technical Writing">
+        <tr lang="ps"> تخنيکى ليکوونکى </tr>
+      </string>
+      <string key="Editing &amp; Proofreading">
+        <tr lang="ps"> منتاژور </tr>
+      </string>
+      <string key="General-Other: Editorial-Writing">
+        <tr lang="ps"> عمومى - نور - سرمقاله ليکوونکى </tr>
+      </string>
+      <string key="Journalism">
+        <tr lang="ps"> ژورناليزم </tr>
+      </string>
+      <string key="Translation-Interpretation">
+        <tr lang="ps"> ترجمه - ترجمان </tr>
+      </string>
+      <string key="Education">
+        <tr lang="ps"> تعليم </tr>
+      </string>
+      <string key="Classroom Teaching">
+        <tr lang="ps"> صنفى درس </tr>
+      </string>
+      <string key="Continuing-Adult ">
+        <tr lang="ps"> دوامداره - بالغ </tr>
+      </string>
+      <string key="Corporate Development and Training">
+        <tr lang="ps"> پرمختگ د مشترک او روزنه </tr>
+      </string>
+      <string key="Early Childhood Care &amp; Development">
+        <tr lang="ps"> ماشوم ساتنه او روزنه </tr>
+      </string>
+      <string key="Elementary School">
+        <tr lang="ps"> ابتدايه مکتب </tr>
+      </string>
+      <string key="Fitness &amp; Sports Training-Instruction">
+        <tr lang="ps"> روغوالى - سپورت روزنه </tr>
+      </string>
+      <string key="General-Other: Training-Instruction">
+        <tr lang="ps"> عمومى - نور :روزنه </tr>
+      </string>
+      <string key="Junior-High School">
+        <tr lang="ps"> وړو - عالى ليسه </tr>
+      </string>
+      <string key="Software-Web Training">
+        <tr lang="ps"> سافت وير - ويب روزنه </tr>
+      </string>
+      <string key="Special Education">
+        <tr lang="ps"> خصوصى تعليم </tr>
+      </string>
+      <string key="University ">
+        <tr lang="ps"> پوهنتون </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="ps"> انجينرى </tr>
+      </string>
+      <string key="Aeronautic-Avionic Engineering">
+        <tr lang="ps"> دهوا بازي علم اوانجنري </tr>
+      </string>
+      <string key="Bio-Engineering">
+        <tr lang="ps"> بيالوژى انجينرى </tr>
+      </string>
+      <string key="Chemical Engineering">
+        <tr lang="ps"> کيمياوى انجينرى </tr>
+      </string>
+      <string key="Civil &amp; Structural Engineering">
+        <tr lang="ps"> ساختمانى انجينرى </tr>
+      </string>
+      <string key="Electrical-Electronics Engineering">
+        <tr lang="ps"> برقى انجينرى </tr>
+      </string>
+      <string key="Energy-Nuclear Engineering">
+        <tr lang="ps"> انرژى - هستوى انجينرى </tr>
+      </string>
+      <string key="Environmental and Geological Engineering">
+        <tr lang="ps"> چاپيريال او دجيولوژيکي اغيزي انجينرى </tr>
+      </string>
+      <string key="General-Other: Engineering">
+        <tr lang="ps"> عمومى - نور - :انجينرى </tr>
+      </string>
+      <string key="Industrial-Manufacturing Engineering">
+        <tr lang="ps"> دصنعت او توليداتو انجينري </tr>
+      </string>
+      <string key="Mechanical Engineering">
+        <tr lang="ps"> ميخانيکى انجينرى </tr>
+      </string>
+      <string key="Naval Architecture-Marine Engineering">
+        <tr lang="ps"> دسمندر مهندسي انجينري </tr>
+      </string>
+      <string key="RF-Wireless Engineering">
+        <tr lang="ps"> دبي ساره برقي الاتو انجينري </tr>
+      </string>
+      <string key="Systems-Process Engineering">
+        <tr lang="ps"> سيستم انجينرى </tr>
+      </string>
+      <string key="Food Services-Hospitality">
+        <tr lang="ps"> غذايي خدمتونه - ميلمه پالنه </tr>
+      </string>
+      <string key="Food &amp; Beverage Serving">
+        <tr lang="ps"> غذايي او نوشابه خدمتونه </tr>
+      </string>
+      <string key="Food Preparation-Cooking">
+        <tr lang="ps"> اشپزى </tr>
+      </string>
+      <string key="Front Desk-Reception">
+        <tr lang="ps"> د معلوماتو د حاصلولوځاي </tr>
+      </string>
+      <string key="General-Other: Food Services">
+        <tr lang="ps"> عمومى - نور:غذايي خدمتونه </tr>
+      </string>
+      <string key="Guest Services-Concierge">
+        <tr lang="ps"> ميلمنو خدمتونه </tr>
+      </string>
+      <string key="Guide (Tour) ">
+        <tr lang="ps"> لارښود </tr>
+      </string>
+      <string key="Host-Hostess">
+        <tr lang="ps"> کوربه </tr>
+      </string>
+      <string key="Wine Steward (Sommelier)">
+        <tr lang="ps"> شرابو ميلمه پال </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="ps"> بشرى منابع </tr>
+      </string>
+      <string key="Academic Admissions and Advising">
+        <tr lang="ps"> علمى مشورى </tr>
+      </string>
+      <string key="Compensation-Benefits Policy">
+        <tr lang="ps"> دخشاري جبيره او دفوايددتګ لاره </tr>
+      </string>
+      <string key="Diversity Management-EEO-Compliance">
+        <tr lang="ps"> تنوغ اداره يا د توپير له مخي اداره </tr>
+      </string>
+      <string key="General-Other: Human Resources">
+        <tr lang="ps"> عمومى - نور : بشرى منابع </tr>
+      </string>
+      <string key="HR Systems Administration">
+        <tr lang="ps"> استخدام سيستم او اداره </tr>
+      </string>
+      <string key="Payroll and Benefits Administration">
+        <tr lang="ps"> معاشات او د فوآيدوتنظيم  او اداره </tr>
+      </string>
+      <string key="Recruiting-Sourcing ">
+        <tr lang="ps"> استخدام کول </tr>
+      </string>
+      <string key="Installation-Maintenance-Repair">
+        <tr lang="ps"> نصب - ترميمول </tr>
+      </string>
+      <string key="Computer-Electronics-Telecomm Install-Maintain-Repair">
+        <tr lang="ps"> دبرق او کمپيوټرونوجوړونه اودنسبول </tr>
+      </string>
+      <string key="Equipment Install-Maintain-Repair">
+        <tr lang="ps"> اسباب انستالشن - ترميمول </tr>
+      </string>
+      <string key="Facilities Management-Maintenance">
+        <tr lang="ps"> داشياوو دساتلو سهوليت اداره </tr>
+      </string>
+      <string key="General-Other: Installation-Maintenance-Repair">
+        <tr lang="ps"> عمومى - نور - نصب - ترميمول </tr>
+      </string>
+      <string key="Janitorial &amp; Cleaning ">
+        <tr lang="ps"> چوکيدار ى او پاکول </tr>
+      </string>
+      <string key="Landscaping">
+        <tr lang="ps"> طبيعى منظره </tr>
+      </string>
+      <string key="Locksmith">
+        <tr lang="ps"> قفل جوړونه </tr>
+      </string>
+      <string key="Oil Rig &amp; Pipeline Install-Maintain-Repair">
+        <tr lang="ps"> غوړيو پايپونو انستالشن او ترميم </tr>
+      </string>
+      <string key="Vehicle Repair and Maintenance">
+        <tr lang="ps"> ګاډى ترميمول </tr>
+      </string>
+      <string key="Wire and Cable Install-Maintain-Repair">
+        <tr lang="ps"> کيبلونو انستالشن او ترميمول </tr>
+      </string>
+      <string key="IT-Software Development">
+        <tr lang="ps"> انفارمشن تکنالوجى - سافټ وير جوړونه </tr>
+      </string>
+      <string key="Computer-Network Security">
+        <tr lang="ps"> کمپيوتر - شبکه امنيت </tr>
+      </string>
+      <string key="Database Development-Administration">
+        <tr lang="ps"> داتاباس جوړونه - اداره </tr>
+      </string>
+      <string key="Desktop Service and Support">
+        <tr lang="ps"> د ديسکټاپ، خدمت او کومک </tr>
+      </string>
+      <string key="Enterprise Software Implementation &amp; Consulting">
+        <tr lang="ps"> پر مختللى سافت وير تطبيق </tr>
+      </string>
+      <string key="General-Other: IT-Software Development">
+        <tr lang="ps"> عمومى - نور - انفارميشن تکنالوجى - سافټ وير جوړونه </tr>
+      </string>
+      <string key="IT Project Management">
+        <tr lang="ps"> انفارميشن تکنالوجى پروژه مديريت </tr>
+      </string>
+      <string key="Network and Server Administration">
+        <tr lang="ps"> شبکه او سرور مديريت </tr>
+      </string>
+      <string key="Software-System Architecture">
+        <tr lang="ps"> سافټ وير - مهندسى سيستم </tr>
+      </string>
+      <string key="Software-Web Development">
+        <tr lang="ps"> سافټ وير -ويب جوړونه </tr>
+      </string>
+      <string key="Systems Analysis - IT">
+        <tr lang="ps"> انفارميشن تکنالوجى - سيستم تحليل </tr>
+      </string>
+      <string key="Telecommunications Administration-Management">
+        <tr lang="ps"> مخابراتى څانګي ادراه </tr>
+      </string>
+      <string key="Usability-Information Architecture">
+        <tr lang="ps"> ساختمانى معلومات </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="ps"> شرعى </tr>
+      </string>
+      <string key="Attorney">
+        <tr lang="ps"> څارنوالى </tr>
+      </string>
+      <string key="Contracts Administration">
+        <tr lang="ps"> قراردات مديريت </tr>
+      </string>
+      <string key="General-Other: Legal">
+        <tr lang="ps"> عمومى - نور - شرعى </tr>
+      </string>
+      <string key="Labor &amp; Employment Law">
+        <tr lang="ps"> کارګران قانون </tr>
+      </string>
+      <string key="Paralegal &amp; Legal Secretary">
+        <tr lang="ps"> منشى قانونى </tr>
+      </string>
+      <string key="Patent-IP Law">
+        <tr lang="ps"> څرګند قانون - اى پى </tr>
+      </string>
+      <string key="Real Estate Law">
+        <tr lang="ps"> حقيقى ملکيت قانون </tr>
+      </string>
+      <string key="Regulatory-Compliance Law">
+        <tr lang="ps"> دشکاياتو لپاره دموادو سمونکي قانون </tr>
+      </string>
+      <string key="Tax Law">
+        <tr lang="ps"> تيکس قانون </tr>
+      </string>
+      <string key="Logistics-Transportation">
+        <tr lang="ps"> لوجيستيک - ترانسپورت </tr>
+      </string>
+      <string key="Car, Van and Bus Driving">
+        <tr lang="ps"> ډرايورى </tr>
+      </string>
+      <string key="Cargo and Baggage Handling">
+        <tr lang="ps"> د سفرى مالونو اداره </tr>
+      </string>
+      <string key="Cost Estimating">
+        <tr lang="ps"> قيمت اټکلونه </tr>
+      </string>
+      <string key="Equipment-Forklift-Crane Operation">
+        <tr lang="ps"> سامان آلاتو - کرن چلوونه </tr>
+      </string>
+      <string key="General-Other: Logistics-Transportation">
+        <tr lang="ps"> عمومى - نور - لوجستيک - ترانسپورت </tr>
+      </string>
+      <string key="Hazardous Materials Handling">
+        <tr lang="ps"> د خطرى موادو اداره </tr>
+      </string>
+      <string key="Import-Export Administration">
+        <tr lang="ps"> صادرات او واردات مديريت </tr>
+      </string>
+      <string key="Inventory Planning and Management">
+        <tr lang="ps"> دذخيري(ګرام) دپلانولو اداره </tr>
+      </string>
+      <string key="Merchandise Planning and Buying">
+        <tr lang="ps"> دتوليداتو د خريداري پلان </tr>
+      </string>
+      <string key="Messenger-Courier">
+        <tr lang="ps"> پيغام وړونکى </tr>
+      </string>
+      <string key="Piloting: Air and Marine">
+        <tr lang="ps"> پيلوت:بحرى او سمندرى </tr>
+      </string>
+      <string key="Purchasing">
+        <tr lang="ps"> خريدارى </tr>
+      </string>
+      <string key="Shipping and Receiving-Warehousing">
+        <tr lang="ps"> نقل او وصول - ذخيره </tr>
+      </string>
+      <string key="Supplier Management-Vendor Management">
+        <tr lang="ps"> دعرضي اوخرڅلاوو اداره </tr>
+      </string>
+      <string key="Train or Rail Operator">
+        <tr lang="ps"> ريل چلوونکى </tr>
+      </string>
+      <string key="Truck Driving">
+        <tr lang="ps"> لارى ډرايورى </tr>
+      </string>
+      <string key="Vehicle Dispatch, Routing and Scheduling">
+        <tr lang="ps"> چلاونه د موټرو او مسير معلوم کول - تقسيم اوقات </tr>
+      </string>
+      <string key="Manufacturing-Production">
+        <tr lang="ps"> دفابريکي توليدات </tr>
+      </string>
+      <string key="Assembly-Assembly Line">
+        <tr lang="ps"> اسامبله </tr>
+      </string>
+      <string key="Audio-Video Broadcast &amp; Postproduction">
+        <tr lang="ps"> غږيز- انځورى نشرات </tr>
+      </string>
+      <string key="Equipment Operations">
+        <tr lang="ps"> اسباب چلوونکى </tr>
+      </string>
+      <string key="General-Other: Production-Operations">
+        <tr lang="ps"> عمومى - نور:توليدات - چلوونکى </tr>
+      </string>
+      <string key="Laundry and Dry-Cleaning Operations">
+        <tr lang="ps"> دمينځل شوو کاليو اوبيا وچولو عمليه </tr>
+      </string>
+      <string key="Layout, Prepress, Printing, &amp; Binding Operations">
+        <tr lang="ps"> چاپول او کتاب جوړونه </tr>
+      </string>
+      <string key="Machining-CNC">
+        <tr lang="ps"> ماشيني پروسه </tr>
+      </string>
+      <string key="Metal Fabrication and Welding ">
+        <tr lang="ps"> فلز ايستونه او ولډنک </tr>
+      </string>
+      <string key="Moldmaking-Casting">
+        <tr lang="ps"> قالب کول </tr>
+      </string>
+      <string key="Operations-Plant Management">
+        <tr lang="ps"> دماشين الاتو دعمليي اداره </tr>
+      </string>
+      <string key="Production-Operations Planning">
+        <tr lang="ps"> دتوليداتو دعمليه پلان </tr>
+      </string>
+      <string key="Scientific-Technical Production">
+        <tr lang="ps"> په ساينسي او تخنيکي توګه توليدات </tr>
+      </string>
+      <string key="Sewing and Tailoring">
+        <tr lang="ps"> خياطى </tr>
+      </string>
+      <string key="Waste Pick-up and Removal">
+        <tr lang="ps"> د بيهوده مواده تلف کوول </tr>
+      </string>
+      <string key="Marketing-Product">
+        <tr lang="ps"> بازار موندنه </tr>
+      </string>
+      <string key="Brand-Product Marketing">
+        <tr lang="ps"> دتوليد دنوم بازار موندنه </tr>
+      </string>
+      <string key="Copy Writing-Editing">
+        <tr lang="ps"> کاپى کول او نشر ته چمتوکوول </tr>
+      </string>
+      <string key="Direct Marketing (CRM)">
+        <tr lang="ps"> مستقيم بازار پاي </tr>
+      </string>
+      <string key="Events-Promotional Marketing">
+        <tr lang="ps"> دمراسمو له مخي دتوليداتو اعلانات </tr>
+      </string>
+      <string key="General-Other: Marketing-Product">
+        <tr lang="ps"> عمومى - نور - بازار يابى </tr>
+      </string>
+      <string key="Investor and Public-Media Relations">
+        <tr lang="ps"> پانګه اچوونکى او مطبوعاتى اړيکه </tr>
+      </string>
+      <string key="Market Research">
+        <tr lang="ps"> بازايابى څيړنه </tr>
+      </string>
+      <string key="Marketing Communications">
+        <tr lang="ps"> بازايابى مفامه </tr>
+      </string>
+      <string key="Marketing Production-Traffic">
+        <tr lang="ps"> بازاريابى توليدات </tr>
+      </string>
+      <string key="Media Planning and Buying">
+        <tr lang="ps"> مطبوعات پلان او خريدارى </tr>
+      </string>
+      <string key="Product Management">
+        <tr lang="ps"> توليداتو مديريت </tr>
+      </string>
+      <string key="Telemarketing">
+        <tr lang="ps"> په تيليفون بازار موندنه </tr>
+      </string>
+      <string key="Visual-Display Merchandising">
+        <tr lang="ps"> تصويري توليدات </tr>
+      </string>
+      <string key="Medical-Health">
+        <tr lang="ps"> طبى او صحت </tr>
+      </string>
+      <string key="Dental Assistant-Hygienist">
+        <tr lang="ps"> غاښونو داکتر مرستيال </tr>
+      </string>
+      <string key="Dental Practitioner">
+        <tr lang="ps"> غاښونو داکتر </tr>
+      </string>
+      <string key="EMT-Paramedic">
+        <tr lang="ps"> عاجل حادثاتو مرسته کوونکى </tr>
+      </string>
+      <string key="General-Other: Medical-Health">
+        <tr lang="ps"> عمومى - نور - طبى او صحت </tr>
+      </string>
+      <string key="Healthcare Aid">
+        <tr lang="ps"> روغتيا حفاظت مرستى </tr>
+      </string>
+      <string key="Laboratory-Pathology">
+        <tr lang="ps"> لابر اتوار </tr>
+      </string>
+      <string key="Medical Imaging">
+        <tr lang="ps"> طبى ايکسرى او نور عکاسى </tr>
+      </string>
+      <string key="Medical Practitioner">
+        <tr lang="ps"> طبى داکتر </tr>
+      </string>
+      <string key="Medical Therapy-Rehab Services">
+        <tr lang="ps"> طبى خدمتونه </tr>
+      </string>
+      <string key="Mental Health">
+        <tr lang="ps"> عصبى طب </tr>
+      </string>
+      <string key="Nursing">
+        <tr lang="ps"> نرسنګ </tr>
+      </string>
+      <string key="Nutrition and Diet">
+        <tr lang="ps"> غدا او غذايي رژيم </tr>
+      </string>
+      <string key="Optical">
+        <tr lang="ps"> بصرى علم </tr>
+      </string>
+      <string key="Pharmacy">
+        <tr lang="ps"> دوا جوړونه </tr>
+      </string>
+      <string key="Physicians Assistant-Nurse Practitioner">
+        <tr lang="ps"> طبيب مرستيال </tr>
+      </string>
+      <string key="Social Service">
+        <tr lang="ps"> اجتماعى خدمتونه </tr>
+      </string>
+      <string key="Sports Medicine">
+        <tr lang="ps"> سپورتى درملنى </tr>
+      </string>
+      <string key="Veterinary-Animal Care">
+        <tr lang="ps"> وترنرى </tr>
+      </string>
+      <string key="Other">
+        <tr lang="ps"> نور </tr>
+      </string>
+      <string key="Career Fair">
+        <tr lang="ps"> مناسب پيشه </tr>
+      </string>
+      <string key="Work at Home">
+        <tr lang="ps"> کار په کور کى </tr>
+      </string>
+      <string key="Project-Program Management">
+        <tr lang="ps"> پروژه - پروګرام مديريت </tr>
+      </string>
+      <string key="Event Planning-Coordination">
+        <tr lang="ps"> هماهنگى - د واقعاتو پلان </tr>
+      </string>
+      <string key="General-Other: Project-Program Management">
+        <tr lang="ps"> عمومى - نور- پروژه - پروګرام مديريت </tr>
+      </string>
+      <string key="Program Management">
+        <tr lang="ps"> پروګرام مديريت </tr>
+      </string>
+      <string key="Project Management">
+        <tr lang="ps"> پروژه مديريت </tr>
+      </string>
+      <string key="Quality Assurance-Safety">
+        <tr lang="ps"> دتوليد دظرفيت تضمين او ساتنه </tr>
+      </string>
+      <string key="Building-Construction Inspection">
+        <tr lang="ps"> ساختمانى- ساختمانى پلټنى </tr>
+      </string>
+      <string key="Environmental Protection-Conservation">
+        <tr lang="ps"> محيط ساتنه </tr>
+      </string>
+      <string key="Food Safety and Inspection">
+        <tr lang="ps"> غدا حفاظت او پلټنه </tr>
+      </string>
+      <string key="Fraud Investigation">
+        <tr lang="ps"> فساد پلټنه </tr>
+      </string>
+      <string key="General-Other: Quality Assurance-Safety">
+        <tr lang="ps"> عمومى - نور - امنيتى - کيفيت تضمين </tr>
+      </string>
+      <string key="ISO Certification">
+        <tr lang="ps"> دابتدائي خدماتوتصديق پاڼه </tr>
+      </string>
+      <string key="Occupational Health and Safety">
+        <tr lang="ps"> حرفوى صحت او ساتنه </tr>
+      </string>
+      <string key="Production Quality Assurance">
+        <tr lang="ps"> دتوليداتو دظرفيت تضمين </tr>
+      </string>
+      <string key="Six Sigma-Black Belt-TQM">
+        <tr lang="ps"> سيکس سکما </tr>
+      </string>
+      <string key="Software Quality Assurance">
+        <tr lang="ps"> دسافت وير د ظرفيت تضمين </tr>
+      </string>
+      <string key="Vehicle Inspection">
+        <tr lang="ps"> کاډى پلټنه </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="ps"> رهنمايي معاملات </tr>
+      </string>
+      <string key="Real Estate Agent-Broker">
+        <tr lang="ps"> رهنمايى معاملات نماينده </tr>
+      </string>
+      <string key="Sales-Retail">
+        <tr lang="ps"> خرڅلاو - پرچون خرڅلاو </tr>
+      </string>
+      <string key="Account Management Commissioned">
+        <tr lang="ps"> حساب مديريت </tr>
+      </string>
+      <string key="Business Development-New Accounts">
+        <tr lang="ps"> تجارت انکشاف - نوى حسابونه </tr>
+      </string>
+      <string key="Field Sales">
+        <tr lang="ps"> سيمه يز خرڅلاو </tr>
+      </string>
+      <string key="Fundraising">
+        <tr lang="ps"> دبوديجي لاسته راوړلوځاي </tr>
+      </string>
+      <string key="General-Other: Sales-Business Development">
+        <tr lang="ps"> عمومى - نور- خرڅلاو - انکشاف تجارتى </tr>
+      </string>
+      <string key="Insurance Agent-Broker">
+        <tr lang="ps"> بيمه نماينده - صراف </tr>
+      </string>
+      <string key="International Sales">
+        <tr lang="ps"> بين المللى خرڅلاو </tr>
+      </string>
+      <string key="Media and Advertising Sales">
+        <tr lang="ps"> مطبوعاتى او اعلاناتى خرڅلاو </tr>
+      </string>
+      <string key="Retail-Counter Sales and Cashier">
+        <tr lang="ps"> پرچون خرڅلاو - خرڅلاو خزانه دار </tr>
+      </string>
+      <string key="Sales Support-Assistance">
+        <tr lang="ps"> خرڅلاو مرستيال </tr>
+      </string>
+      <string key="Technical Presales Support &amp; Technical Sales">
+        <tr lang="ps"> تخنيکى خرڅلاو او تخنيکى خدمتونه </tr>
+      </string>
+      <string key="Telesales">
+        <tr lang="ps"> خرسونه په تيليفون </tr>
+      </string>
+      <string key="Travel Agent-Ticket Sales">
+        <tr lang="ps"> سفرى نماينده - ټکت خرڅلاو </tr>
+      </string>
+      <string key="Wholesale-Reselling Sales">
+        <tr lang="ps"> عمده خرڅلاوو </tr>
+      </string>
+      <string key="Security-Protective Services">
+        <tr lang="ps"> امنيتى - حفاظتى خدمتونه </tr>
+      </string>
+      <string key="Airport Security and Screening">
+        <tr lang="ps"> هوايي ميدان امنيت او څارنه </tr>
+      </string>
+      <string key="Correctional Officer">
+        <tr lang="ps"> سمول کولو افسر </tr>
+      </string>
+      <string key="Customs-Immigration">
+        <tr lang="ps"> ګمرک - مهاجرت </tr>
+      </string>
+      <string key="Firefighting and Rescue">
+        <tr lang="ps"> اور وژونکى او ژغورنه </tr>
+      </string>
+      <string key="General-Other: Security-Protective Services">
+        <tr lang="ps"> عمومى - نور - امنيتى - حفاظتى خدمتونه </tr>
+      </string>
+      <string key="Military Combat">
+        <tr lang="ps"> ملى اردو جګړه </tr>
+      </string>
+      <string key="Police-Law Enforcement">
+        <tr lang="ps"> پوليس - قانون </tr>
+      </string>
+      <string key="Security Guard">
+        <tr lang="ps"> امنيتى ساتوونکى </tr>
+      </string>
+      <string key="Security Intelligence &amp; Analysis">
+        <tr lang="ps"> امنيتى استخبارات او تحليل </tr>
+      </string>
+      <string key="Store Security-Loss Prevention">
+        <tr lang="ps"> دذخيري ساتنه او تاوانونو مخنيوي </tr>
+      </string>
+    </page>
+    <page key="Property_State">
+      <string key="Alabama">
+        <tr lang="ps"> الاباما </tr>
+      </string>
+      <string key="Alaska">
+        <tr lang="ps"> الاسکا </tr>
+      </string>
+      <string key="Alberta">
+        <tr lang="ps"> البرتا </tr>
+      </string>
+      <string key="Arizona">
+        <tr lang="ps"> اريزونا </tr>
+      </string>
+      <string key="Arkansas">
+        <tr lang="ps"> ارکانساس </tr>
+      </string>
+      <string key="British Columbia">
+        <tr lang="ps"> بريتيانوى کولمبيا </tr>
+      </string>
+      <string key="California">
+        <tr lang="ps"> کليفورنيا </tr>
+      </string>
+      <string key="Colorado">
+        <tr lang="ps"> کولارادو </tr>
+      </string>
+      <string key="Connecticut">
+        <tr lang="ps"> کونيکتيکيوت </tr>
+      </string>
+      <string key="Delaware">
+        <tr lang="ps"> ديلاوير </tr>
+      </string>
+      <string key="District of Columbia">
+        <tr lang="ps"> کولمبيا ولسوالى </tr>
+      </string>
+      <string key="Florida">
+        <tr lang="ps"> فوليريدا </tr>
+      </string>
+      <string key="Georgia">
+        <tr lang="ps"> جورجيا </tr>
+      </string>
+      <string key="Guam">
+        <tr lang="ps"> کوام </tr>
+      </string>
+      <string key="Hawaii">
+        <tr lang="ps"> هوايي </tr>
+      </string>
+      <string key="Idaho">
+        <tr lang="ps"> ايداهو </tr>
+      </string>
+      <string key="Illinois">
+        <tr lang="ps"> ايلينوايس </tr>
+      </string>
+      <string key="Indiana">
+        <tr lang="ps"> انديانا </tr>
+      </string>
+      <string key="Iowa">
+        <tr lang="ps"> ايوا </tr>
+      </string>
+      <string key="Kansas">
+        <tr lang="ps"> کنساس </tr>
+      </string>
+      <string key="Kentucky">
+        <tr lang="ps"> کينتوکى </tr>
+      </string>
+      <string key="Louisiana">
+        <tr lang="ps"> لويزيانا </tr>
+      </string>
+      <string key="Maine">
+        <tr lang="ps"> ماينى </tr>
+      </string>
+      <string key="Manitoba">
+        <tr lang="ps"> مانيتوبا </tr>
+      </string>
+      <string key="Maryland">
+        <tr lang="ps"> مارىلند </tr>
+      </string>
+      <string key="Massachusetts">
+        <tr lang="ps"> ماساچوسيتس </tr>
+      </string>
+      <string key="Michigan">
+        <tr lang="ps"> ميچيکان </tr>
+      </string>
+      <string key="Minnesota">
+        <tr lang="ps"> مينيسوتا </tr>
+      </string>
+      <string key="Mississippi">
+        <tr lang="ps"> ميس سيسيپى </tr>
+      </string>
+      <string key="Missouri">
+        <tr lang="ps"> مېسورى </tr>
+      </string>
+      <string key="Montana">
+        <tr lang="ps"> مونتانا </tr>
+      </string>
+      <string key="Nebraska">
+        <tr lang="ps"> نيبرسکا </tr>
+      </string>
+      <string key="Nevada">
+        <tr lang="ps"> نيويدا </tr>
+      </string>
+      <string key="New Hampshire">
+        <tr lang="ps"> نوى همپ شاير </tr>
+      </string>
+      <string key="New Jersey">
+        <tr lang="ps"> نوى جرسى </tr>
+      </string>
+      <string key="New Mexico">
+        <tr lang="ps"> نوى مکسيکو </tr>
+      </string>
+      <string key="New York">
+        <tr lang="ps"> نيو يارک </tr>
+      </string>
+      <string key="North Carolina">
+        <tr lang="ps"> شمالى کارولينا </tr>
+      </string>
+      <string key="North Dakota">
+        <tr lang="ps"> شمالى داکوتا </tr>
+      </string>
+      <string key="Ohio">
+        <tr lang="ps"> اوهيو </tr>
+      </string>
+      <string key="Oklahoma">
+        <tr lang="ps"> اوکلاهوما </tr>
+      </string>
+      <string key="Ontario">
+        <tr lang="ps"> اونتاريو </tr>
+      </string>
+      <string key="Oregon">
+        <tr lang="ps"> اوريکون </tr>
+      </string>
+      <string key="Pennsylvania">
+        <tr lang="ps"> پينسيلوانيا </tr>
+      </string>
+      <string key="Puerto Rico">
+        <tr lang="ps"> پيرتو ريکو </tr>
+      </string>
+      <string key="Rhode Island">
+        <tr lang="ps"> روهودى جذيره </tr>
+      </string>
+      <string key="South Carolina">
+        <tr lang="ps"> جنوبى کارولينا </tr>
+      </string>
+      <string key="South Dakota">
+        <tr lang="ps"> جنوبى داکوتا </tr>
+      </string>
+      <string key="Tennessee">
+        <tr lang="ps"> تين نيسى </tr>
+      </string>
+      <string key="Texas">
+        <tr lang="ps"> تيکساز </tr>
+      </string>
+      <string key="Utah">
+        <tr lang="ps"> عطاه </tr>
+      </string>
+      <string key="Vermont">
+        <tr lang="ps"> ورمونت </tr>
+      </string>
+      <string key="Virgin Islands">
+        <tr lang="ps"> جذيره ورجن </tr>
+      </string>
+      <string key="Virginia">
+        <tr lang="ps"> ورجينيا </tr>
+      </string>
+      <string key="Washington">
+        <tr lang="ps"> واشنکتن </tr>
+      </string>
+      <string key="West Virginia">
+        <tr lang="ps"> غربى ورجينيا </tr>
+      </string>
+      <string key="Wisconsin">
+        <tr lang="ps"> ويسکانسين </tr>
+      </string>
+      <string key="Wyoming">
+        <tr lang="ps"> ويومينک </tr>
+      </string>
+      <string key="Outside US">
+        <tr lang="ps"> بيرون د متحده ايالات </tr>
+      </string>
+    </page>
+    <page key="Property_JobCategory">
+      <string key="Accounting">
+        <tr lang="ps"> محاسبه </tr>
+      </string>
+      <string key="Admin-Clerical">
+        <tr lang="ps"> اداره - دفترى </tr>
+      </string>
+      <string key="Automotive">
+        <tr lang="ps"> حرکى مشين </tr>
+      </string>
+      <string key="Banking">
+        <tr lang="ps"> بانکدارى </tr>
+      </string>
+      <string key="Biotech">
+        <tr lang="ps"> بيالوژى </tr>
+      </string>
+      <string key="Business Development">
+        <tr lang="ps"> کاروبار انکشاف </tr>
+      </string>
+      <string key="Construction">
+        <tr lang="ps"> ساختمانى </tr>
+      </string>
+      <string key="Consultant">
+        <tr lang="ps"> مشورتى </tr>
+      </string>
+      <string key="Customer Service">
+        <tr lang="ps"> پيرودونکى خدمتونه </tr>
+      </string>
+      <string key="Design">
+        <tr lang="ps"> ډيزاين </tr>
+      </string>
+      <string key="Distribution-Shipping">
+        <tr lang="ps"> ويشنه - انتقال </tr>
+      </string>
+      <string key="Education">
+        <tr lang="ps"> تعليمى </tr>
+      </string>
+      <string key="Engineering">
+        <tr lang="ps"> انجينرى </tr>
+      </string>
+      <string key="Entry Level">
+        <tr lang="ps"> معلومات داخل کول </tr>
+      </string>
+      <string key="Executive">
+        <tr lang="ps"> اجرايه </tr>
+      </string>
+      <string key="Facilities">
+        <tr lang="ps"> سهولتونه </tr>
+      </string>
+      <string key="Finance">
+        <tr lang="ps"> مالى </tr>
+      </string>
+      <string key="Franchise">
+        <tr lang="ps"> (امتياز (قانونى حق </tr>
+      </string>
+      <string key="General Business">
+        <tr lang="ps"> کاروبار </tr>
+      </string>
+      <string key="General Labor">
+        <tr lang="ps"> کارګران </tr>
+      </string>
+      <string key="Government">
+        <tr lang="ps"> دولتى </tr>
+      </string>
+      <string key="Grocery">
+        <tr lang="ps"> (هټى (دغذا لست </tr>
+      </string>
+      <string key="Health Care">
+        <tr lang="ps"> روغتيا او صحت </tr>
+      </string>
+      <string key="Hospitality-Hotel">
+        <tr lang="ps"> ميلمه پالنه - هوټل </tr>
+      </string>
+      <string key="Human Resources">
+        <tr lang="ps"> بشري منابع </tr>
+      </string>
+      <string key="Information Technology">
+        <tr lang="ps"> معلومات او تکنالوژى </tr>
+      </string>
+      <string key="Installation-Maint-Repair">
+        <tr lang="ps"> نصب او ترميم </tr>
+      </string>
+      <string key="Insurance">
+        <tr lang="ps"> بيمه </tr>
+      </string>
+      <string key="Inventory">
+        <tr lang="ps"> وجودى </tr>
+      </string>
+      <string key="Legal">
+        <tr lang="ps"> حقوقى </tr>
+      </string>
+      <string key="Management">
+        <tr lang="ps"> ادارى </tr>
+      </string>
+      <string key="Manufacturing">
+        <tr lang="ps"> (توليد (جوړول </tr>
+      </string>
+      <string key="Marketing">
+        <tr lang="ps"> بازار موندنه </tr>
+      </string>
+      <string key="Media-Journalism">
+        <tr lang="ps"> مطبوعات او ژورناليزم </tr>
+      </string>
+      <string key="Nonprofit-Social Services">
+        <tr lang="ps"> اجتماعى خدمتونه </tr>
+      </string>
+      <string key="Nurse">
+        <tr lang="ps"> نرس </tr>
+      </string>
+      <string key="Other">
+        <tr lang="ps"> نور </tr>
+      </string>
+      <string key="Pharmaceutical">
+        <tr lang="ps"> دوا سازى </tr>
+      </string>
+      <string key="Professional Services">
+        <tr lang="ps"> مسلکى خدمتونه </tr>
+      </string>
+      <string key="Purchasing-Procurement">
+        <tr lang="ps"> خريدارى </tr>
+      </string>
+      <string key="QA-Quality Control">
+        <tr lang="ps"> کيفيت کنترول </tr>
+      </string>
+      <string key="Real Estate">
+        <tr lang="ps"> حقيقى ملکيت </tr>
+      </string>
+      <string key="Research">
+        <tr lang="ps"> تحقيق </tr>
+      </string>
+      <string key="Restaurant-Food Service">
+        <tr lang="ps"> رستورانت غذايي خدمتونه </tr>
+      </string>
+      <string key="Retail">
+        <tr lang="ps"> پرچون خرڅلاو </tr>
+      </string>
+      <string key="Sales">
+        <tr lang="ps"> خرڅلاو </tr>
+      </string>
+      <string key="Science">
+        <tr lang="ps"> ساينسى </tr>
+      </string>
+      <string key="Skilled Labor">
+        <tr lang="ps"> ماهر مزدور </tr>
+      </string>
+      <string key="Strategy-Planning">
+        <tr lang="ps"> تګ لاره - پلان </tr>
+      </string>
+      <string key="Supply Chain">
+        <tr lang="ps"> موجوديت سلسله </tr>
+      </string>
+      <string key="Telecommunications">
+        <tr lang="ps"> مخابراتى سيستم </tr>
+      </string>
+      <string key="Training">
+        <tr lang="ps"> روزنه </tr>
+      </string>
+      <string key="Transportation">
+        <tr lang="ps"> ترانسپورتيشن </tr>
+      </string>
+      <string key="Veterinary Services">
+        <tr lang="ps"> وترنرى خدمتونه </tr>
+      </string>
+      <string key="Warehouse">
+        <tr lang="ps"> ګدام </tr>
+      </string>
+    </page>
+    <page key="Property_email_frequency">
+      <string key="Daily">
+        <tr lang="ps"> روزانه </tr>
+      </string>
+      <string key="Weekly">
+        <tr lang="ps"> هفته وار </tr>
+      </string>
+      <string key="Monthly">
+        <tr lang="ps"> مياشتنى </tr>
+      </string>
+    </page>
+    <page key="Property_Country">
+      <string key="United States">
+        <tr lang="ps"> متحده ايالات </tr>
+      </string>
+      <string key="Afghanistan">
+        <tr lang="ps"> ا فغا نستان </tr>
+      </string>
+      <string key="Albania">
+        <tr lang="ps"> البا نيا </tr>
+      </string>
+      <string key="Algeria">
+        <tr lang="ps"> الجيريا </tr>
+      </string>
+      <string key="American Samoa">
+        <tr lang="ps"> امريکايى ساموا </tr>
+      </string>
+      <string key="Andorra">
+        <tr lang="ps"> اندورا </tr>
+      </string>
+      <string key="Angola">
+        <tr lang="ps"> انگولا </tr>
+      </string>
+      <string key="Anguilla">
+        <tr lang="ps"> انگيولا </tr>
+      </string>
+      <string key="Antarctica">
+        <tr lang="ps"> انترتيکا </tr>
+      </string>
+      <string key="Antigua and Barbuda">
+        <tr lang="ps"> انتيگوا او بربودا </tr>
+      </string>
+      <string key="Argentina">
+        <tr lang="ps"> ارجينتينا </tr>
+      </string>
+      <string key="Armenia">
+        <tr lang="ps"> ارمينيا </tr>
+      </string>
+      <string key="Aruba">
+        <tr lang="ps"> اروبا </tr>
+      </string>
+      <string key="Ascension Island">
+        <tr lang="ps"> اسينشن جذيره </tr>
+      </string>
+      <string key="Australia">
+        <tr lang="ps"> استراليا </tr>
+      </string>
+      <string key="Austria">
+        <tr lang="ps"> استريا </tr>
+      </string>
+      <string key="Azerbaijan">
+        <tr lang="ps"> ازربايجان </tr>
+      </string>
+      <string key="Bahamas">
+        <tr lang="ps"> باهاماس </tr>
+      </string>
+      <string key="Bahrain">
+        <tr lang="ps"> بحرين </tr>
+      </string>
+      <string key="Bangladesh">
+        <tr lang="ps"> بنګله ديش </tr>
+      </string>
+      <string key="Barbados">
+        <tr lang="ps"> باربادوس </tr>
+      </string>
+      <string key="Belarus">
+        <tr lang="ps"> بيلاروس </tr>
+      </string>
+      <string key="Belgium">
+        <tr lang="ps"> بلجيم </tr>
+      </string>
+      <string key="Belize">
+        <tr lang="ps"> بيليز </tr>
+      </string>
+      <string key="Benin">
+        <tr lang="ps"> بينين </tr>
+      </string>
+      <string key="Bermuda">
+        <tr lang="ps"> بيرمودا </tr>
+      </string>
+      <string key="Bhutan">
+        <tr lang="ps"> بهوتان </tr>
+      </string>
+      <string key="Bolivia">
+        <tr lang="ps"> بوليويا </tr>
+      </string>
+      <string key="Bosnia and Herzegovina">
+        <tr lang="ps"> بوسنيا او هرزيکوينيا </tr>
+      </string>
+      <string key="Botswana">
+        <tr lang="ps"> بوتسوانا </tr>
+      </string>
+      <string key="Bouvet Island">
+        <tr lang="ps"> بوويت جذيره </tr>
+      </string>
+      <string key="Brazil">
+        <tr lang="ps"> برازيل </tr>
+      </string>
+      <string key="British Indian Ocean Territory">
+        <tr lang="ps"> هند بحر بريتيانوى ساحه </tr>
+      </string>
+      <string key="Brunei Darussalam">
+        <tr lang="ps"> برونى داروسسلام </tr>
+      </string>
+      <string key="Bulgaria">
+        <tr lang="ps"> بلغاريا </tr>
+      </string>
+      <string key="Burkina Faso">
+        <tr lang="ps"> بورکينيا فاسو </tr>
+      </string>
+      <string key="Burundi">
+        <tr lang="ps"> بوروندى </tr>
+      </string>
+      <string key="Cambodia">
+        <tr lang="ps"> کمبوديا </tr>
+      </string>
+      <string key="Cameroon">
+        <tr lang="ps"> کميرون </tr>
+      </string>
+      <string key="Canada">
+        <tr lang="ps"> کانادا </tr>
+      </string>
+      <string key="Cape Verde">
+        <tr lang="ps"> کاپى وردى </tr>
+      </string>
+      <string key="Cayman Islands">
+        <tr lang="ps"> کايمان جذيره </tr>
+      </string>
+      <string key="Central African Republic">
+        <tr lang="ps"> افريقا مرکزى جمهوريت </tr>
+      </string>
+      <string key="Chad">
+        <tr lang="ps"> جاد </tr>
+      </string>
+      <string key="Chile">
+        <tr lang="ps"> چلى </tr>
+      </string>
+      <string key="China">
+        <tr lang="ps"> چين </tr>
+      </string>
+      <string key="Christmas Island">
+        <tr lang="ps"> کريسمس جذيره </tr>
+      </string>
+      <string key="CocoS (Keeling) Islands">
+        <tr lang="ps"> کوکس جذيره </tr>
+      </string>
+      <string key="Colombia">
+        <tr lang="ps"> کولمبيا </tr>
+      </string>
+      <string key="Comoros">
+        <tr lang="ps"> کوموروس </tr>
+      </string>
+      <string key="Democratic Republic of the Congo (Kinshasa)">
+        <tr lang="ps"> کانکو ديموکراتيک جمهوريت </tr>
+      </string>
+      <string key="Congo, Republic of (Brazzaville)">
+        <tr lang="ps"> کانکو برازيولى جمهوريت </tr>
+      </string>
+      <string key="Cook Islands">
+        <tr lang="ps"> کوک جذيره </tr>
+      </string>
+      <string key="Costa Rica">
+        <tr lang="ps"> کوستا ريکا </tr>
+      </string>
+      <string key="Ivory Coast">
+        <tr lang="ps"> ايورى کاست </tr>
+      </string>
+      <string key="Croatia">
+        <tr lang="ps"> کروتيا </tr>
+      </string>
+      <string key="Cuba">
+        <tr lang="ps"> کيوبا </tr>
+      </string>
+      <string key="Cyprus">
+        <tr lang="ps"> کيپروس </tr>
+      </string>
+      <string key="Czech Republic">
+        <tr lang="ps"> سيزيج جمهوريت </tr>
+      </string>
+      <string key="Denmark">
+        <tr lang="ps"> دنمارک </tr>
+      </string>
+      <string key="Djibouti">
+        <tr lang="ps"> دجى بوتى </tr>
+      </string>
+      <string key="Dominica">
+        <tr lang="ps"> دومينيکا </tr>
+      </string>
+      <string key="Dominican Republic">
+        <tr lang="ps"> دمونيکيا جمهوريت </tr>
+      </string>
+      <string key="East Timor Timor-Leste">
+        <tr lang="ps"> ختيځ تيمور </tr>
+      </string>
+      <string key="Ecuador">
+        <tr lang="ps"> ايکوادور </tr>
+      </string>
+      <string key="Egypt">
+        <tr lang="ps"> ايجيپت </tr>
+      </string>
+      <string key="El Salvador">
+        <tr lang="ps"> ايل سالوادور </tr>
+      </string>
+      <string key="Equatorial Guinea">
+        <tr lang="ps"> ايکواتوريل جونيا </tr>
+      </string>
+      <string key="Eritrea">
+        <tr lang="ps"> اريتريا </tr>
+      </string>
+      <string key="Estonia">
+        <tr lang="ps"> استونيا </tr>
+      </string>
+      <string key="Ethiopia">
+        <tr lang="ps"> ايتوپيا </tr>
+      </string>
+      <string key="Falkland Islands">
+        <tr lang="ps"> فالکلاند جذېره </tr>
+      </string>
+      <string key="Faroe Islands">
+        <tr lang="ps"> فاروى جذيره </tr>
+      </string>
+      <string key="Fiji">
+        <tr lang="ps"> فيجى </tr>
+      </string>
+      <string key="Finland">
+        <tr lang="ps"> فاينلند </tr>
+      </string>
+      <string key="France">
+        <tr lang="ps"> فرانسه </tr>
+      </string>
+      <string key="French Guiana">
+        <tr lang="ps"> فرانسوى جوينيا </tr>
+      </string>
+      <string key="French Metropolitan">
+        <tr lang="ps"> فرانسوى ميتروپوليتن </tr>
+      </string>
+      <string key="French Polynesia">
+        <tr lang="ps"> فرانسوى پولينيسيا </tr>
+      </string>
+      <string key="French Southern Territories">
+        <tr lang="ps"> ساحه جنوبى فرانسه </tr>
+      </string>
+      <string key="Gabon">
+        <tr lang="ps"> کابون </tr>
+      </string>
+      <string key="Gambia">
+        <tr lang="ps"> کامبيا </tr>
+      </string>
+      <string key="Georgia">
+        <tr lang="ps"> جورجيا </tr>
+      </string>
+      <string key="Germany">
+        <tr lang="ps"> جرمنى </tr>
+      </string>
+      <string key="Ghana">
+        <tr lang="ps"> غانا </tr>
+      </string>
+      <string key="Gibraltar">
+        <tr lang="ps"> کيبرالتر </tr>
+      </string>
+      <string key="Great Britain">
+        <tr lang="ps"> لوى بريتانيا </tr>
+      </string>
+      <string key="Greece">
+        <tr lang="ps"> کريس </tr>
+      </string>
+      <string key="Greenland">
+        <tr lang="ps"> کرين لند </tr>
+      </string>
+      <string key="Grenada">
+        <tr lang="ps"> کرينادا </tr>
+      </string>
+      <string key="Guadeloupe">
+        <tr lang="ps"> کواديلوپ </tr>
+      </string>
+      <string key="Guam">
+        <tr lang="ps"> کوام </tr>
+      </string>
+      <string key="Guatemala">
+        <tr lang="ps"> کواتيمالا </tr>
+      </string>
+      <string key="Guernsey">
+        <tr lang="ps"> کويرنسى </tr>
+      </string>
+      <string key="Guinea">
+        <tr lang="ps"> جېونيا </tr>
+      </string>
+      <string key="Guinea-Bissau">
+        <tr lang="ps"> جيونيا بيساو </tr>
+      </string>
+      <string key="Guyana">
+        <tr lang="ps"> کويانا </tr>
+      </string>
+      <string key="Haiti">
+        <tr lang="ps"> حيتى </tr>
+      </string>
+      <string key="Heard and Mc Donald Islands">
+        <tr lang="ps"> حېرد او دونالد جذيره </tr>
+      </string>
+      <string key="Holy See">
+        <tr lang="ps"> هولى سى </tr>
+      </string>
+      <string key="Honduras">
+        <tr lang="ps"> هوندوراس </tr>
+      </string>
+      <string key="Hong Kong">
+        <tr lang="ps"> هانک کانک </tr>
+      </string>
+      <string key="Hungary">
+        <tr lang="ps"> هنګرى </tr>
+      </string>
+      <string key="Iceland">
+        <tr lang="ps"> ايسلند </tr>
+      </string>
+      <string key="India">
+        <tr lang="ps"> هندوستان </tr>
+      </string>
+      <string key="Indonesia">
+        <tr lang="ps"> اندونيزيا </tr>
+      </string>
+      <string key="Iran (Islamic Republic of)">
+        <tr lang="ps"> ايران </tr>
+      </string>
+      <string key="Iraq">
+        <tr lang="ps"> عراق </tr>
+      </string>
+      <string key="Ireland">
+        <tr lang="ps"> اېرلند </tr>
+      </string>
+      <string key="Isle of Man">
+        <tr lang="ps"> من وړه جذيره </tr>
+      </string>
+      <string key="Israel">
+        <tr lang="ps"> اسرايل </tr>
+      </string>
+      <string key="Italy">
+        <tr lang="ps"> ايتاليه </tr>
+      </string>
+      <string key="Jamaica">
+        <tr lang="ps"> جاميکا </tr>
+      </string>
+      <string key="Japan">
+        <tr lang="ps"> جاپان </tr>
+      </string>
+      <string key="Jersey">
+        <tr lang="ps"> جېرسى </tr>
+      </string>
+      <string key="Jordan">
+        <tr lang="ps"> جوردان </tr>
+      </string>
+      <string key="Kazakhstan">
+        <tr lang="ps"> قزاقستان </tr>
+      </string>
+      <string key="Kenya">
+        <tr lang="ps"> کينيا </tr>
+      </string>
+      <string key="Kiribati">
+        <tr lang="ps"> کيريباتى </tr>
+      </string>
+      <string key="Korea, Republic of (South Korea)">
+        <tr lang="ps"> کوريا </tr>
+      </string>
+      <string key="Kuwait">
+        <tr lang="ps"> کويت </tr>
+      </string>
+      <string key="Kyrgyzstan">
+        <tr lang="ps"> کيرجيستان </tr>
+      </string>
+      <string key="Lao">
+        <tr lang="ps"> لاو </tr>
+      </string>
+      <string key="Latvia">
+        <tr lang="ps"> لاتويا </tr>
+      </string>
+      <string key="Lebanon">
+        <tr lang="ps"> ليبنان </tr>
+      </string>
+      <string key="Lesotho">
+        <tr lang="ps"> ليسوتو </tr>
+      </string>
+      <string key="Liberia">
+        <tr lang="ps"> ليبيريا </tr>
+      </string>
+      <string key="Libya">
+        <tr lang="ps"> ليبيا </tr>
+      </string>
+      <string key="Liechtenstein">
+        <tr lang="ps"> ليچتينيستين </tr>
+      </string>
+      <string key="Lithuania">
+        <tr lang="ps"> ليتونيا </tr>
+      </string>
+      <string key="Luxembourg">
+        <tr lang="ps"> لکزيم برک </tr>
+      </string>
+      <string key="Macau">
+        <tr lang="ps"> مکاو </tr>
+      </string>
+      <string key="Macedonia">
+        <tr lang="ps"> ميسي ډونيا </tr>
+      </string>
+      <string key="Madagascar">
+        <tr lang="ps"> مداګاسکار </tr>
+      </string>
+      <string key="Malawi">
+        <tr lang="ps"> ملاوي </tr>
+      </string>
+      <string key="Malaysia">
+        <tr lang="ps"> ملايشيا </tr>
+      </string>
+      <string key="Maldives">
+        <tr lang="ps"> مالديپ </tr>
+      </string>
+      <string key="Mali">
+        <tr lang="ps"> مالي </tr>
+      </string>
+      <string key="Malta">
+        <tr lang="ps"> مالټا </tr>
+      </string>
+      <string key="Marshall Islands">
+        <tr lang="ps"> مارشال جذيره </tr>
+      </string>
+      <string key="Martinique">
+        <tr lang="ps"> مارتينکوي </tr>
+      </string>
+      <string key="Mauritania">
+        <tr lang="ps"> ماريتانيا </tr>
+      </string>
+      <string key="Mauritius">
+        <tr lang="ps"> ماريشيس </tr>
+      </string>
+      <string key="Mayotte">
+        <tr lang="ps"> مايوټي </tr>
+      </string>
+      <string key="Mexico">
+        <tr lang="ps"> ميکسيکو </tr>
+      </string>
+      <string key="Micronesia, Federal States of">
+        <tr lang="ps"> ميکرونيشيا </tr>
+      </string>
+      <string key="Moldova, Republic of">
+        <tr lang="ps"> د مالدوا، جمهوري رياست </tr>
+      </string>
+      <string key="Monaco">
+        <tr lang="ps"> موناکو </tr>
+      </string>
+      <string key="Mongolia">
+        <tr lang="ps"> منګوليا </tr>
+      </string>
+      <string key="Montenegro">
+        <tr lang="ps"> مونټينيګرو </tr>
+      </string>
+      <string key="Montserrat">
+        <tr lang="ps"> مونټيسراټ </tr>
+      </string>
+      <string key="Morocco">
+        <tr lang="ps"> مراکش </tr>
+      </string>
+      <string key="Mozambique">
+        <tr lang="ps"> موزمبيق </tr>
+      </string>
+      <string key="Myanmar, Burma">
+        <tr lang="ps"> ميانمر </tr>
+      </string>
+      <string key="Namibia">
+        <tr lang="ps"> نيميبيا </tr>
+      </string>
+      <string key="Nauru">
+        <tr lang="ps"> ناورو </tr>
+      </string>
+      <string key="Nepal">
+        <tr lang="ps"> نيپال </tr>
+      </string>
+      <string key="Netherlands">
+        <tr lang="ps"> هالينډ </tr>
+      </string>
+      <string key="Netherlands Antilles">
+        <tr lang="ps"> هالينډ انټيلز </tr>
+      </string>
+      <string key="New Caledonia">
+        <tr lang="ps"> ني کاليدونيا </tr>
+      </string>
+      <string key="New Zealand">
+        <tr lang="ps"> نوي زيلينډ </tr>
+      </string>
+      <string key="Nicaragua">
+        <tr lang="ps"> نيکاراګوا </tr>
+      </string>
+      <string key="Niger">
+        <tr lang="ps"> نايجير </tr>
+      </string>
+      <string key="Nigeria">
+        <tr lang="ps"> نايجيريا </tr>
+      </string>
+      <string key="Niue">
+        <tr lang="ps"> نيوي </tr>
+      </string>
+      <string key="Norfolk Island">
+        <tr lang="ps"> نورفولک آيسلينډ </tr>
+      </string>
+      <string key="North Korea">
+        <tr lang="ps"> شمالي کوريا </tr>
+      </string>
+      <string key="Northern Mariana Islands">
+        <tr lang="ps"> شمالي ماريانا جذيره </tr>
+      </string>
+      <string key="Norway">
+        <tr lang="ps"> ناروي </tr>
+      </string>
+      <string key="Oman">
+        <tr lang="ps"> عمان </tr>
+      </string>
+      <string key="Pakistan">
+        <tr lang="ps"> پاکستان </tr>
+      </string>
+      <string key="Palau">
+        <tr lang="ps"> پلاو </tr>
+      </string>
+      <string key="Palestinian National Authority">
+        <tr lang="ps"> د فلسطين ملي واکمن </tr>
+      </string>
+      <string key="Panama">
+        <tr lang="ps"> پاناما </tr>
+      </string>
+      <string key="Papua New Guinea">
+        <tr lang="ps"> پاپا نيوګيني </tr>
+      </string>
+      <string key="Paraguay">
+        <tr lang="ps"> پاراګوي </tr>
+      </string>
+      <string key="Peru">
+        <tr lang="ps"> پيرو </tr>
+      </string>
+      <string key="Philippines">
+        <tr lang="ps"> فلپاين </tr>
+      </string>
+      <string key="Pitcairn Island">
+        <tr lang="ps"> پيټکيرن جذيره </tr>
+      </string>
+      <string key="Poland">
+        <tr lang="ps"> پولينډ </tr>
+      </string>
+      <string key="Portugal">
+        <tr lang="ps"> پرتګال </tr>
+      </string>
+      <string key="Puerto Rico">
+        <tr lang="ps"> پويرټو ريکو </tr>
+      </string>
+      <string key="Qatar">
+        <tr lang="ps"> قطر </tr>
+      </string>
+      <string key="Reunion Island">
+        <tr lang="ps"> ريونين جذيره </tr>
+      </string>
+      <string key="Romania">
+        <tr lang="ps"> رومانيا </tr>
+      </string>
+      <string key="Russian Federation">
+        <tr lang="ps"> شوروي اتحاد </tr>
+      </string>
+      <string key="Rwanda">
+        <tr lang="ps"> ريوينډا </tr>
+      </string>
+      <string key="Saint Kitts and Nevis">
+        <tr lang="ps"> سنت کيتس او نيويس </tr>
+      </string>
+      <string key="Saint Lucia">
+        <tr lang="ps"> سنت لوسيا </tr>
+      </string>
+      <string key="Saint Vincent and the Grenadines">
+        <tr lang="ps"> سين وينسين اودګرينادينس </tr>
+      </string>
+      <string key="Samoa">
+        <tr lang="ps"> ساموا </tr>
+      </string>
+      <string key="San Marino">
+        <tr lang="ps"> سن مارينو </tr>
+      </string>
+      <string key="Sao Tome and Prncipe">
+        <tr lang="ps"> ساوتومى او پرنسپى </tr>
+      </string>
+      <string key="Saudi Arabia">
+        <tr lang="ps"> سعودي عرب </tr>
+      </string>
+      <string key="Senegal">
+        <tr lang="ps"> سني ګال </tr>
+      </string>
+      <string key="Serbia">
+        <tr lang="ps"> سربيا </tr>
+      </string>
+      <string key="Seychelles">
+        <tr lang="ps"> سي چيليس </tr>
+      </string>
+      <string key="Sierra Leone">
+        <tr lang="ps"> سيري ليون </tr>
+      </string>
+      <string key="Singapore">
+        <tr lang="ps"> سنګاپور </tr>
+      </string>
+      <string key="Slovakia (Slovak Republic)">
+        <tr lang="ps"> سلواکيا </tr>
+      </string>
+      <string key="Slovenia">
+        <tr lang="ps"> سلووينا </tr>
+      </string>
+      <string key="Solomon Islands">
+        <tr lang="ps"> سولومون جذيره </tr>
+      </string>
+      <string key="Somalia">
+        <tr lang="ps"> سوماليا </tr>
+      </string>
+      <string key="South Africa">
+        <tr lang="ps"> جنوبي افريقا </tr>
+      </string>
+      <string key="South Georgia and South Sandwich Islands">
+        <tr lang="ps"> جنوبى جورجيا او جنوبى سندويچ جذيره </tr>
+      </string>
+      <string key="Spain">
+        <tr lang="ps"> سفا ين </tr>
+      </string>
+      <string key="Sri Lanka">
+        <tr lang="ps"> سريلانکا </tr>
+      </string>
+      <string key="Saint Helena">
+        <tr lang="ps"> سا ين هيلينا </tr>
+      </string>
+      <string key="St. Pierre and Miquelon">
+        <tr lang="ps"> ست. پيراومقيولون </tr>
+      </string>
+      <string key="Sudan">
+        <tr lang="ps"> سودان </tr>
+      </string>
+      <string key="Suriname">
+        <tr lang="ps"> سورينم </tr>
+      </string>
+      <string key="Svalbard and Jan Mayen Islands">
+        <tr lang="ps"> سولبارد اوماين جذيره </tr>
+      </string>
+      <string key="Swaziland">
+        <tr lang="ps"> سويزيلنډ </tr>
+      </string>
+      <string key="Sweden">
+        <tr lang="ps"> سويډن </tr>
+      </string>
+      <string key="Switzerland">
+        <tr lang="ps"> سيويزرلينډ </tr>
+      </string>
+      <string key="Syria, Syrian Arab Republic">
+        <tr lang="ps"> سيريا،سيريان عرب ريپوبليک </tr>
+      </string>
+      <string key="Taiwan (Republic of China)">
+        <tr lang="ps"> تايوان </tr>
+      </string>
+      <string key="Tajikistan">
+        <tr lang="ps"> تاجيکستان </tr>
+      </string>
+      <string key="Tanzania">
+        <tr lang="ps"> تانزانيا </tr>
+      </string>
+      <string key="Thailand">
+        <tr lang="ps"> ټايلينډ </tr>
+      </string>
+      <string key="Tibet">
+        <tr lang="ps"> تيبيت </tr>
+      </string>
+      <string key="Timor-Leste (East Timor)">
+        <tr lang="ps"> تيمورليست </tr>
+      </string>
+      <string key="Togo">
+        <tr lang="ps"> توګو </tr>
+      </string>
+      <string key="Tokelau">
+        <tr lang="ps"> توکيليو </tr>
+      </string>
+      <string key="Tonga">
+        <tr lang="ps"> ټونګآ </tr>
+      </string>
+      <string key="Trinidad and Tobago">
+        <tr lang="ps"> ترينا داد اوتوباګو </tr>
+      </string>
+      <string key="Tunisia">
+        <tr lang="ps"> تونيشيا </tr>
+      </string>
+      <string key="Turkey">
+        <tr lang="ps"> ترکيه </tr>
+      </string>
+      <string key="Turkmenistan">
+        <tr lang="ps"> ترکمنستان </tr>
+      </string>
+      <string key="Turks and Caicos Islands">
+        <tr lang="ps"> ترکس اوکايکوس جذيره </tr>
+      </string>
+      <string key="Tuvalu">
+        <tr lang="ps"> ټوالو </tr>
+      </string>
+      <string key="Uganda">
+        <tr lang="ps"> اوګندا </tr>
+      </string>
+      <string key="Ukraine">
+        <tr lang="ps"> اوکراين </tr>
+      </string>
+      <string key="United Arab Emirates">
+        <tr lang="ps"> عرب متحده امارات </tr>
+      </string>
+      <string key="United Kingdom">
+        <tr lang="ps"> يونايتيد ګينګ ډم </tr>
+      </string>
+      <string key="U.S. Minor Outlying Islands">
+        <tr lang="ps"> يو.اس.مينوراوټلاييګ اسلاينډ </tr>
+      </string>
+      <string key="Uruguay">
+        <tr lang="ps"> يورګواي </tr>
+      </string>
+      <string key="Uzbekistan">
+        <tr lang="ps"> ازبکستان </tr>
+      </string>
+      <string key="Vanuatu">
+        <tr lang="ps"> وينيا تيو </tr>
+      </string>
+      <string key="Vatican City State (Holy See)">
+        <tr lang="ps"> واتيکان ښارى ايالات </tr>
+      </string>
+      <string key="Venezuela">
+        <tr lang="ps"> وينزويلا </tr>
+      </string>
+      <string key="Vietnam">
+        <tr lang="ps"> ويتنام </tr>
+      </string>
+      <string key="Virgin IslandS (British)">
+        <tr lang="ps"> ويرجن جذيره (British) </tr>
+      </string>
+      <string key="Virgin IslandS (U.S.)">
+        <tr lang="ps"> ويرجن جذيره (U.S) </tr>
+      </string>
+      <string key="Wallis and Futuna Islands">
+        <tr lang="ps"> والوس اوفوتونا جذيره </tr>
+      </string>
+      <string key="Western Sahara">
+        <tr lang="ps"> غربى سهارا </tr>
+      </string>
+      <string key="Yemen">
+        <tr lang="ps"> يمن </tr>
+      </string>
+      <string key="Zaire">
+        <tr lang="ps"> ظا ير </tr>
+      </string>
+      <string key="Zambia">
+        <tr lang="ps"> زمبيا </tr>
+      </string>
+      <string key="Zimbabwe">
+        <tr lang="ps"> زمبا بوي </tr>
+      </string>
+      <string key="Sao Tome and Pr?ncipe">
+        <tr lang="ps"> ساوې ټوم او پ ريني سيفي </tr>
+      </string>
+    </page>
+    <page key="Property_SalaryType">
+      <string key="per hour">
+        <tr lang="ps"> ساعتوار </tr>
+      </string>
+      <string key="per week">
+        <tr lang="ps"> هفته وار </tr>
+      </string>
+      <string key="per month">
+        <tr lang="ps"> مياشتنى </tr>
+      </string>
+      <string key="per year">
+        <tr lang="ps"> کلنى </tr>
+      </string>
+    </page>
+    <page key="Property_EmploymentType">
+      <string key="Full time">
+        <tr lang="ps"> پوره ورځ </tr>
+      </string>
+      <string key="Part time">
+        <tr lang="ps"> نيمه ورځ </tr>
+      </string>
+      <string key="Contractor">
+        <tr lang="ps"> قرارداتى </tr>
+      </string>
+      <string key="Intern">
+        <tr lang="ps"> ستاج </tr>
+      </string>
+      <string key="Seasonal">
+        <tr lang="ps"> فصلى </tr>
+      </string>
+    </page>
+    <page key="Membership Plan">
+      <string key="Name">
+        <tr lang="ps"> نوم </tr>
+      </string>
+      <string key="Description">
+        <tr lang="ps"> تشريح </tr>
+      </string>
+      <string key="Price">
+        <tr lang="ps"> نرخ </tr>
+      </string>
+      <string key="Expiration Period">
+        <tr lang="ps"> ختم کيدو موده </tr>
+      </string>
+      <string key="Subscription Price">
+        <tr lang="ps"> د اشتراک نرخ </tr>
+      </string>
+    </page>
+    <page key="Property_status">
+      <string key="Pending">
+        <tr lang="ps"> نا نمامه </tr>
+      </string>
+      <string key="Failed">
+        <tr lang="ps"> تکميل نشو </tr>
+      </string>
+      <string key="Completed">
+        <tr lang="ps"> تکميل شو </tr>
+      </string>
+      <string key="Everyone">
+        <tr lang="ps">  </tr>
+      </string>
+    </page>
+    <page key="Property_access_type">
+      <string key="Everyone">
+        <tr lang="ps"> هر څوک </tr>
+      </string>
+      <string key="No one">
+        <tr lang="ps"> هیڅ څوک </tr>
+      </string>
+      <string key="Only selected employers">
+        <tr lang="ps"> انتخاب شوی کارکوونکی </tr>
+      </string>
+      <string key="Everyone except selected employers">
+        <tr lang="ps"> هرڅوک بیغیر د انتخاب شو </tr>
+      </string>
+    </page>
+    <page key="Property_JobType">
+      <string key="full time">
+        <tr lang="ps"> پوره ورڅ </tr>
+      </string>
+      <string key="part time">
+        <tr lang="ps"> نيمه ورڅ </tr>
+      </string>
+      <string key="contractor">
+        <tr lang="ps"> قرارداتى </tr>
+      </string>
+      <string key="intern">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="seasonal">
+        <tr lang="ps"> فصلى </tr>
+      </string>
+    </page>
+    <page key="Property_DesiredSalaryType">
+      <string key="per month">
+        <tr lang="ps"> مياشتنى </tr>
+      </string>
+      <string key="per year">
+        <tr lang="ps"> کلنى </tr>
+      </string>
+    </page>
+    <page key="Property_Province">
+    </page>
+    <page key="Property_PostedWithin">
+      <string key="Posted Within">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Last 30 days">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Last 7 days">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Last 3 days">
+        <tr lang="ps">  </tr>
+      </string>
+      <string key="Since Yesterday">
+        <tr lang="ps">  </tr>
+      </string>
+    </page>
+    <page key="Property_Category">
+    </page>
+    <page key="Property_from">
+    </page>
+    <page key="Property_to">
+    </page>
+    <page key="Property_GraduatedIn">
+    </page>
+    <page key="Property_DegreeLevel">
+    </page>
+    <page key="Property_Industry">
+    </page>
+    <page key="Property_asd">
+    </page>
+    <page key="Property_testmultilist">
+    </page>
+    <page key="Property_test">
+    </page>
+    <page key="Property_billingCountry">
+    </page>
+    <page key="Property_billingState">
+    </page>
+    <page key="Property_ApplyNowBtnChoice">
+    </page>
+    <page key="Property_billingInformationCheckbox">
+    </page>
+    <page key="Property_1">
+    </page>
+  </pages>
+</translation2>

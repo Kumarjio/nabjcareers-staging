@@ -1,0 +1,231 @@
+/* >>>> SEARCH PAGE >>>> */
+INPUT:focus {
+	color:#ab0000;
+	background: #feffd0;	
+}
+
+.QuickSearch .searchText {
+	border:1px solid #C6C6C6;
+	width:145px; /* 102 */
+}
+
+.QuickSearch input.searchStringLike {
+	border:1px solid #C6C6C6;
+	width:145px;
+}
+
+.searchText {
+	border:1px solid #C6C6C6;
+	width:313px;
+}
+
+*html .searchText {
+	width: 311px;
+}
+
+input.searchStringLike {
+	border:1px solid #C6C6C6;
+	width:313px; /* 120 */
+}
+
+.searchList	{
+	width: 157px; /* 135 */
+}	
+
+*html .searchList {
+	width: 154px;
+}
+
+.inputList {
+	width:153px;
+	z-index:124;
+	height:61px;
+}
+
+*html .inputList {
+	height:71px;
+}
+
+.fieldTypeEmploymentType {
+	width:153px;
+	z-index:124;
+	height:61px;
+}
+
+*html .fieldTypeEmploymentType {
+	width:153px;
+	z-index:124;
+	height:71px;
+}
+
+.fieldTypeJobCategory {
+	height: 87px;
+}
+
+*html .fieldTypeJobCategory {
+	height: 90px;
+}
+
+.searchGeoDistance {
+	width:157px; /* 150 */ 
+}
+
+*html .searchGeoDistance {
+	width:155px; /* 150 */ 
+}
+.searchGeoLocation {
+	width: 115px !important;
+	border:1px solid #C6C6C6;	
+}
+.searchIntegerLess {
+	width:65px;
+	border:1px solid #C6C6C6;
+}
+
+.searchIntegerMore {
+	width:65px;
+	border:1px solid #C6C6C6;
+}
+
+.searchString {
+	width:120px;
+}
+
+.searchActDate {
+	border:1px solid #C6C6C6;
+	width:131px !important;	
+}
+
+.searchTreeLevel1 {
+	width:150px;
+}
+
+.searchTreeLevel2 {
+	width:150px;
+}
+
+.list {
+	width:67px;
+}
+/* >>>> END SEARCH PAGE >>>> */
+
+
+/* >>>> LOGIN PAGE >>>> */
+.logInNameInput, .logInPassInput, .logInPassInput2 {
+	width:150px  !important;
+	border:1px solid #C6C6C6;
+}
+/* >>>> END LOGIN PAGE >>>> */
+
+
+/* >>>> OTHER >>>> */
+input {
+	color: #484846;
+}
+
+select {
+	font-size: 12px;
+	font-family: verdana;
+	border:1px solid #B3B3B3;
+	color: #484846;
+}
+
+table.paymentForm, .searchString {
+	width:90px; /* 95 */
+	border:1px solid #C6C6C6;
+}
+/* >>>> END OTHER >>>> */
+
+
+/* >>>> INPUT >>>> */
+.inputString {
+	border:1px solid #C6C6C6;
+	width:313px;
+	/*width:148px;*/
+}
+
+.inputGeo {
+	/*width:148px;*/
+	width:313px;
+	border:1px solid #C6C6C6;
+}
+
+.inputVideo {
+		
+}
+
+.inputInteger {
+	/*width:148px;*/
+	border:1px solid #C6C6C6;
+	width:313px;
+}
+
+.inputMultiList	{
+	width:153px;
+	height:90px;
+}	
+
+.inputTreeLevel2 {
+	width:153px;
+}
+
+.inputTreeLevel1 {
+	width:153px;
+}
+/* >>>> END INPUT >>>> */
+.inputStringMoney {
+	background-color: white;
+	border:1px solid #B3B3B3;
+	width:184px  !important;
+}
+.searchMoney{
+	border:1px solid #C6C6C6;
+	width:85px  !important;
+}
+/*Upload Pictires*/
+.uploadProgress{
+	display: block !important;
+	position: absolute;
+	width: 700px;
+	height:700px;
+	z-index: 1000;
+}
+
+.inputForm .searchList {
+	width:315px;	
+}
+
+/*=======================COMPLEX=======================*/
+.leftDisplaySIde {
+	width: 190px;
+	display: block; float: left;
+	font-size: 12px;
+}
+.rightDisplaySIde {
+	display: block; float: left;
+	margin: 0 0 10px 0;
+}
+.clrBorder {
+	clear: both;
+	 border-top: 1px dotted gray;
+}
+/*======================================================*/
+
+.smallh1 {
+	font-size: 12px; font-family: Arial;
+	float: right;
+	text-transform: none;
+}
+
+
+
+.workdates {
+	color: gray;
+	display: block; float: left;
+	/* font-size: 11px; */
+}
+
+.workdescrip {
+	color: black;
+	font-size: 12px;
+} 
